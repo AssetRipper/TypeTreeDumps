@@ -1,0 +1,3906 @@
+0
+    Name Object
+    Namespace 
+    Module Core
+    PersistentTypeID Object
+    Size 88
+    TypeIndex 0
+    DescendantCount 267
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+1
+    Name AnnotationManager
+    Namespace 
+    Module Core
+    PersistentTypeID AnnotationManager
+    Size 248
+    TypeIndex 1
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+2
+    Name AssetDatabaseV1
+    Namespace 
+    Module AssetDatabase
+    PersistentTypeID AssetDatabaseV1
+    Size 320
+    TypeIndex 2
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x144AD9730
+    AttributeCount 1
+3
+    Name AssetMetaData
+    Namespace 
+    Module Core
+    PersistentTypeID AssetMetaData
+    Size 240
+    TypeIndex 3
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+4
+    Name BuiltAssetBundleInfoSet
+    Namespace BuildReporting
+    Module BuildReporting
+    PersistentTypeID BuiltAssetBundleInfoSet
+    Size 120
+    TypeIndex 4
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+5
+    Name EditorBuildSettings
+    Namespace 
+    Module Core
+    PersistentTypeID EditorBuildSettings
+    Size 128
+    TypeIndex 5
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+6
+    Name EditorExtension
+    Namespace 
+    Module Core
+    PersistentTypeID EditorExtension
+    Size 104
+    TypeIndex 6
+    DescendantCount 219
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+7
+    Name Component
+    Namespace Unity
+    Module Core
+    PersistentTypeID Component
+    Size 112
+    TypeIndex 7
+    DescendantCount 117
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+8
+    Name Behaviour
+    Namespace 
+    Module Core
+    PersistentTypeID Behaviour
+    Size 120
+    TypeIndex 8
+    DescendantCount 73
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+9
+    Name Animation
+    Namespace 
+    Module Animation
+    PersistentTypeID Animation
+    Size 728
+    TypeIndex 9
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+10
+    Name Animator
+    Namespace 
+    Module Animation
+    PersistentTypeID Animator
+    Size 1328
+    TypeIndex 10
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+11
+    Name AudioBehaviour
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioBehaviour
+    Size 120
+    TypeIndex 11
+    DescendantCount 3
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+12
+    Name AudioListener
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioListener
+    Size 280
+    TypeIndex 12
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+13
+    Name AudioSource
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioSource
+    Size 1120
+    TypeIndex 13
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+14
+    Name AudioFilter
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioFilter
+    Size 136
+    TypeIndex 14
+    DescendantCount 7
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+15
+    Name AudioChorusFilter
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioChorusFilter
+    Size 168
+    TypeIndex 15
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+16
+    Name AudioDistortionFilter
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioDistortionFilter
+    Size 144
+    TypeIndex 16
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+17
+    Name AudioEchoFilter
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioEchoFilter
+    Size 152
+    TypeIndex 17
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+18
+    Name AudioHighPassFilter
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioHighPassFilter
+    Size 144
+    TypeIndex 18
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+19
+    Name AudioLowPassFilter
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioLowPassFilter
+    Size 256
+    TypeIndex 19
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+20
+    Name AudioReverbFilter
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioReverbFilter
+    Size 200
+    TypeIndex 20
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+21
+    Name AudioReverbZone
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioReverbZone
+    Size 216
+    TypeIndex 21
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+22
+    Name Camera
+    Namespace 
+    Module Core
+    PersistentTypeID Camera
+    Size 2304
+    TypeIndex 22
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+23
+    Name Canvas
+    Namespace UI
+    Module UI
+    PersistentTypeID Canvas
+    Size 760
+    TypeIndex 23
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+24
+    Name CanvasGroup
+    Namespace UI
+    Module UI
+    PersistentTypeID CanvasGroup
+    Size 128
+    TypeIndex 24
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+25
+    Name Cloth
+    Namespace Unity
+    Module Cloth
+    PersistentTypeID Cloth
+    Size 816
+    TypeIndex 25
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+26
+    Name Collider2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID Collider2D
+    Size 280
+    TypeIndex 26
+    DescendantCount 8
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+27
+    Name BoxCollider2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID BoxCollider2D
+    Size 360
+    TypeIndex 27
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+28
+    Name CapsuleCollider2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID CapsuleCollider2D
+    Size 296
+    TypeIndex 28
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+29
+    Name CircleCollider2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID CircleCollider2D
+    Size 288
+    TypeIndex 29
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+30
+    Name CompositeCollider2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID CompositeCollider2D
+    Size 384
+    TypeIndex 30
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+31
+    Name EdgeCollider2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID EdgeCollider2D
+    Size 328
+    TypeIndex 31
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+32
+    Name PolygonCollider2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID PolygonCollider2D
+    Size 384
+    TypeIndex 32
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+33
+    Name TilemapCollider2D
+    Namespace 
+    Module Tilemap
+    PersistentTypeID TilemapCollider2D
+    Size 440
+    TypeIndex 33
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+34
+    Name ConstantForce
+    Namespace 
+    Module Physics
+    PersistentTypeID ConstantForce
+    Size 192
+    TypeIndex 34
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+35
+    Name Effector2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID Effector2D
+    Size 192
+    TypeIndex 35
+    DescendantCount 6
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+36
+    Name AreaEffector2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID AreaEffector2D
+    Size 240
+    TypeIndex 36
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+37
+    Name BuoyancyEffector2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID BuoyancyEffector2D
+    Size 240
+    TypeIndex 37
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+38
+    Name PlatformEffector2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID PlatformEffector2D
+    Size 208
+    TypeIndex 38
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+39
+    Name PointEffector2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID PointEffector2D
+    Size 240
+    TypeIndex 39
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+40
+    Name SurfaceEffector2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID SurfaceEffector2D
+    Size 224
+    TypeIndex 40
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+41
+    Name FlareLayer
+    Namespace 
+    Module Core
+    PersistentTypeID FlareLayer
+    Size 120
+    TypeIndex 41
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+42
+    Name GUIElement
+    Namespace 
+    Module Core
+    PersistentTypeID 133
+    Size 120
+    TypeIndex 42
+    DescendantCount 3
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+43
+    Name GUIText
+    Namespace TextRenderingPrivate
+    Module TextRendering
+    PersistentTypeID 132
+    Size 216
+    TypeIndex 43
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+44
+    Name GUITexture
+    Namespace 
+    Module Core
+    PersistentTypeID 131
+    Size 200
+    TypeIndex 44
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+45
+    Name GUILayer
+    Namespace 
+    Module Core
+    PersistentTypeID 92
+    Size 120
+    TypeIndex 45
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+46
+    Name GridLayout
+    Namespace 
+    Module Grid
+    PersistentTypeID GridLayout
+    Size 120
+    TypeIndex 46
+    DescendantCount 3
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+47
+    Name Grid
+    Namespace 
+    Module Grid
+    PersistentTypeID Grid
+    Size 152
+    TypeIndex 47
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+48
+    Name Tilemap
+    Namespace 
+    Module Tilemap
+    PersistentTypeID Tilemap
+    Size 912
+    TypeIndex 48
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+49
+    Name Halo
+    Namespace 
+    Module Core
+    PersistentTypeID Halo
+    Size 136
+    TypeIndex 49
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+50
+    Name HaloLayer
+    Namespace 
+    Module Core
+    PersistentTypeID HaloLayer
+    Size 120
+    TypeIndex 50
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+51
+    Name Joint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID Joint2D
+    Size 176
+    TypeIndex 51
+    DescendantCount 11
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+52
+    Name AnchoredJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID AnchoredJoint2D
+    Size 200
+    TypeIndex 52
+    DescendantCount 8
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+53
+    Name DistanceJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID DistanceJoint2D
+    Size 208
+    TypeIndex 53
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+54
+    Name FixedJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID FixedJoint2D
+    Size 216
+    TypeIndex 54
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+55
+    Name FrictionJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID FrictionJoint2D
+    Size 208
+    TypeIndex 55
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+56
+    Name HingeJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID HingeJoint2D
+    Size 224
+    TypeIndex 56
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+57
+    Name SliderJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID SliderJoint2D
+    Size 232
+    TypeIndex 57
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+58
+    Name SpringJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID SpringJoint2D
+    Size 216
+    TypeIndex 58
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+59
+    Name WheelJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID WheelJoint2D
+    Size 224
+    TypeIndex 59
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+60
+    Name RelativeJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID RelativeJoint2D
+    Size 208
+    TypeIndex 60
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+61
+    Name TargetJoint2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID TargetJoint2D
+    Size 208
+    TypeIndex 61
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+62
+    Name LensFlare
+    Namespace 
+    Module Core
+    PersistentTypeID LensFlare
+    Size 160
+    TypeIndex 62
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+63
+    Name Light
+    Namespace 
+    Module Core
+    PersistentTypeID Light
+    Size 168
+    TypeIndex 63
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+64
+    Name LightProbeGroup
+    Namespace 
+    Module Core
+    PersistentTypeID LightProbeGroup
+    Size 200
+    TypeIndex 64
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+65
+    Name LightProbeProxyVolume
+    Namespace 
+    Module Core
+    PersistentTypeID LightProbeProxyVolume
+    Size 304
+    TypeIndex 65
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+66
+    Name MonoBehaviour
+    Namespace 
+    Module Core
+    PersistentTypeID MonoBehaviour
+    Size 424
+    TypeIndex 66
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A8A470
+    AttributeCount 1
+67
+    Name NavMeshAgent
+    Namespace 
+    Module AI
+    PersistentTypeID NavMeshAgent
+    Size 200
+    TypeIndex 67
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+68
+    Name NavMeshObstacle
+    Namespace 
+    Module AI
+    PersistentTypeID NavMeshObstacle
+    Size 240
+    TypeIndex 68
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+69
+    Name NetworkView
+    Namespace 
+    Module Core
+    PersistentTypeID 148
+    Size 352
+    TypeIndex 69
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+70
+    Name OffMeshLink
+    Namespace 
+    Module AI
+    PersistentTypeID OffMeshLink
+    Size 184
+    TypeIndex 70
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+71
+    Name PhysicsUpdateBehaviour2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID PhysicsUpdateBehaviour2D
+    Size 144
+    TypeIndex 71
+    DescendantCount 2
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+72
+    Name ConstantForce2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID ConstantForce2D
+    Size 168
+    TypeIndex 72
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+73
+    Name PlayableDirector
+    Namespace 
+    Module Director
+    PersistentTypeID PlayableDirector
+    Size 344
+    TypeIndex 73
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+74
+    Name Projector
+    Namespace 
+    Module Core
+    PersistentTypeID Projector
+    Size 152
+    TypeIndex 74
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+75
+    Name ReflectionProbe
+    Namespace 
+    Module Core
+    PersistentTypeID ReflectionProbe
+    Size 296
+    TypeIndex 75
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+76
+    Name Skybox
+    Namespace 
+    Module Core
+    PersistentTypeID Skybox
+    Size 128
+    TypeIndex 76
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+77
+    Name SortingGroup
+    Namespace 
+    Module Core
+    PersistentTypeID SortingGroup
+    Size 168
+    TypeIndex 77
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+78
+    Name Terrain
+    Namespace 
+    Module Terrain
+    PersistentTypeID Terrain
+    Size 408
+    TypeIndex 78
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+79
+    Name VideoPlayer
+    Namespace 
+    Module Video
+    PersistentTypeID VideoPlayer
+    Size 528
+    TypeIndex 79
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+80
+    Name WindZone
+    Namespace 
+    Module Wind
+    PersistentTypeID WindZone
+    Size 168
+    TypeIndex 80
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+81
+    Name CanvasRenderer
+    Namespace UI
+    Module UI
+    PersistentTypeID CanvasRenderer
+    Size 376
+    TypeIndex 81
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+82
+    Name Collider
+    Namespace 
+    Module Physics
+    PersistentTypeID Collider
+    Size 176
+    TypeIndex 82
+    DescendantCount 8
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+83
+    Name BoxCollider
+    Namespace 
+    Module Physics
+    PersistentTypeID BoxCollider
+    Size 296
+    TypeIndex 83
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+84
+    Name CapsuleCollider
+    Namespace 
+    Module Physics
+    PersistentTypeID CapsuleCollider
+    Size 200
+    TypeIndex 84
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+85
+    Name CharacterController
+    Namespace 
+    Module Physics
+    PersistentTypeID CharacterController
+    Size 288
+    TypeIndex 85
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+86
+    Name MeshCollider
+    Namespace 
+    Module Physics
+    PersistentTypeID MeshCollider
+    Size 312
+    TypeIndex 86
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+87
+    Name SphereCollider
+    Namespace 
+    Module Physics
+    PersistentTypeID SphereCollider
+    Size 192
+    TypeIndex 87
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+88
+    Name TerrainCollider
+    Namespace 
+    Module TerrainPhysics
+    PersistentTypeID TerrainCollider
+    Size 264
+    TypeIndex 88
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+89
+    Name WheelCollider
+    Namespace 
+    Module Vehicles
+    PersistentTypeID WheelCollider
+    Size 280
+    TypeIndex 89
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+90
+    Name Joint
+    Namespace Unity
+    Module Physics
+    PersistentTypeID Joint
+    Size 224
+    TypeIndex 90
+    DescendantCount 6
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+91
+    Name CharacterJoint
+    Namespace Unity
+    Module Physics
+    PersistentTypeID CharacterJoint
+    Size 312
+    TypeIndex 91
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+92
+    Name ConfigurableJoint
+    Namespace Unity
+    Module Physics
+    PersistentTypeID ConfigurableJoint
+    Size 488
+    TypeIndex 92
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+93
+    Name FixedJoint
+    Namespace Unity
+    Module Physics
+    PersistentTypeID FixedJoint
+    Size 224
+    TypeIndex 93
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+94
+    Name HingeJoint
+    Namespace Unity
+    Module Physics
+    PersistentTypeID HingeJoint
+    Size 288
+    TypeIndex 94
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+95
+    Name SpringJoint
+    Namespace Unity
+    Module Physics
+    PersistentTypeID SpringJoint
+    Size 248
+    TypeIndex 95
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+96
+    Name LODGroup
+    Namespace 
+    Module Core
+    PersistentTypeID LODGroup
+    Size 224
+    TypeIndex 96
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+97
+    Name MeshFilter
+    Namespace 
+    Module Core
+    PersistentTypeID MeshFilter
+    Size 120
+    TypeIndex 97
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+98
+    Name OcclusionArea
+    Namespace 
+    Module Core
+    PersistentTypeID OcclusionArea
+    Size 144
+    TypeIndex 98
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+99
+    Name OcclusionPortal
+    Namespace 
+    Module Core
+    PersistentTypeID OcclusionPortal
+    Size 168
+    TypeIndex 99
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+100
+    Name ParticleAnimator
+    Namespace 
+    Module ParticlesLegacy
+    PersistentTypeID 12
+    Size 200
+    TypeIndex 100
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+101
+    Name ParticleEmitter
+    Namespace 
+    Module ParticlesLegacy
+    PersistentTypeID 88
+    Size 328
+    TypeIndex 101
+    DescendantCount 3
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+102
+    Name EllipsoidParticleEmitter
+    Namespace 
+    Module ParticlesLegacy
+    PersistentTypeID 15
+    Size 344
+    TypeIndex 102
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+103
+    Name MeshParticleEmitter
+    Namespace 
+    Module ParticlesLegacy
+    PersistentTypeID 87
+    Size 352
+    TypeIndex 103
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+104
+    Name ParticleSystem
+    Namespace 
+    Module ParticleSystem
+    PersistentTypeID ParticleSystem
+    Size 216
+    TypeIndex 104
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+105
+    Name Renderer
+    Namespace 
+    Module Core
+    PersistentTypeID Renderer
+    Size 480
+    TypeIndex 105
+    DescendantCount 11
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+106
+    Name BillboardRenderer
+    Namespace 
+    Module Core
+    PersistentTypeID BillboardRenderer
+    Size 544
+    TypeIndex 106
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+107
+    Name LineRenderer
+    Namespace 
+    Module Core
+    PersistentTypeID LineRenderer
+    Size 536
+    TypeIndex 107
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+108
+    Name MeshRenderer
+    Namespace 
+    Module Core
+    PersistentTypeID MeshRenderer
+    Size 568
+    TypeIndex 108
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+109
+    Name ParticleRenderer
+    Namespace 
+    Module ParticlesLegacy
+    PersistentTypeID 26
+    Size 528
+    TypeIndex 109
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+110
+    Name ParticleSystemRenderer
+    Namespace 
+    Module ParticleSystem
+    PersistentTypeID ParticleSystemRenderer
+    Size 1168
+    TypeIndex 110
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+111
+    Name SkinnedMeshRenderer
+    Namespace 
+    Module Core
+    PersistentTypeID SkinnedMeshRenderer
+    Size 840
+    TypeIndex 111
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+112
+    Name SpriteMask
+    Namespace 
+    Module SpriteMask
+    PersistentTypeID SpriteMask
+    Size 576
+    TypeIndex 112
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144AD6780
+    AttributeCount 3
+113
+    Name SpriteRenderer
+    Namespace 
+    Module Core
+    PersistentTypeID SpriteRenderer
+    Size 616
+    TypeIndex 113
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+114
+    Name TilemapRenderer
+    Namespace 
+    Module Tilemap
+    PersistentTypeID TilemapRenderer
+    Size 592
+    TypeIndex 114
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+115
+    Name TrailRenderer
+    Namespace 
+    Module Core
+    PersistentTypeID TrailRenderer
+    Size 592
+    TypeIndex 115
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+116
+    Name Rigidbody
+    Namespace 
+    Module Physics
+    PersistentTypeID Rigidbody
+    Size 224
+    TypeIndex 116
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+117
+    Name Rigidbody2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID Rigidbody2D
+    Size 360
+    TypeIndex 117
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+118
+    Name TextMesh
+    Namespace TextRenderingPrivate
+    Module TextRendering
+    PersistentTypeID TextMesh
+    Size 208
+    TypeIndex 118
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+119
+    Name Transform
+    Namespace 
+    Module Core
+    PersistentTypeID Transform
+    Size 296
+    TypeIndex 119
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+120
+    Name RectTransform
+    Namespace UI
+    Module Core
+    PersistentTypeID RectTransform
+    Size 368
+    TypeIndex 120
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+121
+    Name Tree
+    Namespace 
+    Module Terrain
+    PersistentTypeID Tree
+    Size 208
+    TypeIndex 121
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+122
+    Name WorldAnchor
+    Namespace 
+    Module VR
+    PersistentTypeID WorldAnchor
+    Size 160
+    TypeIndex 122
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+123
+    Name WorldParticleCollider
+    Namespace 
+    Module ParticlesLegacy
+    PersistentTypeID 76
+    Size 136
+    TypeIndex 123
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+124
+    Name GameObject
+    Namespace 
+    Module Core
+    PersistentTypeID GameObject
+    Size 272
+    TypeIndex 124
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+125
+    Name NamedObject
+    Namespace 
+    Module Core
+    PersistentTypeID NamedObject
+    Size 112
+    TypeIndex 125
+    DescendantCount 100
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+126
+    Name AnimatorState
+    Namespace 
+    Module Core
+    PersistentTypeID AnimatorState
+    Size 552
+    TypeIndex 126
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+127
+    Name AnimatorStateMachine
+    Namespace 
+    Module Core
+    PersistentTypeID AnimatorStateMachine
+    Size 568
+    TypeIndex 127
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+128
+    Name AnimatorTransitionBase
+    Namespace 
+    Module Core
+    PersistentTypeID AnimatorTransitionBase
+    Size 208
+    TypeIndex 128
+    DescendantCount 3
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+129
+    Name AnimatorStateTransition
+    Namespace 
+    Module Core
+    PersistentTypeID AnimatorStateTransition
+    Size 232
+    TypeIndex 129
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+130
+    Name AnimatorTransition
+    Namespace 
+    Module Core
+    PersistentTypeID AnimatorTransition
+    Size 208
+    TypeIndex 130
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+131
+    Name AssetBundle
+    Namespace 
+    Module Core
+    PersistentTypeID AssetBundle
+    Size 496
+    TypeIndex 131
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A45798
+    AttributeCount 1
+132
+    Name AssetBundleManifest
+    Namespace 
+    Module Core
+    PersistentTypeID AssetBundleManifest
+    Size 224
+    TypeIndex 132
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+133
+    Name AssetImporter
+    Namespace 
+    Module Core
+    PersistentTypeID AssetImporter
+    Size 488
+    TypeIndex 133
+    DescendantCount 23
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+134
+    Name AssemblyDefinitionImporter
+    Namespace 
+    Module Core
+    PersistentTypeID AssemblyDefinitionImporter
+    Size 488
+    TypeIndex 134
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+135
+    Name AudioImporter
+    Namespace 
+    Module Core
+    PersistentTypeID AudioImporter
+    Size 784
+    TypeIndex 135
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+136
+    Name ComputeShaderImporter
+    Namespace 
+    Module Core
+    PersistentTypeID ComputeShaderImporter
+    Size 496
+    TypeIndex 136
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+137
+    Name DefaultImporter
+    Namespace 
+    Module Core
+    PersistentTypeID DefaultImporter
+    Size 488
+    TypeIndex 137
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+138
+    Name IHVImageFormatImporter
+    Namespace 
+    Module Core
+    PersistentTypeID IHVImageFormatImporter
+    Size 520
+    TypeIndex 138
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+139
+    Name LibraryAssetImporter
+    Namespace 
+    Module Core
+    PersistentTypeID LibraryAssetImporter
+    Size 488
+    TypeIndex 139
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+140
+    Name ModelImporter
+    Namespace 
+    Module Core
+    PersistentTypeID ModelImporter
+    Size 1416
+    TypeIndex 140
+    DescendantCount 4
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+141
+    Name FBXImporter
+    Namespace 
+    Module Core
+    PersistentTypeID FBXImporter
+    Size 1424
+    TypeIndex 141
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+142
+    Name Mesh3DSImporter
+    Namespace 
+    Module Core
+    PersistentTypeID Mesh3DSImporter
+    Size 1416
+    TypeIndex 142
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+143
+    Name SketchUpImporter
+    Namespace 
+    Module SketchUpEditor
+    PersistentTypeID SketchUpImporter
+    Size 1600
+    TypeIndex 143
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+144
+    Name MonoImporter
+    Namespace 
+    Module Core
+    PersistentTypeID MonoImporter
+    Size 528
+    TypeIndex 144
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+145
+    Name MovieImporter
+    Namespace 
+    Module Core
+    PersistentTypeID 1044
+    Size 496
+    TypeIndex 145
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+146
+    Name NativeFormatImporter
+    Namespace 
+    Module Core
+    PersistentTypeID NativeFormatImporter
+    Size 496
+    TypeIndex 146
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+147
+    Name PluginImporter
+    Namespace 
+    Module Core
+    PersistentTypeID PluginImporter
+    Size 600
+    TypeIndex 147
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+148
+    Name ScriptedImporter
+    Namespace 
+    Module Core
+    PersistentTypeID ScriptedImporter
+    Size 568
+    TypeIndex 148
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A93C90
+    AttributeCount 2
+149
+    Name ShaderImporter
+    Namespace 
+    Module Core
+    PersistentTypeID ShaderImporter
+    Size 520
+    TypeIndex 149
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+150
+    Name SpeedTreeImporter
+    Namespace 
+    Module Core
+    PersistentTypeID SpeedTreeImporter
+    Size 600
+    TypeIndex 150
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+151
+    Name SubstanceImporter
+    Namespace 
+    Module Core
+    PersistentTypeID SubstanceImporter
+    Size 584
+    TypeIndex 151
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+152
+    Name TextScriptImporter
+    Namespace 
+    Module Core
+    PersistentTypeID TextScriptImporter
+    Size 488
+    TypeIndex 152
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+153
+    Name TextureImporter
+    Namespace 
+    Module Core
+    PersistentTypeID TextureImporter
+    Size 984
+    TypeIndex 153
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+154
+    Name TrueTypeFontImporter
+    Namespace 
+    Module TextRenderingEditor
+    PersistentTypeID TrueTypeFontImporter
+    Size 712
+    TypeIndex 154
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+155
+    Name VideoClipImporter
+    Namespace 
+    Module Core
+    PersistentTypeID VideoClipImporter
+    Size 840
+    TypeIndex 155
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x144A93CE8
+    AttributeCount 1
+156
+    Name AudioMixer
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioMixer
+    Size 288
+    TypeIndex 156
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+157
+    Name AudioMixerController
+    Namespace 
+    Module Core
+    PersistentTypeID AudioMixerController
+    Size 496
+    TypeIndex 157
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+158
+    Name AudioMixerEffectController
+    Namespace 
+    Module Core
+    PersistentTypeID AudioMixerEffectController
+    Size 296
+    TypeIndex 158
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+159
+    Name AudioMixerGroup
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioMixerGroup
+    Size 176
+    TypeIndex 159
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+160
+    Name AudioMixerGroupController
+    Namespace 
+    Module Core
+    PersistentTypeID AudioMixerGroupController
+    Size 312
+    TypeIndex 160
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+161
+    Name AudioMixerSnapshot
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioMixerSnapshot
+    Size 136
+    TypeIndex 161
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+162
+    Name AudioMixerSnapshotController
+    Namespace 
+    Module Core
+    PersistentTypeID AudioMixerSnapshotController
+    Size 272
+    TypeIndex 162
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+163
+    Name Avatar
+    Namespace 
+    Module Animation
+    PersistentTypeID Avatar
+    Size 264
+    TypeIndex 163
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+164
+    Name AvatarMask
+    Namespace 
+    Module Animation
+    PersistentTypeID AvatarMask
+    Size 240
+    TypeIndex 164
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+165
+    Name BaseAnimationTrack
+    Namespace 
+    Module Animation
+    PersistentTypeID BaseAnimationTrack
+    Size 112
+    TypeIndex 165
+    DescendantCount 2
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+166
+    Name NewAnimationTrack
+    Namespace 
+    Module Animation
+    PersistentTypeID NewAnimationTrack
+    Size 152
+    TypeIndex 166
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+167
+    Name BillboardAsset
+    Namespace 
+    Module Core
+    PersistentTypeID BillboardAsset
+    Size 144
+    TypeIndex 167
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+168
+    Name BuildReport
+    Namespace BuildReporting
+    Module BuildReporting
+    PersistentTypeID BuildReport
+    Size 504
+    TypeIndex 168
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+169
+    Name CachedSpriteAtlas
+    Namespace 
+    Module Core
+    PersistentTypeID CachedSpriteAtlas
+    Size 208
+    TypeIndex 169
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+170
+    Name CachedSpriteAtlasRuntimeData
+    Namespace 
+    Module Core
+    PersistentTypeID CachedSpriteAtlasRuntimeData
+    Size 232
+    TypeIndex 170
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+171
+    Name ComputeShader
+    Namespace 
+    Module Core
+    PersistentTypeID ComputeShader
+    Size 480
+    TypeIndex 171
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+172
+    Name DefaultAsset
+    Namespace 
+    Module Core
+    PersistentTypeID DefaultAsset
+    Size 168
+    TypeIndex 172
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+173
+    Name SceneAsset
+    Namespace 
+    Module Core
+    PersistentTypeID SceneAsset
+    Size 168
+    TypeIndex 173
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+174
+    Name Flare
+    Namespace 
+    Module Core
+    PersistentTypeID Flare
+    Size 160
+    TypeIndex 174
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+175
+    Name Font
+    Namespace TextRendering
+    Module TextRendering
+    PersistentTypeID Font
+    Size 136
+    TypeIndex 175
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+176
+    Name GameObjectRecorder
+    Namespace 
+    Module Core
+    PersistentTypeID GameObjectRecorder
+    Size 256
+    TypeIndex 176
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+177
+    Name HumanTemplate
+    Namespace 
+    Module Core
+    PersistentTypeID HumanTemplate
+    Size 144
+    TypeIndex 177
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+178
+    Name LightProbes
+    Namespace 
+    Module Core
+    PersistentTypeID LightProbes
+    Size 400
+    TypeIndex 178
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+179
+    Name LightingDataAsset
+    Namespace 
+    Module Core
+    PersistentTypeID LightingDataAsset
+    Size 992
+    TypeIndex 179
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+180
+    Name LightingDataAssetParent
+    Namespace 
+    Module Core
+    PersistentTypeID LightingDataAssetParent
+    Size 112
+    TypeIndex 180
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+181
+    Name LightmapParameters
+    Namespace 
+    Module Core
+    PersistentTypeID LightmapParameters
+    Size 176
+    TypeIndex 181
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+182
+    Name Material
+    Namespace 
+    Module Core
+    PersistentTypeID Material
+    Size 296
+    TypeIndex 182
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+183
+    Name ProceduralMaterial
+    Namespace 
+    Module Core
+    PersistentTypeID ProceduralMaterial
+    Size 648
+    TypeIndex 183
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+184
+    Name Mesh
+    Namespace 
+    Module Core
+    PersistentTypeID Mesh
+    Size 800
+    TypeIndex 184
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A75A50
+    AttributeCount 1
+185
+    Name Motion
+    Namespace 
+    Module Animation
+    PersistentTypeID Motion
+    Size 160
+    TypeIndex 185
+    DescendantCount 4
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+186
+    Name AnimationClip
+    Namespace 
+    Module Animation
+    PersistentTypeID AnimationClip
+    Size 816
+    TypeIndex 186
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+187
+    Name PreviewAnimationClip
+    Namespace 
+    Module Animation
+    PersistentTypeID PreviewAnimationClip
+    Size 816
+    TypeIndex 187
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+188
+    Name BlendTree
+    Namespace 
+    Module Core
+    PersistentTypeID BlendTree
+    Size 416
+    TypeIndex 188
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+189
+    Name NavMeshData
+    Namespace 
+    Module AI
+    PersistentTypeID NavMeshData
+    Size 360
+    TypeIndex 189
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+190
+    Name OcclusionCullingData
+    Namespace 
+    Module Core
+    PersistentTypeID OcclusionCullingData
+    Size 240
+    TypeIndex 190
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+191
+    Name PhysicMaterial
+    Namespace 
+    Module Physics
+    PersistentTypeID PhysicMaterial
+    Size 152
+    TypeIndex 191
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+192
+    Name PhysicsMaterial2D
+    Namespace 
+    Module Physics2D
+    PersistentTypeID PhysicsMaterial2D
+    Size 128
+    TypeIndex 192
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+193
+    Name PreloadData
+    Namespace 
+    Module Core
+    PersistentTypeID PreloadData
+    Size 184
+    TypeIndex 193
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A79770
+    AttributeCount 1
+194
+    Name RuntimeAnimatorController
+    Namespace 
+    Module Animation
+    PersistentTypeID RuntimeAnimatorController
+    Size 208
+    TypeIndex 194
+    DescendantCount 3
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+195
+    Name AnimatorController
+    Namespace 
+    Module Animation
+    PersistentTypeID AnimatorController
+    Size 616
+    TypeIndex 195
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+196
+    Name AnimatorOverrideController
+    Namespace 
+    Module Animation
+    PersistentTypeID AnimatorOverrideController
+    Size 392
+    TypeIndex 196
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+197
+    Name SampleClip
+    Namespace 
+    Module Audio
+    PersistentTypeID SampleClip
+    Size 448
+    TypeIndex 197
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+198
+    Name AudioClip
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioClip
+    Size 464
+    TypeIndex 198
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+199
+    Name Shader
+    Namespace 
+    Module Core
+    PersistentTypeID Shader
+    Size 1184
+    TypeIndex 199
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+200
+    Name ShaderVariantCollection
+    Namespace 
+    Module Core
+    PersistentTypeID ShaderVariantCollection
+    Size 152
+    TypeIndex 200
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+201
+    Name SpeedTreeWindAsset
+    Namespace 
+    Module Terrain
+    PersistentTypeID SpeedTreeWindAsset
+    Size 1984
+    TypeIndex 201
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+202
+    Name Sprite
+    Namespace 
+    Module Core
+    PersistentTypeID Sprite
+    Size 584
+    TypeIndex 202
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+203
+    Name SpriteAtlas
+    Namespace 
+    Module Core
+    PersistentTypeID SpriteAtlas
+    Size 648
+    TypeIndex 203
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+204
+    Name SubstanceArchive
+    Namespace 
+    Module Core
+    PersistentTypeID SubstanceArchive
+    Size 160
+    TypeIndex 204
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+205
+    Name TerrainData
+    Namespace 
+    Module Terrain
+    PersistentTypeID TerrainData
+    Size 880
+    TypeIndex 205
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+206
+    Name TextAsset
+    Namespace 
+    Module Core
+    PersistentTypeID TextAsset
+    Size 160
+    TypeIndex 206
+    DescendantCount 4
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+207
+    Name AssemblyDefinitionAsset
+    Namespace 
+    Module Core
+    PersistentTypeID AssemblyDefinitionAsset
+    Size 160
+    TypeIndex 207
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+208
+    Name CGProgram
+    Namespace 
+    Module Core
+    PersistentTypeID CGProgram
+    Size 256
+    TypeIndex 208
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+209
+    Name MonoScript
+    Namespace 
+    Module Core
+    PersistentTypeID MonoScript
+    Size 384
+    TypeIndex 209
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A8A950
+    AttributeCount 1
+210
+    Name Texture
+    Namespace 
+    Module Core
+    PersistentTypeID Texture
+    Size 272
+    TypeIndex 210
+    DescendantCount 14
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A743D0
+    AttributeCount 1
+211
+    Name BaseVideoTexture
+    Namespace 
+    Module Audio
+    PersistentTypeID BaseVideoTexture
+    Size 296
+    TypeIndex 211
+    DescendantCount 3
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144AD3ED0
+    AttributeCount 1
+212
+    Name MovieTexture
+    Namespace 
+    Module Audio
+    PersistentTypeID MovieTexture
+    Size 496
+    TypeIndex 212
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+213
+    Name WebCamTexture
+    Namespace 
+    Module Audio
+    PersistentTypeID WebCamTexture
+    Size 376
+    TypeIndex 213
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144AC1F98
+    AttributeCount 1
+214
+    Name CubemapArray
+    Namespace 
+    Module Core
+    PersistentTypeID CubemapArray
+    Size 312
+    TypeIndex 214
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A70670
+    AttributeCount 1
+215
+    Name LowerResBlitTexture
+    Namespace 
+    Module Core
+    PersistentTypeID LowerResBlitTexture
+    Size 280
+    TypeIndex 215
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A742D8
+    AttributeCount 1
+216
+    Name ProceduralTexture
+    Namespace 
+    Module Core
+    PersistentTypeID ProceduralTexture
+    Size 464
+    TypeIndex 216
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+217
+    Name RenderTexture
+    Namespace 
+    Module Core
+    PersistentTypeID RenderTexture
+    Size 392
+    TypeIndex 217
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A742C0
+    AttributeCount 1
+218
+    Name CustomRenderTexture
+    Namespace 
+    Module Core
+    PersistentTypeID CustomRenderTexture
+    Size 760
+    TypeIndex 218
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A70AE0
+    AttributeCount 1
+219
+    Name SparseTexture
+    Namespace 
+    Module Core
+    PersistentTypeID SparseTexture
+    Size 296
+    TypeIndex 219
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A742F0
+    AttributeCount 1
+220
+    Name Texture2D
+    Namespace 
+    Module Core
+    PersistentTypeID Texture2D
+    Size 328
+    TypeIndex 220
+    DescendantCount 2
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A743E8
+    AttributeCount 1
+221
+    Name Cubemap
+    Namespace 
+    Module Core
+    PersistentTypeID Cubemap
+    Size 360
+    TypeIndex 221
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A70AC8
+    AttributeCount 1
+222
+    Name Texture2DArray
+    Namespace 
+    Module Core
+    PersistentTypeID Texture2DArray
+    Size 320
+    TypeIndex 222
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A74400
+    AttributeCount 1
+223
+    Name Texture3D
+    Namespace 
+    Module Core
+    PersistentTypeID Texture3D
+    Size 312
+    TypeIndex 223
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A74AF8
+    AttributeCount 1
+224
+    Name VideoClip
+    Namespace 
+    Module Video
+    PersistentTypeID VideoClip
+    Size 448
+    TypeIndex 224
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+225
+    Name EditorExtensionImpl
+    Namespace 
+    Module Core
+    PersistentTypeID EditorExtensionImpl
+    Size 312
+    TypeIndex 225
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+226
+    Name EditorSettings
+    Namespace 
+    Module Core
+    PersistentTypeID EditorSettings
+    Size 320
+    TypeIndex 226
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+227
+    Name EditorUserBuildSettings
+    Namespace 
+    Module Core
+    PersistentTypeID EditorUserBuildSettings
+    Size 680
+    TypeIndex 227
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+228
+    Name EditorUserSettings
+    Namespace 
+    Module Core
+    PersistentTypeID EditorUserSettings
+    Size 136
+    TypeIndex 228
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+229
+    Name GameManager
+    Namespace 
+    Module Core
+    PersistentTypeID GameManager
+    Size 88
+    TypeIndex 229
+    DescendantCount 31
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+230
+    Name GlobalGameManager
+    Namespace 
+    Module Core
+    PersistentTypeID GlobalGameManager
+    Size 88
+    TypeIndex 230
+    DescendantCount 25
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+231
+    Name AudioManager
+    Namespace 
+    Module Audio
+    PersistentTypeID AudioManager
+    Size 904
+    TypeIndex 231
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+232
+    Name BuildSettings
+    Namespace 
+    Module Core
+    PersistentTypeID BuildSettings
+    Size 496
+    TypeIndex 232
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+233
+    Name CloudWebServicesManager
+    Namespace 
+    Module CloudWebServices
+    PersistentTypeID 301
+    Size 160
+    TypeIndex 233
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+234
+    Name ClusterInputManager
+    Namespace 
+    Module ClusterInput
+    PersistentTypeID ClusterInputManager
+    Size 152
+    TypeIndex 234
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+235
+    Name CrashReportManager
+    Namespace 
+    Module CrashReporting
+    PersistentTypeID 304
+    Size 96
+    TypeIndex 235
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+236
+    Name DelayedCallManager
+    Namespace 
+    Module Core
+    PersistentTypeID DelayedCallManager
+    Size 136
+    TypeIndex 236
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+237
+    Name GraphicsSettings
+    Namespace 
+    Module Core
+    PersistentTypeID GraphicsSettings
+    Size 448
+    TypeIndex 237
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+238
+    Name InputManager
+    Namespace 
+    Module Core
+    PersistentTypeID InputManager
+    Size 432
+    TypeIndex 238
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+239
+    Name MasterServerInterface
+    Namespace 
+    Module Core
+    PersistentTypeID 155
+    Size 1184
+    TypeIndex 239
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+240
+    Name MonoManager
+    Namespace 
+    Module Core
+    PersistentTypeID MonoManager
+    Size 848
+    TypeIndex 240
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+241
+    Name NavMeshProjectSettings
+    Namespace 
+    Module AI
+    PersistentTypeID NavMeshProjectSettings
+    Size 1952
+    TypeIndex 241
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+242
+    Name NetworkManager
+    Namespace 
+    Module Core
+    PersistentTypeID 149
+    Size 1296
+    TypeIndex 242
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A78798
+    AttributeCount 1
+243
+    Name PerformanceReportingManager
+    Namespace 
+    Module PerformanceReporting
+    PersistentTypeID 305
+    Size 336
+    TypeIndex 243
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+244
+    Name Physics2DSettings
+    Namespace 
+    Module Physics2D
+    PersistentTypeID Physics2DSettings
+    Size 272
+    TypeIndex 244
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+245
+    Name PhysicsManager
+    Namespace 
+    Module Physics
+    PersistentTypeID PhysicsManager
+    Size 1720
+    TypeIndex 245
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+246
+    Name PlayerSettings
+    Namespace 
+    Module Core
+    PersistentTypeID PlayerSettings
+    Size 11072
+    TypeIndex 246
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+247
+    Name QualitySettings
+    Namespace 
+    Module Core
+    PersistentTypeID QualitySettings
+    Size 168
+    TypeIndex 247
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+248
+    Name ResourceManager
+    Namespace 
+    Module Core
+    PersistentTypeID ResourceManager
+    Size 168
+    TypeIndex 248
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A78760
+    AttributeCount 1
+249
+    Name RuntimeInitializeOnLoadManager
+    Namespace 
+    Module Core
+    PersistentTypeID RuntimeInitializeOnLoadManager
+    Size 376
+    TypeIndex 249
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+250
+    Name ScriptMapper
+    Namespace 
+    Module Core
+    PersistentTypeID ScriptMapper
+    Size 168
+    TypeIndex 250
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+251
+    Name TagManager
+    Namespace 
+    Module Core
+    PersistentTypeID TagManager
+    Size 1752
+    TypeIndex 251
+    DescendantCount 1
+    IsAbstract False
+    IsSealed True
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x144A46180
+    AttributeCount 1
+252
+    Name TimeManager
+    Namespace 
+    Module Core
+    PersistentTypeID TimeManager
+    Size 304
+    TypeIndex 252
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+253
+    Name UnityAnalyticsManager
+    Namespace 
+    Module UnityAnalytics
+    PersistentTypeID 303
+    Size 104
+    TypeIndex 253
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+254
+    Name UnityConnectSettings
+    Namespace 
+    Module UnityConnect
+    PersistentTypeID UnityConnectSettings
+    Size 1056
+    TypeIndex 254
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+255
+    Name LevelGameManager
+    Namespace 
+    Module Core
+    PersistentTypeID LevelGameManager
+    Size 88
+    TypeIndex 255
+    DescendantCount 5
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+256
+    Name LightmapSettings
+    Namespace 
+    Module Core
+    PersistentTypeID LightmapSettings
+    Size 648
+    TypeIndex 256
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+257
+    Name NavMeshSettings
+    Namespace 
+    Module AI
+    PersistentTypeID NavMeshSettings
+    Size 152
+    TypeIndex 257
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+258
+    Name OcclusionCullingSettings
+    Namespace 
+    Module Umbra
+    PersistentTypeID OcclusionCullingSettings
+    Size 208
+    TypeIndex 258
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+259
+    Name RenderSettings
+    Namespace 
+    Module Core
+    PersistentTypeID RenderSettings
+    Size 488
+    TypeIndex 259
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+260
+    Name HierarchyState
+    Namespace 
+    Module Core
+    PersistentTypeID HierarchyState
+    Size 168
+    TypeIndex 260
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x144A9D1C8
+    AttributeCount 1
+261
+    Name InspectorExpandedState
+    Namespace 
+    Module Core
+    PersistentTypeID InspectorExpandedState
+    Size 272
+    TypeIndex 261
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x144A9D1E0
+    AttributeCount 1
+262
+    Name PackedAssets
+    Namespace BuildReporting
+    Module BuildReporting
+    PersistentTypeID PackedAssets
+    Size 184
+    TypeIndex 262
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+263
+    Name Prefab
+    Namespace 
+    Module Core
+    PersistentTypeID PrefabInstance
+    Size 216
+    TypeIndex 263
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x0
+    AttributeCount 0
+264
+    Name RenderPassAttachment
+    Namespace 
+    Module Core
+    PersistentTypeID 1571458007
+    Size 208
+    TypeIndex 264
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+265
+    Name SpriteAtlasDatabase
+    Namespace 
+    Module Core
+    PersistentTypeID SpriteAtlasDatabase
+    Size 208
+    TypeIndex 265
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x144A8C8F0
+    AttributeCount 1
+266
+    Name TilemapEditorUserSettings
+    Namespace 
+    Module TilemapEditor
+    PersistentTypeID 2126867596
+    Size 96
+    TypeIndex 266
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly True
+    Attributes 0x144ADA3B0
+    AttributeCount 1
+267
+    Name Vector3f
+    Namespace 
+    Module Core
+    PersistentTypeID Vector3f
+    Size 0
+    TypeIndex 267
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+268
+    Name AudioMixerLiveUpdateBool
+    Namespace 
+    Module Core
+    PersistentTypeID AudioMixerLiveUpdateBool
+    Size 0
+    TypeIndex 268
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+269
+    Name bool
+    Namespace 
+    Module Core
+    PersistentTypeID bool
+    Size 0
+    TypeIndex 269
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+270
+    Name void
+    Namespace 
+    Module Core
+    PersistentTypeID void
+    Size 0
+    TypeIndex 270
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+271
+    Name RootMotionData
+    Namespace 
+    Module Core
+    PersistentTypeID RootMotionData
+    Size 0
+    TypeIndex 271
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+272
+    Name AudioMixerLiveUpdateFloat
+    Namespace 
+    Module Core
+    PersistentTypeID AudioMixerLiveUpdateFloat
+    Size 0
+    TypeIndex 272
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+273
+    Name MonoObject
+    Namespace 
+    Module Core
+    PersistentTypeID MonoObject
+    Size 0
+    TypeIndex 273
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+274
+    Name Collision2D
+    Namespace 
+    Module Core
+    PersistentTypeID Collision2D
+    Size 0
+    TypeIndex 274
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+275
+    Name Polygon2D
+    Namespace 
+    Module Core
+    PersistentTypeID Polygon2D
+    Size 0
+    TypeIndex 275
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+276
+    Name Collision
+    Namespace 
+    Module Core
+    PersistentTypeID Collision
+    Size 0
+    TypeIndex 276
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+277
+    Name float
+    Namespace 
+    Module Core
+    PersistentTypeID float
+    Size 0
+    TypeIndex 277
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
+278
+    Name int
+    Namespace 
+    Module Core
+    PersistentTypeID int
+    Size 0
+    TypeIndex 278
+    DescendantCount 1
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+    Attributes 0x0
+    AttributeCount 0
