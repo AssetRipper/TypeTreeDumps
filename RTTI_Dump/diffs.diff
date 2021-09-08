@@ -1014,7 +1014,18 @@
 @@ -3051 +3062 @@
 -    Module 
 +    Module TilemapEditor
---- 2017.4.4f1.dump
+--- 2017.4.35f1.dump
++++ 2017.4.36f1.dump
+@@ -2639 +2639 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -2980 +2980 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3057 +3057 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+--- 2017.4.37f1.dump
 +++ 2018.1.0f2.dump
 @@ -6 +6 @@
 -    DescendantCount 267
@@ -1127,6 +1138,9 @@
 @@ -2633 +2633 @@
 -    Module Animation
 +    Module Core
+@@ -2639 +2639 @@
+-    IsEditorOnly True
++    IsEditorOnly False
 @@ -2644 +2644 @@
 -    Module Core
 +    Module Editor
@@ -1282,6 +1296,9 @@
 @@ -2974 +3051 @@
 -    Module Core
 +    Module Editor
+@@ -2980 +3057 @@
+-    IsEditorOnly True
++    IsEditorOnly False
 @@ -2992,0 +3070,11 @@
 +PersistentTypeID 1386491679
 +    Name PresetManager
@@ -1357,6 +1374,9 @@
 @@ -3051 +3194 @@
 -    Module Core
 +    Module Editor
+@@ -3057 +3200 @@
+-    IsEditorOnly True
++    IsEditorOnly False
 @@ -3062 +3205 @@
 -    Module TilemapEditor
 +    Module Editor
