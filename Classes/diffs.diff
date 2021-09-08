@@ -1,0 +1,47 @@
+--- 2017.1.5f1.json
++++ 2017.2.0f3.json
+@@ -253 +252,0 @@
+-  "1128": "StyleSheetImporter",
+@@ -265,0 +265,3 @@
++  "19719996": "TilemapCollider2D",
++  "156049354": "Grid",
++  "483693784": "TilemapRenderer",
+@@ -270 +271,0 @@
+-  "1152215463": "AssemblyJsonAsset",
+@@ -274,2 +275,5 @@
+-  "1766753193": "AssemblyJsonImporter",
+-  "2089858483": "ScriptedImporter"
++  "1571458007": "RenderPassAttachment",
++  "1742807556": "GridLayout",
++  "1839735485": "Tilemap",
++  "2089858483": "ScriptedImporter",
++  "2126867596": "TilemapEditorUserSettings"
+--- 2017.2.5f1.json
++++ 2017.3.0f3.json
+@@ -195 +194,0 @@
+-  "280": "NScreenBridge",
+@@ -271,0 +271 @@
++  "1152215463": "AssemblyDefinitionAsset",
+@@ -276,0 +277 @@
++  "1766753193": "AssemblyDefinitionImporter",
+--- 2017.4.4f1.json
++++ 2018.1.0f2.json
+@@ -264,0 +265 @@
++  "41386430": "AssetImporterLog",
+@@ -265,0 +267,4 @@
++  "181963792": "Preset",
++  "285090594": "IConstraint",
++  "369655926": "AssetImportInProgressProxy",
++  "426301858": "EditorProjectAccess",
+@@ -270,0 +276,2 @@
++  "877146078": "PlatformModuleSetup",
++  "895512359": "AimConstraint",
+@@ -273,0 +281 @@
++  "1386491679": "PresetManager",
+@@ -277,0 +286,4 @@
++  "1773428102": "ParentConstraint",
++  "1818360608": "PositionConstraint",
++  "1818360609": "RotationConstraint",
++  "1818360610": "ScaleConstraint",
+@@ -278,0 +291 @@
++  "1971053207": "SpriteShapeRenderer",

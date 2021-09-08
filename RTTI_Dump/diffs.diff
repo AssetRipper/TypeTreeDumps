@@ -1,0 +1,1362 @@
+--- 2017.1.5f1.dump
++++ 2017.2.0f3.dump
+@@ -6 +6 @@
+-    DescendantCount 262
++    DescendantCount 266
+@@ -28 +28 @@
+-    DescendantCount 112
++    DescendantCount 117
+@@ -83 +83 @@
+-    DescendantCount 69
++    DescendantCount 73
+@@ -149 +149 @@
+-    DescendantCount 215
++    DescendantCount 217
+@@ -204 +204 @@
+-    DescendantCount 10
++    DescendantCount 11
+@@ -336 +336 @@
+-    DescendantCount 4
++    DescendantCount 3
+@@ -358 +358 @@
+-    DescendantCount 7
++    DescendantCount 8
+@@ -985 +985 @@
+-    DescendantCount 101
++    DescendantCount 98
+@@ -2316 +2316 @@
+-    DescendantCount 24
++    DescendantCount 22
+@@ -2762,11 +2761,0 @@
+-PersistentTypeID 1128
+-    Name StyleSheetImporter
+-    Namespace 
+-    Module 
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -2904,0 +2894,33 @@
++PersistentTypeID 19719996
++    Name TilemapCollider2D
++    Namespace 
++    Module 
++    Base Collider2D
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 156049354
++    Name Grid
++    Namespace 
++    Module 
++    Base GridLayout
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 483693784
++    Name TilemapRenderer
++    Namespace 
++    Module 
++    Base Renderer
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2949,11 +2970,0 @@
+-PersistentTypeID 1152215463
+-    Name AssemblyJsonAsset
+-    Namespace 
+-    Module 
+-    Base TextAsset
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -2993,2 +3004,2 @@
+-PersistentTypeID 1766753193
+-    Name AssemblyJsonImporter
++PersistentTypeID 1571458007
++    Name RenderPassAttachment
+@@ -2997 +3008 @@
+-    Base AssetImporter
++    Base Object
+@@ -3002 +3013,23 @@
+-    IsEditorOnly True
++    IsEditorOnly False
++
++PersistentTypeID 1742807556
++    Name GridLayout
++    Namespace 
++    Module 
++    Base Behaviour
++    DescendantCount 3
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1839735485
++    Name Tilemap
++    Namespace 
++    Module 
++    Base GridLayout
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
+@@ -3013,0 +3047,11 @@
++
++PersistentTypeID 2126867596
++    Name TilemapEditorUserSettings
++    Namespace 
++    Module 
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
+--- 2017.2.5f1.dump
++++ 2017.3.0f3.dump
+@@ -4 +4 @@
+-    Module 
++    Module Core
+@@ -6 +6 @@
+-    DescendantCount 266
++    DescendantCount 267
+@@ -15 +15 @@
+-    Module 
++    Module Core
+@@ -26 +26 @@
+-    Module 
++    Module Core
+@@ -37 +37 @@
+-    Module 
++    Module Core
+@@ -48 +48 @@
+-    Module 
++    Module Core
+@@ -59 +59 @@
+-    Module 
++    Module Core
+@@ -70 +70 @@
+-    Module 
++    Module Core
+@@ -81 +81 @@
+-    Module 
++    Module Core
+@@ -92 +92 @@
+-    Module 
++    Module Core
+@@ -103 +103 @@
+-    Module 
++    Module Audio
+@@ -114 +114 @@
+-    Module 
++    Module ParticlesLegacy
+@@ -125 +125 @@
+-    Module 
++    Module Core
+@@ -136 +136 @@
+-    Module 
++    Module ParticlesLegacy
+@@ -147 +147 @@
+-    Module 
++    Module Core
+@@ -149 +149 @@
+-    DescendantCount 217
++    DescendantCount 219
+@@ -158 +158 @@
+-    Module 
++    Module Physics2D
+@@ -169 +169 @@
+-    Module 
++    Module Core
+@@ -180 +180 @@
+-    Module 
++    Module Core
+@@ -191 +191 @@
+-    Module 
++    Module Core
+@@ -202 +202 @@
+-    Module 
++    Module Core
+@@ -213 +213 @@
+-    Module 
++    Module ParticlesLegacy
+@@ -224 +224 @@
+-    Module 
++    Module Core
+@@ -235 +235 @@
+-    Module 
++    Module Core
+@@ -246 +246 @@
+-    Module 
++    Module Umbra
+@@ -257 +257 @@
+-    Module 
++    Module Core
+@@ -268 +268 @@
+-    Module 
++    Module Core
+@@ -279 +279 @@
+-    Module 
++    Module Core
+@@ -290 +290 @@
+-    Module 
++    Module Core
+@@ -301 +301 @@
+-    Module 
++    Module Core
+@@ -312 +312 @@
+-    Module 
++    Module Core
+@@ -323 +323 @@
+-    Module 
++    Module Core
+@@ -334 +334 @@
+-    Module 
++    Module Core
+@@ -336 +336 @@
+-    DescendantCount 3
++    DescendantCount 4
+@@ -345 +345 @@
+-    Module 
++    Module Physics2D
+@@ -356 +356 @@
+-    Module 
++    Module Physics2D
+@@ -367 +367 @@
+-    Module 
++    Module Physics
+@@ -378 +378 @@
+-    Module 
++    Module Physics
+@@ -389 +389 @@
+-    Module 
++    Module Physics
+@@ -400 +400 @@
+-    Module 
++    Module Physics
+@@ -411 +411 @@
+-    Module 
++    Module Physics2D
+@@ -422 +422 @@
+-    Module 
++    Module Physics
+@@ -433 +433 @@
+-    Module 
++    Module Physics2D
+@@ -444 +444 @@
+-    Module 
++    Module Physics2D
+@@ -455 +455 @@
+-    Module 
++    Module Physics2D
+@@ -466 +466 @@
+-    Module 
++    Module Physics
+@@ -477 +477 @@
+-    Module 
++    Module Physics
+@@ -488 +488 @@
+-    Module 
++    Module Physics2D
+@@ -499 +499 @@
+-    Module 
++    Module Physics2D
+@@ -510 +510 @@
+-    Module 
++    Module Physics2D
+@@ -521 +521 @@
+-    Module 
++    Module Core
+@@ -532 +532 @@
+-    Module 
++    Module Animation
+@@ -543 +543 @@
+-    Module 
++    Module Physics
+@@ -554 +554 @@
+-    Module 
++    Module ParticlesLegacy
+@@ -565 +565 @@
+-    Module 
++    Module Core
+@@ -576 +576 @@
+-    Module 
++    Module Audio
+@@ -587 +587 @@
+-    Module 
++    Module Audio
+@@ -598 +598 @@
+-    Module 
++    Module Audio
+@@ -609 +609 @@
+-    Module 
++    Module Core
+@@ -620 +620 @@
+-    Module 
++    Module Core
+@@ -631 +631 @@
+-    Module 
++    Module ParticlesLegacy
+@@ -642 +642 @@
+-    Module 
++    Module ParticlesLegacy
+@@ -653 +653 @@
+-    Module 
++    Module Core
+@@ -664 +664 @@
+-    Module 
++    Module Animation
+@@ -675 +675 @@
+-    Module 
++    Module Animation
+@@ -686 +686 @@
+-    Module 
++    Module Core
+@@ -697 +697 @@
+-    Module 
++    Module Animation
+@@ -708 +708 @@
+-    Module 
++    Module Core
+@@ -719 +719 @@
+-    Module 
++    Module Animation
+@@ -730 +730 @@
+-    Module 
++    Module Core
+@@ -741 +741 @@
+-    Module 
++    Module Core
+@@ -752 +752 @@
+-    Module 
++    Module TextRendering
+@@ -763 +763 @@
+-    Module 
++    Module Core
+@@ -774 +774 @@
+-    Module 
++    Module Core
+@@ -785 +785 @@
+-    Module 
++    Module Core
+@@ -796 +796 @@
+-    Module 
++    Module Animation
+@@ -807 +807 @@
+-    Module 
++    Module Animation
+@@ -818 +818 @@
+-    Module 
++    Module Core
+@@ -829 +829 @@
+-    Module 
++    Module Core
+@@ -840 +840 @@
+-    Module 
++    Module Core
+@@ -851 +851 @@
+-    Module 
++    Module Core
+@@ -862 +862 @@
+-    Module 
++    Module Animation
+@@ -873 +873 @@
+-    Module 
++    Module Core
+@@ -884 +884 @@
+-    Module 
++    Module Core
+@@ -895 +895 @@
+-    Module 
++    Module Core
+@@ -906 +906 @@
+-    Module 
++    Module Core
+@@ -917 +917 @@
+-    Module 
++    Module Core
+@@ -928 +928 @@
+-    Module 
++    Module Core
+@@ -939 +939 @@
+-    Module 
++    Module Core
+@@ -950 +950 @@
+-    Module 
++    Module AI
+@@ -961 +961 @@
+-    Module 
++    Module TextRendering
+@@ -972 +972 @@
+-    Module 
++    Module Core
+@@ -983 +983 @@
+-    Module 
++    Module Core
+@@ -985 +985 @@
+-    DescendantCount 98
++    DescendantCount 100
+@@ -994 +994 @@
+-    Module 
++    Module Core
+@@ -1005 +1005 @@
+-    Module 
++    Module TextRendering
+@@ -1016 +1016 @@
+-    Module 
++    Module Core
+@@ -1027 +1027 @@
+-    Module 
++    Module Physics
+@@ -1038 +1038 @@
+-    Module 
++    Module Physics
+@@ -1049 +1049 @@
+-    Module 
++    Module Physics
+@@ -1060 +1060 @@
+-    Module 
++    Module Core
+@@ -1071 +1071 @@
+-    Module 
++    Module Physics
+@@ -1082 +1082 @@
+-    Module 
++    Module Core
+@@ -1093 +1093 @@
+-    Module 
++    Module Core
+@@ -1104 +1104 @@
+-    Module 
++    Module Physics
+@@ -1115 +1115 @@
+-    Module 
++    Module Physics
+@@ -1126 +1126 @@
+-    Module 
++    Module Physics
+@@ -1137 +1137 @@
+-    Module 
++    Module Vehicles
+@@ -1148 +1148 @@
+-    Module 
++    Module Core
+@@ -1159 +1159 @@
+-    Module 
++    Module Core
+@@ -1170 +1170 @@
+-    Module 
++    Module Core
+@@ -1181 +1181 @@
+-    Module 
++    Module Core
+@@ -1192 +1192 @@
+-    Module 
++    Module Audio
+@@ -1203 +1203 @@
+-    Module 
++    Module Physics
+@@ -1214 +1214 @@
+-    Module 
++    Module TerrainPhysics
+@@ -1225 +1225 @@
+-    Module 
++    Module Core
+@@ -1236 +1236 @@
+-    Module 
++    Module Terrain
+@@ -1247 +1247 @@
+-    Module 
++    Module Core
+@@ -1258 +1258 @@
+-    Module 
++    Module Audio
+@@ -1269 +1269 @@
+-    Module 
++    Module Core
+@@ -1280 +1280 @@
+-    Module 
++    Module Core
+@@ -1291 +1291 @@
+-    Module 
++    Module Audio
+@@ -1302 +1302 @@
+-    Module 
++    Module Audio
+@@ -1313 +1313 @@
+-    Module 
++    Module Audio
+@@ -1324 +1324 @@
+-    Module 
++    Module Audio
+@@ -1335 +1335 @@
+-    Module 
++    Module Audio
+@@ -1346 +1346 @@
+-    Module 
++    Module Audio
+@@ -1357 +1357 @@
+-    Module 
++    Module Audio
+@@ -1368 +1368 @@
+-    Module 
++    Module Core
+@@ -1379 +1379 @@
+-    Module 
++    Module Audio
+@@ -1390 +1390 @@
+-    Module 
++    Module Audio
+@@ -1401 +1401 @@
+-    Module 
++    Module Wind
+@@ -1412 +1412 @@
+-    Module 
++    Module Cloth
+@@ -1423 +1423 @@
+-    Module 
++    Module Core
+@@ -1434 +1434 @@
+-    Module 
++    Module Core
+@@ -1445 +1445 @@
+-    Module 
++    Module Core
+@@ -1456 +1456 @@
+-    Module 
++    Module Core
+@@ -1467 +1467 @@
+-    Module 
++    Module Core
+@@ -1478 +1478 @@
+-    Module 
++    Module AI
+@@ -1489 +1489 @@
+-    Module 
++    Module Core
+@@ -1500 +1500 @@
+-    Module 
++    Module Terrain
+@@ -1511 +1511 @@
+-    Module 
++    Module AI
+@@ -1522 +1522 @@
+-    Module 
++    Module AI
+@@ -1533 +1533 @@
+-    Module 
++    Module ParticleSystem
+@@ -1544 +1544 @@
+-    Module 
++    Module ParticleSystem
+@@ -1555 +1555 @@
+-    Module 
++    Module Core
+@@ -1566 +1566 @@
+-    Module 
++    Module Core
+@@ -1577 +1577 @@
+-    Module 
++    Module Core
+@@ -1588 +1588 @@
+-    Module 
++    Module Animation
+@@ -1599 +1599 @@
+-    Module 
++    Module AI
+@@ -1610 +1610 @@
+-    Module 
++    Module Core
+@@ -1621 +1621 @@
+-    Module 
++    Module Core
+@@ -1632 +1632 @@
+-    Module 
++    Module Core
+@@ -1643 +1643 @@
+-    Module 
++    Module Core
+@@ -1654 +1654 @@
+-    Module 
++    Module Core
+@@ -1665 +1665 @@
+-    Module 
++    Module Terrain
+@@ -1676 +1676 @@
+-    Module 
++    Module Core
+@@ -1687 +1687 @@
+-    Module 
++    Module Animation
+@@ -1698 +1698 @@
+-    Module 
++    Module UI
+@@ -1709 +1709 @@
+-    Module 
++    Module UI
+@@ -1720 +1720 @@
+-    Module 
++    Module Core
+@@ -1731 +1731 @@
+-    Module 
++    Module UI
+@@ -1742 +1742 @@
+-    Module 
++    Module Core
+@@ -1753 +1753 @@
+-    Module 
++    Module Core
+@@ -1764 +1764 @@
+-    Module 
++    Module Terrain
+@@ -1775 +1775 @@
+-    Module 
++    Module Physics2D
+@@ -1786 +1786 @@
+-    Module 
++    Module Physics2D
+@@ -1797 +1797 @@
+-    Module 
++    Module Physics2D
+@@ -1808 +1808 @@
+-    Module 
++    Module Physics2D
+@@ -1819 +1819 @@
+-    Module 
++    Module Physics2D
+@@ -1830 +1830 @@
+-    Module 
++    Module Physics2D
+@@ -1841 +1841 @@
+-    Module 
++    Module Physics2D
+@@ -1852 +1852 @@
+-    Module 
++    Module ClusterInput
+@@ -1863 +1863 @@
+-    Module 
++    Module Audio
+@@ -1874 +1874 @@
+-    Module 
++    Module AI
+@@ -1885 +1885 @@
+-    Module 
++    Module Audio
+@@ -1896 +1896 @@
+-    Module 
++    Module Core
+@@ -1907 +1907 @@
+-    Module 
++    Module Core
+@@ -1918 +1918 @@
+-    Module 
++    Module Core
+@@ -1929 +1929 @@
+-    Module 
++    Module Core
+@@ -1940 +1940 @@
+-    Module 
++    Module Physics2D
+@@ -1951 +1951 @@
+-    Module 
++    Module Physics2D
+@@ -1962 +1962 @@
+-    Module 
++    Module Physics2D
+@@ -1973 +1973 @@
+-    Module 
++    Module Physics2D
+@@ -1984 +1984 @@
+-    Module 
++    Module Physics2D
+@@ -1995 +1995 @@
+-    Module 
++    Module Physics2D
+@@ -2006 +2006 @@
+-    Module 
++    Module Physics2D
+@@ -2017 +2017 @@
+-    Module 
++    Module Physics2D
+@@ -2028 +2028 @@
+-    Module 
++    Module Physics2D
+@@ -2039 +2039 @@
+-    Module 
++    Module Physics2D
+@@ -2050 +2050 @@
+-    Module 
++    Module Physics2D
+@@ -2061 +2061 @@
+-    Module 
++    Module Physics2D
+@@ -2072 +2072 @@
+-    Module 
++    Module Core
+@@ -2083 +2083 @@
+-    Module 
++    Module Core
+@@ -2094 +2094 @@
+-    Module 
++    Module Audio
+@@ -2105 +2105 @@
+-    Module 
++    Module Audio
+@@ -2116 +2116 @@
+-    Module 
++    Module Audio
+@@ -2124,11 +2123,0 @@
+-PersistentTypeID 280
+-    Name NScreenBridge
+-    Namespace 
+-    Module 
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -2138 +2127 @@
+-    Module 
++    Module Core
+@@ -2149 +2138 @@
+-    Module 
++    Module Core
+@@ -2160 +2149 @@
+-    Module 
++    Module CloudWebServices
+@@ -2171 +2160 @@
+-    Module 
++    Module UnityAnalytics
+@@ -2182 +2171 @@
+-    Module 
++    Module CrashReporting
+@@ -2193 +2182 @@
+-    Module 
++    Module PerformanceReporting
+@@ -2204 +2193 @@
+-    Module 
++    Module UnityConnect
+@@ -2215 +2204 @@
+-    Module 
++    Module Animation
+@@ -2226 +2215 @@
+-    Module 
++    Module Director
+@@ -2237 +2226 @@
+-    Module 
++    Module Video
+@@ -2248 +2237 @@
+-    Module 
++    Module Video
+@@ -2259 +2248 @@
+-    Module 
++    Module SpriteMask
+@@ -2270 +2259 @@
+-    Module 
++    Module VR
+@@ -2281 +2270 @@
+-    Module 
++    Module Core
+@@ -2292 +2281 @@
+-    Module 
++    Module Core
+@@ -2303 +2292 @@
+-    Module 
++    Module Core
+@@ -2314 +2303 @@
+-    Module 
++    Module Core
+@@ -2316 +2305 @@
+-    DescendantCount 22
++    DescendantCount 23
+@@ -2325 +2314 @@
+-    Module 
++    Module AssetDatabase
+@@ -2336 +2325 @@
+-    Module 
++    Module Core
+@@ -2347 +2336 @@
+-    Module 
++    Module Core
+@@ -2358 +2347 @@
+-    Module 
++    Module Core
+@@ -2369 +2358 @@
+-    Module 
++    Module Core
+@@ -2380 +2369 @@
+-    Module 
++    Module Core
+@@ -2391 +2380 @@
+-    Module 
++    Module Core
+@@ -2402 +2391 @@
+-    Module 
++    Module Core
+@@ -2413 +2402 @@
+-    Module 
++    Module Core
+@@ -2424 +2413 @@
+-    Module 
++    Module Core
+@@ -2435 +2424 @@
+-    Module 
++    Module Core
+@@ -2446 +2435 @@
+-    Module 
++    Module Core
+@@ -2457 +2446 @@
+-    Module 
++    Module Core
+@@ -2468 +2457 @@
+-    Module 
++    Module Core
+@@ -2479 +2468 @@
+-    Module 
++    Module Core
+@@ -2490 +2479 @@
+-    Module 
++    Module Core
+@@ -2501 +2490 @@
+-    Module 
++    Module Core
+@@ -2512 +2501 @@
+-    Module 
++    Module TextRenderingEditor
+@@ -2523 +2512 @@
+-    Module 
++    Module Core
+@@ -2534 +2523 @@
+-    Module 
++    Module Core
+@@ -2545 +2534 @@
+-    Module 
++    Module Core
+@@ -2556 +2545 @@
+-    Module 
++    Module Core
+@@ -2567 +2556 @@
+-    Module 
++    Module Core
+@@ -2578 +2567 @@
+-    Module 
++    Module Core
+@@ -2589 +2578 @@
+-    Module 
++    Module Core
+@@ -2600 +2589 @@
+-    Module 
++    Module Core
+@@ -2611 +2600 @@
+-    Module 
++    Module Core
+@@ -2622 +2611 @@
+-    Module 
++    Module Core
+@@ -2633 +2622 @@
+-    Module 
++    Module Core
+@@ -2644 +2633 @@
+-    Module 
++    Module Animation
+@@ -2655 +2644 @@
+-    Module 
++    Module Core
+@@ -2666 +2655 @@
+-    Module 
++    Module Core
+@@ -2677 +2666 @@
+-    Module 
++    Module Core
+@@ -2688 +2677 @@
+-    Module 
++    Module Core
+@@ -2699 +2688 @@
+-    Module 
++    Module Core
+@@ -2710 +2699 @@
+-    Module 
++    Module Core
+@@ -2721 +2710 @@
+-    Module 
++    Module SketchUpEditor
+@@ -2732 +2721 @@
+-    Module 
++    Module BuildReporting
+@@ -2743 +2732 @@
+-    Module 
++    Module BuildReporting
+@@ -2754 +2743 @@
+-    Module 
++    Module Core
+@@ -2765 +2754 @@
+-    Module 
++    Module Core
+@@ -2776 +2765 @@
+-    Module 
++    Module Core
+@@ -2787 +2776 @@
+-    Module 
++    Module Core
+@@ -2798 +2787 @@
+-    Module 
++    Module Core
+@@ -2809 +2798 @@
+-    Module 
++    Module Core
+@@ -2820 +2809 @@
+-    Module 
++    Module Core
+@@ -2831 +2820 @@
+-    Module 
++    Module Core
+@@ -2842 +2831 @@
+-    Module 
++    Module Core
+@@ -2853 +2842 @@
+-    Module 
++    Module Core
+@@ -2864 +2853 @@
+-    Module 
++    Module Core
+@@ -2875 +2864 @@
+-    Module 
++    Module Core
+@@ -2886 +2875 @@
+-    Module 
++    Module Core
+@@ -2897 +2886 @@
+-    Module 
++    Module Tilemap
+@@ -2908 +2897 @@
+-    Module 
++    Module Grid
+@@ -2919 +2908 @@
+-    Module 
++    Module Tilemap
+@@ -2930 +2919 @@
+-    Module 
++    Module Core
+@@ -2941 +2930 @@
+-    Module 
++    Module Core
+@@ -2952 +2941 @@
+-    Module 
++    Module BuildReporting
+@@ -2963 +2952 @@
+-    Module 
++    Module Core
+@@ -2970,0 +2960,11 @@
++PersistentTypeID 1152215463
++    Name AssemblyDefinitionAsset
++    Namespace 
++    Module Core
++    Base TextAsset
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2974 +2974 @@
+-    Module 
++    Module Core
+@@ -2985 +2985 @@
+-    Module 
++    Module Core
+@@ -2996 +2996 @@
+-    Module 
++    Module Core
+@@ -3007 +3007 @@
+-    Module 
++    Module Core
+@@ -3018 +3018 @@
+-    Module 
++    Module Grid
+@@ -3025,0 +3026,11 @@
++PersistentTypeID 1766753193
++    Name AssemblyDefinitionImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3029 +3040 @@
+-    Module 
++    Module Tilemap
+@@ -3040 +3051 @@
+-    Module 
++    Module Core
+@@ -3051 +3062 @@
+-    Module 
++    Module TilemapEditor
+--- 2017.4.4f1.dump
++++ 2018.1.0f2.dump
+@@ -6 +6 @@
+-    DescendantCount 267
++    DescendantCount 280
+@@ -28 +28 @@
+-    DescendantCount 117
++    DescendantCount 124
+@@ -83 +83 @@
+-    DescendantCount 73
++    DescendantCount 79
+@@ -149 +149 @@
+-    DescendantCount 219
++    DescendantCount 230
+@@ -204 +204 @@
+-    DescendantCount 11
++    DescendantCount 12
+@@ -985 +985 @@
+-    DescendantCount 100
++    DescendantCount 104
+@@ -1093 +1093 @@
+-    Module Core
++    Module AssetBundle
+@@ -1269 +1269 @@
+-    Module Core
++    Module Editor
+@@ -1280 +1280 @@
+-    Module Core
++    Module Editor
+@@ -1423 +1423 @@
+-    Module Core
++    Module Substance
+@@ -1434 +1434 @@
+-    Module Core
++    Module Substance
+@@ -1445 +1445 @@
+-    Module Core
++    Module Substance
+@@ -1577 +1577 @@
+-    Module Core
++    Module Editor
+@@ -1896 +1896 @@
+-    Module Core
++    Module Editor
+@@ -1907 +1907 @@
+-    Module Core
++    Module Editor
+@@ -1918 +1918 @@
+-    Module Core
++    Module Editor
+@@ -1929 +1929 @@
+-    Module Core
++    Module Editor
+@@ -2127 +2127 @@
+-    Module Core
++    Module AssetBundle
+@@ -2303 +2303 @@
+-    Module Core
++    Module Editor
+@@ -2336 +2336 @@
+-    Module Core
++    Module Editor
+@@ -2347 +2347 @@
+-    Module Core
++    Module Editor
+@@ -2369 +2369 @@
+-    Module Core
++    Module Editor
+@@ -2402 +2402 @@
+-    Module Core
++    Module Editor
+@@ -2435 +2435 @@
+-    Module Core
++    Module Editor
+@@ -2457 +2457 @@
+-    Module Core
++    Module Editor
+@@ -2479 +2479 @@
+-    Module Core
++    Module Editor
+@@ -2501 +2501 @@
+-    Module TextRenderingEditor
++    Module Editor
+@@ -2512 +2512 @@
+-    Module Core
++    Module Editor
+@@ -2523 +2523 @@
+-    Module Core
++    Module Editor
+@@ -2556 +2556 @@
+-    Module Core
++    Module Editor
+@@ -2567 +2567 @@
+-    Module Core
++    Module Editor
+@@ -2578 +2578 @@
+-    Module Core
++    Module Editor
+@@ -2589 +2589 @@
+-    Module Core
++    Module Editor
+@@ -2600 +2600 @@
+-    Module Core
++    Module Editor
+@@ -2611 +2611 @@
+-    Module Core
++    Module Editor
+@@ -2622 +2622 @@
+-    Module Core
++    Module Editor
+@@ -2633 +2633 @@
+-    Module Animation
++    Module Core
+@@ -2644 +2644 @@
+-    Module Core
++    Module Editor
+@@ -2655 +2655 @@
+-    Module Core
++    Module Editor
+@@ -2666 +2666 @@
+-    Module Core
++    Module Editor
+@@ -2677 +2677 @@
+-    Module Core
++    Module SubstanceEditor
+@@ -2688 +2688 @@
+-    Module Core
++    Module Editor
+@@ -2699 +2699 @@
+-    Module Core
++    Module Editor
+@@ -2710 +2710 @@
+-    Module SketchUpEditor
++    Module Editor
+@@ -2721 +2721 @@
+-    Module BuildReporting
++    Module Editor
+@@ -2732 +2732 @@
+-    Module BuildReporting
++    Module BuildReportingEditor
+@@ -2743 +2743 @@
+-    Module Core
++    Module Editor
+@@ -2754 +2754 @@
+-    Module Core
++    Module undefined
+@@ -2765 +2765 @@
+-    Module Core
++    Module undefined
+@@ -2776 +2776 @@
+-    Module Core
++    Module undefined
+@@ -2787 +2787 @@
+-    Module Core
++    Module undefined
+@@ -2798 +2798 @@
+-    Module Core
++    Module undefined
+@@ -2809 +2809 @@
+-    Module Core
++    Module undefined
+@@ -2820 +2820 @@
+-    Module Core
++    Module undefined
+@@ -2831 +2831 @@
+-    Module Core
++    Module undefined
+@@ -2842 +2842 @@
+-    Module Core
++    Module undefined
+@@ -2853 +2853 @@
+-    Module Core
++    Module undefined
+@@ -2864 +2864 @@
+-    Module Core
++    Module undefined
+@@ -2875 +2875 @@
+-    Module Core
++    Module undefined
+@@ -2893,0 +2894,11 @@
++PersistentTypeID 41386430
++    Name AssetImporterLog
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2904,0 +2916,44 @@
++PersistentTypeID 181963792
++    Name Preset
++    Namespace 
++    Module Editor
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 285090594
++    Name IConstraint
++    Namespace 
++    Module Animation
++    Base Behaviour
++    DescendantCount 6
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 369655926
++    Name AssetImportInProgressProxy
++    Namespace 
++    Module Editor
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 426301858
++    Name EditorProjectAccess
++    Namespace 
++    Module Editor
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2941 +2996 @@
+-    Module BuildReporting
++    Module BuildReportingEditor
+@@ -2959,0 +3015,22 @@
++PersistentTypeID 877146078
++    Name PlatformModuleSetup
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 895512359
++    Name AimConstraint
++    Namespace 
++    Module Animation
++    Base IConstraint
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2963 +3040 @@
+-    Module Core
++    Module Editor
+@@ -2974 +3051 @@
+-    Module Core
++    Module Editor
+@@ -2992,0 +3070,11 @@
++PersistentTypeID 1386491679
++    Name PresetManager
++    Namespace 
++    Module Editor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3029 +3117 @@
+-    Module Core
++    Module Editor
+@@ -3036,0 +3125,44 @@
++PersistentTypeID 1773428102
++    Name ParentConstraint
++    Namespace 
++    Module Animation
++    Base IConstraint
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1818360608
++    Name PositionConstraint
++    Namespace 
++    Module Animation
++    Base IConstraint
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1818360609
++    Name RotationConstraint
++    Namespace 
++    Module Animation
++    Base IConstraint
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1818360610
++    Name ScaleConstraint
++    Namespace 
++    Module Animation
++    Base IConstraint
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3047,0 +3180,11 @@
++PersistentTypeID 1971053207
++    Name SpriteShapeRenderer
++    Namespace 
++    Module SpriteShape
++    Base Renderer
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3051 +3194 @@
+-    Module Core
++    Module Editor
+@@ -3062 +3205 @@
+-    Module TilemapEditor
++    Module Editor
