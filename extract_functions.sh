@@ -2,6 +2,7 @@
 
 path_to_7zip="/mnt/c/Program Files/7-Zip/7z.exe"
 path_to_UnitySetup="/mnt/g/TypeTreeDumps/UnityInstallers"
+path_to_UnityInstallations="/mnt/g/TypeTreeDumps/UnityInstallations"
 
 ### End Configuration
 
@@ -23,14 +24,14 @@ fi
 
 function extract() {
   i=$1
-  if [ -d "UnityInstallations/$i" ]; then
+  if [ -d "${path_to_UnityInstallations}/$i" ]; then
     return
   fi
   #echo "${path_to_UnitySetup}/UnitySetup64-$i.exe"
   if [ -f "${path_to_UnitySetup}/UnitySetup64-$i.exe" ]; then
       echo Extracting $i...
-	  mkdir -p "UnityInstallations/$i"
-	  cd "UnityInstallations/$i"
+	  mkdir -p "${path_to_UnityInstallations}/$i"
+	  cd "${path_to_UnityInstallations}/$i"
       "${path_to_7zip}" x -bb0 -bd "`wslpath -w ${path_to_UnitySetup}`"/UnitySetup64-$i.exe >/dev/null 2>&1
 	  cd ../..
   else
@@ -40,14 +41,14 @@ function extract() {
 
 function extractOLD() {
   i=$1
-  if [ -d "UnityInstallations/$i" ]; then
+  if [ -d "${path_to_UnityInstallations}/$i" ]; then
     return
   fi
   #echo "${path_to_UnitySetup}/UnitySetup-$i.exe"
   if [ -f "${path_to_UnitySetup}/UnitySetup-$i.exe" ]; then
       echo Extracting $i...
-	  mkdir -p "UnityInstallations/$i/Editor"
-	  cd "UnityInstallations/$i/Editor"
+	  mkdir -p "${path_to_UnityInstallations}/$i/Editor"
+	  cd "${path_to_UnityInstallations}/$i/Editor"
       "${path_to_7zip}" x -bb0 -bd "`wslpath -w ${path_to_UnitySetup}`"/UnitySetup-$i.exe >/dev/null 2>&1
 	  cd ../../..
   else
@@ -57,13 +58,13 @@ function extractOLD() {
 
 function extractNSIS() {
   i=$1
-  if [ -d "UnityInstallations/$i" ]; then
+  if [ -d "${path_to_UnityInstallations}/$i" ]; then
     return
   fi
   if [ -f "${path_to_UnitySetup}/UnitySetup64-$i.exe" ]; then
       echo Extracting $i...
       # Note: This is considered to be a silent install, not just a file extract, but we don't really care
-      "${path_to_UnitySetup}/UnitySetup64-$i.exe" /S /D=`wslpath -w .`\\UnityInstallations\\$i &
+      "${path_to_UnitySetup}/UnitySetup64-$i.exe" /S /D=`wslpath -w ${path_to_UnityInstallations}`\\$i &
       wait
   else
     echo Unity $i missing, skipped

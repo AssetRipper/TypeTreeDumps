@@ -28,33 +28,33 @@ fi
 
 
 function make_directories() {
-	mkdir -p "Assemblies/${current_assembly_version}"
-	mkdir -p "Classes"
-	mkdir -p "RTTI_Dump"
-	mkdir -p "StringsData"
-	mkdir -p "StructsData/editor"
-	mkdir -p "StructsData/release"
-	mkdir -p "StructsDump/editor"
-	mkdir -p "StructsDump/release"
+	mkdir -p "$(dirname "$0")/Assemblies/${current_assembly_version}"
+	mkdir -p "$(dirname "$0")/Classes"
+	mkdir -p "$(dirname "$0")/RTTI_Dump"
+	mkdir -p "$(dirname "$0")/StringsData"
+	mkdir -p "$(dirname "$0")/StructsData/editor"
+	mkdir -p "$(dirname "$0")/StructsData/release"
+	mkdir -p "$(dirname "$0")/StructsDump/editor"
+	mkdir -p "$(dirname "$0")/StructsDump/release"
 }
 
 function dump() {
 	i=$1
 	if [ -d "${path_to_UnityInstallations}/$i" ]; then
-		if [ -f "Classes/$i.json" ]; then
+		if [ -f "$(dirname "$0")/Classes/$i.json" ]; then
 			echo Already Dumped $i
 		else
 			echo Dumping $i...
 			rm -rf ${path_to_OutputFolder}
 			mkdir -p ${path_to_OutputFolder}
 			"${path_to_DumperExe}" "`wslpath -w ${path_to_UnityInstallations}`"/$i/Editor/Unity.exe --silent --output "`wslpath -w ${path_to_OutputFolder}`"
-			cp ${path_to_OutputFolder}/classes.json Classes/$i.json
-			cp ${path_to_OutputFolder}/RTTI.dump RTTI_Dump/$i.dump
-			cp ${path_to_OutputFolder}/strings.dat StringsData/$i.dat
-			cp ${path_to_OutputFolder}/editor_structs.dat StructsData/editor/$i.dat
-			cp ${path_to_OutputFolder}/structs.dat StructsData/release/$i.dat
-			cp ${path_to_OutputFolder}/editor_structs.dump StructsDump/editor/$i.dump
-			cp ${path_to_OutputFolder}/structs.dump StructsDump/release/$i.dump
+			cp ${path_to_OutputFolder}/classes.json $(dirname "$0")/Classes/$i.json
+			cp ${path_to_OutputFolder}/RTTI.dump $(dirname "$0")/RTTI_Dump/$i.dump
+			cp ${path_to_OutputFolder}/strings.dat $(dirname "$0")/StringsData/$i.dat
+			cp ${path_to_OutputFolder}/editor_structs.dat $(dirname "$0")/StructsData/editor/$i.dat
+			cp ${path_to_OutputFolder}/structs.dat $(dirname "$0")/StructsData/release/$i.dat
+			cp ${path_to_OutputFolder}/editor_structs.dump $(dirname "$0")/StructsDump/editor/$i.dump
+			cp ${path_to_OutputFolder}/structs.dump $(dirname "$0")/StructsDump/release/$i.dump
 		fi
 	else
 		echo Unity $i missing, skipped
