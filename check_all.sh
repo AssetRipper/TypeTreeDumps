@@ -1,10 +1,6 @@
 #!/bin/bash
 
-### Start Configuration
-
-path_to_UnityInstallations="/mnt/g/TypeTreeDumps/UnityInstallations"
-
-### End Configuration
+. $(dirname "$0")/configuration.sh
 
 check_version() {
 	i=$1

@@ -1,14 +1,6 @@
 #!/bin/bash
 
-### Start Configuration
-
-path_to_DumperExe="/mnt/e/repos/TypeTreeDumper/TypeTreeDumper.Bootstrapper/bin/Release/net472/TypeTreeDumper.BootStrapper.exe"
-path_to_OutputFolder="/mnt/e/repos/TypeTreeDumper/TypeTreeDumper.Bootstrapper/bin/Release/net472/Output"
-path_to_UnityInstallations="/mnt/g/TypeTreeDumps/UnityInstallations"
-current_assembly_version="v000"
-
-### End Configuration
-
+. $(dirname "$0")/configuration.sh
 
 if [ -f "${path_to_DumperExe}" ]; then
 	echo TypeTreeDumper Exists
@@ -28,7 +20,6 @@ fi
 
 
 function make_directories() {
-	mkdir -p "$(dirname "$0")/Assemblies/${current_assembly_version}"
 	mkdir -p "$(dirname "$0")/Classes"
 	mkdir -p "$(dirname "$0")/RTTI_Dump"
 	mkdir -p "$(dirname "$0")/StringsData"
