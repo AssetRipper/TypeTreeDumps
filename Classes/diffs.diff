@@ -22,7 +22,7 @@
 +  "220": "LightProbeGroup",
 +  "1001": "Prefab",
 --- 3.5.7.json
-+++ 2017.1.0f3.json
++++ 5.3.0f4.json
 @@ -15 +14,0 @@
 -  "17": "Pipeline",
 @@ -16,0 +16 @@
@@ -30,7 +30,7 @@
 @@ -24,2 +24,2 @@
 -  "29": "Scene",
 -  "30": "RenderManager",
-+  "29": "OcclusionCullingSettings",
++  "29": "SceneSettings",
 +  "30": "GraphicsSettings",
 @@ -33 +33,2 @@
 -  "52": "NotificationManager",
@@ -42,54 +42,46 @@
 +  "60": "PolygonCollider2D",
 +  "61": "BoxCollider2D",
 +  "62": "PhysicsMaterial2D",
-@@ -41 +46,4 @@
+@@ -41 +46,2 @@
 -  "71": "AnimationManager",
-+  "66": "CompositeCollider2D",
 +  "68": "EdgeCollider2D",
-+  "70": "CapsuleCollider2D",
 +  "72": "ComputeShader",
-@@ -49,0 +58 @@
-+  "86": "CustomRenderTexture",
-@@ -52,0 +62,2 @@
+@@ -52,0 +59,2 @@
 +  "90": "Avatar",
 +  "91": "AnimatorController",
-@@ -53,0 +65 @@
+@@ -53,0 +62 @@
 +  "93": "RuntimeAnimatorController",
-@@ -54,0 +67 @@
+@@ -54,0 +64 @@
 +  "95": "Animator",
-@@ -75,2 +88 @@
+@@ -75,2 +85 @@
 -  "126": "NavMeshLayers",
 -  "127": "HaloManager",
-+  "126": "NavMeshProjectSettings",
-@@ -88 +99,0 @@
++  "126": "NavMeshAreas",
+@@ -88 +96,0 @@
 -  "140": "RaycastCollider",
-@@ -107,2 +117,0 @@
+@@ -107,2 +114,0 @@
 -  "160": "InteractiveCloth",
 -  "161": "ClothRenderer",
-@@ -110 +118,0 @@
+@@ -110 +115,0 @@
 -  "163": "SkinnedCloth",
-@@ -117,0 +126 @@
+@@ -117,0 +123 @@
 +  "171": "SparseTexture",
-@@ -124,0 +134,2 @@
-+  "187": "Texture2DArray",
-+  "188": "CubemapArray",
-@@ -128 +138,0 @@
+@@ -128 +133,0 @@
 -  "194": "NavMesh",
-@@ -131 +140,0 @@
+@@ -131 +135,0 @@
 -  "197": "LightProbes",
-@@ -133,0 +143 @@
+@@ -133,0 +138 @@
 +  "200": "ShaderVariantCollection",
-@@ -134,0 +145,9 @@
+@@ -134,0 +140,8 @@
 +  "206": "BlendTree",
 +  "207": "Motion",
 +  "208": "NavMeshObstacle",
-+  "210": "SortingGroup",
 +  "212": "SpriteRenderer",
 +  "213": "Sprite",
 +  "214": "CachedSpriteAtlas",
 +  "215": "ReflectionProbe",
 +  "218": "Terrain",
-@@ -135,0 +155,55 @@
+@@ -135,0 +149,47 @@
 +  "221": "AnimatorOverrideController",
 +  "222": "CanvasRenderer",
 +  "223": "Canvas",
@@ -126,61 +118,76 @@
 +  "256": "FrictionJoint2D",
 +  "257": "TargetJoint2D",
 +  "258": "LightProbes",
-+  "259": "LightProbeProxyVolume",
 +  "271": "SampleClip",
 +  "272": "AudioMixerSnapshot",
 +  "273": "AudioMixerGroup",
 +  "280": "NScreenBridge",
 +  "290": "AssetBundleManifest",
++  "292": "UnityAdsSettings",
 +  "300": "RuntimeInitializeOnLoadManager",
 +  "301": "CloudWebServicesManager",
 +  "303": "UnityAnalyticsManager",
-+  "304": "CrashReportManager",
-+  "305": "PerformanceReportingManager",
 +  "310": "UnityConnectSettings",
-+  "319": "AvatarMask",
-+  "320": "PlayableDirector",
-+  "328": "VideoPlayer",
-+  "329": "VideoClip",
-+  "331": "SpriteMask",
-+  "362": "WorldAnchor",
-+  "363": "OcclusionCullingData",
-@@ -139 +213 @@
--  "1004": "AssetDatabase",
-+  "1004": "AssetDatabaseV1",
-@@ -142,0 +217 @@
++  "320": "DirectorPlayer",
+@@ -142,0 +203,2 @@
 +  "1008": "ComputeShaderImporter",
-@@ -145 +219,0 @@
++  "1011": "AvatarMask",
+@@ -145 +206,0 @@
 -  "1027": "GUIDSerializer",
-@@ -149,0 +224 @@
+@@ -149,0 +211 @@
 +  "1032": "SceneAsset",
-@@ -152 +226,0 @@
--  "1037": "AssetServerCache",
-@@ -159 +232,0 @@
--  "1046": "DDSImporter",
-@@ -162 +235 @@
+@@ -162 +224 @@
 -  "1050": "MonoAssemblyImporter",
 +  "1050": "PluginImporter",
-@@ -164,2 +237,39 @@
--  "1052": "PVRImporter",
+@@ -165 +227,13 @@
 -  "1112": "SubstanceImporter"
-+  "1055": "IHVImageFormatImporter",
++  "1053": "ASTCImporter",
++  "1054": "KTXImporter",
 +  "1101": "AnimatorStateTransition",
 +  "1102": "AnimatorState",
 +  "1105": "HumanTemplate",
 +  "1107": "AnimatorStateMachine",
-+  "1108": "PreviewAnimationClip",
 +  "1109": "AnimatorTransition",
 +  "1110": "SpeedTreeImporter",
 +  "1111": "AnimatorTransitionBase",
 +  "1112": "SubstanceImporter",
 +  "1113": "LightmapParameters",
 +  "1120": "LightingDataAsset",
++  "1124": "SketchUpImporter"
+--- 5.3.8f2.json
++++ 5.4.0f3.json
+@@ -130,0 +131 @@
++  "187": "Texture2DArray",
+@@ -184,0 +186 @@
++  "259": "LightProbeProxyVolume",
+@@ -239 +241,3 @@
+-  "1124": "SketchUpImporter"
 +  "1124": "SketchUpImporter",
 +  "1125": "BuildReport",
++  "1126": "PackedAssets"
+--- 5.4.6f3.json
++++ 5.5.0f3.json
+@@ -24 +24 @@
+-  "29": "SceneSettings",
++  "29": "OcclusionCullingSettings",
+@@ -46,0 +47 @@
++  "70": "CapsuleCollider2D",
+@@ -85 +86 @@
+-  "126": "NavMeshAreas",
++  "126": "NavMeshProjectSettings",
+@@ -131,0 +133 @@
++  "188": "CubemapArray",
+@@ -192 +194 @@
+-  "292": "UnityAdsSettings",
++  "292": "UnityAdsManager",
+@@ -195,0 +198 @@
++  "304": "CrashReportManager",
+@@ -197,0 +201,2 @@
++  "362": "WorldAnchor",
++  "363": "OcclusionCullingData",
+@@ -243 +248,13 @@
+-  "1126": "PackedAssets"
 +  "1126": "PackedAssets",
-+  "1127": "VideoClipImporter",
-+  "1128": "StyleSheetImporter",
 +  "100000": "int",
 +  "100001": "bool",
 +  "100002": "float",
@@ -192,10 +199,68 @@
 +  "100008": "AudioMixerLiveUpdateFloat",
 +  "100009": "AudioMixerLiveUpdateBool",
 +  "100010": "Polygon2D",
++  "100011": "void"
+--- 5.5.3f1.json
++++ 5.5.4f1.json
+@@ -248,0 +249 @@
++  "1127": "BuiltAssetBundleInfoSet",
+--- 5.5.6f1.json
++++ 5.6.0f3.json
+@@ -45,0 +46 @@
++  "66": "CompositeCollider2D",
+@@ -56,0 +58 @@
++  "86": "CustomRenderTexture",
+@@ -145,0 +148 @@
++  "210": "SortingGroup",
+@@ -198,0 +202 @@
++  "305": "PerformanceReportingManager",
+@@ -200 +204,3 @@
+-  "320": "DirectorPlayer",
++  "319": "AvatarMask",
++  "328": "VideoPlayer",
++  "329": "VideoClip",
+@@ -211 +216,0 @@
+-  "1011": "AvatarMask",
+@@ -228 +232,0 @@
+-  "1046": "DDSImporter",
+@@ -233,3 +237 @@
+-  "1052": "PVRImporter",
+-  "1053": "ASTCImporter",
+-  "1054": "KTXImporter",
++  "1055": "IHVImageFormatImporter",
+@@ -239,0 +242 @@
++  "1108": "PreviewAnimationClip",
+@@ -249 +252 @@
+-  "1127": "BuiltAssetBundleInfoSet",
++  "1127": "VideoClipImporter",
+@@ -261 +264,2 @@
+-  "100011": "void"
 +  "100011": "void",
++  "1480428607": "LowerResBlitTexture"
+--- 5.6.1f1.json
++++ 5.6.2f1.json
+@@ -264,0 +265 @@
++  "668709126": "BuiltAssetBundleInfoSet",
+--- 5.6.7f1.json
++++ 2017.1.0f3.json
+@@ -197 +196,0 @@
+-  "292": "UnityAdsManager",
+@@ -204,0 +204 @@
++  "320": "PlayableDirector",
+@@ -206,0 +207 @@
++  "331": "SpriteMask",
+@@ -212 +213 @@
+-  "1004": "AssetDatabase",
++  "1004": "AssetDatabaseV1",
+@@ -226 +226,0 @@
+-  "1037": "AssetServerCache",
+@@ -252,0 +253 @@
++  "1128": "StyleSheetImporter",
+@@ -264,0 +266,2 @@
 +  "638013454": "SpriteAtlasDatabase",
 +  "644342135": "CachedSpriteAtlasRuntimeData",
-+  "668709126": "BuiltAssetBundleInfoSet",
+@@ -266 +269,7 @@
+-  "1480428607": "LowerResBlitTexture"
 +  "687078895": "SpriteAtlas",
 +  "1152215463": "AssemblyJsonAsset",
 +  "1268269756": "GameObjectRecorder",
@@ -267,3 +332,106 @@
 +  "1542919678": "StreamingController",
 @@ -291,0 +293 @@
 +  "2083778819": "LocalizationAsset",
+--- 2018.2.21f1.json
++++ 2020.1.1f1.json
+@@ -12 +11,0 @@
+-  "12": "ParticleAnimator",
+@@ -14 +12,0 @@
+-  "15": "EllipsoidParticleEmitter",
+@@ -21 +18,0 @@
+-  "26": "ParticleRenderer",
+@@ -52 +48,0 @@
+-  "76": "WorldParticleCollider",
+@@ -59,2 +54,0 @@
+-  "87": "MeshParticleEmitter",
+-  "88": "ParticleEmitter",
+@@ -64 +57,0 @@
+-  "92": "GUILayer",
+@@ -92,3 +84,0 @@
+-  "131": "GUITexture",
+-  "132": "GUIText",
+-  "133": "GUIElement",
+@@ -194,4 +183,0 @@
+-  "301": "CloudWebServicesManager",
+-  "303": "UnityAnalyticsManager",
+-  "304": "CrashReportManager",
+-  "305": "PerformanceReportingManager",
+@@ -202,0 +189 @@
++  "330": "ParticleSystemForceField",
+@@ -206 +193 @@
+-  "1001": "Prefab",
++  "1001": "PrefabInstance",
+@@ -227 +213,0 @@
+-  "1044": "MovieImporter",
+@@ -262,0 +249,2 @@
++  "73398921": "VFXRenderer",
++  "76251197": "SerializableManagedRefTestClass",
+@@ -263,0 +252,2 @@
++  "156483287": "ScenesUsingAssets",
++  "171741748": "ArticulationBody",
+@@ -264,0 +255 @@
++  "277625683": "EmptyObject",
+@@ -265,0 +257,5 @@
++  "293259124": "TestObjectWithSpecialLayoutOne",
++  "294290339": "AssemblyDefinitionReferenceImporter",
++  "334799969": "SiblingDerived",
++  "342846651": "TestObjectWithSerializedMapStringNonAlignedStruct",
++  "367388927": "SubDerived",
+@@ -266,0 +263 @@
++  "382020655": "PluginBuildInfo",
+@@ -267,0 +265,3 @@
++  "468431735": "PrefabImporter",
++  "478637458": "TestObjectWithSerializedArray",
++  "478637459": "TestObjectWithSerializedAnimationCurve",
+@@ -268,0 +269 @@
++  "612988286": "SpriteAtlasAsset",
+@@ -269,0 +271 @@
++  "641289076": "AudioBuildInfo",
+@@ -270,0 +273,2 @@
++  "646504946": "RendererFake",
++  "662584278": "AssemblyDefinitionReferenceAsset",
+@@ -272,0 +277,3 @@
++  "747330370": "RayTracingShaderImporter",
++  "825902497": "RayTracingShader",
++  "850595691": "LightingSettings",
+@@ -273,0 +281 @@
++  "890905787": "VersionControlSettings",
+@@ -274,0 +283,5 @@
++  "937362698": "VFXManager",
++  "994735392": "VisualEffectSubgraph",
++  "994735403": "VisualEffectSubgraphOperator",
++  "994735404": "VisualEffectSubgraphBlock",
++  "1001480554": "Prefab",
+@@ -275,0 +289,3 @@
++  "1091556383": "Derived",
++  "1111377672": "PropertyModificationsTargetTestObject",
++  "1114811875": "ReferencesArtifactGenerator",
+@@ -276,0 +293 @@
++  "1154873562": "SceneVisibilityState",
+@@ -277,0 +295,2 @@
++  "1210832254": "SpriteAtlasImporter",
++  "1223240404": "MultiArtifactTestImporter",
+@@ -280,0 +300 @@
++  "1392443030": "TestObjectWithSpecialLayoutTwo",
+@@ -284 +304 @@
+-  "1571458007": "RenderPassAttachment",
++  "1628831178": "TestObjectVectorPairStringBool",
+@@ -287,0 +308 @@
++  "1803986026": "FakeComponent",
+@@ -291,0 +313,3 @@
++  "1896753125": "PackageManifest",
++  "1896753126": "PackageManifestImporter",
++  "1953259897": "TerrainLayer",
+@@ -292,0 +317,8 @@
++  "1977754360": "NativeObjectType",
++  "1981279845": "TestObjectWithSerializedMapStringBool",
++  "1995898324": "SerializableManagedHost",
++  "2058629509": "VisualEffectAsset",
++  "2058629510": "VisualEffectImporter",
++  "2058629511": "VisualEffectResource",
++  "2059678085": "VisualEffectObject",
++  "2083052967": "VisualEffect",
+@@ -294,2 +326 @@
+-  "2089858483": "ScriptedImporter",
+-  "2126867596": "TilemapEditorUserSettings"
++  "2089858483": "ScriptedImporter"

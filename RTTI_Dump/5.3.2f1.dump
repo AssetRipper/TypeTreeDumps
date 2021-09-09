@@ -1,0 +1,2618 @@
+PersistentTypeID 0
+    Name Object
+    Namespace 
+    Module 
+    Base 
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1
+    Name GameObject
+    Namespace 
+    Module 
+    Base EditorExtension
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 2
+    Name Component
+    Namespace 
+    Module 
+    Base EditorExtension
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 3
+    Name LevelGameManager
+    Namespace 
+    Module 
+    Base GameManager
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 4
+    Name Transform
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 5
+    Name TimeManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 6
+    Name GlobalGameManager
+    Namespace 
+    Module 
+    Base GameManager
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 8
+    Name Behaviour
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 9
+    Name GameManager
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 11
+    Name AudioManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 12
+    Name ParticleAnimator
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 13
+    Name InputManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 15
+    Name EllipsoidParticleEmitter
+    Namespace 
+    Module 
+    Base ParticleEmitter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 18
+    Name EditorExtension
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 19
+    Name Physics2DSettings
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 20
+    Name Camera
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 21
+    Name Material
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 23
+    Name MeshRenderer
+    Namespace 
+    Module 
+    Base Renderer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 25
+    Name Renderer
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 26
+    Name ParticleRenderer
+    Namespace 
+    Module 
+    Base Renderer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 27
+    Name Texture
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 28
+    Name Texture2D
+    Namespace 
+    Module 
+    Base Texture
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 29
+    Name SceneSettings
+    Namespace 
+    Module 
+    Base LevelGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 30
+    Name GraphicsSettings
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 33
+    Name MeshFilter
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 41
+    Name OcclusionPortal
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 43
+    Name Mesh
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 45
+    Name Skybox
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 47
+    Name QualitySettings
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 48
+    Name Shader
+    Namespace 
+    Module 
+    Base TextAsset
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 49
+    Name TextAsset
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 50
+    Name Rigidbody2D
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 53
+    Name Collider2D
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 54
+    Name Rigidbody
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 55
+    Name PhysicsManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 56
+    Name Collider
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 57
+    Name Joint
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 58
+    Name CircleCollider2D
+    Namespace 
+    Module 
+    Base Collider2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 59
+    Name HingeJoint
+    Namespace 
+    Module 
+    Base Joint
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 60
+    Name PolygonCollider2D
+    Namespace 
+    Module 
+    Base Collider2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 61
+    Name BoxCollider2D
+    Namespace 
+    Module 
+    Base Collider2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 62
+    Name PhysicsMaterial2D
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 64
+    Name MeshCollider
+    Namespace 
+    Module 
+    Base Collider
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 65
+    Name BoxCollider
+    Namespace 
+    Module 
+    Base Collider
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 68
+    Name EdgeCollider2D
+    Namespace 
+    Module 
+    Base Collider2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 72
+    Name ComputeShader
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 74
+    Name AnimationClip
+    Namespace 
+    Module 
+    Base Motion
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 75
+    Name ConstantForce
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 76
+    Name WorldParticleCollider
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 78
+    Name TagManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 81
+    Name AudioListener
+    Namespace 
+    Module 
+    Base AudioBehaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 82
+    Name AudioSource
+    Namespace 
+    Module 
+    Base AudioBehaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 83
+    Name AudioClip
+    Namespace 
+    Module 
+    Base SampleClip
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 84
+    Name RenderTexture
+    Namespace 
+    Module 
+    Base Texture
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 87
+    Name MeshParticleEmitter
+    Namespace 
+    Module 
+    Base ParticleEmitter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 88
+    Name ParticleEmitter
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 89
+    Name Cubemap
+    Namespace 
+    Module 
+    Base Texture2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 90
+    Name Avatar
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 91
+    Name AnimatorController
+    Namespace 
+    Module 
+    Base RuntimeAnimatorController
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 92
+    Name GUILayer
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 93
+    Name RuntimeAnimatorController
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 94
+    Name ScriptMapper
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 95
+    Name Animator
+    Namespace 
+    Module 
+    Base DirectorPlayer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 96
+    Name TrailRenderer
+    Namespace 
+    Module 
+    Base Renderer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 98
+    Name DelayedCallManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 102
+    Name TextMesh
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 104
+    Name RenderSettings
+    Namespace 
+    Module 
+    Base LevelGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 108
+    Name Light
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 109
+    Name CGProgram
+    Namespace 
+    Module 
+    Base TextAsset
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 110
+    Name BaseAnimationTrack
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 111
+    Name Animation
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 114
+    Name MonoBehaviour
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 115
+    Name MonoScript
+    Namespace 
+    Module 
+    Base TextAsset
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 116
+    Name MonoManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 117
+    Name Texture3D
+    Namespace 
+    Module 
+    Base Texture
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 118
+    Name NewAnimationTrack
+    Namespace 
+    Module 
+    Base BaseAnimationTrack
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 119
+    Name Projector
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 120
+    Name LineRenderer
+    Namespace 
+    Module 
+    Base Renderer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 121
+    Name Flare
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 122
+    Name Halo
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 123
+    Name LensFlare
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 124
+    Name FlareLayer
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 125
+    Name HaloLayer
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 126
+    Name NavMeshAreas
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 128
+    Name Font
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 129
+    Name PlayerSettings
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 130
+    Name NamedObject
+    Namespace 
+    Module 
+    Base EditorExtension
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 131
+    Name GUITexture
+    Namespace 
+    Module 
+    Base GUIElement
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 132
+    Name GUIText
+    Namespace 
+    Module 
+    Base GUIElement
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 133
+    Name GUIElement
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 134
+    Name PhysicMaterial
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 135
+    Name SphereCollider
+    Namespace 
+    Module 
+    Base Collider
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 136
+    Name CapsuleCollider
+    Namespace 
+    Module 
+    Base Collider
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 137
+    Name SkinnedMeshRenderer
+    Namespace 
+    Module 
+    Base Renderer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 138
+    Name FixedJoint
+    Namespace 
+    Module 
+    Base Joint
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 141
+    Name BuildSettings
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 142
+    Name AssetBundle
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 143
+    Name CharacterController
+    Namespace 
+    Module 
+    Base Collider
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 144
+    Name CharacterJoint
+    Namespace 
+    Module 
+    Base Joint
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 145
+    Name SpringJoint
+    Namespace 
+    Module 
+    Base Joint
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 146
+    Name WheelCollider
+    Namespace 
+    Module 
+    Base Collider
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 147
+    Name ResourceManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 148
+    Name NetworkView
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 149
+    Name NetworkManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 150
+    Name PreloadData
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 152
+    Name MovieTexture
+    Namespace 
+    Module 
+    Base BaseVideoTexture
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 153
+    Name ConfigurableJoint
+    Namespace 
+    Module 
+    Base Joint
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 154
+    Name TerrainCollider
+    Namespace 
+    Module 
+    Base Collider
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 155
+    Name MasterServerInterface
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 156
+    Name TerrainData
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 157
+    Name LightmapSettings
+    Namespace 
+    Module 
+    Base LevelGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 158
+    Name WebCamTexture
+    Namespace 
+    Module 
+    Base Texture
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 159
+    Name EditorSettings
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 162
+    Name EditorUserSettings
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 164
+    Name AudioReverbFilter
+    Namespace 
+    Module 
+    Base AudioFilter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 165
+    Name AudioHighPassFilter
+    Namespace 
+    Module 
+    Base AudioFilter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 166
+    Name AudioChorusFilter
+    Namespace 
+    Module 
+    Base AudioFilter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 167
+    Name AudioReverbZone
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 168
+    Name AudioEchoFilter
+    Namespace 
+    Module 
+    Base AudioFilter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 169
+    Name AudioLowPassFilter
+    Namespace 
+    Module 
+    Base AudioFilter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 170
+    Name AudioDistortionFilter
+    Namespace 
+    Module 
+    Base AudioFilter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 171
+    Name SparseTexture
+    Namespace 
+    Module 
+    Base Texture
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 180
+    Name AudioBehaviour
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 181
+    Name AudioFilter
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 182
+    Name WindZone
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 183
+    Name Cloth
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 184
+    Name SubstanceArchive
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 185
+    Name ProceduralMaterial
+    Namespace 
+    Module 
+    Base Material
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 186
+    Name ProceduralTexture
+    Namespace 
+    Module 
+    Base Texture
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 191
+    Name OffMeshLink
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 192
+    Name OcclusionArea
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 193
+    Name Tree
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 195
+    Name NavMeshAgent
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 196
+    Name NavMeshSettings
+    Namespace 
+    Module 
+    Base LevelGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 198
+    Name ParticleSystem
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 199
+    Name ParticleSystemRenderer
+    Namespace 
+    Module 
+    Base Renderer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 200
+    Name ShaderVariantCollection
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 205
+    Name LODGroup
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 206
+    Name BlendTree
+    Namespace 
+    Module 
+    Base Motion
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 207
+    Name Motion
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 208
+    Name NavMeshObstacle
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 212
+    Name SpriteRenderer
+    Namespace 
+    Module 
+    Base Renderer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 213
+    Name Sprite
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 214
+    Name CachedSpriteAtlas
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 215
+    Name ReflectionProbe
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 218
+    Name Terrain
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 220
+    Name LightProbeGroup
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 221
+    Name AnimatorOverrideController
+    Namespace 
+    Module 
+    Base RuntimeAnimatorController
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 222
+    Name CanvasRenderer
+    Namespace 
+    Module 
+    Base Component
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 223
+    Name Canvas
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 224
+    Name RectTransform
+    Namespace 
+    Module 
+    Base Transform
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 225
+    Name CanvasGroup
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 226
+    Name BillboardAsset
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 227
+    Name BillboardRenderer
+    Namespace 
+    Module 
+    Base Renderer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 228
+    Name SpeedTreeWindAsset
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 229
+    Name AnchoredJoint2D
+    Namespace 
+    Module 
+    Base Joint2D
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 230
+    Name Joint2D
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 231
+    Name SpringJoint2D
+    Namespace 
+    Module 
+    Base AnchoredJoint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 232
+    Name DistanceJoint2D
+    Namespace 
+    Module 
+    Base AnchoredJoint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 233
+    Name HingeJoint2D
+    Namespace 
+    Module 
+    Base AnchoredJoint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 234
+    Name SliderJoint2D
+    Namespace 
+    Module 
+    Base AnchoredJoint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 235
+    Name WheelJoint2D
+    Namespace 
+    Module 
+    Base AnchoredJoint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 236
+    Name ClusterInputManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 237
+    Name BaseVideoTexture
+    Namespace 
+    Module 
+    Base Texture
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 238
+    Name NavMeshData
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 240
+    Name AudioMixer
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 241
+    Name AudioMixerController
+    Namespace 
+    Module 
+    Base AudioMixer
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 243
+    Name AudioMixerGroupController
+    Namespace 
+    Module 
+    Base AudioMixerGroup
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 244
+    Name AudioMixerEffectController
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 245
+    Name AudioMixerSnapshotController
+    Namespace 
+    Module 
+    Base AudioMixerSnapshot
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 246
+    Name PhysicsUpdateBehaviour2D
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 247
+    Name ConstantForce2D
+    Namespace 
+    Module 
+    Base PhysicsUpdateBehaviour2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 248
+    Name Effector2D
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 249
+    Name AreaEffector2D
+    Namespace 
+    Module 
+    Base Effector2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 250
+    Name PointEffector2D
+    Namespace 
+    Module 
+    Base Effector2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 251
+    Name PlatformEffector2D
+    Namespace 
+    Module 
+    Base Effector2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 252
+    Name SurfaceEffector2D
+    Namespace 
+    Module 
+    Base Effector2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 253
+    Name BuoyancyEffector2D
+    Namespace 
+    Module 
+    Base Effector2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 254
+    Name RelativeJoint2D
+    Namespace 
+    Module 
+    Base Joint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 255
+    Name FixedJoint2D
+    Namespace 
+    Module 
+    Base AnchoredJoint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 256
+    Name FrictionJoint2D
+    Namespace 
+    Module 
+    Base AnchoredJoint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 257
+    Name TargetJoint2D
+    Namespace 
+    Module 
+    Base Joint2D
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 258
+    Name LightProbes
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 271
+    Name SampleClip
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 272
+    Name AudioMixerSnapshot
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 273
+    Name AudioMixerGroup
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 280
+    Name NScreenBridge
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 290
+    Name AssetBundleManifest
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 292
+    Name UnityAdsSettings
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 300
+    Name RuntimeInitializeOnLoadManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 301
+    Name CloudWebServicesManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 303
+    Name UnityAnalyticsManager
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 310
+    Name UnityConnectSettings
+    Namespace 
+    Module 
+    Base GlobalGameManager
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 320
+    Name DirectorPlayer
+    Namespace 
+    Module 
+    Base Behaviour
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1001
+    Name Prefab
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1002
+    Name EditorExtensionImpl
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1003
+    Name AssetImporter
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1004
+    Name AssetDatabase
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1005
+    Name Mesh3DSImporter
+    Namespace 
+    Module 
+    Base ModelImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1006
+    Name TextureImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1007
+    Name ShaderImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1008
+    Name ComputeShaderImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1011
+    Name AvatarMask
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1020
+    Name AudioImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1026
+    Name HierarchyState
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1028
+    Name AssetMetaData
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1029
+    Name DefaultAsset
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1030
+    Name DefaultImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1031
+    Name TextScriptImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1032
+    Name SceneAsset
+    Namespace 
+    Module 
+    Base DefaultAsset
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1034
+    Name NativeFormatImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1035
+    Name MonoImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1037
+    Name AssetServerCache
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1038
+    Name LibraryAssetImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1040
+    Name ModelImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract True
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1041
+    Name FBXImporter
+    Namespace 
+    Module 
+    Base ModelImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1042
+    Name TrueTypeFontImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1044
+    Name MovieImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1045
+    Name EditorBuildSettings
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1046
+    Name DDSImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1048
+    Name InspectorExpandedState
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1049
+    Name AnnotationManager
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1050
+    Name PluginImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1051
+    Name EditorUserBuildSettings
+    Namespace 
+    Module 
+    Base Object
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1052
+    Name PVRImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1053
+    Name ASTCImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1054
+    Name KTXImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1101
+    Name AnimatorStateTransition
+    Namespace 
+    Module 
+    Base AnimatorTransitionBase
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1102
+    Name AnimatorState
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1105
+    Name HumanTemplate
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1107
+    Name AnimatorStateMachine
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1109
+    Name AnimatorTransition
+    Namespace 
+    Module 
+    Base AnimatorTransitionBase
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1110
+    Name SpeedTreeImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1111
+    Name AnimatorTransitionBase
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1112
+    Name SubstanceImporter
+    Namespace 
+    Module 
+    Base AssetImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1113
+    Name LightmapParameters
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1120
+    Name LightingDataAsset
+    Namespace 
+    Module 
+    Base NamedObject
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
+PersistentTypeID 1124
+    Name SketchUpImporter
+    Namespace 
+    Module 
+    Base ModelImporter
+    DescendantCount 0
+    IsAbstract False
+    IsSealed False
+    IsStripped False
+    IsEditorOnly False
+
