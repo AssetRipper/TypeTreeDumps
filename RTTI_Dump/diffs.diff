@@ -4653,19 +4653,19 @@
 +    Module Localization
 +    Base NamedObject
 --- 2018.2.21f1.dump
-+++ 2020.1.1f1.dump
++++ 2019.1.0f2.dump
 @@ -6 +6 @@
 -    DescendantCount 282
-+    DescendantCount 313
++    DescendantCount 300
 @@ -28 +28 @@
 -    DescendantCount 125
-+    DescendantCount 121
++    DescendantCount 124
 @@ -72 +72 @@
 -    DescendantCount 24
 +    DescendantCount 21
 @@ -83 +83 @@
 -    DescendantCount 80
-+    DescendantCount 79
++    DescendantCount 82
 @@ -94 +94 @@
 -    DescendantCount 30
 +    DescendantCount 27
@@ -4695,7 +4695,7 @@
 -
 @@ -149 +127 @@
 -    DescendantCount 233
-+    DescendantCount 248
++    DescendantCount 239
 @@ -204 +182 @@
 -    DescendantCount 12
 +    DescendantCount 13
@@ -4713,7 +4713,7 @@
 -
 @@ -336 +303 @@
 -    DescendantCount 4
-+    DescendantCount 6
++    DescendantCount 5
 @@ -551,11 +517,0 @@
 -PersistentTypeID 76
 -    Name WorldParticleCollider
@@ -4749,67 +4749,13 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -683,11 +616,0 @@
--PersistentTypeID 92
--    Name GUILayer
--    Namespace 
--    Module Core
--    Base Behaviour
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -791 +714 @@
--    IsEditorOnly False
-+    IsEditorOnly True
-@@ -886 +809 @@
+@@ -886 +820 @@
 -    DescendantCount 1
 +    DescendantCount 2
-@@ -985,34 +908 @@
+@@ -985 +919 @@
 -    DescendantCount 106
--    IsAbstract True
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
--PersistentTypeID 131
--    Name GUITexture
--    Namespace 
--    Module Core
--    Base GUIElement
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
--PersistentTypeID 132
--    Name GUIText
--    Namespace TextRenderingPrivate
--    Module TextRendering
--    Base GUIElement
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
--PersistentTypeID 133
--    Name GUIElement
--    Namespace 
--    Module Core
--    Base Behaviour
--    DescendantCount 3
-+    DescendantCount 125
-@@ -1171 +1061 @@
--    Base BaseVideoTexture
-+    Base Texture
-@@ -1832 +1722 @@
--    DescendantCount 3
-+    DescendantCount 2
-@@ -2113,44 +2002,0 @@
++    DescendantCount 113
+@@ -2113,44 +2046,0 @@
 -PersistentTypeID 301
 -    Name CloudWebServicesManager
 -    Namespace 
@@ -4854,7 +4800,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -2211,0 +2058,11 @@
+@@ -2211,0 +2102,11 @@
 +PersistentTypeID 330
 +    Name ParticleSystemForceField
 +    Namespace 
@@ -4866,37 +4812,16 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -2237 +2094 @@
+@@ -2237 +2138 @@
 -    Module Core
 +    Module Umbra
-@@ -2246 +2103 @@
+@@ -2246 +2147 @@
 -    Name Prefab
 +    Name PrefabInstance
-@@ -2272 +2129 @@
+@@ -2272 +2173 @@
 -    DescendantCount 24
-+    DescendantCount 31
-@@ -2391 +2248 @@
--    Module Core
-+    Module Editor
-@@ -2476,11 +2332,0 @@
--PersistentTypeID 1044
--    Name MovieImporter
--    Namespace 
--    Module Editor
--    Base AssetImporter
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly True
--
-@@ -2606 +2452 @@
--    IsEditorOnly False
-+    IsEditorOnly True
-@@ -2699 +2545 @@
--    Module BuildReportingEditor
-+    Module Editor
-@@ -2869,0 +2716,22 @@
++    DescendantCount 27
+@@ -2869,0 +2771,22 @@
 +    IsEditorOnly True
 +
 +PersistentTypeID 73398921
@@ -4919,42 +4844,7 @@
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
-@@ -2882,0 +2751,22 @@
-+PersistentTypeID 156483287
-+    Name ScenesUsingAssets
-+    Namespace BuildReporting
-+    Module Editor
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-+PersistentTypeID 171741748
-+    Name ArticulationBody
-+    Namespace Unity
-+    Module Physics
-+    Base Behaviour
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -2893,0 +2784,11 @@
-+PersistentTypeID 277625683
-+    Name EmptyObject
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -2904,0 +2806,55 @@
+@@ -2904,0 +2828,44 @@
 +PersistentTypeID 293259124
 +    Name TestObjectWithSpecialLayoutOne
 +    Namespace 
@@ -4965,17 +4855,6 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
-+
-+PersistentTypeID 294290339
-+    Name AssemblyDefinitionReferenceImporter
-+    Namespace 
-+    Module Editor
-+    Base AssetImporter
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
 +
 +PersistentTypeID 334799969
 +    Name SiblingDerived
@@ -5009,18 +4888,6 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
-+
-@@ -2915,0 +2872,11 @@
-+PersistentTypeID 382020655
-+    Name PluginBuildInfo
-+    Namespace BuildReporting
-+    Module BuildReportingEditor
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
 +
 @@ -2926,0 +2894,33 @@
 +PersistentTypeID 468431735
@@ -5056,31 +4923,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -2937,0 +2938,11 @@
-+PersistentTypeID 612988286
-+    Name SpriteAtlasAsset
-+    Namespace 
-+    Module Editor
-+    Base NamedObject
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -2948,0 +2960,11 @@
-+PersistentTypeID 641289076
-+    Name AudioBuildInfo
-+    Namespace BuildReporting
-+    Module BuildReportingEditor
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -2959,0 +2982,22 @@
+@@ -2959,0 +2960,11 @@
 +PersistentTypeID 646504946
 +    Name RendererFake
 +    Namespace 
@@ -5092,64 +4935,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 662584278
-+    Name AssemblyDefinitionReferenceAsset
-+    Namespace 
-+    Module Editor
-+    Base TextAsset
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -2981,0 +3026,33 @@
-+PersistentTypeID 747330370
-+    Name RayTracingShaderImporter
-+    Namespace 
-+    Module Core
-+    Base AssetImporter
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-+PersistentTypeID 825902497
-+    Name RayTracingShader
-+    Namespace 
-+    Module Core
-+    Base NamedObject
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 850595691
-+    Name LightingSettings
-+    Namespace 
-+    Module Core
-+    Base NamedObject
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -2992,0 +3070,11 @@
-+PersistentTypeID 890905787
-+    Name VersionControlSettings
-+    Namespace 
-+    Module Editor
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -3003,0 +3092,55 @@
+@@ -3003,0 +3015,22 @@
 +PersistentTypeID 937362698
 +    Name VFXManager
 +    Namespace 
@@ -5160,39 +4946,6 @@
 +    IsSealed True
 +    IsStripped False
 +    IsEditorOnly False
-+
-+PersistentTypeID 994735392
-+    Name VisualEffectSubgraph
-+    Namespace 
-+    Module Editor
-+    Base VisualEffectObject
-+    DescendantCount 3
-+    IsAbstract True
-+    IsSealed True
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 994735403
-+    Name VisualEffectSubgraphOperator
-+    Namespace 
-+    Module Editor
-+    Base VisualEffectSubgraph
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed True
-+    IsStripped False
-+    IsEditorOnly True
-+
-+PersistentTypeID 994735404
-+    Name VisualEffectSubgraphBlock
-+    Namespace 
-+    Module Editor
-+    Base VisualEffectSubgraph
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed True
-+    IsStripped False
-+    IsEditorOnly True
 +
 +PersistentTypeID 1001480554
 +    Name Prefab
@@ -5205,7 +4958,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3014,0 +3158,33 @@
+@@ -3014,0 +3048,22 @@
 +PersistentTypeID 1091556383
 +    Name Derived
 +    Namespace ObjectProduceTestTypes
@@ -5228,18 +4981,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 1114811875
-+    Name ReferencesArtifactGenerator
-+    Namespace 
-+    Module Editor
-+    Base AssetImporter
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -3025,0 +3202,11 @@
+@@ -3025,0 +3081,11 @@
 +PersistentTypeID 1154873562
 +    Name SceneVisibilityState
 +    Namespace 
@@ -5251,33 +4993,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3036,0 +3224,22 @@
-+PersistentTypeID 1210832254
-+    Name SpriteAtlasImporter
-+    Namespace 
-+    Module Editor
-+    Base AssetImporter
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-+PersistentTypeID 1223240404
-+    Name MultiArtifactTestImporter
-+    Namespace 
-+    Module Editor
-+    Base AssetImporter
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -3046 +3255 @@
--    IsEditorOnly False
-+    IsEditorOnly True
-@@ -3069,0 +3279,11 @@
+@@ -3069,0 +3136,11 @@
 +PersistentTypeID 1392443030
 +    Name TestObjectWithSpecialLayoutTwo
 +    Namespace 
@@ -5289,12 +5005,12 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3103,2 +3323,2 @@
+@@ -3103,2 +3180,2 @@
 -PersistentTypeID 1571458007
 -    Name RenderPassAttachment
 +PersistentTypeID 1628831178
 +    Name TestObjectVectorPairStringBool
-@@ -3146,0 +3367,11 @@
+@@ -3146,0 +3224,11 @@
 +PersistentTypeID 1803986026
 +    Name FakeComponent
 +    Namespace 
@@ -5306,7 +5022,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3190,0 +3422,33 @@
+@@ -3190,0 +3279,33 @@
 +PersistentTypeID 1896753125
 +    Name PackageManifest
 +    Namespace 
@@ -5340,23 +5056,24 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3202,2 +3466,2 @@
--PersistentTypeID 2083778819
--    Name LocalizationAsset
+@@ -3198,0 +3320,77 @@
++    IsStripped False
++    IsEditorOnly False
++
 +PersistentTypeID 1977754360
 +    Name NativeObjectType
-@@ -3205,2 +3469,2 @@
--    Module Localization
--    Base NamedObject
++    Namespace 
 +    Module Core
 +    Base Object
-@@ -3213,2 +3477,2 @@
--PersistentTypeID 2089858483
--    Name ScriptedImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
 +PersistentTypeID 1981279845
 +    Name TestObjectWithSerializedMapStringBool
-@@ -3216 +3480,34 @@
--    Module Editor
++    Namespace 
 +    Module Core
 +    Base Object
 +    DescendantCount 1
@@ -5380,7 +5097,7 @@
 +    Name VisualEffectAsset
 +    Namespace 
 +    Module VFX
-+    Base VisualEffectObject
++    Base NamedObject
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed True
@@ -5391,7 +5108,11 @@
 +    Name VisualEffectImporter
 +    Namespace 
 +    Module VFXEditor
-@@ -3221,0 +3519,44 @@
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
 +    IsEditorOnly True
 +
 +PersistentTypeID 2058629511
@@ -5401,17 +5122,6 @@
 +    Base NamedObject
 +    DescendantCount 1
 +    IsAbstract False
-+    IsSealed True
-+    IsStripped False
-+    IsEditorOnly True
-+
-+PersistentTypeID 2059678085
-+    Name VisualEffectObject
-+    Namespace 
-+    Module VFX
-+    Base NamedObject
-+    DescendantCount 5
-+    IsAbstract True
 +    IsSealed True
 +    IsStripped False
 +    IsEditorOnly False
@@ -5424,26 +5134,439 @@
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed True
+--- 2019.1.14f1.dump
++++ 2019.2.1f1.dump
+@@ -6 +6 @@
+-    DescendantCount 300
++    DescendantCount 308
+@@ -127 +127 @@
+-    DescendantCount 239
++    DescendantCount 247
+@@ -303 +303 @@
+-    DescendantCount 5
++    DescendantCount 6
+@@ -919 +919 @@
+-    DescendantCount 113
++    DescendantCount 121
+@@ -2173 +2173 @@
+-    DescendantCount 27
++    DescendantCount 30
+@@ -2816,0 +2817,11 @@
++PersistentTypeID 277625683
++    Name EmptyObject
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 2083778819
-+    Name LocalizationAsset
+@@ -2838,0 +2850,11 @@
++PersistentTypeID 294290339
++    Name AssemblyDefinitionReferenceImporter
 +    Namespace 
-+    Module Localization
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2970,0 +2993,11 @@
++PersistentTypeID 662584278
++    Name AssemblyDefinitionReferenceAsset
++    Namespace 
++    Module Editor
++    Base TextAsset
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3025,0 +3059,33 @@
++PersistentTypeID 994735392
++    Name VisualEffectSubgraph
++    Namespace 
++    Module Editor
++    Base VisualEffectObject
++    DescendantCount 3
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 994735403
++    Name VisualEffectSubgraphOperator
++    Namespace 
++    Module Editor
++    Base VisualEffectSubgraph
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 994735404
++    Name VisualEffectSubgraphBlock
++    Namespace 
++    Module Editor
++    Base VisualEffectSubgraph
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3069,0 +3136,11 @@
++PersistentTypeID 1114811875
++    Name ReferencesArtifactGenerator
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3102,0 +3180,11 @@
++PersistentTypeID 1223240404
++    Name MultiArtifactTestImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3360 +3448 @@
+-    Base NamedObject
++    Base VisualEffectObject
+@@ -3388,0 +3477,11 @@
++PersistentTypeID 2059678085
++    Name VisualEffectObject
++    Namespace 
++    Module VFX
++    Base NamedObject
++    DescendantCount 5
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3421,11 +3519,0 @@
+-
+-PersistentTypeID 2126867596
+-    Name TilemapEditorUserSettings
+-    Namespace 
+-    Module Editor
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+--- 2019.2.12f1.dump
++++ 2019.2.13f1.dump
+@@ -6 +6 @@
+-    DescendantCount 308
++    DescendantCount 310
+@@ -2904,0 +2905,11 @@
++PersistentTypeID 382020655
++    Name PluginBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2963,0 +2975,11 @@
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 641289076
++    Name AudioBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
+--- 2019.2.13f1.dump
++++ 2019.2.14f1.dump
+@@ -2507 +2507 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3088 +3088 @@
+-    IsSealed False
++    IsSealed True
+@@ -3101 +3101 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3112 +3112 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3222 +3222 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3497 +3497 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3506 +3506 @@
+-    IsSealed False
++    IsSealed True
+@@ -3541 +3541 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+--- 2019.2.21f1.dump
++++ 2019.3.0f6.dump
+@@ -6 +6 @@
+-    DescendantCount 310
++    DescendantCount 307
+@@ -28 +28 @@
+-    DescendantCount 124
++    DescendantCount 120
+@@ -83 +83 @@
+-    DescendantCount 82
++    DescendantCount 78
+@@ -127 +127 @@
+-    DescendantCount 247
++    DescendantCount 244
+@@ -617,11 +616,0 @@
+-PersistentTypeID 92
+-    Name GUILayer
+-    Namespace 
+-    Module Core
+-    Base Behaviour
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -919,34 +908 @@
+-    DescendantCount 121
+-    IsAbstract True
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 131
+-    Name GUITexture
+-    Namespace 
+-    Module Core
+-    Base GUIElement
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 132
+-    Name GUIText
+-    Namespace TextRenderingPrivate
+-    Module TextRendering
+-    Base GUIElement
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 133
+-    Name GUIElement
+-    Namespace 
+-    Module Core
+-    Base Behaviour
+-    DescendantCount 3
++    DescendantCount 122
+@@ -1105 +1061 @@
+-    Base BaseVideoTexture
++    Base Texture
+@@ -1766 +1722 @@
+-    DescendantCount 3
++    DescendantCount 2
+@@ -2292 +2248 @@
+-    Module Core
++    Module Editor
+@@ -2377,11 +2332,0 @@
+-PersistentTypeID 1044
+-    Name MovieImporter
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -2600 +2545 @@
+-    Module BuildReportingEditor
++    Module Editor
+@@ -3038,0 +2984,22 @@
++    Namespace 
++    Module Core
 +    Base NamedObject
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
-@@ -3224,2 +3565,2 @@
--PersistentTypeID 2126867596
--    Name TilemapEditorUserSettings
-+PersistentTypeID 2089858483
-+    Name ScriptedImporter
-@@ -3228 +3569 @@
--    Base Object
++    IsEditorOnly False
++
++PersistentTypeID 747330370
++    Name RayTracingShaderImporter
++    Namespace 
++    Module Core
 +    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 825902497
++    Name RayTracingShader
+--- 2019.4.4f1.dump
++++ 2019.4.5f1.dump
+@@ -714 +714 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+--- 2019.4.28f1.dump
++++ 2019.4.29f1.dump
+@@ -6 +6 @@
+-    DescendantCount 307
++    DescendantCount 308
+@@ -127 +127 @@
+-    DescendantCount 244
++    DescendantCount 245
+@@ -908 +908 @@
+-    DescendantCount 122
++    DescendantCount 123
+@@ -2129 +2129 @@
+-    DescendantCount 30
++    DescendantCount 31
+@@ -3266,0 +3267,11 @@
++
++PersistentTypeID 1736697216
++    Name AndroidAssetPackImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
+--- 2019.4.30f1.dump
++++ 2020.1.1f1.dump
+@@ -6 +6 @@
+-    DescendantCount 308
++    DescendantCount 313
+@@ -28 +28 @@
+-    DescendantCount 120
++    DescendantCount 121
+@@ -83 +83 @@
+-    DescendantCount 78
++    DescendantCount 79
+@@ -127 +127 @@
+-    DescendantCount 245
++    DescendantCount 248
+@@ -908 +908 @@
+-    DescendantCount 123
++    DescendantCount 125
+@@ -2750,0 +2751,22 @@
++PersistentTypeID 156483287
++    Name ScenesUsingAssets
++    Namespace BuildReporting
++    Module Editor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 171741748
++    Name ArticulationBody
++    Namespace Unity
++    Module Physics
++    Base Behaviour
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2915,0 +2938,11 @@
++PersistentTypeID 612988286
++    Name SpriteAtlasAsset
++    Namespace 
++    Module Editor
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3014,0 +3048,11 @@
++PersistentTypeID 850595691
++    Name LightingSettings
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3025,0 +3070,11 @@
++PersistentTypeID 890905787
++    Name VersionControlSettings
++    Namespace 
++    Module Editor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3168,0 +3224,11 @@
++PersistentTypeID 1210832254
++    Name SpriteAtlasImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3267,11 +3332,0 @@
+-
+-PersistentTypeID 1736697216
+-    Name AndroidAssetPackImporter
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
 --- 2020.1.17f1.dump
 +++ 2020.2.0f1.dump
 @@ -6 +6 @@

@@ -9,25 +9,70 @@ check_version() {
 	fi
 	if ! [ -f "$(dirname "$0")/Classes/$i.json" ]; then
 		echo $i needs dumped
+	else
+		if ! [ -f "$(dirname "$0")/RTTI_Dump/$i.dump" ]; then
+			echo $i missing RTTI dump
+		fi
+		if ! [ -f "$(dirname "$0")/StringsData/$i.dat" ]; then
+			echo $i missing string data
+		fi
+		if ! [ -f "$(dirname "$0")/StructsData/editor/$i.dat" ]; then
+			echo $i needs editor structs data
+		fi
+		if ! [ -f "$(dirname "$0")/StructsData/release/$i.dat" ]; then
+			echo $i needs release structs data
+		fi
+		if ! [ -f "$(dirname "$0")/StructsDump/editor/$i.dump" ]; then
+			echo $i needs editor structs dump
+		fi
+		if ! [ -f "$(dirname "$0")/StructsDump/release/$i.dump" ]; then
+			echo $i needs release structs dump
+		fi
+	fi
+}
+
+check_early_version() {
+	i=$1
+	if ! [ -d "${path_to_UnityInstallations}/$i" ]; then
+		echo $i needs extracted
+	fi
+	if ! [ -f "$(dirname "$0")/Classes/$i.json" ]; then
+		echo $i needs dumped
+	else
+		if ! [ -f "$(dirname "$0")/RTTI_Dump/$i.dump" ]; then
+			echo $i missing RTTI dump
+		fi
+		if ! [ -f "$(dirname "$0")/StructsData/editor/$i.dat" ]; then
+			echo $i needs editor structs data
+		fi
+		if ! [ -f "$(dirname "$0")/StructsData/release/$i.dat" ]; then
+			echo $i needs release structs data
+		fi
+		if ! [ -f "$(dirname "$0")/StructsDump/editor/$i.dump" ]; then
+			echo $i needs editor structs dump
+		fi
+		if ! [ -f "$(dirname "$0")/StructsDump/release/$i.dump" ]; then
+			echo $i needs release structs dump
+		fi
 	fi
 }
 
 # 3
 for i in 3.4.0 3.4.1 3.4.2 3.5.0 3.5.1 3.5.2 3.5.3 3.5.4 3.5.5 3.5.6 3.5.7
 do
-	check_version $i
+	check_early_version $i
 done
 
 # 4.0, 4.1, 4.2, and 4.3 (no 4.4)
 for i in 4.0.0 4.0.1 4.1.0 4.1.2 4.1.3 4.1.4 4.1.5 4.2.0 4.2.1 4.2.2 4.3.0 4.3.1 4.3.2 4.3.3 4.3.4
 do
-	check_version $i
+	check_early_version $i
 done
 
 # 4.5, 4.6, and 4.7
 for i in 4.5.0 4.5.1 4.5.2 4.5.3 4.5.4 4.5.5 4.6.0 4.6.1 4.6.2 4.6.3 4.6.4 4.6.5 4.6.6 4.6.7 4.6.8 4.6.9 4.7.0 4.7.1 4.7.2
 do
-	check_version $i
+	check_early_version $i
 done
 
 # 5

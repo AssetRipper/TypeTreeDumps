@@ -374,7 +374,7 @@
 @@ -291,0 +293 @@
 +  "2083778819": "LocalizationAsset",
 --- 2018.2.21f1.json
-+++ 2020.1.1f1.json
++++ 2019.1.0f2.json
 @@ -12 +11,0 @@
 -  "12": "ParticleAnimator",
 @@ -14 +12,0 @@
@@ -386,96 +386,117 @@
 @@ -59,2 +54,0 @@
 -  "87": "MeshParticleEmitter",
 -  "88": "ParticleEmitter",
-@@ -64 +57,0 @@
--  "92": "GUILayer",
-@@ -92,3 +84,0 @@
--  "131": "GUITexture",
--  "132": "GUIText",
--  "133": "GUIElement",
-@@ -194,4 +183,0 @@
+@@ -194,4 +187,0 @@
 -  "301": "CloudWebServicesManager",
 -  "303": "UnityAnalyticsManager",
 -  "304": "CrashReportManager",
 -  "305": "PerformanceReportingManager",
-@@ -202,0 +189 @@
+@@ -202,0 +193 @@
 +  "330": "ParticleSystemForceField",
-@@ -206 +193 @@
+@@ -206 +197 @@
 -  "1001": "Prefab",
 +  "1001": "PrefabInstance",
-@@ -227 +213,0 @@
--  "1044": "MovieImporter",
-@@ -262,0 +249,2 @@
+@@ -262,0 +254,2 @@
 +  "73398921": "VFXRenderer",
 +  "76251197": "SerializableManagedRefTestClass",
-@@ -263,0 +252,2 @@
-+  "156483287": "ScenesUsingAssets",
-+  "171741748": "ArticulationBody",
-@@ -264,0 +255 @@
-+  "277625683": "EmptyObject",
-@@ -265,0 +257,5 @@
+@@ -265,0 +259,4 @@
 +  "293259124": "TestObjectWithSpecialLayoutOne",
-+  "294290339": "AssemblyDefinitionReferenceImporter",
 +  "334799969": "SiblingDerived",
 +  "342846651": "TestObjectWithSerializedMapStringNonAlignedStruct",
 +  "367388927": "SubDerived",
-@@ -266,0 +263 @@
-+  "382020655": "PluginBuildInfo",
 @@ -267,0 +265,3 @@
 +  "468431735": "PrefabImporter",
 +  "478637458": "TestObjectWithSerializedArray",
 +  "478637459": "TestObjectWithSerializedAnimationCurve",
-@@ -268,0 +269 @@
-+  "612988286": "SpriteAtlasAsset",
-@@ -269,0 +271 @@
-+  "641289076": "AudioBuildInfo",
-@@ -270,0 +273,2 @@
+@@ -270,0 +271 @@
 +  "646504946": "RendererFake",
-+  "662584278": "AssemblyDefinitionReferenceAsset",
-@@ -272,0 +277,3 @@
-+  "747330370": "RayTracingShaderImporter",
-+  "825902497": "RayTracingShader",
-+  "850595691": "LightingSettings",
-@@ -273,0 +281 @@
-+  "890905787": "VersionControlSettings",
-@@ -274,0 +283,5 @@
+@@ -274,0 +276,2 @@
 +  "937362698": "VFXManager",
-+  "994735392": "VisualEffectSubgraph",
-+  "994735403": "VisualEffectSubgraphOperator",
-+  "994735404": "VisualEffectSubgraphBlock",
 +  "1001480554": "Prefab",
-@@ -275,0 +289,3 @@
+@@ -275,0 +279,2 @@
 +  "1091556383": "Derived",
 +  "1111377672": "PropertyModificationsTargetTestObject",
-+  "1114811875": "ReferencesArtifactGenerator",
-@@ -276,0 +293 @@
+@@ -276,0 +282 @@
 +  "1154873562": "SceneVisibilityState",
-@@ -277,0 +295,2 @@
-+  "1210832254": "SpriteAtlasImporter",
-+  "1223240404": "MultiArtifactTestImporter",
-@@ -280,0 +300 @@
+@@ -280,0 +287 @@
 +  "1392443030": "TestObjectWithSpecialLayoutTwo",
-@@ -284 +304 @@
+@@ -284 +291 @@
 -  "1571458007": "RenderPassAttachment",
 +  "1628831178": "TestObjectVectorPairStringBool",
-@@ -287,0 +308 @@
+@@ -287,0 +295 @@
 +  "1803986026": "FakeComponent",
-@@ -291,0 +313,3 @@
+@@ -291,0 +300,3 @@
 +  "1896753125": "PackageManifest",
 +  "1896753126": "PackageManifestImporter",
 +  "1953259897": "TerrainLayer",
-@@ -292,0 +317,8 @@
+@@ -292,0 +304,7 @@
 +  "1977754360": "NativeObjectType",
 +  "1981279845": "TestObjectWithSerializedMapStringBool",
 +  "1995898324": "SerializableManagedHost",
 +  "2058629509": "VisualEffectAsset",
 +  "2058629510": "VisualEffectImporter",
 +  "2058629511": "VisualEffectResource",
-+  "2059678085": "VisualEffectObject",
 +  "2083052967": "VisualEffect",
-@@ -294,2 +326 @@
+--- 2019.1.14f1.json
++++ 2019.2.1f1.json
+@@ -257,0 +258 @@
++  "277625683": "EmptyObject",
+@@ -259,0 +261 @@
++  "294290339": "AssemblyDefinitionReferenceImporter",
+@@ -271,0 +274 @@
++  "662584278": "AssemblyDefinitionReferenceAsset",
+@@ -276,0 +280,3 @@
++  "994735392": "VisualEffectSubgraph",
++  "994735403": "VisualEffectSubgraphOperator",
++  "994735404": "VisualEffectSubgraphBlock",
+@@ -280,0 +287 @@
++  "1114811875": "ReferencesArtifactGenerator",
+@@ -283,0 +291 @@
++  "1223240404": "MultiArtifactTestImporter",
+@@ -309,0 +318 @@
++  "2059678085": "VisualEffectObject",
+@@ -312,2 +321 @@
 -  "2089858483": "ScriptedImporter",
 -  "2126867596": "TilemapEditorUserSettings"
 +  "2089858483": "ScriptedImporter"
+--- 2019.2.12f1.json
++++ 2019.2.13f1.json
+@@ -265,0 +266 @@
++  "382020655": "PluginBuildInfo",
+@@ -271,0 +273 @@
++  "641289076": "AudioBuildInfo",
+--- 2019.2.21f1.json
++++ 2019.3.0f6.json
+@@ -58 +57,0 @@
+-  "92": "GUILayer",
+@@ -86,3 +84,0 @@
+-  "131": "GUITexture",
+-  "132": "GUIText",
+-  "133": "GUIElement",
+@@ -218 +213,0 @@
+-  "1044": "MovieImporter",
+@@ -278,0 +274,2 @@
++  "747330370": "RayTracingShaderImporter",
++  "825902497": "RayTracingShader",
+--- 2019.4.28f1.json
++++ 2019.4.29f1.json
+@@ -298,0 +299 @@
++  "1736697216": "AndroidAssetPackImporter",
+--- 2019.4.30f1.json
++++ 2020.1.1f1.json
+@@ -251,0 +252,2 @@
++  "156483287": "ScenesUsingAssets",
++  "171741748": "ArticulationBody",
+@@ -266,0 +269 @@
++  "612988286": "SpriteAtlasAsset",
+@@ -275,0 +279 @@
++  "850595691": "LightingSettings",
+@@ -276,0 +281 @@
++  "890905787": "VersionControlSettings",
+@@ -289,0 +295 @@
++  "1210832254": "SpriteAtlasImporter",
+@@ -299 +304,0 @@
+-  "1736697216": "AndroidAssetPackImporter",
 --- 2020.1.17f1.json
 +++ 2020.2.0f1.json
 @@ -191 +190,0 @@
