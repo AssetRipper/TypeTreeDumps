@@ -374,7 +374,7 @@
 @@ -291,0 +293 @@
 +  "2083778819": "LocalizationAsset",
 --- 2018.2.21f1.json
-+++ 2019.1.0f2.json
++++ 2018.3.0f2.json
 @@ -12 +11,0 @@
 -  "12": "ParticleAnimator",
 @@ -14 +12,0 @@
@@ -396,47 +396,63 @@
 @@ -206 +197 @@
 -  "1001": "Prefab",
 +  "1001": "PrefabInstance",
-@@ -262,0 +254,2 @@
+@@ -262,0 +254 @@
 +  "73398921": "VFXRenderer",
-+  "76251197": "SerializableManagedRefTestClass",
-@@ -265,0 +259,4 @@
-+  "293259124": "TestObjectWithSpecialLayoutOne",
-+  "334799969": "SiblingDerived",
-+  "342846651": "TestObjectWithSerializedMapStringNonAlignedStruct",
-+  "367388927": "SubDerived",
-@@ -267,0 +265,3 @@
+@@ -267,0 +260 @@
 +  "468431735": "PrefabImporter",
-+  "478637458": "TestObjectWithSerializedArray",
-+  "478637459": "TestObjectWithSerializedAnimationCurve",
-@@ -270,0 +271 @@
-+  "646504946": "RendererFake",
-@@ -274,0 +276,2 @@
+@@ -274,0 +268,2 @@
 +  "937362698": "VFXManager",
 +  "1001480554": "Prefab",
-@@ -275,0 +279,2 @@
-+  "1091556383": "Derived",
-+  "1111377672": "PropertyModificationsTargetTestObject",
-@@ -276,0 +282 @@
-+  "1154873562": "SceneVisibilityState",
-@@ -280,0 +287 @@
-+  "1392443030": "TestObjectWithSpecialLayoutTwo",
-@@ -284 +291 @@
--  "1571458007": "RenderPassAttachment",
-+  "1628831178": "TestObjectVectorPairStringBool",
-@@ -287,0 +295 @@
-+  "1803986026": "FakeComponent",
-@@ -291,0 +300,3 @@
-+  "1896753125": "PackageManifest",
-+  "1896753126": "PackageManifestImporter",
+@@ -291,0 +287 @@
 +  "1953259897": "TerrainLayer",
-@@ -292,0 +304,7 @@
-+  "1977754360": "NativeObjectType",
-+  "1981279845": "TestObjectWithSerializedMapStringBool",
-+  "1995898324": "SerializableManagedHost",
+@@ -292,0 +289,4 @@
 +  "2058629509": "VisualEffectAsset",
 +  "2058629510": "VisualEffectImporter",
 +  "2058629511": "VisualEffectResource",
 +  "2083052967": "VisualEffect",
+--- 2018.4.12f1.json
++++ 2018.4.13f1.json
+@@ -258,0 +259 @@
++  "382020655": "PluginBuildInfo",
+@@ -262,0 +264 @@
++  "641289076": "AudioBuildInfo",
+--- 2018.4.36f1.json
++++ 2019.1.0f2.json
+@@ -254,0 +255 @@
++  "76251197": "SerializableManagedRefTestClass",
+@@ -257,0 +259,4 @@
++  "293259124": "TestObjectWithSpecialLayoutOne",
++  "334799969": "SiblingDerived",
++  "342846651": "TestObjectWithSerializedMapStringNonAlignedStruct",
++  "367388927": "SubDerived",
+@@ -259 +263,0 @@
+-  "382020655": "PluginBuildInfo",
+@@ -261,0 +266,2 @@
++  "478637458": "TestObjectWithSerializedArray",
++  "478637459": "TestObjectWithSerializedAnimationCurve",
+@@ -264 +269,0 @@
+-  "641289076": "AudioBuildInfo",
+@@ -265,0 +271 @@
++  "646504946": "RendererFake",
+@@ -272,0 +279,2 @@
++  "1091556383": "Derived",
++  "1111377672": "PropertyModificationsTargetTestObject",
+@@ -273,0 +282 @@
++  "1154873562": "SceneVisibilityState",
+@@ -277,0 +287 @@
++  "1392443030": "TestObjectWithSpecialLayoutTwo",
+@@ -281 +291 @@
+-  "1571458007": "RenderPassAttachment",
++  "1628831178": "TestObjectVectorPairStringBool",
+@@ -284,0 +295 @@
++  "1803986026": "FakeComponent",
+@@ -288,0 +300,2 @@
++  "1896753125": "PackageManifest",
++  "1896753126": "PackageManifestImporter",
+@@ -290,0 +304,3 @@
++  "1977754360": "NativeObjectType",
++  "1981279845": "TestObjectWithSerializedMapStringBool",
++  "1995898324": "SerializableManagedHost",
 --- 2019.1.14f1.json
 +++ 2019.2.1f1.json
 @@ -257,0 +258 @@

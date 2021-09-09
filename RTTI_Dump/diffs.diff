@@ -4653,13 +4653,10 @@
 +    Module Localization
 +    Base NamedObject
 --- 2018.2.21f1.dump
-+++ 2019.1.0f2.dump
-@@ -6 +6 @@
--    DescendantCount 282
-+    DescendantCount 300
++++ 2018.3.0f2.dump
 @@ -28 +28 @@
 -    DescendantCount 125
-+    DescendantCount 124
++    DescendantCount 122
 @@ -72 +72 @@
 -    DescendantCount 24
 +    DescendantCount 21
@@ -4695,10 +4692,7 @@
 -
 @@ -149 +127 @@
 -    DescendantCount 233
-+    DescendantCount 239
-@@ -204 +182 @@
--    DescendantCount 12
-+    DescendantCount 13
++    DescendantCount 235
 @@ -210,11 +187,0 @@
 -PersistentTypeID 26
 -    Name ParticleRenderer
@@ -4711,9 +4705,6 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -336 +303 @@
--    DescendantCount 4
-+    DescendantCount 5
 @@ -551,11 +517,0 @@
 -PersistentTypeID 76
 -    Name WorldParticleCollider
@@ -4749,12 +4740,9 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -886 +820 @@
--    DescendantCount 1
-+    DescendantCount 2
 @@ -985 +919 @@
 -    DescendantCount 106
-+    DescendantCount 113
++    DescendantCount 111
 @@ -2113,44 +2046,0 @@
 -PersistentTypeID 301
 -    Name CloudWebServicesManager
@@ -4812,18 +4800,13 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -2237 +2138 @@
--    Module Core
-+    Module Umbra
 @@ -2246 +2147 @@
 -    Name Prefab
 +    Name PrefabInstance
 @@ -2272 +2173 @@
 -    DescendantCount 24
-+    DescendantCount 27
-@@ -2869,0 +2771,22 @@
-+    IsEditorOnly True
-+
++    DescendantCount 26
+@@ -2871,0 +2773,11 @@
 +PersistentTypeID 73398921
 +    Name VFXRenderer
 +    Namespace 
@@ -4835,61 +4818,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 76251197
-+    Name SerializableManagedRefTestClass
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-@@ -2904,0 +2828,44 @@
-+PersistentTypeID 293259124
-+    Name TestObjectWithSpecialLayoutOne
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 334799969
-+    Name SiblingDerived
-+    Namespace ObjectProduceTestTypes
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 342846651
-+    Name TestObjectWithSerializedMapStringNonAlignedStruct
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 367388927
-+    Name SubDerived
-+    Namespace ObjectProduceTestTypes
-+    Module Core
-+    Base Derived
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -2926,0 +2894,33 @@
+@@ -2926,0 +2839,11 @@
 +PersistentTypeID 468431735
 +    Name PrefabImporter
 +    Namespace 
@@ -4901,41 +4830,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-+PersistentTypeID 478637458
-+    Name TestObjectWithSerializedArray
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 478637459
-+    Name TestObjectWithSerializedAnimationCurve
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -2959,0 +2960,11 @@
-+PersistentTypeID 646504946
-+    Name RendererFake
-+    Namespace 
-+    Module Core
-+    Base LineRenderer
-+    DescendantCount 1
-+    IsAbstract True
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -3003,0 +3015,22 @@
+@@ -3003,0 +2927,22 @@
 +PersistentTypeID 937362698
 +    Name VFXManager
 +    Namespace 
@@ -4958,93 +4853,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3014,0 +3048,22 @@
-+PersistentTypeID 1091556383
-+    Name Derived
-+    Namespace ObjectProduceTestTypes
-+    Module Core
-+    Base Object
-+    DescendantCount 2
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 1111377672
-+    Name PropertyModificationsTargetTestObject
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -3025,0 +3081,11 @@
-+PersistentTypeID 1154873562
-+    Name SceneVisibilityState
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -3069,0 +3136,11 @@
-+PersistentTypeID 1392443030
-+    Name TestObjectWithSpecialLayoutTwo
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -3103,2 +3180,2 @@
--PersistentTypeID 1571458007
--    Name RenderPassAttachment
-+PersistentTypeID 1628831178
-+    Name TestObjectVectorPairStringBool
-@@ -3146,0 +3224,11 @@
-+PersistentTypeID 1803986026
-+    Name FakeComponent
-+    Namespace 
-+    Module Core
-+    Base Component
-+    DescendantCount 1
-+    IsAbstract True
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -3190,0 +3279,33 @@
-+PersistentTypeID 1896753125
-+    Name PackageManifest
-+    Namespace 
-+    Module Editor
-+    Base TextAsset
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed True
-+    IsStripped False
-+    IsEditorOnly True
-+
-+PersistentTypeID 1896753126
-+    Name PackageManifestImporter
-+    Namespace 
-+    Module Editor
-+    Base AssetImporter
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed True
-+    IsStripped False
-+    IsEditorOnly True
-+
+@@ -3190,0 +3136,11 @@
 +PersistentTypeID 1953259897
 +    Name TerrainLayer
 +    Namespace 
@@ -5056,40 +4865,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3198,0 +3320,77 @@
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 1977754360
-+    Name NativeObjectType
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 1981279845
-+    Name TestObjectWithSerializedMapStringBool
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 1995898324
-+    Name SerializableManagedHost
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
+@@ -3198,0 +3155,44 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
@@ -5134,6 +4910,330 @@
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed True
+--- 2018.3.7f1.dump
++++ 2018.3.8f1.dump
+@@ -2771 +2771 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+--- 2018.4.12f1.dump
++++ 2018.4.13f1.dump
+@@ -6 +6 @@
+-    DescendantCount 282
++    DescendantCount 284
+@@ -2507 +2507 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -2827,0 +2828,11 @@
++PersistentTypeID 382020655
++    Name PluginBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2871,0 +2883,11 @@
++PersistentTypeID 641289076
++    Name AudioBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2991 +3013 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3189 +3211 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3222 +3244 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+--- 2018.4.36f1.dump
++++ 2019.1.0f2.dump
+@@ -6 +6 @@
+-    DescendantCount 284
++    DescendantCount 300
+@@ -28 +28 @@
+-    DescendantCount 122
++    DescendantCount 124
+@@ -127 +127 @@
+-    DescendantCount 235
++    DescendantCount 239
+@@ -182 +182 @@
+-    DescendantCount 12
++    DescendantCount 13
+@@ -303 +303 @@
+-    DescendantCount 4
++    DescendantCount 5
+@@ -820 +820 @@
+-    DescendantCount 1
++    DescendantCount 2
+@@ -919 +919 @@
+-    DescendantCount 111
++    DescendantCount 113
+@@ -2138 +2138 @@
+-    Module Core
++    Module Umbra
+@@ -2173 +2173 @@
+-    DescendantCount 26
++    DescendantCount 27
+@@ -2507 +2507 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -2783,0 +2784,11 @@
++PersistentTypeID 76251197
++    Name SerializableManagedRefTestClass
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2817,2 +2828,2 @@
+-PersistentTypeID 369655926
+-    Name AssetImportInProgressProxy
++PersistentTypeID 293259124
++    Name TestObjectWithSpecialLayoutOne
+@@ -2820,2 +2831,2 @@
+-    Module Editor
+-    Base NamedObject
++    Module Core
++    Base Object
+@@ -2826 +2837 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -2828,4 +2839,4 @@
+-PersistentTypeID 382020655
+-    Name PluginBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
++PersistentTypeID 334799969
++    Name SiblingDerived
++    Namespace ObjectProduceTestTypes
++    Module Core
+@@ -2836,0 +2848,33 @@
++    IsEditorOnly False
++
++PersistentTypeID 342846651
++    Name TestObjectWithSerializedMapStringNonAlignedStruct
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 367388927
++    Name SubDerived
++    Namespace ObjectProduceTestTypes
++    Module Core
++    Base Derived
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 369655926
++    Name AssetImportInProgressProxy
++    Namespace 
++    Module Editor
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
+@@ -2860,0 +2905,22 @@
++PersistentTypeID 478637458
++    Name TestObjectWithSerializedArray
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 478637459
++    Name TestObjectWithSerializedAnimationCurve
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2883,5 +2949,5 @@
+-PersistentTypeID 641289076
+-    Name AudioBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
+-    Base Object
++PersistentTypeID 644342135
++    Name CachedSpriteAtlasRuntimeData
++    Namespace 
++    Module Core
++    Base NamedObject
+@@ -2894,2 +2960,2 @@
+-PersistentTypeID 644342135
+-    Name CachedSpriteAtlasRuntimeData
++PersistentTypeID 646504946
++    Name RendererFake
+@@ -2898 +2964 @@
+-    Base NamedObject
++    Base LineRenderer
+@@ -2900 +2966 @@
+-    IsAbstract False
++    IsAbstract True
+@@ -2903 +2969 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -2981,0 +3048,22 @@
++PersistentTypeID 1091556383
++    Name Derived
++    Namespace ObjectProduceTestTypes
++    Module Core
++    Base Object
++    DescendantCount 2
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1111377672
++    Name PropertyModificationsTargetTestObject
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2992,0 +3081,11 @@
++PersistentTypeID 1154873562
++    Name SceneVisibilityState
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3013 +3112 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3036,0 +3136,11 @@
++PersistentTypeID 1392443030
++    Name TestObjectWithSpecialLayoutTwo
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3070,2 +3180,2 @@
+-PersistentTypeID 1571458007
+-    Name RenderPassAttachment
++PersistentTypeID 1628831178
++    Name TestObjectVectorPairStringBool
+@@ -3113,0 +3224,11 @@
++PersistentTypeID 1803986026
++    Name FakeComponent
++    Namespace 
++    Module Core
++    Base Component
++    DescendantCount 1
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3157,0 +3279,22 @@
++PersistentTypeID 1896753125
++    Name PackageManifest
++    Namespace 
++    Module Editor
++    Base TextAsset
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1896753126
++    Name PackageManifestImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3179,0 +3323,33 @@
++PersistentTypeID 1977754360
++    Name NativeObjectType
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1981279845
++    Name TestObjectWithSerializedMapStringBool
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1995898324
++    Name SerializableManagedHost
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3211 +3387 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3244 +3420 @@
+-    IsEditorOnly True
++    IsEditorOnly False
 --- 2019.1.14f1.dump
 +++ 2019.2.1f1.dump
 @@ -6 +6 @@
