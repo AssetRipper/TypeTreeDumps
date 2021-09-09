@@ -3686,3 +3686,127 @@
 @@ -3062 +3205 @@
 -    Module TilemapEditor
 +    Module Editor
+--- 2018.1.9f2.dump
++++ 2018.2.0f2.dump
+@@ -6 +6 @@
+-    DescendantCount 280
++    DescendantCount 282
+@@ -28 +28 @@
+-    DescendantCount 124
++    DescendantCount 125
+@@ -72 +72 @@
+-    DescendantCount 25
++    DescendantCount 24
+@@ -83 +83 @@
+-    DescendantCount 79
++    DescendantCount 80
+@@ -94 +94 @@
+-    DescendantCount 31
++    DescendantCount 30
+@@ -149 +149 @@
+-    DescendantCount 230
++    DescendantCount 233
+@@ -985 +985 @@
+-    DescendantCount 104
++    DescendantCount 106
+@@ -1156,22 +1155,0 @@
+-PersistentTypeID 148
+-    Name NetworkView
+-    Namespace 
+-    Module Core
+-    Base Behaviour
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 149
+-    Name NetworkManager
+-    Namespace 
+-    Module Core
+-    Base GlobalGameManager
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -1222,11 +1199,0 @@
+-PersistentTypeID 155
+-    Name MasterServerInterface
+-    Namespace 
+-    Module Core
+-    Base GlobalGameManager
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -2305 +2272 @@
+-    DescendantCount 23
++    DescendantCount 24
+@@ -2932 +2899 @@
+-    DescendantCount 6
++    DescendantCount 7
+@@ -3036,0 +3004,11 @@
++PersistentTypeID 1027052791
++    Name LocalizationImporter
++    Namespace 
++    Module LocalizationEditor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3047,0 +3026,11 @@
++PersistentTypeID 1183024399
++    Name LookAtConstraint
++    Namespace 
++    Module Animation
++    Base IConstraint
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3080,0 +3070,11 @@
++PersistentTypeID 1403656975
++    Name StreamingManager
++    Namespace 
++    Module Streaming
++    Base GlobalGameManager
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3091,0 +3092,11 @@
++PersistentTypeID 1542919678
++    Name StreamingController
++    Namespace 
++    Module Streaming
++    Base Behaviour
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3184,0 +3196,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 2083778819
++    Name LocalizationAsset
++    Namespace 
++    Module Localization
++    Base NamedObject

@@ -250,3 +250,20 @@
 +  "1818360610": "ScaleConstraint",
 @@ -278,0 +291 @@
 +  "1971053207": "SpriteShapeRenderer",
+--- 2018.1.9f2.json
++++ 2018.2.0f2.json
+@@ -107,2 +106,0 @@
+-  "148": "NetworkView",
+-  "149": "NetworkManager",
+@@ -113 +110,0 @@
+-  "155": "MasterServerInterface",
+@@ -277,0 +275 @@
++  "1027052791": "LocalizationImporter",
+@@ -278,0 +277 @@
++  "1183024399": "LookAtConstraint",
+@@ -281,0 +281 @@
++  "1403656975": "StreamingManager",
+@@ -282,0 +283 @@
++  "1542919678": "StreamingController",
+@@ -291,0 +293 @@
++  "2083778819": "LocalizationAsset",
