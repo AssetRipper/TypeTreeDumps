@@ -22,81 +22,124 @@
 +  "220": "LightProbeGroup",
 +  "1001": "Prefab",
 --- 3.5.7.json
-+++ 5.3.0f4.json
-@@ -15 +14,0 @@
--  "17": "Pipeline",
-@@ -16,0 +16 @@
-+  "19": "Physics2DSettings",
-@@ -24,2 +24,2 @@
++++ 4.0.0.json
+@@ -24 +24 @@
 -  "29": "Scene",
--  "30": "RenderManager",
 +  "29": "SceneSettings",
-+  "30": "GraphicsSettings",
-@@ -33 +33,2 @@
--  "52": "NotificationManager",
-+  "50": "Rigidbody2D",
-+  "53": "Collider2D",
-@@ -37,0 +39 @@
-+  "58": "CircleCollider2D",
-@@ -38,0 +41,3 @@
-+  "60": "PolygonCollider2D",
-+  "61": "BoxCollider2D",
-+  "62": "PhysicsMaterial2D",
-@@ -41 +46,2 @@
--  "71": "AnimationManager",
-+  "68": "EdgeCollider2D",
+@@ -41,0 +42 @@
 +  "72": "ComputeShader",
-@@ -52,0 +59,2 @@
+@@ -52,0 +54,2 @@
 +  "90": "Avatar",
 +  "91": "AnimatorController",
-@@ -53,0 +62 @@
-+  "93": "RuntimeAnimatorController",
-@@ -54,0 +64 @@
+@@ -54,0 +58 @@
 +  "95": "Animator",
-@@ -75,2 +85 @@
--  "126": "NavMeshLayers",
--  "127": "HaloManager",
-+  "126": "NavMeshAreas",
-@@ -88 +96,0 @@
--  "140": "RaycastCollider",
-@@ -107,2 +114,0 @@
--  "160": "InteractiveCloth",
--  "161": "ClothRenderer",
-@@ -110 +115,0 @@
--  "163": "SkinnedCloth",
-@@ -117,0 +123 @@
-+  "171": "SparseTexture",
-@@ -128 +133,0 @@
--  "194": "NavMesh",
-@@ -131 +135,0 @@
--  "197": "LightProbes",
-@@ -133,0 +138 @@
-+  "200": "ShaderVariantCollection",
-@@ -134,0 +140,8 @@
+@@ -134,0 +139,3 @@
 +  "206": "BlendTree",
 +  "207": "Motion",
 +  "208": "NavMeshObstacle",
+@@ -142,0 +150,3 @@
++  "1008": "ComputeShaderImporter",
++  "1011": "AvatarBodyMask",
++  "1012": "AvatarSkeletonMask",
+@@ -149,0 +160 @@
++  "1032": "SceneAsset",
+@@ -164,0 +176,4 @@
++  "1101": "Transition",
++  "1102": "State",
++  "1105": "HumanTemplate",
++  "1107": "StateMachine",
+--- 4.0.1.json
++++ 4.1.0.json
+@@ -33 +32,0 @@
+-  "52": "NotificationManager",
+@@ -56,0 +56 @@
++  "93": "RuntimeAnimatorController",
+@@ -151,2 +151 @@
+-  "1011": "AvatarBodyMask",
+-  "1012": "AvatarSkeletonMask",
++  "1011": "AvatarMask",
+--- 4.1.5.json
++++ 4.2.0.json
+@@ -25 +25 @@
+-  "30": "RenderManager",
++  "30": "GraphicsSettings",
+--- 4.2.2.json
++++ 4.3.1.json
+@@ -16,0 +17 @@
++  "19": "Physics2DSettings",
+@@ -32,0 +34,2 @@
++  "50": "Rigidbody2D",
++  "53": "Collider2D",
+@@ -36,0 +40 @@
++  "58": "CircleCollider2D",
+@@ -37,0 +42,3 @@
++  "60": "PolygonCollider2D",
++  "61": "BoxCollider2D",
++  "62": "PhysicsMaterial2D",
+@@ -40 +47,2 @@
+-  "71": "AnimationManager",
++  "68": "EdgeCollider2D",
++  "69": "PolygonColliderBase2D",
+@@ -141,0 +150,3 @@
 +  "212": "SpriteRenderer",
 +  "213": "Sprite",
 +  "214": "CachedSpriteAtlas",
-+  "215": "ReflectionProbe",
-+  "218": "Terrain",
-@@ -135,0 +149,47 @@
+@@ -142,0 +154,6 @@
 +  "221": "AnimatorOverrideController",
-+  "222": "CanvasRenderer",
-+  "223": "Canvas",
-+  "224": "RectTransform",
-+  "225": "CanvasGroup",
-+  "226": "BillboardAsset",
-+  "227": "BillboardRenderer",
-+  "228": "SpeedTreeWindAsset",
-+  "229": "AnchoredJoint2D",
 +  "230": "Joint2D",
 +  "231": "SpringJoint2D",
 +  "232": "DistanceJoint2D",
 +  "233": "HingeJoint2D",
 +  "234": "SliderJoint2D",
+--- 4.3.4.json
++++ 4.5.0.json
+@@ -129,0 +130 @@
++  "171": "SparseTexture",
+@@ -154,0 +156,4 @@
++  "222": "UIRenderer",
++  "223": "Canvas",
++  "224": "RectTransform",
++  "229": "AnchoredJoint2D",
+@@ -159,0 +165 @@
 +  "235": "WheelJoint2D",
+--- 4.5.5.json
++++ 4.6.0.json
+@@ -156 +156 @@
+-  "222": "UIRenderer",
++  "222": "CanvasRenderer",
+@@ -158,0 +159 @@
++  "225": "CanvasGroup",
+--- 4.7.2.json
++++ 5.3.0f4.json
+@@ -15 +14,0 @@
+-  "17": "Pipeline",
+@@ -48 +46,0 @@
+-  "69": "PolygonColliderBase2D",
+@@ -87,2 +85 @@
+-  "126": "NavMeshLayers",
+-  "127": "HaloManager",
++  "126": "NavMeshAreas",
+@@ -100 +96,0 @@
+-  "140": "RaycastCollider",
+@@ -119,2 +114,0 @@
+-  "160": "InteractiveCloth",
+-  "161": "ClothRenderer",
+@@ -122 +115,0 @@
+-  "163": "SkinnedCloth",
+@@ -141 +133,0 @@
+-  "194": "NavMesh",
+@@ -144 +135,0 @@
+-  "197": "LightProbes",
+@@ -146,0 +138 @@
++  "200": "ShaderVariantCollection",
+@@ -153,0 +146,2 @@
++  "215": "ReflectionProbe",
++  "218": "Terrain",
+@@ -159,0 +154,3 @@
++  "226": "BillboardAsset",
++  "227": "BillboardRenderer",
++  "228": "SpeedTreeWindAsset",
+@@ -166,0 +164,32 @@
 +  "236": "ClusterInputManager",
 +  "237": "BaseVideoTexture",
 +  "238": "NavMeshData",
@@ -129,23 +172,21 @@
 +  "303": "UnityAnalyticsManager",
 +  "310": "UnityConnectSettings",
 +  "320": "DirectorPlayer",
-@@ -142,0 +203,2 @@
-+  "1008": "ComputeShaderImporter",
-+  "1011": "AvatarMask",
-@@ -145 +206,0 @@
+@@ -178 +206,0 @@
 -  "1027": "GUIDSerializer",
-@@ -149,0 +211 @@
-+  "1032": "SceneAsset",
-@@ -162 +224 @@
+@@ -196 +224 @@
 -  "1050": "MonoAssemblyImporter",
 +  "1050": "PluginImporter",
-@@ -165 +227,13 @@
--  "1112": "SubstanceImporter"
+@@ -199,2 +227,4 @@
+-  "1101": "Transition",
+-  "1102": "State",
 +  "1053": "ASTCImporter",
 +  "1054": "KTXImporter",
 +  "1101": "AnimatorStateTransition",
 +  "1102": "AnimatorState",
-+  "1105": "HumanTemplate",
+@@ -202,2 +232,8 @@
+-  "1107": "StateMachine",
+-  "1112": "SubstanceImporter"
 +  "1107": "AnimatorStateMachine",
 +  "1109": "AnimatorTransition",
 +  "1110": "SpeedTreeImporter",

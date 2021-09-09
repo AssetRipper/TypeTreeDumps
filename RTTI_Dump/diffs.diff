@@ -155,127 +155,26 @@
 +    Module 
 +    Base Object
 --- 3.5.7.dump
-+++ 5.3.0f4.dump
-@@ -144,2 +144,2 @@
--PersistentTypeID 17
--    Name Pipeline
-+PersistentTypeID 18
-+    Name EditorExtension
-@@ -148 +148 @@
--    Base Component
-+    Base Object
-@@ -150 +150 @@
--    IsAbstract False
-+    IsAbstract True
-@@ -155,2 +155,2 @@
--PersistentTypeID 18
--    Name EditorExtension
-+PersistentTypeID 19
-+    Name Physics2DSettings
-@@ -159 +159 @@
--    Base Object
-+    Base GlobalGameManager
-@@ -161 +161 @@
--    IsAbstract True
-+    IsAbstract False
++++ 4.0.0.dump
 @@ -244 +244 @@
 -    Name Scene
 +    Name SceneSettings
-@@ -255 +255 @@
--    Name RenderManager
-+    Name GraphicsSettings
-@@ -342,2 +342,2 @@
--PersistentTypeID 52
--    Name NotificationManager
-+PersistentTypeID 50
-+    Name Rigidbody2D
-@@ -346 +346 @@
--    Base GlobalGameManager
-+    Base Component
-@@ -352,0 +353,11 @@
-+PersistentTypeID 53
-+    Name Collider2D
-+    Namespace 
-+    Module 
-+    Base Behaviour
-+    DescendantCount 0
-+    IsAbstract True
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -396,0 +408,11 @@
-+PersistentTypeID 58
-+    Name CircleCollider2D
-+    Namespace 
-+    Module 
-+    Base Collider2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -407,0 +430,33 @@
-+PersistentTypeID 60
-+    Name PolygonCollider2D
-+    Namespace 
-+    Module 
-+    Base Collider2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 61
-+    Name BoxCollider2D
-+    Namespace 
-+    Module 
-+    Base Collider2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 62
-+    Name PhysicsMaterial2D
-+    Namespace 
-+    Module 
-+    Base NamedObject
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -430,2 +485,2 @@
--PersistentTypeID 71
--    Name AnimationManager
-+PersistentTypeID 68
-+    Name EdgeCollider2D
-@@ -434 +489,12 @@
--    Base GlobalGameManager
-+    Base Collider2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
+@@ -440,0 +441,11 @@
 +PersistentTypeID 72
 +    Name ComputeShader
 +    Namespace 
 +    Module 
 +    Base NamedObject
-@@ -445 +511 @@
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -445 +456 @@
 -    Base NamedObject
 +    Base Motion
-@@ -511 +577 @@
--    Base NamedObject
-+    Base SampleClip
-@@ -561,0 +628,22 @@
+@@ -561,0 +573,22 @@
 +PersistentTypeID 90
 +    Name Avatar
 +    Namespace 
@@ -291,171 +190,29 @@
 +    Name AnimatorController
 +    Namespace 
 +    Module 
-+    Base RuntimeAnimatorController
++    Base NamedObject
 +    DescendantCount 0
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -572,0 +661,11 @@
-+PersistentTypeID 93
-+    Name RuntimeAnimatorController
-+    Namespace 
-+    Module 
-+    Base NamedObject
-+    DescendantCount 0
-+    IsAbstract True
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -583,0 +683,11 @@
+@@ -583,0 +617,11 @@
 +PersistentTypeID 95
 +    Name Animator
 +    Namespace 
 +    Module 
-+    Base DirectorPlayer
++    Base Behaviour
 +    DescendantCount 0
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -709 +819 @@
+@@ -709 +753 @@
 -    Base Texture2D
 +    Base Texture
-@@ -805 +915 @@
--    Name NavMeshLayers
-+    Name NavMeshAreas
-@@ -815,11 +924,0 @@
--PersistentTypeID 127
--    Name HaloManager
--    Namespace 
--    Module 
--    Base LevelGameManager
--    DescendantCount 0
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -947,11 +1045,0 @@
--PersistentTypeID 140
--    Name RaycastCollider
--    Namespace 
--    Module 
--    Base Collider
--    DescendantCount 0
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -1072 +1160 @@
--    Base Texture
-+    Base BaseVideoTexture
-@@ -1156,22 +1243,0 @@
--PersistentTypeID 160
--    Name InteractiveCloth
--    Namespace 
--    Module 
--    Base Cloth
--    DescendantCount 0
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
--PersistentTypeID 161
--    Name ClothRenderer
--    Namespace 
--    Module 
--    Base Renderer
--    DescendantCount 0
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -1189,11 +1254,0 @@
--PersistentTypeID 163
--    Name SkinnedCloth
--    Namespace 
--    Module 
--    Base Cloth
--    DescendantCount 0
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -1276,0 +1332,11 @@
-+PersistentTypeID 171
-+    Name SparseTexture
-+    Namespace 
-+    Module 
-+    Base Texture
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -1316 +1382 @@
--    IsAbstract True
-+    IsAbstract False
-@@ -1358 +1424 @@
--    Base Component
-+    Base Behaviour
-@@ -1387,2 +1453,2 @@
--PersistentTypeID 194
--    Name NavMesh
-+PersistentTypeID 195
-+    Name NavMeshAgent
-@@ -1391 +1457 @@
--    Base NamedObject
-+    Base Behaviour
-@@ -1398,2 +1464,2 @@
--PersistentTypeID 195
--    Name NavMeshAgent
-+PersistentTypeID 196
-+    Name NavMeshSettings
-@@ -1402 +1468 @@
--    Base Behaviour
-+    Base LevelGameManager
-@@ -1409,2 +1475,2 @@
--PersistentTypeID 196
--    Name NavMeshSettings
-+PersistentTypeID 198
-+    Name ParticleSystem
-@@ -1413 +1479 @@
--    Base LevelGameManager
-+    Base Component
-@@ -1420,2 +1486,13 @@
--PersistentTypeID 197
--    Name LightProbes
-+PersistentTypeID 199
-+    Name ParticleSystemRenderer
-+    Namespace 
-+    Module 
-+    Base Renderer
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 200
-+    Name ShaderVariantCollection
-@@ -1431,2 +1508,2 @@
--PersistentTypeID 198
--    Name ParticleSystem
-+PersistentTypeID 205
-+    Name LODGroup
-@@ -1442,2 +1519,35 @@
--PersistentTypeID 199
--    Name ParticleSystemRenderer
+@@ -1463,0 +1508,33 @@
 +PersistentTypeID 206
 +    Name BlendTree
 +    Namespace 
@@ -489,15 +246,273 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
+@@ -1468 +1545 @@
+-    Base Component
++    Base Behaviour
+@@ -1551,0 +1629,33 @@
++PersistentTypeID 1008
++    Name ComputeShaderImporter
++    Namespace 
++    Module 
++    Base AssetImporter
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1011
++    Name AvatarBodyMask
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1012
++    Name AvatarSkeletonMask
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -1628,0 +1739,11 @@
++PersistentTypeID 1032
++    Name SceneAsset
++    Namespace 
++    Module 
++    Base DefaultAsset
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -1787,0 +1909,44 @@
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1101
++    Name Transition
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1102
++    Name State
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1105
++    Name HumanTemplate
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1107
++    Name StateMachine
++    Namespace 
++    Module 
++    Base NamedObject
+--- 4.0.1.dump
++++ 4.1.0.dump
+@@ -342,11 +341,0 @@
+-PersistentTypeID 52
+-    Name NotificationManager
+-    Namespace 
+-    Module 
+-    Base GlobalGameManager
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -588 +577 @@
+-    Base NamedObject
++    Base RuntimeAnimatorController
+@@ -605,0 +595,11 @@
++PersistentTypeID 93
++    Name RuntimeAnimatorController
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -1641,12 +1641 @@
+-    Name AvatarBodyMask
+-    Namespace 
+-    Module 
+-    Base NamedObject
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 1012
+-    Name AvatarSkeletonMask
++    Name AvatarMask
+--- 4.1.5.dump
++++ 4.2.0.dump
+@@ -255 +255 @@
+-    Name RenderManager
++    Name GraphicsSettings
+--- 4.2.2.dump
++++ 4.3.1.dump
+@@ -165,0 +166,11 @@
++PersistentTypeID 19
++    Name Physics2DSettings
++    Namespace 
++    Module 
++    Base GlobalGameManager
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -341,0 +353,22 @@
++PersistentTypeID 50
++    Name Rigidbody2D
++    Namespace 
++    Module 
++    Base Component
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 53
++    Name Collider2D
++    Namespace 
++    Module 
++    Base Behaviour
++    DescendantCount 0
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -385,0 +419,11 @@
++PersistentTypeID 58
++    Name CircleCollider2D
++    Namespace 
++    Module 
++    Base Collider2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -396,0 +441,33 @@
++PersistentTypeID 60
++    Name PolygonCollider2D
++    Namespace 
++    Module 
++    Base PolygonColliderBase2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 61
++    Name BoxCollider2D
++    Namespace 
++    Module 
++    Base Collider2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 62
++    Name PhysicsMaterial2D
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -419,2 +496,2 @@
+-PersistentTypeID 71
+-    Name AnimationManager
++PersistentTypeID 68
++    Name EdgeCollider2D
+@@ -423 +500 @@
+-    Base GlobalGameManager
++    Base Collider2D
+@@ -429,0 +507,11 @@
++PersistentTypeID 69
++    Name PolygonColliderBase2D
++    Namespace 
++    Module 
++    Base Collider2D
++    DescendantCount 0
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -601 +689 @@
+-    IsAbstract False
++    IsAbstract True
+@@ -1402 +1490 @@
+-    Base Component
++    Base Behaviour
+@@ -1540,0 +1629,33 @@
 +PersistentTypeID 212
 +    Name SpriteRenderer
-@@ -1453,2 +1563,2 @@
--PersistentTypeID 205
--    Name LODGroup
++    Namespace 
++    Module 
++    Base Renderer
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
 +PersistentTypeID 213
 +    Name Sprite
-@@ -1457 +1567,34 @@
--    Base Component
++    Namespace 
++    Module 
 +    Base NamedObject
 +    DescendantCount 0
 +    IsAbstract False
@@ -516,24 +531,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 215
-+    Name ReflectionProbe
-+    Namespace 
-+    Module 
-+    Base Behaviour
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 218
-+    Name Terrain
-+    Namespace 
-+    Module 
-+    Base Behaviour
-@@ -1467,0 +1611,22 @@
-+    Base Behaviour
+@@ -1545,0 +1667,66 @@
 +    DescendantCount 0
 +    IsAbstract False
 +    IsSealed False
@@ -551,11 +549,81 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 222
-+    Name CanvasRenderer
++PersistentTypeID 230
++    Name Joint2D
 +    Namespace 
 +    Module 
-@@ -1474,0 +1640,495 @@
++    Base Behaviour
++    DescendantCount 0
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 231
++    Name SpringJoint2D
++    Namespace 
++    Module 
++    Base Joint2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 232
++    Name DistanceJoint2D
++    Namespace 
++    Module 
++    Base Joint2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 233
++    Name HingeJoint2D
++    Namespace 
++    Module 
++    Base Joint2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 234
++    Name SliderJoint2D
++    Namespace 
++    Module 
++    Base Joint2D
+--- 4.3.4.dump
++++ 4.5.0.dump
+@@ -1408,0 +1409,11 @@
++PersistentTypeID 171
++    Name SparseTexture
++    Namespace 
++    Module 
++    Base Texture
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -1683,0 +1695,44 @@
++PersistentTypeID 222
++    Name UIRenderer
++    Namespace 
++    Module 
++    Base Component
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
 +PersistentTypeID 223
 +    Name Canvas
 +    Namespace 
@@ -571,6 +639,55 @@
 +    Name RectTransform
 +    Namespace 
 +    Module 
++    Base Component
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 229
++    Name AnchoredJoint2D
++    Namespace 
++    Module 
++    Base Joint2D
++    DescendantCount 0
++    IsAbstract True
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -1699 +1754 @@
+-    Base Joint2D
++    Base AnchoredJoint2D
+@@ -1710 +1765 @@
+-    Base Joint2D
++    Base AnchoredJoint2D
+@@ -1721 +1776 @@
+-    Base Joint2D
++    Base AnchoredJoint2D
+@@ -1732 +1787,12 @@
+-    Base Joint2D
++    Base AnchoredJoint2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 235
++    Name WheelJoint2D
++    Namespace 
++    Module 
++    Base AnchoredJoint2D
+--- 4.5.5.dump
++++ 4.6.0.dump
+@@ -1696 +1696 @@
+-    Name UIRenderer
++    Name CanvasRenderer
+@@ -1718,0 +1719,11 @@
++    Namespace 
++    Module 
 +    Base Transform
 +    DescendantCount 0
 +    IsAbstract False
@@ -580,6 +697,153 @@
 +
 +PersistentTypeID 225
 +    Name CanvasGroup
+--- 4.6.0.dump
++++ 4.6.1.dump
+@@ -1732 +1732 @@
+-    Base Component
++    Base Behaviour
+--- 4.7.2.dump
++++ 5.3.0f4.dump
+@@ -144,11 +143,0 @@
+-PersistentTypeID 17
+-    Name Pipeline
+-    Namespace 
+-    Module 
+-    Base Component
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -445 +434 @@
+-    Base PolygonColliderBase2D
++    Base Collider2D
+@@ -507,11 +495,0 @@
+-PersistentTypeID 69
+-    Name PolygonColliderBase2D
+-    Namespace 
+-    Module 
+-    Base Collider2D
+-    DescendantCount 0
+-    IsAbstract True
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -599 +577 @@
+-    Base NamedObject
++    Base SampleClip
+@@ -709 +687 @@
+-    Base Behaviour
++    Base DirectorPlayer
+@@ -937 +915 @@
+-    Name NavMeshLayers
++    Name NavMeshAreas
+@@ -947,11 +924,0 @@
+-PersistentTypeID 127
+-    Name HaloManager
+-    Namespace 
+-    Module 
+-    Base LevelGameManager
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -1079,11 +1045,0 @@
+-PersistentTypeID 140
+-    Name RaycastCollider
+-    Namespace 
+-    Module 
+-    Base Collider
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -1204 +1160 @@
+-    Base Texture
++    Base BaseVideoTexture
+@@ -1288,22 +1243,0 @@
+-PersistentTypeID 160
+-    Name InteractiveCloth
+-    Namespace 
+-    Module 
+-    Base Cloth
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 161
+-    Name ClothRenderer
+-    Namespace 
+-    Module 
+-    Base Renderer
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -1321,11 +1254,0 @@
+-PersistentTypeID 163
+-    Name SkinnedCloth
+-    Namespace 
+-    Module 
+-    Base Cloth
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -1459 +1382 @@
+-    IsAbstract True
++    IsAbstract False
+@@ -1530,11 +1452,0 @@
+-PersistentTypeID 194
+-    Name NavMesh
+-    Namespace 
+-    Module 
+-    Base NamedObject
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -1563,2 +1475,2 @@
+-PersistentTypeID 197
+-    Name LightProbes
++PersistentTypeID 198
++    Name ParticleSystem
+@@ -1567 +1479 @@
+-    Base NamedObject
++    Base Component
+@@ -1574,2 +1486,2 @@
+-PersistentTypeID 198
+-    Name ParticleSystem
++PersistentTypeID 199
++    Name ParticleSystemRenderer
+@@ -1578 +1490 @@
+-    Base Component
++    Base Renderer
+@@ -1585,2 +1497,2 @@
+-PersistentTypeID 199
+-    Name ParticleSystemRenderer
++PersistentTypeID 200
++    Name ShaderVariantCollection
+@@ -1589 +1501 @@
+-    Base Renderer
++    Base NamedObject
+@@ -1672,0 +1585,22 @@
++PersistentTypeID 215
++    Name ReflectionProbe
 +    Namespace 
 +    Module 
 +    Base Behaviour
@@ -589,6 +853,18 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
++PersistentTypeID 218
++    Name Terrain
++    Namespace 
++    Module 
++    Base Behaviour
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -1738,0 +1673,33 @@
 +PersistentTypeID 226
 +    Name BillboardAsset
 +    Namespace 
@@ -622,83 +898,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 229
-+    Name AnchoredJoint2D
-+    Namespace 
-+    Module 
-+    Base Joint2D
-+    DescendantCount 0
-+    IsAbstract True
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 230
-+    Name Joint2D
-+    Namespace 
-+    Module 
-+    Base Behaviour
-+    DescendantCount 0
-+    IsAbstract True
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 231
-+    Name SpringJoint2D
-+    Namespace 
-+    Module 
-+    Base AnchoredJoint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 232
-+    Name DistanceJoint2D
-+    Namespace 
-+    Module 
-+    Base AnchoredJoint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 233
-+    Name HingeJoint2D
-+    Namespace 
-+    Module 
-+    Base AnchoredJoint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 234
-+    Name SliderJoint2D
-+    Namespace 
-+    Module 
-+    Base AnchoredJoint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 235
-+    Name WheelJoint2D
-+    Namespace 
-+    Module 
-+    Base AnchoredJoint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
+@@ -1815,0 +1783,352 @@
 +PersistentTypeID 236
 +    Name ClusterInputManager
 +    Namespace 
@@ -1051,51 +1251,22 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -1552,2 +2212,2 @@
--PersistentTypeID 1020
--    Name AudioImporter
-+PersistentTypeID 1008
-+    Name ComputeShaderImporter
-@@ -1563,2 +2223,2 @@
--PersistentTypeID 1026
--    Name HierarchyState
-+PersistentTypeID 1011
-+    Name AvatarMask
-@@ -1567 +2227 @@
--    Base Object
-+    Base NamedObject
-@@ -1574,2 +2234,13 @@
+@@ -1937,11 +2255,0 @@
 -PersistentTypeID 1027
 -    Name GUIDSerializer
-+PersistentTypeID 1020
-+    Name AudioImporter
-+    Namespace 
-+    Module 
-+    Base AssetImporter
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 1026
-+    Name HierarchyState
-@@ -1628,0 +2300,11 @@
-+PersistentTypeID 1032
-+    Name SceneAsset
-+    Namespace 
-+    Module 
-+    Base DefaultAsset
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -1762 +2444 @@
+-    Namespace 
+-    Module 
+-    Base Object
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -2136 +2444 @@
 -    Name MonoAssemblyImporter
 +    Name PluginImporter
-@@ -1793,0 +2476,99 @@
+@@ -2167,0 +2476,22 @@
 +PersistentTypeID 1053
 +    Name ASTCImporter
 +    Namespace 
@@ -1118,40 +1289,17 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 1101
+@@ -2169 +2499 @@
+-    Name Transition
 +    Name AnimatorStateTransition
-+    Namespace 
-+    Module 
+@@ -2172 +2502 @@
+-    Base NamedObject
 +    Base AnimatorTransitionBase
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 1102
+@@ -2180 +2510 @@
+-    Name State
 +    Name AnimatorState
-+    Namespace 
-+    Module 
-+    Base NamedObject
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 1105
-+    Name HumanTemplate
-+    Namespace 
-+    Module 
-+    Base NamedObject
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 1107
+@@ -2202 +2532,34 @@
+-    Name StateMachine
 +    Name AnimatorStateMachine
 +    Namespace 
 +    Module 
@@ -1186,16 +1334,7 @@
 +
 +PersistentTypeID 1111
 +    Name AnimatorTransitionBase
-+    Namespace 
-+    Module 
-+    Base NamedObject
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -1798,0 +2580,33 @@
+@@ -2216,0 +2580,33 @@
 +    DescendantCount 0
 +    IsAbstract False
 +    IsSealed False
