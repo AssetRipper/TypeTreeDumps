@@ -5306,28 +5306,140 @@
 -    Base Object
 +    Base AssetImporter
 --- 2020.1.17f1.dump
-+++ 2021.1.0f1.dump
++++ 2020.2.0f1.dump
 @@ -6 +6 @@
 -    DescendantCount 313
-+    DescendantCount 296
++    DescendantCount 314
 @@ -28 +28 @@
 -    DescendantCount 121
++    DescendantCount 120
+@@ -127 +127 @@
+-    DescendantCount 248
++    DescendantCount 250
+@@ -151 +151 @@
+-    IsSealed True
++    IsSealed False
+@@ -303 +303 @@
+-    DescendantCount 6
++    DescendantCount 7
+@@ -908 +908 @@
+-    DescendantCount 125
++    DescendantCount 128
+@@ -2080,11 +2079,0 @@
+-PersistentTypeID 362
+-    Name WorldAnchor
+-    Namespace 
+-    Module VR
+-    Base Component
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -2129 +2118 @@
+-    DescendantCount 31
++    DescendantCount 33
+@@ -2135,11 +2123,0 @@
+-PersistentTypeID 1004
+-    Name AssetDatabaseV1
+-    Namespace 
+-    Module AssetDatabase
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -2182 +2160 @@
+-    Module Core
++    Module Editor
+@@ -3036,0 +3015,11 @@
++PersistentTypeID 815301076
++    Name PreviewImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3102,0 +3092,11 @@
++PersistentTypeID 954905827
++    Name RuleSetFileAsset
++    Namespace 
++    Module Core
++    Base TextAsset
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3366,0 +3367,11 @@
++PersistentTypeID 1777034230
++    Name RuleSetFileImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3425 +3436 @@
+-    Module Editor
++    Module PackageManagerUI
+@@ -3436 +3447 @@
+-    Module Editor
++    Module PackageManagerUI
+--- 2020.3.14f1.dump
++++ 2020.3.15f2.dump
+@@ -6 +6 @@
+-    DescendantCount 314
++    DescendantCount 315
+@@ -127 +127 @@
+-    DescendantCount 250
++    DescendantCount 251
+@@ -908 +908 @@
+-    DescendantCount 128
++    DescendantCount 129
+@@ -2118 +2118 @@
+-    DescendantCount 33
++    DescendantCount 34
+@@ -3332,0 +3333,11 @@
++
++PersistentTypeID 1736697216
++    Name AndroidAssetPackImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
+--- 2020.3.17f1.dump
++++ 2021.1.0f1.dump
+@@ -6 +6 @@
+-    DescendantCount 315
++    DescendantCount 296
+@@ -28 +28 @@
+-    DescendantCount 120
 +    DescendantCount 117
 @@ -83 +83 @@
 -    DescendantCount 79
 +    DescendantCount 78
 @@ -127 +127 @@
--    DescendantCount 248
+-    DescendantCount 251
 +    DescendantCount 247
-@@ -151 +151 @@
--    IsSealed True
-+    IsSealed False
 @@ -182 +182 @@
 -    DescendantCount 13
 +    DescendantCount 12
-@@ -303 +303 @@
--    DescendantCount 6
-+    DescendantCount 7
 @@ -629 +629 @@
 -    Name ScriptMapper
 +    Name ShaderNameRegistry
@@ -5347,39 +5459,12 @@
 -    IsEditorOnly False
 -
 @@ -908 +897 @@
--    DescendantCount 125
+-    DescendantCount 129
 +    DescendantCount 128
-@@ -2080,11 +2068,0 @@
--PersistentTypeID 362
--    Name WorldAnchor
--    Namespace 
--    Module VR
--    Base Component
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -2129 +2107 @@
--    DescendantCount 31
+@@ -2118 +2107 @@
+-    DescendantCount 34
 +    DescendantCount 33
-@@ -2135,11 +2112,0 @@
--PersistentTypeID 1004
--    Name AssetDatabaseV1
--    Namespace 
--    Module AssetDatabase
--    Base Object
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly True
--
-@@ -2182 +2149 @@
--    Module Core
-+    Module Editor
-@@ -2729,11 +2695,0 @@
+@@ -2707,11 +2695,0 @@
 -PersistentTypeID 76251197
 -    Name SerializableManagedRefTestClass
 -    Namespace 
@@ -5391,7 +5476,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -2784,11 +2739,0 @@
+@@ -2762,11 +2739,0 @@
 -PersistentTypeID 277625683
 -    Name EmptyObject
 -    Namespace 
@@ -5403,7 +5488,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -2806,11 +2750,0 @@
+@@ -2784,11 +2750,0 @@
 -PersistentTypeID 293259124
 -    Name TestObjectWithSpecialLayoutOne
 -    Namespace 
@@ -5415,7 +5500,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -2828,33 +2761,0 @@
+@@ -2806,33 +2761,0 @@
 -PersistentTypeID 334799969
 -    Name SiblingDerived
 -    Namespace ObjectProduceTestTypes
@@ -5449,7 +5534,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -2905,22 +2805,0 @@
+@@ -2883,22 +2805,0 @@
 -PersistentTypeID 478637458
 -    Name TestObjectWithSerializedArray
 -    Namespace 
@@ -5472,7 +5557,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -2982,11 +2860,0 @@
+@@ -2960,11 +2860,0 @@
 -PersistentTypeID 646504946
 -    Name RendererFake
 -    Namespace 
@@ -5484,30 +5569,6 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -3036,0 +2905,11 @@
-+PersistentTypeID 815301076
-+    Name PreviewImporter
-+    Namespace 
-+    Module Editor
-+    Base AssetImporter
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -3102,0 +2982,11 @@
-+PersistentTypeID 954905827
-+    Name RuleSetFileAsset
-+    Namespace 
-+    Module Core
-+    Base TextAsset
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
 @@ -3158,22 +3047,0 @@
 -PersistentTypeID 1091556383
 -    Name Derived
@@ -5543,7 +5604,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -3323,11 +3179,0 @@
+@@ -3323,22 +3179,0 @@
 -PersistentTypeID 1628831178
 -    Name TestObjectVectorPairStringBool
 -    Namespace 
@@ -5555,27 +5616,30 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -3367,2 +3213,2 @@
+-PersistentTypeID 1736697216
+-    Name AndroidAssetPackImporter
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3389,11 +3223,0 @@
 -PersistentTypeID 1803986026
 -    Name FakeComponent
-+PersistentTypeID 1777034230
-+    Name RuleSetFileImporter
-@@ -3371 +3217 @@
+-    Namespace 
+-    Module Core
 -    Base Component
-+    Base AssetImporter
-@@ -3373 +3219 @@
+-    DescendantCount 1
 -    IsAbstract True
-+    IsAbstract False
-@@ -3376 +3222 @@
+-    IsSealed False
+-    IsStripped False
 -    IsEditorOnly False
-+    IsEditorOnly True
-@@ -3425 +3271 @@
--    Module Editor
-+    Module PackageManagerUI
-@@ -3436 +3282 @@
--    Module Editor
-+    Module PackageManagerUI
-@@ -3460,33 +3305,0 @@
+-
+@@ -3482,33 +3305,0 @@
 -    DescendantCount 1
 -    IsAbstract False
 -    IsSealed False

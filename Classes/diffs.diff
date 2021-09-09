@@ -436,46 +436,54 @@
 -  "2126867596": "TilemapEditorUserSettings"
 +  "2089858483": "ScriptedImporter"
 --- 2020.1.17f1.json
++++ 2020.2.0f1.json
+@@ -191 +190,0 @@
+-  "362": "WorldAnchor",
+@@ -196 +194,0 @@
+-  "1004": "AssetDatabaseV1",
+@@ -277,0 +276 @@
++  "815301076": "PreviewImporter",
+@@ -283,0 +283 @@
++  "954905827": "RuleSetFileAsset",
+@@ -307,0 +308 @@
++  "1777034230": "RuleSetFileImporter",
+--- 2020.3.14f1.json
++++ 2020.3.15f2.json
+@@ -304,0 +305 @@
++  "1736697216": "AndroidAssetPackImporter",
+--- 2020.3.17f1.json
 +++ 2021.1.0f1.json
 @@ -59 +59 @@
 -  "94": "ScriptMapper",
 +  "94": "ShaderNameRegistry",
 @@ -80 +79,0 @@
 -  "125": "HaloLayer",
-@@ -191 +189,0 @@
--  "362": "WorldAnchor",
-@@ -196 +193,0 @@
--  "1004": "AssetDatabaseV1",
-@@ -250 +246,0 @@
+@@ -248 +246,0 @@
 -  "76251197": "SerializableManagedRefTestClass",
-@@ -255 +250,0 @@
+@@ -253 +250,0 @@
 -  "277625683": "EmptyObject",
-@@ -257 +251,0 @@
+@@ -255 +251,0 @@
 -  "293259124": "TestObjectWithSpecialLayoutOne",
-@@ -259,3 +252,0 @@
+@@ -257,3 +252,0 @@
 -  "334799969": "SiblingDerived",
 -  "342846651": "TestObjectWithSerializedMapStringNonAlignedStruct",
 -  "367388927": "SubDerived",
-@@ -266,2 +256,0 @@
+@@ -264,2 +256,0 @@
 -  "478637458": "TestObjectWithSerializedArray",
 -  "478637459": "TestObjectWithSerializedAnimationCurve",
-@@ -273 +261,0 @@
+@@ -271 +261,0 @@
 -  "646504946": "RendererFake",
-@@ -277,0 +266 @@
-+  "815301076": "PreviewImporter",
-@@ -283,0 +273 @@
-+  "954905827": "RuleSetFileAsset",
 @@ -289,2 +278,0 @@
 -  "1091556383": "Derived",
 -  "1111377672": "PropertyModificationsTargetTestObject",
 @@ -300 +287,0 @@
 -  "1392443030": "TestObjectWithSpecialLayoutTwo",
-@@ -304 +290,0 @@
+@@ -304,2 +290,0 @@
 -  "1628831178": "TestObjectVectorPairStringBool",
-@@ -308 +294 @@
+-  "1736697216": "AndroidAssetPackImporter",
+@@ -310 +294,0 @@
 -  "1803986026": "FakeComponent",
-+  "1777034230": "RuleSetFileImporter",
-@@ -317,3 +302,0 @@
+@@ -319,3 +302,0 @@
 -  "1977754360": "NativeObjectType",
 -  "1981279845": "TestObjectWithSerializedMapStringBool",
 -  "1995898324": "SerializableManagedHost",
