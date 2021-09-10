@@ -454,7 +454,7 @@
 +  "1981279845": "TestObjectWithSerializedMapStringBool",
 +  "1995898324": "SerializableManagedHost",
 --- 2019.1.14f1.json
-+++ 2019.2.1f1.json
++++ 2019.2.0f1.json
 @@ -257,0 +258 @@
 +  "277625683": "EmptyObject",
 @@ -259,0 +261 @@
@@ -499,7 +499,7 @@
 @@ -298,0 +299 @@
 +  "1736697216": "AndroidAssetPackImporter",
 --- 2019.4.30f1.json
-+++ 2020.1.1f1.json
++++ 2020.1.0f1.json
 @@ -251,0 +252,2 @@
 +  "156483287": "ScenesUsingAssets",
 +  "171741748": "ArticulationBody",

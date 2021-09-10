@@ -31,6 +31,7 @@ check_version() {
 	fi
 }
 
+# Unity 3 and 4 don't have a string buffer
 check_early_version() {
 	i=$1
 	if ! [ -d "${path_to_UnityInstallations}/$i" ]; then
