@@ -4,6 +4,8 @@ This repository is dedicated to archiving the struct layout information of every
 
 ## Contributing Version Files
 
+Unity versions can be downloaded and installed from the [Unity Download Archive](https://unity3d.com/get-unity/download/archive). You want the Windows 64-bit Editor.
+
 Files can be dumped with the [TypeTreeDumper](https://github.com/DaZombieKiller/TypeTreeDumper).
 
 ## Disclaimer
