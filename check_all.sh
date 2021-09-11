@@ -10,6 +10,9 @@ check_version() {
 	if ! [ -f "$(dirname "$0")/Classes/$i.json" ]; then
 		echo $i needs dumped
 	else
+		if ! [ -f "$(dirname "$0")/InfoJson/$i.json" ]; then
+			echo $i missing information json
+		fi
 		if ! [ -f "$(dirname "$0")/RTTI_Dump/$i.dump" ]; then
 			echo $i missing RTTI dump
 		fi
@@ -40,6 +43,9 @@ check_early_version() {
 	if ! [ -f "$(dirname "$0")/Classes/$i.json" ]; then
 		echo $i needs dumped
 	else
+		if ! [ -f "$(dirname "$0")/InfoJson/$i.json" ]; then
+			echo $i missing information json
+		fi
 		if ! [ -f "$(dirname "$0")/RTTI_Dump/$i.dump" ]; then
 			echo $i missing RTTI dump
 		fi
