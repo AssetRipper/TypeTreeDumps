@@ -19606,11 +19606,7 @@ ScriptedImporter Base // ByteSize{ffffffff}, Index{0}, IsArray{0}, MetaFlag{8000
 			int size // ByteSize{4}, Index{3}, IsArray{0}, MetaFlag{80001}
 			char data // ByteSize{1}, Index{4}, IsArray{0}, MetaFlag{80001}
 	map m_FileIDToRecycleName // ByteSize{ffffffff}, Index{5}, IsArray{0}, MetaFlag{8001}
-		Array Array // ByteSize{ffffffff}, Index{6}, Assertion failed on expression: 'gTilemapEditorUserSettings == NULL'
- 
-(Filename: C:\buildslave\unity\build\Modules/TilemapEditor/Editor/TilemapEditorUserSettings.cpp Line: 33)
-
-IsArray{1}, MetaFlag{8001}
+		Array Array // ByteSize{ffffffff}, Index{6}, IsArray{1}, MetaFlag{8001}
 			int size // ByteSize{4}, Index{7}, IsArray{0}, MetaFlag{1}
 			pair data // ByteSize{ffffffff}, Index{8}, IsArray{0}, MetaFlag{8001}
 				SInt64 first // ByteSize{8}, Index{9}, IsArray{0}, MetaFlag{1}
