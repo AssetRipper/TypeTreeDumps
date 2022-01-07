@@ -529,42 +529,45 @@
 +++ 2020.3.15f2.json
 @@ -304,0 +305 @@
 +  "1736697216": "AndroidAssetPackImporter",
---- 2020.3.18f1.json
+--- 2020.3.24f1.json
++++ 2020.3.25f1.json
+@@ -248 +247,0 @@
+-  "76251197": "SerializableManagedRefTestClass",
+@@ -253 +251,0 @@
+-  "277625683": "EmptyObject",
+@@ -255 +252,0 @@
+-  "293259124": "TestObjectWithSpecialLayoutOne",
+@@ -257,3 +253,0 @@
+-  "334799969": "SiblingDerived",
+-  "342846651": "TestObjectWithSerializedMapStringNonAlignedStruct",
+-  "367388927": "SubDerived",
+@@ -264,2 +257,0 @@
+-  "478637458": "TestObjectWithSerializedArray",
+-  "478637459": "TestObjectWithSerializedAnimationCurve",
+@@ -271 +262,0 @@
+-  "646504946": "RendererFake",
+@@ -289,2 +279,0 @@
+-  "1091556383": "Derived",
+-  "1111377672": "PropertyModificationsTargetTestObject",
+@@ -300 +288,0 @@
+-  "1392443030": "TestObjectWithSpecialLayoutTwo",
+@@ -304 +291,0 @@
+-  "1628831178": "TestObjectVectorPairStringBool",
+@@ -310 +296,0 @@
+-  "1803986026": "FakeComponent",
+@@ -319,3 +304,0 @@
+-  "1977754360": "NativeObjectType",
+-  "1981279845": "TestObjectWithSerializedMapStringBool",
+-  "1995898324": "SerializableManagedHost",
+--- 2020.3.25f1.json
 +++ 2021.1.0b3.json
 @@ -59 +59 @@
 -  "94": "ScriptMapper",
 +  "94": "ShaderNameRegistry",
 @@ -80 +79,0 @@
 -  "125": "HaloLayer",
-@@ -248 +246,0 @@
--  "76251197": "SerializableManagedRefTestClass",
-@@ -253 +250,0 @@
--  "277625683": "EmptyObject",
-@@ -255 +251,0 @@
--  "293259124": "TestObjectWithSpecialLayoutOne",
-@@ -257,3 +252,0 @@
--  "334799969": "SiblingDerived",
--  "342846651": "TestObjectWithSerializedMapStringNonAlignedStruct",
--  "367388927": "SubDerived",
-@@ -264,2 +256,0 @@
--  "478637458": "TestObjectWithSerializedArray",
--  "478637459": "TestObjectWithSerializedAnimationCurve",
-@@ -271 +261,0 @@
--  "646504946": "RendererFake",
-@@ -289,2 +278,0 @@
--  "1091556383": "Derived",
--  "1111377672": "PropertyModificationsTargetTestObject",
-@@ -300 +287,0 @@
--  "1392443030": "TestObjectWithSpecialLayoutTwo",
-@@ -304,2 +290,0 @@
--  "1628831178": "TestObjectVectorPairStringBool",
+@@ -292 +290,0 @@
 -  "1736697216": "AndroidAssetPackImporter",
-@@ -310 +294,0 @@
--  "1803986026": "FakeComponent",
-@@ -319,3 +302,0 @@
--  "1977754360": "NativeObjectType",
--  "1981279845": "TestObjectWithSerializedMapStringBool",
--  "1995898324": "SerializableManagedHost",
 --- 2021.1.15f1.json
 +++ 2021.1.16f1.json
 @@ -290,0 +291 @@
