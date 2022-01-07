@@ -5567,7 +5567,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2019.4.30f1.dump
+--- 2019.4.34f1.dump
 +++ 2020.1.0f1.dump
 @@ -6 +6 @@
 -    DescendantCount 308
@@ -5786,7 +5786,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 --- 2020.3.18f1.dump
-+++ 2021.1.0f1.dump
++++ 2021.1.0b3.dump
 @@ -6 +6 @@
 -    DescendantCount 315
 +    DescendantCount 296
