@@ -2,7 +2,7 @@
 
 . $(dirname "$0")/configuration.sh
 
-vers=($(./get_unity_versions.sh | sort -t. -k1,1n -k2,2n -k3,3n))
+vers=($(./get_unity_versions.sh | sed s/a/.a./g | sed s/b/.b./g | sed s/f/.f./g | sed s/p/.p./g | sort -t. -k1,1n -k2,2n -k3,3n -k4,4d -k5,5n | sed s/.a./a/g | sed s/.b./b/g | sed s/.f./f/g | sed s/.p./p/g))
 
 # First argument is the file
 # Second argument is the reference script

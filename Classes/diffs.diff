@@ -1,5 +1,5 @@
---- 3.4.2.json
-+++ 3.5.0.json
+--- 3.4.2
++++ 3.5.0
 @@ -26,0 +27 @@
 +  "41": "OcclusionPortal",
 @@ -73,0 +75 @@
@@ -21,8 +21,8 @@
 +  "205": "LODGroup",
 +  "220": "LightProbeGroup",
 +  "1001": "Prefab",
---- 3.5.7.json
-+++ 4.0.0.json
+--- 3.5.7
++++ 4.0.0
 @@ -24 +24 @@
 -  "29": "Scene",
 +  "29": "SceneSettings",
@@ -48,8 +48,8 @@
 +  "1102": "State",
 +  "1105": "HumanTemplate",
 +  "1107": "StateMachine",
---- 4.0.1.json
-+++ 4.1.0.json
+--- 4.0.1
++++ 4.1.0
 @@ -33 +32,0 @@
 -  "52": "NotificationManager",
 @@ -56,0 +56 @@
@@ -58,13 +58,13 @@
 -  "1011": "AvatarBodyMask",
 -  "1012": "AvatarSkeletonMask",
 +  "1011": "AvatarMask",
---- 4.1.5.json
-+++ 4.2.0.json
+--- 4.1.5
++++ 4.2.0
 @@ -25 +25 @@
 -  "30": "RenderManager",
 +  "30": "GraphicsSettings",
---- 4.2.2.json
-+++ 4.3.1.json
+--- 4.2.2
++++ 4.3.1
 @@ -16,0 +17 @@
 +  "19": "Physics2DSettings",
 @@ -32,0 +34,2 @@
@@ -91,8 +91,8 @@
 +  "232": "DistanceJoint2D",
 +  "233": "HingeJoint2D",
 +  "234": "SliderJoint2D",
---- 4.3.4.json
-+++ 4.5.0.json
+--- 4.3.4
++++ 4.5.0
 @@ -129,0 +130 @@
 +  "171": "SparseTexture",
 @@ -154,0 +156,4 @@
@@ -102,15 +102,15 @@
 +  "229": "AnchoredJoint2D",
 @@ -159,0 +165 @@
 +  "235": "WheelJoint2D",
---- 4.5.5.json
-+++ 4.6.0.json
+--- 4.5.5
++++ 4.6.0
 @@ -156 +156 @@
 -  "222": "UIRenderer",
 +  "222": "CanvasRenderer",
 @@ -158,0 +159 @@
 +  "225": "CanvasGroup",
---- 4.7.2.json
-+++ 5.3.0f4.json
+--- 4.7.2
++++ 5.3.0f4
 @@ -15 +14,0 @@
 -  "17": "Pipeline",
 @@ -48 +46,0 @@
@@ -195,8 +195,8 @@
 +  "1113": "LightmapParameters",
 +  "1120": "LightingDataAsset",
 +  "1124": "SketchUpImporter"
---- 5.3.8f2.json
-+++ 5.4.0f3.json
+--- 5.3.8f2
++++ 5.4.0f3
 @@ -130,0 +131 @@
 +  "187": "Texture2DArray",
 @@ -184,0 +186 @@
@@ -206,8 +206,8 @@
 +  "1124": "SketchUpImporter",
 +  "1125": "BuildReport",
 +  "1126": "PackedAssets"
---- 5.4.6f3.json
-+++ 5.5.0f3.json
+--- 5.4.6f3
++++ 5.5.0f3
 @@ -24 +24 @@
 -  "29": "SceneSettings",
 +  "29": "OcclusionCullingSettings",
@@ -241,12 +241,12 @@
 +  "100009": "AudioMixerLiveUpdateBool",
 +  "100010": "Polygon2D",
 +  "100011": "void"
---- 5.5.3f1.json
-+++ 5.5.4f1.json
+--- 5.5.3f1
++++ 5.5.4f1
 @@ -248,0 +249 @@
 +  "1127": "BuiltAssetBundleInfoSet",
---- 5.5.6f1.json
-+++ 5.6.0f3.json
+--- 5.5.6f1
++++ 5.6.0f3
 @@ -45,0 +46 @@
 +  "66": "CompositeCollider2D",
 @@ -56,0 +58 @@
@@ -278,12 +278,12 @@
 -  "100011": "void"
 +  "100011": "void",
 +  "1480428607": "LowerResBlitTexture"
---- 5.6.1f1.json
-+++ 5.6.2f1.json
+--- 5.6.1f1
++++ 5.6.2f1
 @@ -264,0 +265 @@
 +  "668709126": "BuiltAssetBundleInfoSet",
---- 5.6.7f1.json
-+++ 2017.1.0f3.json
+--- 5.6.7f1
++++ 2017.1.0f3
 @@ -197 +196,0 @@
 -  "292": "UnityAdsManager",
 @@ -204,0 +204 @@
@@ -309,8 +309,8 @@
 +  "1480428607": "LowerResBlitTexture",
 +  "1766753193": "AssemblyJsonImporter",
 +  "2089858483": "ScriptedImporter"
---- 2017.1.5f1.json
-+++ 2017.2.0f3.json
+--- 2017.1.5f1
++++ 2017.2.0f3
 @@ -253 +252,0 @@
 -  "1128": "StyleSheetImporter",
 @@ -265,0 +265,3 @@
@@ -327,16 +327,16 @@
 +  "1839735485": "Tilemap",
 +  "2089858483": "ScriptedImporter",
 +  "2126867596": "TilemapEditorUserSettings"
---- 2017.2.5f1.json
-+++ 2017.3.0f3.json
+--- 2017.2.5f1
++++ 2017.3.0f3
 @@ -195 +194,0 @@
 -  "280": "NScreenBridge",
 @@ -271,0 +271 @@
 +  "1152215463": "AssemblyDefinitionAsset",
 @@ -276,0 +277 @@
 +  "1766753193": "AssemblyDefinitionImporter",
---- 2017.4.40f1.json
-+++ 2018.1.0f2.json
+--- 2017.4.40f1
++++ 2018.1.0f2
 @@ -264,0 +265 @@
 +  "41386430": "AssetImporterLog",
 @@ -265,0 +267,4 @@
@@ -356,8 +356,8 @@
 +  "1818360610": "ScaleConstraint",
 @@ -278,0 +291 @@
 +  "1971053207": "SpriteShapeRenderer",
---- 2018.1.9f2.json
-+++ 2018.2.0f2.json
+--- 2018.1.9f2
++++ 2018.2.0f2
 @@ -107,2 +106,0 @@
 -  "148": "NetworkView",
 -  "149": "NetworkManager",
@@ -373,8 +373,8 @@
 +  "1542919678": "StreamingController",
 @@ -291,0 +293 @@
 +  "2083778819": "LocalizationAsset",
---- 2018.2.21f1.json
-+++ 2018.3.0f2.json
+--- 2018.2.21f1
++++ 2018.3.0f2
 @@ -12 +11,0 @@
 -  "12": "ParticleAnimator",
 @@ -14 +12,0 @@
@@ -410,14 +410,14 @@
 +  "2058629510": "VisualEffectImporter",
 +  "2058629511": "VisualEffectResource",
 +  "2083052967": "VisualEffect",
---- 2018.4.12f1.json
-+++ 2018.4.13f1.json
+--- 2018.4.12f1
++++ 2018.4.13f1
 @@ -258,0 +259 @@
 +  "382020655": "PluginBuildInfo",
 @@ -262,0 +264 @@
 +  "641289076": "AudioBuildInfo",
---- 2018.4.36f1.json
-+++ 2019.1.0f2.json
+--- 2018.4.36f1
++++ 2019.1.0f2
 @@ -254,0 +255 @@
 +  "76251197": "SerializableManagedRefTestClass",
 @@ -257,0 +259,4 @@
@@ -453,8 +453,8 @@
 +  "1977754360": "NativeObjectType",
 +  "1981279845": "TestObjectWithSerializedMapStringBool",
 +  "1995898324": "SerializableManagedHost",
---- 2019.1.14f1.json
-+++ 2019.2.0f1.json
+--- 2019.1.14f1
++++ 2019.2.0f1
 @@ -257,0 +258 @@
 +  "277625683": "EmptyObject",
 @@ -259,0 +261 @@
@@ -475,14 +475,14 @@
 -  "2089858483": "ScriptedImporter",
 -  "2126867596": "TilemapEditorUserSettings"
 +  "2089858483": "ScriptedImporter"
---- 2019.2.12f1.json
-+++ 2019.2.13f1.json
+--- 2019.2.12f1
++++ 2019.2.13f1
 @@ -265,0 +266 @@
 +  "382020655": "PluginBuildInfo",
 @@ -271,0 +273 @@
 +  "641289076": "AudioBuildInfo",
---- 2019.2.21f1.json
-+++ 2019.3.0f6.json
+--- 2019.2.21f1
++++ 2019.3.0f6
 @@ -58 +57,0 @@
 -  "92": "GUILayer",
 @@ -86,3 +84,0 @@
@@ -494,12 +494,12 @@
 @@ -278,0 +274,2 @@
 +  "747330370": "RayTracingShaderImporter",
 +  "825902497": "RayTracingShader",
---- 2019.4.28f1.json
-+++ 2019.4.29f1.json
+--- 2019.4.28f1
++++ 2019.4.29f1
 @@ -298,0 +299 @@
 +  "1736697216": "AndroidAssetPackImporter",
---- 2019.4.34f1.json
-+++ 2020.1.0f1.json
+--- 2019.4.34f1
++++ 2020.1.0f1
 @@ -251,0 +252,2 @@
 +  "156483287": "ScenesUsingAssets",
 +  "171741748": "ArticulationBody",
@@ -513,8 +513,8 @@
 +  "1210832254": "SpriteAtlasImporter",
 @@ -299 +304,0 @@
 -  "1736697216": "AndroidAssetPackImporter",
---- 2020.1.17f1.json
-+++ 2020.2.0f1.json
+--- 2020.1.17f1
++++ 2020.2.0f1
 @@ -191 +190,0 @@
 -  "362": "WorldAnchor",
 @@ -196 +194,0 @@
@@ -525,12 +525,12 @@
 +  "954905827": "RuleSetFileAsset",
 @@ -307,0 +308 @@
 +  "1777034230": "RuleSetFileImporter",
---- 2020.3.14f1.json
-+++ 2020.3.15f2.json
+--- 2020.3.14f1
++++ 2020.3.15f2
 @@ -304,0 +305 @@
 +  "1736697216": "AndroidAssetPackImporter",
---- 2020.3.24f1.json
-+++ 2020.3.25f1.json
+--- 2020.3.24f1
++++ 2020.3.25f1
 @@ -248 +247,0 @@
 -  "76251197": "SerializableManagedRefTestClass",
 @@ -253 +251,0 @@
@@ -559,8 +559,8 @@
 -  "1977754360": "NativeObjectType",
 -  "1981279845": "TestObjectWithSerializedMapStringBool",
 -  "1995898324": "SerializableManagedHost",
---- 2020.3.25f1.json
-+++ 2021.1.0b3.json
+--- 2020.3.25f1
++++ 2021.1.0b3
 @@ -59 +59 @@
 -  "94": "ScriptMapper",
 +  "94": "ShaderNameRegistry",
@@ -568,12 +568,12 @@
 -  "125": "HaloLayer",
 @@ -292 +290,0 @@
 -  "1736697216": "AndroidAssetPackImporter",
---- 2021.1.15f1.json
-+++ 2021.1.16f1.json
+--- 2021.1.15f1
++++ 2021.1.16f1
 @@ -290,0 +291 @@
 +  "1736697216": "AndroidAssetPackImporter",
---- 2021.1.28f1.json
-+++ 2021.2.0b4.json
+--- 2021.1.28f1
++++ 2021.2.0b4
 @@ -66 +66 @@
 -  "109": "CGProgram",
 +  "109": "ShaderInclude",
@@ -585,3 +585,7 @@
 -  "2089858483": "ScriptedImporter"
 +  "2089858483": "ScriptedImporter",
 +  "2103361453": "ShaderIncludeImporter"
+--- 2022.1.0a13
++++ 2022.1.0a15
+@@ -291,0 +292 @@
++  "1521398425": "VideoBuildInfo",

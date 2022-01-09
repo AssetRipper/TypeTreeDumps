@@ -1,5 +1,5 @@
---- 3.4.2.dump
-+++ 3.5.0.dump
+--- 3.4.2
++++ 3.5.0
 @@ -275,0 +276,11 @@
 +PersistentTypeID 41
 +    Name OcclusionPortal
@@ -154,8 +154,8 @@
 +    Namespace 
 +    Module 
 +    Base Object
---- 3.5.7.dump
-+++ 4.0.0.dump
+--- 3.5.7
++++ 4.0.0
 @@ -244 +244 @@
 -    Name Scene
 +    Name SceneSettings
@@ -340,8 +340,8 @@
 +    Namespace 
 +    Module 
 +    Base NamedObject
---- 4.0.1.dump
-+++ 4.1.0.dump
+--- 4.0.1
++++ 4.1.0
 @@ -342,11 +341,0 @@
 -PersistentTypeID 52
 -    Name NotificationManager
@@ -383,13 +383,13 @@
 -PersistentTypeID 1012
 -    Name AvatarSkeletonMask
 +    Name AvatarMask
---- 4.1.5.dump
-+++ 4.2.0.dump
+--- 4.1.5
++++ 4.2.0
 @@ -255 +255 @@
 -    Name RenderManager
 +    Name GraphicsSettings
---- 4.2.2.dump
-+++ 4.3.1.dump
+--- 4.2.2
++++ 4.3.1
 @@ -165,0 +166,11 @@
 +PersistentTypeID 19
 +    Name Physics2DSettings
@@ -598,8 +598,8 @@
 +    Namespace 
 +    Module 
 +    Base Joint2D
---- 4.3.4.dump
-+++ 4.5.0.dump
+--- 4.3.4
++++ 4.5.0
 @@ -1408,0 +1409,11 @@
 +PersistentTypeID 171
 +    Name SparseTexture
@@ -680,8 +680,8 @@
 +    Namespace 
 +    Module 
 +    Base AnchoredJoint2D
---- 4.5.5.dump
-+++ 4.6.0.dump
+--- 4.5.5
++++ 4.6.0
 @@ -1696 +1696 @@
 -    Name UIRenderer
 +    Name CanvasRenderer
@@ -697,13 +697,13 @@
 +
 +PersistentTypeID 225
 +    Name CanvasGroup
---- 4.6.0.dump
-+++ 4.6.1.dump
+--- 4.6.0
++++ 4.6.1
 @@ -1732 +1732 @@
 -    Base Component
 +    Base Behaviour
---- 4.7.2.dump
-+++ 5.3.0f4.dump
+--- 4.7.2
++++ 5.3.0f4
 @@ -144,11 +143,0 @@
 -PersistentTypeID 17
 -    Name Pipeline
@@ -1368,8 +1368,8 @@
 +    Namespace 
 +    Module 
 +    Base ModelImporter
---- 5.3.8f2.dump
-+++ 5.4.0f3.dump
+--- 5.3.8f2
++++ 5.4.0f3
 @@ -6 +6 @@
 -    DescendantCount 0
 +    DescendantCount 242
@@ -2279,8 +2279,8 @@
 +    Module 
 +    Base Object
 +    DescendantCount 1
---- 5.4.6f3.dump
-+++ 5.5.0f3.dump
+--- 5.4.6f3
++++ 5.5.0f3
 @@ -6 +6 @@
 -    DescendantCount 242
 +    DescendantCount 247
@@ -2569,8 +2569,8 @@
 +    Namespace 
 +    Module 
 +    Base 
---- 5.5.3f1.dump
-+++ 5.5.4f1.dump
+--- 5.5.3f1
++++ 5.5.4f1
 @@ -6 +6 @@
 -    DescendantCount 247
 +    DescendantCount 248
@@ -2586,8 +2586,8 @@
 +
 +PersistentTypeID 1127
 +    Name BuiltAssetBundleInfoSet
---- 5.5.6f1.dump
-+++ 5.6.0f3.dump
+--- 5.5.6f1
++++ 5.6.0f3
 @@ -6 +6 @@
 -    DescendantCount 248
 +    DescendantCount 252
@@ -2796,8 +2796,8 @@
 +    Namespace 
 +    Module 
 +    Base Texture
---- 5.6.1f1.dump
-+++ 5.6.2f1.dump
+--- 5.6.1f1
++++ 5.6.2f1
 @@ -6 +6 @@
 -    DescendantCount 252
 +    DescendantCount 253
@@ -2813,8 +2813,8 @@
 +    Namespace BuildReporting
 +    Module 
 +    Base Object
---- 5.6.7f1.dump
-+++ 2017.1.0f3.dump
+--- 5.6.7f1
++++ 2017.1.0f3
 @@ -6 +6 @@
 -    DescendantCount 253
 +    DescendantCount 262
@@ -3146,8 +3146,8 @@
 +    Namespace 
 +    Module 
 +    Base AssetImporter
---- 2017.1.5f1.dump
-+++ 2017.2.0f3.dump
+--- 2017.1.5f1
++++ 2017.2.0f3
 @@ -6 +6 @@
 -    DescendantCount 262
 +    DescendantCount 266
@@ -3278,8 +3278,8 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2017.2.5f1.dump
-+++ 2017.3.0f3.dump
+--- 2017.2.5f1
++++ 2017.3.0f3
 @@ -4 +4 @@
 -    Module 
 +    Module Core
@@ -4162,8 +4162,8 @@
 @@ -3051 +3062 @@
 -    Module 
 +    Module TilemapEditor
---- 2017.4.35f1.dump
-+++ 2017.4.36f1.dump
+--- 2017.4.35f1
++++ 2017.4.36f1
 @@ -2639 +2639 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
@@ -4173,8 +4173,8 @@
 @@ -3057 +3057 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
---- 2017.4.40f1.dump
-+++ 2018.1.0f2.dump
+--- 2017.4.40f1
++++ 2018.1.0f2
 @@ -6 +6 @@
 -    DescendantCount 267
 +    DescendantCount 280
@@ -4528,8 +4528,8 @@
 @@ -3062 +3205 @@
 -    Module TilemapEditor
 +    Module Editor
---- 2018.1.9f2.dump
-+++ 2018.2.0f2.dump
+--- 2018.1.9f2
++++ 2018.2.0f2
 @@ -6 +6 @@
 -    DescendantCount 280
 +    DescendantCount 282
@@ -4652,8 +4652,8 @@
 +    Namespace 
 +    Module Localization
 +    Base NamedObject
---- 2018.2.21f1.dump
-+++ 2018.3.0f2.dump
+--- 2018.2.21f1
++++ 2018.3.0f2
 @@ -28 +28 @@
 -    DescendantCount 125
 +    DescendantCount 122
@@ -4910,13 +4910,13 @@
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed True
---- 2018.3.7f1.dump
-+++ 2018.3.8f1.dump
+--- 2018.3.7f1
++++ 2018.3.8f1
 @@ -2771 +2771 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
---- 2018.4.12f1.dump
-+++ 2018.4.13f1.dump
+--- 2018.4.12f1
++++ 2018.4.13f1
 @@ -6 +6 @@
 -    DescendantCount 282
 +    DescendantCount 284
@@ -4956,8 +4956,8 @@
 @@ -3222 +3244 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
---- 2018.4.36f1.dump
-+++ 2019.1.0f2.dump
+--- 2018.4.36f1
++++ 2019.1.0f2
 @@ -6 +6 @@
 -    DescendantCount 284
 +    DescendantCount 300
@@ -5234,8 +5234,8 @@
 @@ -3244 +3420 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
---- 2019.1.14f1.dump
-+++ 2019.2.0f1.dump
+--- 2019.1.14f1
++++ 2019.2.0f1
 @@ -6 +6 @@
 -    DescendantCount 300
 +    DescendantCount 308
@@ -5372,8 +5372,8 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
---- 2019.2.12f1.dump
-+++ 2019.2.13f1.dump
+--- 2019.2.12f1
++++ 2019.2.13f1
 @@ -6 +6 @@
 -    DescendantCount 308
 +    DescendantCount 310
@@ -5401,8 +5401,8 @@
 +    Name AudioBuildInfo
 +    Namespace BuildReporting
 +    Module BuildReportingEditor
---- 2019.2.13f1.dump
-+++ 2019.2.14f1.dump
+--- 2019.2.13f1
++++ 2019.2.14f1
 @@ -2507 +2507 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
@@ -5427,8 +5427,8 @@
 @@ -3541 +3541 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
---- 2019.2.21f1.dump
-+++ 2019.3.0f6.dump
+--- 2019.2.21f1
++++ 2019.3.0f6
 @@ -6 +6 @@
 -    DescendantCount 310
 +    DescendantCount 307
@@ -5536,13 +5536,13 @@
 +
 +PersistentTypeID 825902497
 +    Name RayTracingShader
---- 2019.4.4f1.dump
-+++ 2019.4.5f1.dump
+--- 2019.4.4f1
++++ 2019.4.5f1
 @@ -714 +714 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
---- 2019.4.28f1.dump
-+++ 2019.4.29f1.dump
+--- 2019.4.28f1
++++ 2019.4.29f1
 @@ -6 +6 @@
 -    DescendantCount 307
 +    DescendantCount 308
@@ -5567,8 +5567,8 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2019.4.34f1.dump
-+++ 2020.1.0f1.dump
+--- 2019.4.34f1
++++ 2020.1.0f1
 @@ -6 +6 @@
 -    DescendantCount 308
 +    DescendantCount 313
@@ -5667,8 +5667,8 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
---- 2020.1.17f1.dump
-+++ 2020.2.0f1.dump
+--- 2020.1.17f1
++++ 2020.2.0f1
 @@ -6 +6 @@
 -    DescendantCount 313
 +    DescendantCount 314
@@ -5759,8 +5759,8 @@
 @@ -3436 +3447 @@
 -    Module Editor
 +    Module PackageManagerUI
---- 2020.3.14f1.dump
-+++ 2020.3.15f2.dump
+--- 2020.3.14f1
++++ 2020.3.15f2
 @@ -6 +6 @@
 -    DescendantCount 314
 +    DescendantCount 315
@@ -5785,8 +5785,8 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2020.3.24f1.dump
-+++ 2020.3.25f1.dump
+--- 2020.3.24f1
++++ 2020.3.25f1
 @@ -6 +6 @@
 -    DescendantCount 315
 +    DescendantCount 298
@@ -6000,8 +6000,8 @@
 -    Namespace 
 -    Module Core
 -    Base Object
---- 2020.3.25f1.dump
-+++ 2021.1.0b3.dump
+--- 2020.3.25f1
++++ 2021.1.0b3
 @@ -6 +6 @@
 -    DescendantCount 298
 +    DescendantCount 296
@@ -6047,8 +6047,8 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
---- 2021.1.15f1.dump
-+++ 2021.1.16f1.dump
+--- 2021.1.15f1
++++ 2021.1.16f1
 @@ -6 +6 @@
 -    DescendantCount 296
 +    DescendantCount 297
@@ -6073,8 +6073,8 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2021.1.28f1.dump
-+++ 2021.2.0b4.dump
+--- 2021.1.28f1
++++ 2021.2.0b4
 @@ -6 +6 @@
 -    DescendantCount 297
 +    DescendantCount 300
@@ -6138,3 +6138,20 @@
 +
 +PersistentTypeID 2103361453
 +    Name ShaderIncludeImporter
+--- 2022.1.0a13
++++ 2022.1.0a15
+@@ -6 +6 @@
+-    DescendantCount 300
++    DescendantCount 301
+@@ -3189,0 +3190,11 @@
++
++PersistentTypeID 1521398425
++    Name VideoBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
