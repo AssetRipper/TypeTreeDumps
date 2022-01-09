@@ -6,8 +6,7 @@ function check_version() {
 	i=$1
 	if ! [ -d "${path_to_UnityInstallations}/$i" ]; then
 		echo $i needs extracted
-	fi
-	if ! [ -f "$(dirname "$0")/Classes/$i.json" ]; then
+	elif ! [ -f "$(dirname "$0")/Classes/$i.json" ]; then
 		echo $i needs dumped
 	else
 		if ! [ -f "$(dirname "$0")/InfoJson/$i.json" ]; then
