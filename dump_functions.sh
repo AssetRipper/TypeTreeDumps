@@ -31,9 +31,24 @@ function make_directories() {
 }
 
 function dump() {
+	if [ $# = 0 ]
+	then
+		echo At least one argument required
+		exit 2
+	elif [ $# = 1 ]
+	then
+		force_dump=false
+	elif [ $2 = "-f" ] || [ $2 = "--force" ]
+	then
+		force_dump=true
+	else
+		force_dump=false
+	fi
+
 	i=$1
+
 	if [ -d "${path_to_UnityInstallations}/$i" ]; then
-		if [ -f "$(dirname "$0")/Classes/$i.json" ]; then
+		if [ $force_dump = false ] && [ -f "$(dirname "$0")/Classes/$i.json" ]; then
 			echo Already Dumped $i
 		else
 			echo Dumping $i...
