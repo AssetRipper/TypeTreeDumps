@@ -389,7 +389,7 @@
 -    Name RenderManager
 +    Name GraphicsSettings
 --- 4.2.2
-+++ 4.3.1
++++ 4.3.0
 @@ -165,0 +166,11 @@
 +PersistentTypeID 19
 +    Name Physics2DSettings

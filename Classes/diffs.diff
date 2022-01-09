@@ -64,7 +64,7 @@
 -  "30": "RenderManager",
 +  "30": "GraphicsSettings",
 --- 4.2.2
-+++ 4.3.1
++++ 4.3.0
 @@ -16,0 +17 @@
 +  "19": "Physics2DSettings",
 @@ -32,0 +34,2 @@
