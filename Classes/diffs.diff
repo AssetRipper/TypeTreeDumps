@@ -110,37 +110,36 @@
 @@ -158,0 +159 @@
 +  "225": "CanvasGroup",
 --- 4.7.2
-+++ 5.3.0f4
++++ 5.0.0f4
 @@ -15 +14,0 @@
 -  "17": "Pipeline",
 @@ -48 +46,0 @@
 -  "69": "PolygonColliderBase2D",
-@@ -87,2 +85 @@
+@@ -87 +85 @@
 -  "126": "NavMeshLayers",
--  "127": "HaloManager",
 +  "126": "NavMeshAreas",
-@@ -100 +96,0 @@
+@@ -100 +97,0 @@
 -  "140": "RaycastCollider",
-@@ -119,2 +114,0 @@
+@@ -119,2 +115,0 @@
 -  "160": "InteractiveCloth",
 -  "161": "ClothRenderer",
-@@ -122 +115,0 @@
+@@ -122 +116,0 @@
 -  "163": "SkinnedCloth",
-@@ -141 +133,0 @@
+@@ -141 +135 @@
 -  "194": "NavMesh",
-@@ -144 +135,0 @@
++  "194": "NavMeshObsolete",
+@@ -144 +137,0 @@
 -  "197": "LightProbes",
-@@ -146,0 +138 @@
+@@ -146,0 +140 @@
 +  "200": "ShaderVariantCollection",
-@@ -153,0 +146,2 @@
+@@ -153,0 +148,2 @@
 +  "215": "ReflectionProbe",
 +  "218": "Terrain",
-@@ -159,0 +154,3 @@
+@@ -159,0 +156,3 @@
 +  "226": "BillboardAsset",
 +  "227": "BillboardRenderer",
 +  "228": "SpeedTreeWindAsset",
-@@ -166,0 +164,32 @@
-+  "236": "ClusterInputManager",
+@@ -166,0 +166,21 @@
 +  "237": "BaseVideoTexture",
 +  "238": "NavMeshData",
 +  "240": "AudioMixer",
@@ -155,36 +154,24 @@
 +  "250": "PointEffector2D",
 +  "251": "PlatformEffector2D",
 +  "252": "SurfaceEffector2D",
-+  "253": "BuoyancyEffector2D",
-+  "254": "RelativeJoint2D",
-+  "255": "FixedJoint2D",
-+  "256": "FrictionJoint2D",
-+  "257": "TargetJoint2D",
 +  "258": "LightProbes",
 +  "271": "SampleClip",
 +  "272": "AudioMixerSnapshot",
 +  "273": "AudioMixerGroup",
 +  "280": "NScreenBridge",
 +  "290": "AssetBundleManifest",
-+  "292": "UnityAdsSettings",
 +  "300": "RuntimeInitializeOnLoadManager",
-+  "301": "CloudWebServicesManager",
-+  "303": "UnityAnalyticsManager",
-+  "310": "UnityConnectSettings",
-+  "320": "DirectorPlayer",
-@@ -178 +206,0 @@
--  "1027": "GUIDSerializer",
-@@ -196 +224 @@
+@@ -196 +216 @@
 -  "1050": "MonoAssemblyImporter",
 +  "1050": "PluginImporter",
-@@ -199,2 +227,4 @@
+@@ -199,2 +219,4 @@
 -  "1101": "Transition",
 -  "1102": "State",
 +  "1053": "ASTCImporter",
 +  "1054": "KTXImporter",
 +  "1101": "AnimatorStateTransition",
 +  "1102": "AnimatorState",
-@@ -202,2 +232,8 @@
+@@ -202,2 +224,7 @@
 -  "1107": "StateMachine",
 -  "1112": "SubstanceImporter"
 +  "1107": "AnimatorStateMachine",
@@ -193,8 +180,45 @@
 +  "1111": "AnimatorTransitionBase",
 +  "1112": "SubstanceImporter",
 +  "1113": "LightmapParameters",
-+  "1120": "LightingDataAsset",
++  "1120": "LightmapSnapshot"
+--- 5.0.4f1
++++ 5.1.0f3
+@@ -186,0 +187,2 @@
++  "301": "CloudWebServicesManager",
++  "302": "CloudServiceHandlerBehaviour",
+@@ -198 +199,0 @@
+-  "1027": "GUIDSerializer",
+@@ -230 +231,2 @@
+-  "1120": "LightmapSnapshot"
++  "1120": "LightmapSnapshot",
 +  "1124": "SketchUpImporter"
+--- 5.1.5f1
++++ 5.2.0f3
+@@ -86 +85,0 @@
+-  "127": "HaloManager",
+@@ -185,0 +185 @@
++  "292": "UnityAdsSettings",
+@@ -188 +188,2 @@
+-  "302": "CloudServiceHandlerBehaviour",
++  "303": "UnityAnalyticsManager",
++  "320": "DirectorPlayer",
+--- 5.2.5f1
++++ 5.3.0f4
+@@ -134 +133,0 @@
+-  "194": "NavMeshObsolete",
+@@ -164,0 +164 @@
++  "236": "ClusterInputManager",
+@@ -178,0 +179,5 @@
++  "253": "BuoyancyEffector2D",
++  "254": "RelativeJoint2D",
++  "255": "FixedJoint2D",
++  "256": "FrictionJoint2D",
++  "257": "TargetJoint2D",
+@@ -188,0 +194 @@
++  "310": "UnityConnectSettings",
+@@ -232 +238 @@
+-  "1120": "LightmapSnapshot",
++  "1120": "LightingDataAsset",
 --- 5.3.8f2
 +++ 5.4.0f3
 @@ -130,0 +131 @@

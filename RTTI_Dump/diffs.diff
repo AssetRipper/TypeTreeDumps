@@ -703,7 +703,7 @@
 -    Base Component
 +    Base Behaviour
 --- 4.7.2
-+++ 5.3.0f4
++++ 5.0.0f4
 @@ -144,11 +143,0 @@
 -PersistentTypeID 17
 -    Name Pipeline
@@ -734,25 +734,10 @@
 @@ -599 +577 @@
 -    Base NamedObject
 +    Base SampleClip
-@@ -709 +687 @@
--    Base Behaviour
-+    Base DirectorPlayer
 @@ -937 +915 @@
 -    Name NavMeshLayers
 +    Name NavMeshAreas
-@@ -947,11 +924,0 @@
--PersistentTypeID 127
--    Name HaloManager
--    Namespace 
--    Module 
--    Base LevelGameManager
--    DescendantCount 0
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -1079,11 +1045,0 @@
+@@ -1079,11 +1056,0 @@
 -PersistentTypeID 140
 -    Name RaycastCollider
 -    Namespace 
@@ -764,10 +749,10 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -1204 +1160 @@
+@@ -1204 +1171 @@
 -    Base Texture
 +    Base BaseVideoTexture
-@@ -1288,22 +1243,0 @@
+@@ -1288,22 +1254,0 @@
 -PersistentTypeID 160
 -    Name InteractiveCloth
 -    Namespace 
@@ -790,7 +775,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -1321,11 +1254,0 @@
+@@ -1321,11 +1265,0 @@
 -PersistentTypeID 163
 -    Name SkinnedCloth
 -    Namespace 
@@ -802,46 +787,37 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -1459 +1382 @@
+@@ -1459 +1393 @@
 -    IsAbstract True
 +    IsAbstract False
-@@ -1530,11 +1452,0 @@
--PersistentTypeID 194
+@@ -1531 +1465 @@
 -    Name NavMesh
--    Namespace 
--    Module 
--    Base NamedObject
--    DescendantCount 0
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -1563,2 +1475,2 @@
++    Name NavMeshObsolete
+@@ -1563,2 +1497,2 @@
 -PersistentTypeID 197
 -    Name LightProbes
 +PersistentTypeID 198
 +    Name ParticleSystem
-@@ -1567 +1479 @@
+@@ -1567 +1501 @@
 -    Base NamedObject
 +    Base Component
-@@ -1574,2 +1486,2 @@
+@@ -1574,2 +1508,2 @@
 -PersistentTypeID 198
 -    Name ParticleSystem
 +PersistentTypeID 199
 +    Name ParticleSystemRenderer
-@@ -1578 +1490 @@
+@@ -1578 +1512 @@
 -    Base Component
 +    Base Renderer
-@@ -1585,2 +1497,2 @@
+@@ -1585,2 +1519,2 @@
 -PersistentTypeID 199
 -    Name ParticleSystemRenderer
 +PersistentTypeID 200
 +    Name ShaderVariantCollection
-@@ -1589 +1501 @@
+@@ -1589 +1523 @@
 -    Base Renderer
 +    Base NamedObject
-@@ -1672,0 +1585,22 @@
+@@ -1672,0 +1607,22 @@
 +PersistentTypeID 215
 +    Name ReflectionProbe
 +    Namespace 
@@ -864,7 +840,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -1738,0 +1673,33 @@
+@@ -1738,0 +1695,33 @@
 +PersistentTypeID 226
 +    Name BillboardAsset
 +    Namespace 
@@ -898,18 +874,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -1815,0 +1783,352 @@
-+PersistentTypeID 236
-+    Name ClusterInputManager
-+    Namespace 
-+    Module 
-+    Base GlobalGameManager
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
+@@ -1815,0 +1805,231 @@
 +PersistentTypeID 237
 +    Name BaseVideoTexture
 +    Namespace 
@@ -1064,61 +1029,6 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 253
-+    Name BuoyancyEffector2D
-+    Namespace 
-+    Module 
-+    Base Effector2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 254
-+    Name RelativeJoint2D
-+    Namespace 
-+    Module 
-+    Base Joint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 255
-+    Name FixedJoint2D
-+    Namespace 
-+    Module 
-+    Base AnchoredJoint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 256
-+    Name FrictionJoint2D
-+    Namespace 
-+    Module 
-+    Base AnchoredJoint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 257
-+    Name TargetJoint2D
-+    Namespace 
-+    Module 
-+    Base Joint2D
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
 +PersistentTypeID 258
 +    Name LightProbes
 +    Namespace 
@@ -1185,17 +1095,6 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 292
-+    Name UnityAdsSettings
-+    Namespace 
-+    Module 
-+    Base GlobalGameManager
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
 +PersistentTypeID 300
 +    Name RuntimeInitializeOnLoadManager
 +    Namespace 
@@ -1207,66 +1106,10 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 301
-+    Name CloudWebServicesManager
-+    Namespace 
-+    Module 
-+    Base GlobalGameManager
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 303
-+    Name UnityAnalyticsManager
-+    Namespace 
-+    Module 
-+    Base GlobalGameManager
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 310
-+    Name UnityConnectSettings
-+    Namespace 
-+    Module 
-+    Base GlobalGameManager
-+    DescendantCount 0
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-+PersistentTypeID 320
-+    Name DirectorPlayer
-+    Namespace 
-+    Module 
-+    Base Behaviour
-+    DescendantCount 0
-+    IsAbstract True
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -1937,11 +2255,0 @@
--PersistentTypeID 1027
--    Name GUIDSerializer
--    Namespace 
--    Module 
--    Base Object
--    DescendantCount 0
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -2136 +2444 @@
+@@ -2136 +2356 @@
 -    Name MonoAssemblyImporter
 +    Name PluginImporter
-@@ -2167,0 +2476,22 @@
+@@ -2167,0 +2388,22 @@
 +PersistentTypeID 1053
 +    Name ASTCImporter
 +    Namespace 
@@ -1289,16 +1132,16 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -2169 +2499 @@
+@@ -2169 +2411 @@
 -    Name Transition
 +    Name AnimatorStateTransition
-@@ -2172 +2502 @@
+@@ -2172 +2414 @@
 -    Base NamedObject
 +    Base AnimatorTransitionBase
-@@ -2180 +2510 @@
+@@ -2180 +2422 @@
 -    Name State
 +    Name AnimatorState
-@@ -2202 +2532,34 @@
+@@ -2202 +2444,34 @@
 -    Name StateMachine
 +    Name AnimatorStateMachine
 +    Namespace 
@@ -1334,7 +1177,7 @@
 +
 +PersistentTypeID 1111
 +    Name AnimatorTransitionBase
-@@ -2216,0 +2580,33 @@
+@@ -2216,0 +2492,22 @@
 +    DescendantCount 0
 +    IsAbstract False
 +    IsSealed False
@@ -1353,10 +1196,48 @@
 +    IsEditorOnly False
 +
 +PersistentTypeID 1120
-+    Name LightingDataAsset
++    Name LightmapSnapshot
 +    Namespace 
 +    Module 
 +    Base NamedObject
+--- 5.0.4f1
++++ 5.1.0f3
+@@ -2035,0 +2036,22 @@
++PersistentTypeID 301
++    Name CloudWebServicesManager
++    Namespace 
++    Module 
++    Base GlobalGameManager
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 302
++    Name CloudServiceHandlerBehaviour
++    Namespace 
++    Module 
++    Base Behaviour
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2157,11 +2178,0 @@
+-PersistentTypeID 1027
+-    Name GUIDSerializer
+-    Namespace 
+-    Module 
+-    Base Object
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -2513,0 +2525,11 @@
 +    DescendantCount 0
 +    IsAbstract False
 +    IsSealed False
@@ -1368,6 +1249,152 @@
 +    Namespace 
 +    Module 
 +    Base ModelImporter
+--- 5.1.5f1
++++ 5.2.0f3
+@@ -687 +687 @@
+-    Base Behaviour
++    Base DirectorPlayer
+@@ -925,11 +924,0 @@
+-PersistentTypeID 127
+-    Name HaloManager
+-    Namespace 
+-    Module 
+-    Base LevelGameManager
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -2024,0 +2014,11 @@
++PersistentTypeID 292
++    Name UnityAdsSettings
++    Namespace 
++    Module 
++    Base GlobalGameManager
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2047,2 +2047,2 @@
+-PersistentTypeID 302
+-    Name CloudServiceHandlerBehaviour
++PersistentTypeID 303
++    Name UnityAnalyticsManager
+@@ -2051 +2051 @@
+-    Base Behaviour
++    Base GlobalGameManager
+@@ -2053,0 +2054,11 @@
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 320
++    Name DirectorPlayer
++    Namespace 
++    Module 
++    Base Behaviour
++    DescendantCount 0
++    IsAbstract True
+--- 5.2.5f1
++++ 5.3.0f4
+@@ -1453,11 +1452,0 @@
+-PersistentTypeID 194
+-    Name NavMeshObsolete
+-    Namespace 
+-    Module 
+-    Base NamedObject
+-    DescendantCount 0
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -1793,0 +1783,11 @@
++PersistentTypeID 236
++    Name ClusterInputManager
++    Namespace 
++    Module 
++    Base GlobalGameManager
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -1947,0 +1948,55 @@
++PersistentTypeID 253
++    Name BuoyancyEffector2D
++    Namespace 
++    Module 
++    Base Effector2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 254
++    Name RelativeJoint2D
++    Namespace 
++    Module 
++    Base Joint2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 255
++    Name FixedJoint2D
++    Namespace 
++    Module 
++    Base AnchoredJoint2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 256
++    Name FrictionJoint2D
++    Namespace 
++    Module 
++    Base AnchoredJoint2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 257
++    Name TargetJoint2D
++    Namespace 
++    Module 
++    Base Joint2D
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2057,0 +2113,11 @@
++PersistentTypeID 310
++    Name UnityConnectSettings
++    Namespace 
++    Module 
++    Base GlobalGameManager
++    DescendantCount 0
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2532 +2598 @@
+-    Name LightmapSnapshot
++    Name LightingDataAsset
 --- 5.3.8f2
 +++ 5.4.0f3
 @@ -6 +6 @@
