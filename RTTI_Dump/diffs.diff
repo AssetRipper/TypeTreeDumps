@@ -6101,10 +6101,10 @@
 +    IsStripped False
 +    IsEditorOnly True
 --- 2021.1.28f1
-+++ 2021.2.0b4
++++ 2021.2.0b1
 @@ -6 +6 @@
 -    DescendantCount 297
-+    DescendantCount 300
++    DescendantCount 299
 @@ -28 +28 @@
 -    DescendantCount 117
 +    DescendantCount 118
@@ -6113,7 +6113,7 @@
 +    DescendantCount 79
 @@ -127 +127 @@
 -    DescendantCount 248
-+    DescendantCount 250
++    DescendantCount 249
 @@ -325 +325 @@
 -    DescendantCount 8
 +    DescendantCount 9
@@ -6123,12 +6123,6 @@
 @@ -708 +708 @@
 -    Module Core
 +    Module Editor
-@@ -897 +897 @@
--    DescendantCount 129
-+    DescendantCount 130
-@@ -2107 +2107 @@
--    DescendantCount 34
-+    DescendantCount 35
 @@ -2783,0 +2784,11 @@
 +PersistentTypeID 387306366
 +    Name MemorySettings
@@ -6153,7 +6147,19 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3390,0 +3413,11 @@
+@@ -3180,11 +3201,0 @@
+-PersistentTypeID 1736697216
+-    Name AndroidAssetPackImporter
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3390,0 +3402,11 @@
 +    Namespace 
 +    Module Editor
 +    Base AssetImporter
@@ -6165,6 +6171,32 @@
 +
 +PersistentTypeID 2103361453
 +    Name ShaderIncludeImporter
+--- 2021.2.0b3
++++ 2021.2.0b4
+@@ -6 +6 @@
+-    DescendantCount 299
++    DescendantCount 300
+@@ -127 +127 @@
+-    DescendantCount 249
++    DescendantCount 250
+@@ -897 +897 @@
+-    DescendantCount 129
++    DescendantCount 130
+@@ -2107 +2107 @@
+-    DescendantCount 34
++    DescendantCount 35
+@@ -3200,0 +3201,11 @@
++
++PersistentTypeID 1736697216
++    Name AndroidAssetPackImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
 --- 2022.1.0a13
 +++ 2022.1.0a15
 @@ -6 +6 @@

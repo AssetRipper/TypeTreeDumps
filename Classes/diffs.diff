@@ -597,7 +597,7 @@
 @@ -290,0 +291 @@
 +  "1736697216": "AndroidAssetPackImporter",
 --- 2021.1.28f1
-+++ 2021.2.0b4
++++ 2021.2.0b1
 @@ -66 +66 @@
 -  "109": "CGProgram",
 +  "109": "ShaderInclude",
@@ -605,10 +605,16 @@
 +  "387306366": "MemorySettings",
 @@ -270,0 +272 @@
 +  "893571522": "CustomCollider2D",
-@@ -310 +312,2 @@
+@@ -291 +292,0 @@
+-  "1736697216": "AndroidAssetPackImporter",
+@@ -310 +311,2 @@
 -  "2089858483": "ScriptedImporter"
 +  "2089858483": "ScriptedImporter",
 +  "2103361453": "ShaderIncludeImporter"
+--- 2021.2.0b3
++++ 2021.2.0b4
+@@ -292,0 +293 @@
++  "1736697216": "AndroidAssetPackImporter",
 --- 2022.1.0a13
 +++ 2022.1.0a15
 @@ -291,0 +292 @@
