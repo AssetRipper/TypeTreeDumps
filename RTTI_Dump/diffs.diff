@@ -6101,10 +6101,81 @@
 +    IsStripped False
 +    IsEditorOnly True
 --- 2021.1.28f1
-+++ 2021.2.0b1
++++ 2021.2.0a5
 @@ -6 +6 @@
 -    DescendantCount 297
-+    DescendantCount 299
++    DescendantCount 296
+@@ -127 +127 @@
+-    DescendantCount 248
++    DescendantCount 247
+@@ -897 +897 @@
+-    DescendantCount 129
++    DescendantCount 128
+@@ -2107 +2107 @@
+-    DescendantCount 34
++    DescendantCount 33
+@@ -3179,11 +3178,0 @@
+-
+-PersistentTypeID 1736697216
+-    Name AndroidAssetPackImporter
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+--- 2021.2.0a6
++++ 2021.2.0a8
+@@ -6 +6 @@
+-    DescendantCount 296
++    DescendantCount 297
+@@ -127 +127 @@
+-    DescendantCount 247
++    DescendantCount 248
+@@ -303 +303 @@
+-    DescendantCount 7
++    DescendantCount 6
+@@ -706 +706 @@
+-    Name CGProgram
++    Name ShaderInclude
+@@ -708,2 +708,2 @@
+-    Module Core
+-    Base TextAsset
++    Module Editor
++    Base NamedObject
+@@ -897 +897 @@
+-    DescendantCount 128
++    DescendantCount 129
+@@ -2107 +2107 @@
+-    DescendantCount 33
++    DescendantCount 34
+@@ -3379,0 +3380,11 @@
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 2103361453
++    Name ShaderIncludeImporter
+--- 2021.2.0a12
++++ 2021.2.0a13
+@@ -303 +303 @@
+-    DescendantCount 6
++    DescendantCount 7
+@@ -709 +709 @@
+-    Base NamedObject
++    Base TextAsset
+--- 2021.2.0a19
++++ 2021.2.0a20
+@@ -6 +6 @@
+-    DescendantCount 297
++    DescendantCount 298
 @@ -28 +28 @@
 -    DescendantCount 117
 +    DescendantCount 118
@@ -6117,25 +6188,8 @@
 @@ -325 +325 @@
 -    DescendantCount 8
 +    DescendantCount 9
-@@ -706 +706 @@
--    Name CGProgram
-+    Name ShaderInclude
-@@ -708 +708 @@
--    Module Core
-+    Module Editor
-@@ -2783,0 +2784,11 @@
-+PersistentTypeID 387306366
-+    Name MemorySettings
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
+@@ -2958,0 +2959,11 @@
 +
-@@ -2959,0 +2971,11 @@
 +PersistentTypeID 893571522
 +    Name CustomCollider2D
 +    Namespace 
@@ -6146,31 +6200,23 @@
 +    IsSealed True
 +    IsStripped False
 +    IsEditorOnly False
-+
-@@ -3180,11 +3201,0 @@
--PersistentTypeID 1736697216
--    Name AndroidAssetPackImporter
--    Namespace 
--    Module Editor
--    Base AssetImporter
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly True
--
-@@ -3390,0 +3402,11 @@
-+    Namespace 
-+    Module Editor
-+    Base AssetImporter
+--- 2021.2.0a21
++++ 2021.2.0b1
+@@ -6 +6 @@
+-    DescendantCount 298
++    DescendantCount 299
+@@ -2776,0 +2777,11 @@
++    Base Object
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
 +
-+PersistentTypeID 2103361453
-+    Name ShaderIncludeImporter
++PersistentTypeID 387306366
++    Name MemorySettings
++    Namespace 
++    Module Core
 --- 2021.2.0b3
 +++ 2021.2.0b4
 @@ -6 +6 @@
