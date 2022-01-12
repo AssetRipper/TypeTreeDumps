@@ -5695,7 +5695,7 @@
 -    IsStripped False
 -    IsEditorOnly True
 --- 2020.1.17f1
-+++ 2020.2.0f1
++++ 2020.2.0b1
 @@ -6 +6 @@
 -    DescendantCount 313
 +    DescendantCount 314
