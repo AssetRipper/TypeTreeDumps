@@ -6028,41 +6028,23 @@
 -    Module Core
 -    Base Object
 --- 2020.3.25f1
-+++ 2021.1.0b3
++++ 2021.1.0a2
 @@ -6 +6 @@
 -    DescendantCount 298
-+    DescendantCount 296
-@@ -28 +28 @@
--    DescendantCount 118
-+    DescendantCount 117
-@@ -83 +83 @@
--    DescendantCount 79
-+    DescendantCount 78
++    DescendantCount 297
 @@ -127 +127 @@
 -    DescendantCount 249
-+    DescendantCount 247
++    DescendantCount 248
 @@ -629 +629 @@
 -    Name ScriptMapper
 +    Name ShaderNameRegistry
-@@ -859,11 +858,0 @@
--PersistentTypeID 125
--    Name HaloLayer
--    Namespace 
--    Module Core
--    Base Behaviour
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -908 +897 @@
+@@ -908 +908 @@
 -    DescendantCount 129
 +    DescendantCount 128
-@@ -2118 +2107 @@
+@@ -2118 +2118 @@
 -    DescendantCount 34
 +    DescendantCount 33
-@@ -3190,11 +3178,0 @@
+@@ -3190,11 +3189,0 @@
 -
 -PersistentTypeID 1736697216
 -    Name AndroidAssetPackImporter
@@ -6074,6 +6056,32 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
+--- 2021.1.0a5
++++ 2021.1.0a6
+@@ -6 +6 @@
+-    DescendantCount 297
++    DescendantCount 296
+@@ -28 +28 @@
+-    DescendantCount 118
++    DescendantCount 117
+@@ -83 +83 @@
+-    DescendantCount 79
++    DescendantCount 78
+@@ -127 +127 @@
+-    DescendantCount 248
++    DescendantCount 247
+@@ -850,11 +849,0 @@
+-    Namespace 
+-    Module Core
+-    Base Behaviour
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 125
+-    Name HaloLayer
 --- 2021.1.15f1
 +++ 2021.1.16f1
 @@ -6 +6 @@

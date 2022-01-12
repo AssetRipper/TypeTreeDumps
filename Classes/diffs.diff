@@ -584,14 +584,16 @@
 -  "1981279845": "TestObjectWithSerializedMapStringBool",
 -  "1995898324": "SerializableManagedHost",
 --- 2020.3.25f1
-+++ 2021.1.0b3
++++ 2021.1.0a2
 @@ -59 +59 @@
 -  "94": "ScriptMapper",
 +  "94": "ShaderNameRegistry",
+@@ -292 +291,0 @@
+-  "1736697216": "AndroidAssetPackImporter",
+--- 2021.1.0a5
++++ 2021.1.0a6
 @@ -80 +79,0 @@
 -  "125": "HaloLayer",
-@@ -292 +290,0 @@
--  "1736697216": "AndroidAssetPackImporter",
 --- 2021.1.15f1
 +++ 2021.1.16f1
 @@ -290,0 +291 @@
