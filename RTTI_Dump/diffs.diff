@@ -5695,41 +5695,26 @@
 -    IsStripped False
 -    IsEditorOnly True
 --- 2020.1.17f1
-+++ 2020.2.0b1
-@@ -6 +6 @@
--    DescendantCount 313
-+    DescendantCount 314
++++ 2020.2.0a8
 @@ -28 +28 @@
 -    DescendantCount 121
-+    DescendantCount 120
++    DescendantCount 122
+@@ -83 +83 @@
+-    DescendantCount 79
++    DescendantCount 80
 @@ -127 +127 @@
 -    DescendantCount 248
-+    DescendantCount 250
++    DescendantCount 249
+@@ -149 +149 @@
+-    DescendantCount 1
++    DescendantCount 2
 @@ -151 +151 @@
 -    IsSealed True
 +    IsSealed False
-@@ -303 +303 @@
--    DescendantCount 6
-+    DescendantCount 7
-@@ -908 +908 @@
--    DescendantCount 125
-+    DescendantCount 128
-@@ -2080,11 +2079,0 @@
--PersistentTypeID 362
--    Name WorldAnchor
--    Namespace 
--    Module VR
--    Base Component
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -2129 +2118 @@
--    DescendantCount 31
-+    DescendantCount 33
-@@ -2135,11 +2123,0 @@
+@@ -714 +714 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -2135,11 +2134,0 @@
 -PersistentTypeID 1004
 -    Name AssetDatabaseV1
 -    Namespace 
@@ -5741,22 +5726,68 @@
 -    IsStripped False
 -    IsEditorOnly True
 -
-@@ -2182 +2160 @@
+@@ -2182 +2171 @@
 -    Module Core
 +    Module Editor
-@@ -3036,0 +3015,11 @@
-+PersistentTypeID 815301076
-+    Name PreviewImporter
+@@ -2934,0 +2924,11 @@
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 488575907
++    Name ScriptableCamera
 +    Namespace 
-+    Module Editor
-+    Base AssetImporter
++    Module Core
++    Base Camera
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -3102,0 +3092,11 @@
+--- 2020.2.0a10
++++ 2020.2.0a11
+@@ -6 +6 @@
+-    DescendantCount 313
++    DescendantCount 312
+@@ -28 +28 @@
+-    DescendantCount 122
++    DescendantCount 121
+@@ -83 +83 @@
+-    DescendantCount 80
++    DescendantCount 79
+@@ -127 +127 @@
+-    DescendantCount 249
++    DescendantCount 248
+@@ -149 +149 @@
+-    DescendantCount 2
++    DescendantCount 1
+@@ -2924,11 +2923,0 @@
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 488575907
+-    Name ScriptableCamera
+-    Namespace 
+-    Module Core
+-    Base Camera
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+--- 2020.2.0a11
++++ 2020.2.0a12
+@@ -6 +6 @@
+-    DescendantCount 312
++    DescendantCount 314
+@@ -127 +127 @@
+-    DescendantCount 248
++    DescendantCount 250
+@@ -303 +303 @@
+-    DescendantCount 6
++    DescendantCount 7
+@@ -908 +908 @@
+-    DescendantCount 125
++    DescendantCount 127
+@@ -2129 +2129 @@
+-    DescendantCount 31
++    DescendantCount 32
+@@ -3091,0 +3092,11 @@
 +PersistentTypeID 954905827
 +    Name RuleSetFileAsset
 +    Namespace 
@@ -5768,7 +5799,8 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3366,0 +3367,11 @@
+@@ -3354,0 +3366,11 @@
++
 +PersistentTypeID 1777034230
 +    Name RuleSetFileImporter
 +    Namespace 
@@ -5779,13 +5811,68 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
+--- 2020.2.0a12
++++ 2020.2.0a13
+@@ -3436 +3436 @@
+-    Module Editor
++    Module PackageManagerUI
+@@ -3447 +3447 @@
+-    Module Editor
++    Module PackageManagerUI
+--- 2020.2.0a15
++++ 2020.2.0a16
+@@ -6 +6 @@
+-    DescendantCount 314
++    DescendantCount 313
+@@ -28 +28 @@
+-    DescendantCount 121
++    DescendantCount 120
+@@ -127 +127 @@
+-    DescendantCount 250
++    DescendantCount 249
+@@ -2077,11 +2076,0 @@
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 362
+-    Name WorldAnchor
+-    Namespace 
+-    Module VR
+-    Base Component
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+--- 2020.2.0a16
++++ 2020.2.0a17
+@@ -714 +714 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+--- 2020.2.0a17
++++ 2020.2.0a18
+@@ -6 +6 @@
+-    DescendantCount 313
++    DescendantCount 314
+@@ -127 +127 @@
+-    DescendantCount 249
++    DescendantCount 250
+@@ -908 +908 @@
+-    DescendantCount 127
++    DescendantCount 128
+@@ -2118 +2118 @@
+-    DescendantCount 32
++    DescendantCount 33
+@@ -3007,0 +3008,11 @@
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
 +
-@@ -3425 +3436 @@
--    Module Editor
-+    Module PackageManagerUI
-@@ -3436 +3447 @@
--    Module Editor
-+    Module PackageManagerUI
++PersistentTypeID 815301076
++    Name PreviewImporter
++    Namespace 
++    Module Editor
 --- 2020.3.14f1
 +++ 2020.3.15f2
 @@ -6 +6 @@
