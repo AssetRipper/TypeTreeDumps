@@ -5595,61 +5595,44 @@
 +    IsStripped False
 +    IsEditorOnly True
 --- 2019.4.34f1
-+++ 2020.1.0b1
++++ 2020.1.0a3
 @@ -6 +6 @@
 -    DescendantCount 308
-+    DescendantCount 313
-@@ -28 +28 @@
--    DescendantCount 120
-+    DescendantCount 121
-@@ -83 +83 @@
--    DescendantCount 78
-+    DescendantCount 79
-@@ -127 +127 @@
--    DescendantCount 245
-+    DescendantCount 248
++    DescendantCount 306
 @@ -714 +714 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
-@@ -908 +908 @@
--    DescendantCount 123
-+    DescendantCount 125
-@@ -2750,0 +2751,22 @@
-+PersistentTypeID 156483287
-+    Name ScenesUsingAssets
-+    Namespace BuildReporting
-+    Module Editor
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-+PersistentTypeID 171741748
-+    Name ArticulationBody
-+    Namespace Unity
-+    Module Physics
-+    Base Behaviour
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
+@@ -2129 +2129 @@
+-    DescendantCount 31
++    DescendantCount 30
+@@ -2452 +2452 @@
+-    IsEditorOnly True
 +    IsEditorOnly False
-+
-@@ -2915,0 +2938,11 @@
-+PersistentTypeID 612988286
-+    Name SpriteAtlasAsset
-+    Namespace 
-+    Module Editor
-+    Base NamedObject
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -3014,0 +3048,11 @@
+@@ -2850,11 +2849,0 @@
+-PersistentTypeID 382020655
+-    Name PluginBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -2927,11 +2915,0 @@
+-PersistentTypeID 641289076
+-    Name AudioBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3014,0 +2993,11 @@
 +PersistentTypeID 850595691
 +    Name LightingSettings
 +    Namespace 
@@ -5661,7 +5644,156 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3025,0 +3070,11 @@
+@@ -3055 +3044 @@
+-    IsSealed True
++    IsSealed False
+@@ -3068 +3057 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3079 +3068 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3189 +3178 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3268,11 +3256,0 @@
+-PersistentTypeID 1736697216
+-    Name AndroidAssetPackImporter
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3475 +3453 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3484 +3462 @@
+-    IsSealed True
++    IsSealed False
+@@ -3519 +3497 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+--- 2020.1.0a3
++++ 2020.1.0a5
+@@ -6 +6 @@
+-    DescendantCount 306
++    DescendantCount 308
+@@ -2849,0 +2850,11 @@
++PersistentTypeID 382020655
++    Name PluginBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2908,0 +2920,11 @@
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 641289076
++    Name AudioBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
+--- 2020.1.0a5
++++ 2020.1.0a7
+@@ -6 +6 @@
+-    DescendantCount 308
++    DescendantCount 309
+@@ -2749,0 +2750,11 @@
++
++PersistentTypeID 156483287
++    Name ScenesUsingAssets
++    Namespace BuildReporting
++    Module Editor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
+--- 2020.1.0a9
++++ 2020.1.0a11
+@@ -2452 +2452 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3077 +3077 @@
+-    IsSealed False
++    IsSealed True
+@@ -3090 +3090 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3101 +3101 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3211 +3211 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3486 +3486 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3495 +3495 @@
+-    IsSealed False
++    IsSealed True
+@@ -3530 +3530 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+--- 2020.1.0a12
++++ 2020.1.0a17
+@@ -6 +6 @@
+-    DescendantCount 309
++    DescendantCount 313
+@@ -28 +28 @@
+-    DescendantCount 120
++    DescendantCount 121
+@@ -83 +83 @@
+-    DescendantCount 78
++    DescendantCount 79
+@@ -127 +127 @@
+-    DescendantCount 245
++    DescendantCount 248
+@@ -908 +908 @@
+-    DescendantCount 123
++    DescendantCount 125
+@@ -2129 +2129 @@
+-    DescendantCount 30
++    DescendantCount 31
+@@ -2761,0 +2762,11 @@
++PersistentTypeID 171741748
++    Name ArticulationBody
++    Namespace Unity
++    Module Physics
++    Base Behaviour
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2926,0 +2938,11 @@
++PersistentTypeID 612988286
++    Name SpriteAtlasAsset
++    Namespace 
++    Module Editor
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3047,0 +3070,11 @@
 +PersistentTypeID 890905787
 +    Name VersionControlSettings
 +    Namespace 
@@ -5673,7 +5805,8 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3168,0 +3224,11 @@
+@@ -3189,0 +3223,11 @@
++
 +PersistentTypeID 1210832254
 +    Name SpriteAtlasImporter
 +    Namespace 
@@ -5684,19 +5817,6 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
-+
-@@ -3267,11 +3332,0 @@
--
--PersistentTypeID 1736697216
--    Name AndroidAssetPackImporter
--    Namespace 
--    Module Editor
--    Base AssetImporter
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly True
 --- 2020.1.0b16
 +++ 2020.1.0f1
 @@ -714 +714 @@
