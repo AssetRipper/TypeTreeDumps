@@ -5595,7 +5595,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 --- 2019.4.34f1
-+++ 2020.1.0f1
++++ 2020.1.0b1
 @@ -6 +6 @@
 -    DescendantCount 308
 +    DescendantCount 313
@@ -5608,6 +5608,9 @@
 @@ -127 +127 @@
 -    DescendantCount 245
 +    DescendantCount 248
+@@ -714 +714 @@
+-    IsEditorOnly True
++    IsEditorOnly False
 @@ -908 +908 @@
 -    DescendantCount 123
 +    DescendantCount 125
@@ -5694,6 +5697,11 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
+--- 2020.1.0b16
++++ 2020.1.0f1
+@@ -714 +714 @@
+-    IsEditorOnly False
++    IsEditorOnly True
 --- 2020.1.17f1
 +++ 2020.2.0a8
 @@ -28 +28 @@
