@@ -610,7 +610,7 @@
 -  "1977754360": "NativeObjectType",
 -  "1981279845": "TestObjectWithSerializedMapStringBool",
 -  "1995898324": "SerializableManagedHost",
---- 2020.3.25f1
+--- 2020.3.26f1
 +++ 2021.1.0a2
 @@ -59 +59 @@
 -  "94": "ScriptMapper",
