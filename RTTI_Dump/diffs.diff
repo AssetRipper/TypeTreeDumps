@@ -5455,10 +5455,90 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
 --- 2019.2.21f1
-+++ 2019.3.0f6
++++ 2019.3.0a2
 @@ -6 +6 @@
 -    DescendantCount 310
 +    DescendantCount 307
+@@ -127 +127 @@
+-    DescendantCount 247
++    DescendantCount 246
+@@ -919 +919 @@
+-    DescendantCount 121
++    DescendantCount 120
+@@ -1105 +1105 @@
+-    Base BaseVideoTexture
++    Base Texture
+@@ -1766 +1766 @@
+-    DescendantCount 3
++    DescendantCount 2
+@@ -2173 +2173 @@
+-    DescendantCount 30
++    DescendantCount 29
+@@ -2377,11 +2376,0 @@
+-PersistentTypeID 1044
+-    Name MovieImporter
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -2507 +2496 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -2905,11 +2893,0 @@
+-PersistentTypeID 382020655
+-    Name PluginBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -2982,11 +2959,0 @@
+-PersistentTypeID 641289076
+-    Name AudioBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3088 +3055 @@
+-    IsSealed True
++    IsSealed False
+@@ -3101 +3068 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3112 +3079 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3222 +3189 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3497 +3464 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -3506 +3473 @@
+-    IsSealed True
++    IsSealed False
+@@ -3541 +3508 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+--- 2019.3.0a3
++++ 2019.3.0a4
+@@ -6 +6 @@
+-    DescendantCount 307
++    DescendantCount 303
 @@ -28 +28 @@
 -    DescendantCount 124
 +    DescendantCount 120
@@ -5466,8 +5546,8 @@
 -    DescendantCount 82
 +    DescendantCount 78
 @@ -127 +127 @@
--    DescendantCount 247
-+    DescendantCount 244
+-    DescendantCount 246
++    DescendantCount 242
 @@ -617,11 +616,0 @@
 -PersistentTypeID 92
 -    Name GUILayer
@@ -5480,8 +5560,7 @@
 -    IsStripped False
 -    IsEditorOnly False
 -
-@@ -919,34 +908 @@
--    DescendantCount 121
+@@ -920,33 +908,0 @@
 -    IsAbstract True
 -    IsSealed False
 -    IsStripped False
@@ -5515,32 +5594,29 @@
 -    Module Core
 -    Base Behaviour
 -    DescendantCount 3
-+    DescendantCount 122
-@@ -1105 +1061 @@
--    Base BaseVideoTexture
-+    Base Texture
-@@ -1766 +1722 @@
--    DescendantCount 3
-+    DescendantCount 2
-@@ -2292 +2248 @@
--    Module Core
-+    Module Editor
-@@ -2377,11 +2332,0 @@
--PersistentTypeID 1044
--    Name MovieImporter
--    Namespace 
--    Module Editor
--    Base AssetImporter
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly True
--
-@@ -2600 +2545 @@
+--- 2019.3.0a7
++++ 2019.3.0a8
+@@ -2545 +2545 @@
 -    Module BuildReportingEditor
 +    Module Editor
-@@ -3038,0 +2984,22 @@
+--- 2019.3.0a8
++++ 2019.3.0a10
+@@ -6 +6 @@
+-    DescendantCount 303
++    DescendantCount 305
+@@ -127 +127 @@
+-    DescendantCount 242
++    DescendantCount 244
+@@ -908 +908 @@
+-    DescendantCount 120
++    DescendantCount 122
+@@ -2129 +2129 @@
+-    DescendantCount 29
++    DescendantCount 30
+@@ -2248 +2248 @@
+-    Module Core
++    Module Editor
+@@ -2961,0 +2962,22 @@
 +    Namespace 
 +    Module Core
 +    Base NamedObject
@@ -5563,6 +5639,61 @@
 +
 +PersistentTypeID 825902497
 +    Name RayTracingShader
+--- 2019.3.0b6
++++ 2019.3.0b7
+@@ -6 +6 @@
+-    DescendantCount 305
++    DescendantCount 307
+@@ -2849,0 +2850,11 @@
++PersistentTypeID 382020655
++    Name PluginBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2908,0 +2920,11 @@
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 641289076
++    Name AudioBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
+--- 2019.3.0b11
++++ 2019.3.0b12
+@@ -2452 +2452 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3055 +3055 @@
+-    IsSealed False
++    IsSealed True
+@@ -3068 +3068 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3079 +3079 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3189 +3189 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3464 +3464 @@
+-    IsEditorOnly False
++    IsEditorOnly True
+@@ -3473 +3473 @@
+-    IsSealed False
++    IsSealed True
+@@ -3508 +3508 @@
+-    IsEditorOnly False
++    IsEditorOnly True
 --- 2019.4.4f1
 +++ 2019.4.5f1
 @@ -714 +714 @@
