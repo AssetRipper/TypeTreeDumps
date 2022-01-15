@@ -25,7 +25,7 @@ function extract() {
 	fi
 	#echo "${path_to_UnitySetup}/UnitySetup64-$i.exe"
 	if [ -f "${path_to_UnitySetup}/UnitySetup64-$i.exe" ]; then
-		echo Extracting old $i...
+		echo Extracting normal $i...
 		mkdir -p "${path_to_UnityInstallations}/$i"
 		cd "${path_to_UnityInstallations}/$i"
 			"${path_to_7zip}" x -bb0 -bd "`wslpath -w ${path_to_UnitySetup}`"/UnitySetup64-$i.exe >/dev/null 2>&1
@@ -42,7 +42,7 @@ function extractOLD() {
 	fi
 	#echo "${path_to_UnitySetup}/UnitySetup-$i.exe"
 	if [ -f "${path_to_UnitySetup}/UnitySetup-$i.exe" ]; then
-			echo Extracting normal $i...
+			echo Extracting old $i...
 		mkdir -p "${path_to_UnityInstallations}/$i/Editor"
 		cd "${path_to_UnityInstallations}/$i/Editor"
 			"${path_to_7zip}" x -bb0 -bd "`wslpath -w ${path_to_UnitySetup}`"/UnitySetup-$i.exe >/dev/null 2>&1
