@@ -567,7 +567,7 @@
 @@ -291,0 +295 @@
 +  "1210832254": "SpriteAtlasImporter",
 --- 2020.1.17f1
-+++ 2020.2.0a8
++++ 2020.2.0a7
 @@ -196 +195,0 @@
 -  "1004": "AssetDatabaseV1",
 @@ -268,0 +268 @@
@@ -624,7 +624,7 @@
 -  "1977754360": "NativeObjectType",
 -  "1981279845": "TestObjectWithSerializedMapStringBool",
 -  "1995898324": "SerializableManagedHost",
---- 2020.3.26f1
+--- 2020.3.27f1
 +++ 2021.1.0a2
 @@ -59 +59 @@
 -  "94": "ScriptMapper",
