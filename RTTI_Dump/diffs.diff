@@ -5262,7 +5262,7 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
 --- 2019.1.14f1
-+++ 2019.2.0f1
++++ 2019.2.0a6
 @@ -6 +6 @@
 -    DescendantCount 300
 +    DescendantCount 308
@@ -5278,19 +5278,7 @@
 @@ -2173 +2173 @@
 -    DescendantCount 27
 +    DescendantCount 30
-@@ -2816,0 +2817,11 @@
-+PersistentTypeID 277625683
-+    Name EmptyObject
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -2838,0 +2850,11 @@
+@@ -2838,0 +2839,11 @@
 +PersistentTypeID 294290339
 +    Name AssemblyDefinitionReferenceImporter
 +    Namespace 
@@ -5302,7 +5290,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -2970,0 +2993,11 @@
+@@ -2970,0 +2982,11 @@
 +PersistentTypeID 662584278
 +    Name AssemblyDefinitionReferenceAsset
 +    Namespace 
@@ -5314,7 +5302,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3025,0 +3059,33 @@
+@@ -3025,0 +3048,33 @@
 +PersistentTypeID 994735392
 +    Name VisualEffectSubgraph
 +    Namespace 
@@ -5348,7 +5336,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3069,0 +3136,11 @@
+@@ -3069,0 +3125,11 @@
 +PersistentTypeID 1114811875
 +    Name ReferencesArtifactGenerator
 +    Namespace 
@@ -5360,7 +5348,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3102,0 +3180,11 @@
+@@ -3102,0 +3169,11 @@
 +PersistentTypeID 1223240404
 +    Name MultiArtifactTestImporter
 +    Namespace 
@@ -5372,10 +5360,13 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3360 +3448 @@
+@@ -3360 +3437 @@
 -    Base NamedObject
 +    Base VisualEffectObject
-@@ -3388,0 +3477,11 @@
+@@ -3385,0 +3463,11 @@
++    IsStripped False
++    IsEditorOnly False
++
 +PersistentTypeID 2059678085
 +    Name VisualEffectObject
 +    Namespace 
@@ -5384,10 +5375,12 @@
 +    DescendantCount 5
 +    IsAbstract True
 +    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -3421,11 +3519,0 @@
+--- 2019.2.0a6
++++ 2019.2.0a7
+@@ -6 +6 @@
+-    DescendantCount 308
++    DescendantCount 307
+@@ -3509,11 +3508,0 @@
 -
 -PersistentTypeID 2126867596
 -    Name TilemapEditorUserSettings
@@ -5399,6 +5392,23 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
+--- 2019.2.0a7
++++ 2019.2.0a8
+@@ -6 +6 @@
+-    DescendantCount 307
++    DescendantCount 308
+@@ -2815,0 +2816,11 @@
++
++PersistentTypeID 277625683
++    Name EmptyObject
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
 --- 2019.2.12f1
 +++ 2019.2.13f1
 @@ -6 +6 @@

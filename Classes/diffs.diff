@@ -478,27 +478,31 @@
 +  "1981279845": "TestObjectWithSerializedMapStringBool",
 +  "1995898324": "SerializableManagedHost",
 --- 2019.1.14f1
-+++ 2019.2.0f1
-@@ -257,0 +258 @@
-+  "277625683": "EmptyObject",
-@@ -259,0 +261 @@
++++ 2019.2.0a6
+@@ -259,0 +260 @@
 +  "294290339": "AssemblyDefinitionReferenceImporter",
-@@ -271,0 +274 @@
+@@ -271,0 +273 @@
 +  "662584278": "AssemblyDefinitionReferenceAsset",
-@@ -276,0 +280,3 @@
+@@ -276,0 +279,3 @@
 +  "994735392": "VisualEffectSubgraph",
 +  "994735403": "VisualEffectSubgraphOperator",
 +  "994735404": "VisualEffectSubgraphBlock",
-@@ -280,0 +287 @@
+@@ -280,0 +286 @@
 +  "1114811875": "ReferencesArtifactGenerator",
-@@ -283,0 +291 @@
+@@ -283,0 +290 @@
 +  "1223240404": "MultiArtifactTestImporter",
-@@ -309,0 +318 @@
+@@ -309,0 +317 @@
 +  "2059678085": "VisualEffectObject",
-@@ -312,2 +321 @@
+--- 2019.2.0a6
++++ 2019.2.0a7
+@@ -320,2 +320 @@
 -  "2089858483": "ScriptedImporter",
 -  "2126867596": "TilemapEditorUserSettings"
 +  "2089858483": "ScriptedImporter"
+--- 2019.2.0a7
++++ 2019.2.0a8
+@@ -257,0 +258 @@
++  "277625683": "EmptyObject",
 --- 2019.2.12f1
 +++ 2019.2.13f1
 @@ -265,0 +266 @@
