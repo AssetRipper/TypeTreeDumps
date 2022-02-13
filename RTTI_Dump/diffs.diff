@@ -4984,7 +4984,7 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
 --- 2018.4.36f1
-+++ 2019.1.0f2
++++ 2019.1.0b1
 @@ -6 +6 @@
 -    DescendantCount 284
 +    DescendantCount 300
@@ -5006,13 +5006,13 @@
 @@ -919 +919 @@
 -    DescendantCount 111
 +    DescendantCount 113
-@@ -2138 +2138 @@
--    Module Core
-+    Module Umbra
 @@ -2173 +2173 @@
 -    DescendantCount 26
 +    DescendantCount 27
 @@ -2507 +2507 @@
+-    IsEditorOnly True
++    IsEditorOnly False
+@@ -2771 +2771 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
 @@ -2783,0 +2784,11 @@
@@ -5261,6 +5261,14 @@
 @@ -3244 +3420 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
+--- 2019.1.0b2
++++ 2019.1.0b3
+@@ -2138 +2138 @@
+-    Module Core
++    Module Umbra
+@@ -2771 +2771 @@
+-    IsEditorOnly False
++    IsEditorOnly True
 --- 2019.1.14f1
 +++ 2019.2.0a6
 @@ -6 +6 @@
