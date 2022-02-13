@@ -4984,10 +4984,10 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
 --- 2018.4.36f1
-+++ 2019.1.0b1
++++ 2019.1.0a10
 @@ -6 +6 @@
 -    DescendantCount 284
-+    DescendantCount 300
++    DescendantCount 299
 @@ -28 +28 @@
 -    DescendantCount 122
 +    DescendantCount 124
@@ -5040,7 +5040,7 @@
 @@ -2826 +2837 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
-@@ -2828,4 +2839,4 @@
+@@ -2828,4 +2839,15 @@
 -PersistentTypeID 382020655
 -    Name PluginBuildInfo
 -    Namespace BuildReporting
@@ -5049,18 +5049,18 @@
 +    Name SiblingDerived
 +    Namespace ObjectProduceTestTypes
 +    Module Core
-@@ -2836,0 +2848,33 @@
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
 +    IsEditorOnly False
 +
 +PersistentTypeID 342846651
 +    Name TestObjectWithSerializedMapStringNonAlignedStruct
 +    Namespace 
 +    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
+@@ -2836,0 +2859,22 @@
 +    IsEditorOnly False
 +
 +PersistentTypeID 367388927
@@ -5131,7 +5131,7 @@
 @@ -2903 +2969 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
-@@ -2981,0 +3048,22 @@
+@@ -2981,0 +3048,11 @@
 +PersistentTypeID 1091556383
 +    Name Derived
 +    Namespace ObjectProduceTestTypes
@@ -5143,18 +5143,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 1111377672
-+    Name PropertyModificationsTargetTestObject
-+    Namespace 
-+    Module Core
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
-@@ -2992,0 +3081,11 @@
+@@ -2992,0 +3070,11 @@
 +PersistentTypeID 1154873562
 +    Name SceneVisibilityState
 +    Namespace 
@@ -5166,10 +5155,10 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3013 +3112 @@
+@@ -3013 +3101 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
-@@ -3036,0 +3136,11 @@
+@@ -3036,0 +3125,11 @@
 +PersistentTypeID 1392443030
 +    Name TestObjectWithSpecialLayoutTwo
 +    Namespace 
@@ -5181,12 +5170,12 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3070,2 +3180,2 @@
+@@ -3070,2 +3169,2 @@
 -PersistentTypeID 1571458007
 -    Name RenderPassAttachment
 +PersistentTypeID 1628831178
 +    Name TestObjectVectorPairStringBool
-@@ -3113,0 +3224,11 @@
+@@ -3113,0 +3213,11 @@
 +PersistentTypeID 1803986026
 +    Name FakeComponent
 +    Namespace 
@@ -5198,7 +5187,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3157,0 +3279,22 @@
+@@ -3157,0 +3268,22 @@
 +PersistentTypeID 1896753125
 +    Name PackageManifest
 +    Namespace 
@@ -5221,7 +5210,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3179,0 +3323,33 @@
+@@ -3179,0 +3312,33 @@
 +PersistentTypeID 1977754360
 +    Name NativeObjectType
 +    Namespace 
@@ -5255,12 +5244,29 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3211 +3387 @@
+@@ -3211 +3376 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
-@@ -3244 +3420 @@
+@@ -3244 +3409 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
+--- 2019.1.0a12
++++ 2019.1.0a13
+@@ -6 +6 @@
+-    DescendantCount 299
++    DescendantCount 300
+@@ -3053,0 +3054,11 @@
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1111377672
++    Name PropertyModificationsTargetTestObject
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
 --- 2019.1.0b2
 +++ 2019.1.0b3
 @@ -2138 +2138 @@
