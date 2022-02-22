@@ -543,7 +543,7 @@
 +++ 2019.4.29f1
 @@ -298,0 +299 @@
 +  "1736697216": "AndroidAssetPackImporter",
---- 2019.4.35f1
+--- 2019.4.36f1
 +++ 2020.1.0a3
 @@ -261 +260,0 @@
 -  "382020655": "PluginBuildInfo",
@@ -631,7 +631,7 @@
 -  "1977754360": "NativeObjectType",
 -  "1981279845": "TestObjectWithSerializedMapStringBool",
 -  "1995898324": "SerializableManagedHost",
---- 2020.3.28f1
+--- 2020.3.29f1
 +++ 2021.1.0a2
 @@ -59 +59 @@
 -  "94": "ScriptMapper",
