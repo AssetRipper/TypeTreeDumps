@@ -334,23 +334,27 @@
 +  "1766753193": "AssemblyJsonImporter",
 +  "2089858483": "ScriptedImporter"
 --- 2017.1.5f1
-+++ 2017.2.0f3
++++ 2017.2.0b2
 @@ -253 +252,0 @@
 -  "1128": "StyleSheetImporter",
 @@ -265,0 +265,3 @@
 +  "19719996": "TilemapCollider2D",
 +  "156049354": "Grid",
 +  "483693784": "TilemapRenderer",
-@@ -270 +271,0 @@
--  "1152215463": "AssemblyJsonAsset",
-@@ -274,2 +275,5 @@
--  "1766753193": "AssemblyJsonImporter",
--  "2089858483": "ScriptedImporter"
+@@ -273,0 +276,2 @@
 +  "1571458007": "RenderPassAttachment",
 +  "1742807556": "GridLayout",
+@@ -275 +279,3 @@
+-  "2089858483": "ScriptedImporter"
 +  "1839735485": "Tilemap",
 +  "2089858483": "ScriptedImporter",
 +  "2126867596": "TilemapEditorUserSettings"
+--- 2017.2.0b10
++++ 2017.2.0b11
+@@ -272 +271,0 @@
+-  "1152215463": "AssemblyJsonAsset",
+@@ -278 +276,0 @@
+-  "1766753193": "AssemblyJsonImporter",
 --- 2017.2.5f1
 +++ 2017.3.0b1
 @@ -195 +194,0 @@
