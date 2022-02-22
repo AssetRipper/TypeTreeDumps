@@ -3306,7 +3306,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 --- 2017.2.5f1
-+++ 2017.3.0f3
++++ 2017.3.0b1
 @@ -4 +4 @@
 -    Module 
 +    Module Core
