@@ -2614,10 +2614,10 @@
 +PersistentTypeID 1127
 +    Name BuiltAssetBundleInfoSet
 --- 5.5.6f1
-+++ 5.6.0f3
++++ 5.6.0b1
 @@ -6 +6 @@
 -    DescendantCount 248
-+    DescendantCount 252
++    DescendantCount 251
 @@ -28 +28 @@
 -    DescendantCount 108
 +    DescendantCount 110
@@ -2632,10 +2632,10 @@
 +    DescendantCount 32
 @@ -149 +149 @@
 -    DescendantCount 201
-+    DescendantCount 205
++    DescendantCount 204
 @@ -226 +226 @@
 -    DescendantCount 12
-+    DescendantCount 14
++    DescendantCount 13
 @@ -358 +358 @@
 -    DescendantCount 6
 +    DescendantCount 7
@@ -2647,7 +2647,7 @@
 +    Base Collider2D
 +    DescendantCount 1
 +    IsAbstract False
-+    IsSealed False
++    IsSealed True
 +    IsStripped False
 +    IsEditorOnly False
 +
@@ -2671,10 +2671,7 @@
 +    Base Behaviour
 @@ -963 +985 @@
 -    DescendantCount 91
-+    DescendantCount 93
-@@ -1237 +1259 @@
--    Base Texture
-+    Base BaseVideoTexture
++    DescendantCount 92
 @@ -1568 +1590 @@
 -    DescendantCount 3
 +    DescendantCount 4
@@ -2690,9 +2687,6 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -1832 +1865 @@
--    DescendantCount 2
-+    DescendantCount 3
 @@ -2167,0 +2201,11 @@
 +PersistentTypeID 305
 +    Name PerformanceReportingManager
@@ -2705,23 +2699,12 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -2179,2 +2223,13 @@
+@@ -2179,2 +2223,2 @@
 -PersistentTypeID 320
 -    Name DirectorPlayer
-+PersistentTypeID 319
-+    Name AvatarMask
-+    Namespace 
-+    Module 
-+    Base NamedObject
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
-+
 +PersistentTypeID 328
 +    Name VideoPlayer
-@@ -2184,2 +2239,13 @@
+@@ -2184,2 +2228,13 @@
 -    DescendantCount 2
 -    IsAbstract True
 +    DescendantCount 1
@@ -2737,21 +2720,9 @@
 +    Base NamedObject
 +    DescendantCount 1
 +    IsAbstract False
-@@ -2239 +2305 @@
+@@ -2239 +2294 @@
 -    DescendantCount 23
 +    DescendantCount 21
-@@ -2300,11 +2365,0 @@
--PersistentTypeID 1011
--    Name AvatarMask
--    Namespace 
--    Module 
--    Base NamedObject
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
 @@ -2487,11 +2541,0 @@
 -PersistentTypeID 1046
 -    Name DDSImporter
@@ -2811,7 +2782,72 @@
 @@ -2722 +2755 @@
 -    Base Object
 +    Base AssetImporter
-@@ -2854,0 +2888,11 @@
+--- 5.6.0b2
++++ 5.6.0b3
+@@ -2222,0 +2223,11 @@
++PersistentTypeID 319
++    Name AvatarMask
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -2349,11 +2359,0 @@
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 1011
+-    Name AvatarMask
+-    Namespace 
+-    Module 
+-    Base NamedObject
+--- 5.6.0b4
++++ 5.6.0b5
+@@ -6 +6 @@
+-    DescendantCount 251
++    DescendantCount 252
+@@ -149 +149 @@
+-    DescendantCount 204
++    DescendantCount 205
+@@ -226 +226 @@
+-    DescendantCount 13
++    DescendantCount 14
+@@ -492 +492 @@
+-    IsSealed True
++    IsSealed False
+@@ -985 +985 @@
+-    DescendantCount 92
++    DescendantCount 93
+@@ -1259 +1259 @@
+-    Base Texture
++    Base BaseVideoTexture
+@@ -1865 +1865 @@
+-    DescendantCount 2
++    DescendantCount 3
+@@ -2234,2 +2234,2 @@
+-PersistentTypeID 328
+-    Name VideoPlayer
++PersistentTypeID 327
++    Name VideoClip
+@@ -2238 +2238 @@
+-    Base Behaviour
++    Base NamedObject
+@@ -2245,2 +2245,2 @@
+-PersistentTypeID 329
+-    Name VideoClip
++PersistentTypeID 328
++    Name VideoPlayer
+@@ -2249 +2249 @@
+-    Base NamedObject
++    Base Behaviour
+@@ -2887,0 +2888,11 @@
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed False
@@ -2823,6 +2859,24 @@
 +    Namespace 
 +    Module 
 +    Base Texture
+--- 5.6.0b9
++++ 5.6.0b10
+@@ -2234,2 +2234,2 @@
+-PersistentTypeID 327
+-    Name VideoClip
++PersistentTypeID 328
++    Name VideoPlayer
+@@ -2238 +2238 @@
+-    Base NamedObject
++    Base Behaviour
+@@ -2245,2 +2245,2 @@
+-PersistentTypeID 328
+-    Name VideoPlayer
++PersistentTypeID 329
++    Name VideoClip
+@@ -2249 +2249 @@
+-    Base Behaviour
++    Base NamedObject
 --- 5.6.1f1
 +++ 5.6.2f1
 @@ -6 +6 @@
