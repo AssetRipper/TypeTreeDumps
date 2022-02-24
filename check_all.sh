@@ -730,3 +730,4 @@ check_any_version 2022.1.0b5
 check_any_version 2022.1.0b6
 check_any_version 2022.1.0b7
 check_any_version 2022.1.0b8
+check_any_version 2022.1.0b9
