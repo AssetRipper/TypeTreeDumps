@@ -20,4 +20,4 @@ generate check_all.sh check_functions.sh check_any_version
 
 generate dump_all.sh dump_functions.sh dump
 
-generate extract_all.sh extract_functions.sh extractANY
+generate extract_all.sh extract_functions.sh extract

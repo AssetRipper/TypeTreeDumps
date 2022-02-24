@@ -45,27 +45,25 @@ function dump() {
 		force_dump=false
 	fi
 
-	i=$1
-
-	if [ -d "${path_to_UnityInstallations}/$i" ]; then
-		if [ $force_dump = false ] && [ -f "$(dirname "$0")/Classes/$i.json" ]; then
-			echo Already Dumped $i
+	if [ -d "${path_to_UnityInstallations}/$1" ]; then
+		if [ $force_dump = false ] && [ -f "$(dirname "$0")/Classes/$1.json" ]; then
+			echo Already Dumped $1
 		else
-			echo Dumping $i...
+			echo Dumping $1...
 			rm -rf ${path_to_OutputFolder}
 			mkdir -p ${path_to_OutputFolder}
-			"${path_to_DumperExe}" "`wslpath -w ${path_to_UnityInstallations}`"/$i/Editor/Unity.exe --silent --output "`wslpath -w ${path_to_OutputFolder}`"
-			cp ${path_to_OutputFolder}/classes.json $(dirname "$0")/Classes/$i.json
-			cp ${path_to_OutputFolder}/info.json $(dirname "$0")/InfoJson/$i.json
-			cp ${path_to_OutputFolder}/RTTI.dump $(dirname "$0")/RTTI_Dump/$i.dump
-			cp ${path_to_OutputFolder}/strings.dat $(dirname "$0")/StringsData/$i.dat
-			cp ${path_to_OutputFolder}/editor_structs.dat $(dirname "$0")/StructsData/editor/$i.dat
-			cp ${path_to_OutputFolder}/structs.dat $(dirname "$0")/StructsData/release/$i.dat
-			cp ${path_to_OutputFolder}/editor_structs.dump $(dirname "$0")/StructsDump/editor/$i.dump
-			cp ${path_to_OutputFolder}/structs.dump $(dirname "$0")/StructsDump/release/$i.dump
+			"${path_to_DumperExe}" "`wslpath -w ${path_to_UnityInstallations}`"/$1/Editor/Unity.exe --silent --output "`wslpath -w ${path_to_OutputFolder}`"
+			cp ${path_to_OutputFolder}/classes.json $(dirname "$0")/Classes/$1.json
+			cp ${path_to_OutputFolder}/info.json $(dirname "$0")/InfoJson/$1.json
+			cp ${path_to_OutputFolder}/RTTI.dump $(dirname "$0")/RTTI_Dump/$1.dump
+			cp ${path_to_OutputFolder}/strings.dat $(dirname "$0")/StringsData/$1.dat
+			cp ${path_to_OutputFolder}/editor_structs.dat $(dirname "$0")/StructsData/editor/$1.dat
+			cp ${path_to_OutputFolder}/structs.dat $(dirname "$0")/StructsData/release/$1.dat
+			cp ${path_to_OutputFolder}/editor_structs.dump $(dirname "$0")/StructsDump/editor/$1.dump
+			cp ${path_to_OutputFolder}/structs.dump $(dirname "$0")/StructsDump/release/$1.dump
 		fi
 	else
-		echo Unity $i missing, skipped
+		echo Unity $1 missing, skipped
 	fi
 }
 
