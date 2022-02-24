@@ -70,9 +70,9 @@ check_early_version() {
 		echo $1 needs dumped
 	else
 		info_json_path="$(dirname "$0")/InfoJson/$1.json"
-		if ! [ -f $1nfo_json_path ]; then
+		if ! [ -f $info_json_path ]; then
 			echo $1 missing information json
-		elif [ "$(is_empty_file $1nfo_json_path)" = "true" ]; then
+		elif [ "$(is_empty_file $info_json_path)" = "true" ]; then
 			echo $1 has an empty information json
 		fi
 		rtti_path="$(dirname "$0")/RTTI_Dump/$1.dump"
