@@ -2895,10 +2895,10 @@
 +    Module 
 +    Base Object
 --- 5.6.7f1
-+++ 2017.1.0f3
++++ 2017.1.0b2
 @@ -6 +6 @@
 -    DescendantCount 253
-+    DescendantCount 262
++    DescendantCount 260
 @@ -28 +28 @@
 -    DescendantCount 110
 +    DescendantCount 112
@@ -2913,7 +2913,7 @@
 +    DescendantCount 31
 @@ -149 +149 @@
 -    DescendantCount 205
-+    DescendantCount 215
++    DescendantCount 214
 @@ -204 +204 @@
 -    DescendantCount 9
 +    DescendantCount 10
@@ -2928,7 +2928,7 @@
 +    IsEditorOnly True
 @@ -985 +985 @@
 -    DescendantCount 93
-+    DescendantCount 101
++    DescendantCount 100
 @@ -1165 +1165 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
@@ -3135,16 +3135,14 @@
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
-@@ -2893,0 +2905,22 @@
+@@ -2894,3 +2905,3 @@
+-PersistentTypeID 668709126
+-    Name BuiltAssetBundleInfoSet
+-    Namespace BuildReporting
 +PersistentTypeID 638013454
 +    Name SpriteAtlasDatabase
 +    Namespace 
-+    Module 
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
+@@ -2902,0 +2914,44 @@
 +    IsEditorOnly True
 +
 +PersistentTypeID 644342135
@@ -3156,9 +3154,6 @@
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
-+    IsEditorOnly True
-+
-@@ -2902,0 +2936,33 @@
 +    IsEditorOnly True
 +
 +PersistentTypeID 687078895
@@ -3192,19 +3187,7 @@
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
-@@ -2904,0 +2971,11 @@
-+PersistentTypeID 1325145578
-+    Name LightingDataAssetParent
-+    Namespace 
-+    Module 
-+    Base NamedObject
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -2909,0 +2987,22 @@
+@@ -2909,0 +2965,22 @@
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed False
@@ -3227,6 +3210,46 @@
 +    Namespace 
 +    Module 
 +    Base AssetImporter
+--- 2017.1.0b3
++++ 2017.1.0b4
+@@ -6 +6 @@
+-    DescendantCount 260
++    DescendantCount 261
+@@ -2920,0 +2921,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 668709126
++    Name BuiltAssetBundleInfoSet
++    Namespace BuildReporting
++    Module 
++    Base Object
+--- 2017.1.0b9
++++ 2017.1.0b10
+@@ -6 +6 @@
+-    DescendantCount 261
++    DescendantCount 262
+@@ -149 +149 @@
+-    DescendantCount 214
++    DescendantCount 215
+@@ -985 +985 @@
+-    DescendantCount 100
++    DescendantCount 101
+@@ -2969,0 +2970,11 @@
++
++PersistentTypeID 1325145578
++    Name LightingDataAssetParent
++    Namespace 
++    Module 
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
 --- 2017.1.5f1
 +++ 2017.2.0b2
 @@ -6 +6 @@

@@ -322,7 +322,7 @@
 @@ -264,0 +265 @@
 +  "668709126": "BuiltAssetBundleInfoSet",
 --- 5.6.7f1
-+++ 2017.1.0f3
++++ 2017.1.0b2
 @@ -197 +196,0 @@
 -  "292": "UnityAdsManager",
 @@ -204,0 +204 @@
@@ -336,18 +336,25 @@
 -  "1037": "AssetServerCache",
 @@ -252,0 +253 @@
 +  "1128": "StyleSheetImporter",
-@@ -264,0 +266,2 @@
+@@ -265,2 +266,8 @@
+-  "668709126": "BuiltAssetBundleInfoSet",
+-  "1480428607": "LowerResBlitTexture"
 +  "638013454": "SpriteAtlasDatabase",
 +  "644342135": "CachedSpriteAtlasRuntimeData",
-@@ -266 +269,7 @@
--  "1480428607": "LowerResBlitTexture"
 +  "687078895": "SpriteAtlas",
 +  "1152215463": "AssemblyJsonAsset",
 +  "1268269756": "GameObjectRecorder",
-+  "1325145578": "LightingDataAssetParent",
 +  "1480428607": "LowerResBlitTexture",
 +  "1766753193": "AssemblyJsonImporter",
 +  "2089858483": "ScriptedImporter"
+--- 2017.1.0b3
++++ 2017.1.0b4
+@@ -267,0 +268 @@
++  "668709126": "BuiltAssetBundleInfoSet",
+--- 2017.1.0b9
++++ 2017.1.0b10
+@@ -271,0 +272 @@
++  "1325145578": "LightingDataAssetParent",
 --- 2017.1.5f1
 +++ 2017.2.0b2
 @@ -253 +252,0 @@
