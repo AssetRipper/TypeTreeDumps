@@ -1396,7 +1396,7 @@
 -    Name LightmapSnapshot
 +    Name LightingDataAsset
 --- 5.3.8f2
-+++ 5.4.0f3
++++ 5.4.0b22
 @@ -6 +6 @@
 -    DescendantCount 0
 +    DescendantCount 242

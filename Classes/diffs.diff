@@ -220,7 +220,7 @@
 -  "1120": "LightmapSnapshot",
 +  "1120": "LightingDataAsset",
 --- 5.3.8f2
-+++ 5.4.0f3
++++ 5.4.0b22
 @@ -130,0 +131 @@
 +  "187": "Texture2DArray",
 @@ -184,0 +186 @@
