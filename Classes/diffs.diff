@@ -322,21 +322,19 @@
 @@ -264,0 +265 @@
 +  "668709126": "BuiltAssetBundleInfoSet",
 --- 5.6.7f1
-+++ 2017.1.0b2
-@@ -197 +196,0 @@
--  "292": "UnityAdsManager",
-@@ -204,0 +204 @@
++++ 2017.1.0b1
+@@ -204,0 +205 @@
 +  "320": "PlayableDirector",
-@@ -206,0 +207 @@
+@@ -206,0 +208 @@
 +  "331": "SpriteMask",
-@@ -212 +213 @@
+@@ -212 +214 @@
 -  "1004": "AssetDatabase",
 +  "1004": "AssetDatabaseV1",
-@@ -226 +226,0 @@
+@@ -226 +227,0 @@
 -  "1037": "AssetServerCache",
-@@ -252,0 +253 @@
+@@ -252,0 +254 @@
 +  "1128": "StyleSheetImporter",
-@@ -265,2 +266,8 @@
+@@ -265,2 +267,7 @@
 -  "668709126": "BuiltAssetBundleInfoSet",
 -  "1480428607": "LowerResBlitTexture"
 +  "638013454": "SpriteAtlasDatabase",
@@ -345,6 +343,13 @@
 +  "1152215463": "AssemblyJsonAsset",
 +  "1268269756": "GameObjectRecorder",
 +  "1480428607": "LowerResBlitTexture",
++  "1766753193": "AssemblyJsonImporter"
+--- 2017.1.0b1
++++ 2017.1.0b2
+@@ -197 +196,0 @@
+-  "292": "UnityAdsManager",
+@@ -273 +272,2 @@
+-  "1766753193": "AssemblyJsonImporter"
 +  "1766753193": "AssemblyJsonImporter",
 +  "2089858483": "ScriptedImporter"
 --- 2017.1.0b3

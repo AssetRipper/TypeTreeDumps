@@ -2895,25 +2895,19 @@
 +    Module 
 +    Base Object
 --- 5.6.7f1
-+++ 2017.1.0b2
++++ 2017.1.0b1
 @@ -6 +6 @@
 -    DescendantCount 253
 +    DescendantCount 260
 @@ -28 +28 @@
 -    DescendantCount 110
 +    DescendantCount 112
-@@ -72 +72 @@
--    DescendantCount 26
-+    DescendantCount 25
 @@ -83 +83 @@
 -    DescendantCount 68
 +    DescendantCount 69
-@@ -94 +94 @@
--    DescendantCount 32
-+    DescendantCount 31
 @@ -149 +149 @@
 -    DescendantCount 205
-+    DescendantCount 214
++    DescendantCount 213
 @@ -204 +204 @@
 -    DescendantCount 9
 +    DescendantCount 10
@@ -2928,7 +2922,7 @@
 +    IsEditorOnly True
 @@ -985 +985 @@
 -    DescendantCount 93
-+    DescendantCount 100
++    DescendantCount 99
 @@ -1165 +1165 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
@@ -2947,19 +2941,7 @@
 @@ -1924 +1924 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2146,11 +2145,0 @@
--PersistentTypeID 292
--    Name UnityAdsManager
--    Namespace 
--    Module 
--    Base GlobalGameManager
--    DescendantCount 1
--    IsAbstract False
--    IsSealed False
--    IsStripped False
--    IsEditorOnly False
--
-@@ -2233,0 +2223,11 @@
+@@ -2233,0 +2234,11 @@
 +PersistentTypeID 320
 +    Name PlayableDirector
 +    Namespace 
@@ -2971,7 +2953,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -2255,0 +2256,11 @@
+@@ -2255,0 +2267,11 @@
 +PersistentTypeID 331
 +    Name SpriteMask
 +    Namespace 
@@ -2983,61 +2965,61 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -2287 +2298 @@
+@@ -2287 +2309 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2298 +2309 @@
+@@ -2298 +2320 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2305 +2316 @@
+@@ -2305 +2327 @@
 -    DescendantCount 21
-+    DescendantCount 24
-@@ -2309 +2320 @@
++    DescendantCount 23
+@@ -2309 +2331 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2312 +2323 @@
+@@ -2312 +2334 @@
 -    Name AssetDatabase
 +    Name AssetDatabaseV1
-@@ -2320 +2331 @@
+@@ -2320 +2342 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2331 +2342 @@
+@@ -2331 +2353 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2342 +2353 @@
+@@ -2342 +2364 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2353 +2364 @@
+@@ -2353 +2375 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2364 +2375 @@
+@@ -2364 +2386 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2375 +2386 @@
+@@ -2375 +2397 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2386 +2397 @@
+@@ -2386 +2408 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2397 +2408 @@
+@@ -2397 +2419 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2408 +2419 @@
+@@ -2408 +2430 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2419 +2430 @@
+@@ -2419 +2441 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2430 +2441 @@
+@@ -2430 +2452 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2441 +2452 @@
+@@ -2441 +2463 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2452 +2463 @@
+@@ -2452 +2474 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2463,12 +2474 @@
+@@ -2463,12 +2485 @@
 -    IsEditorOnly False
 -
 -PersistentTypeID 1037
@@ -3051,79 +3033,79 @@
 -    IsStripped False
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2485 +2485 @@
+@@ -2485 +2496 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2496 +2496 @@
+@@ -2496 +2507 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2507 +2507 @@
+@@ -2507 +2518 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2518 +2518 @@
+@@ -2518 +2529 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2529 +2529 @@
+@@ -2529 +2540 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2540 +2540 @@
+@@ -2540 +2551 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2551 +2551 @@
+@@ -2551 +2562 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2562 +2562 @@
+@@ -2562 +2573 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2573 +2573 @@
+@@ -2573 +2584 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2584 +2584 @@
+@@ -2584 +2595 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2595 +2595 @@
+@@ -2595 +2606 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2606 +2606 @@
+@@ -2606 +2617 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2617 +2617 @@
+@@ -2617 +2628 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2628 +2628 @@
+@@ -2628 +2639 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2639 +2639 @@
+@@ -2639 +2650 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2661 +2661 @@
+@@ -2661 +2672 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2672 +2672 @@
+@@ -2672 +2683 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2683 +2683 @@
+@@ -2683 +2694 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2694 +2694 @@
+@@ -2694 +2705 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2705 +2705 @@
+@@ -2705 +2716 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2716 +2716 @@
+@@ -2716 +2727 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2727 +2727 @@
+@@ -2727 +2738 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2738 +2738 @@
+@@ -2738 +2749 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2749 +2749 @@
+@@ -2749 +2760 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
-@@ -2759,0 +2760,11 @@
+@@ -2759,0 +2771,11 @@
 +    IsEditorOnly True
 +
 +PersistentTypeID 1128
@@ -3135,14 +3117,14 @@
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
-@@ -2894,3 +2905,3 @@
+@@ -2894,3 +2916,3 @@
 -PersistentTypeID 668709126
 -    Name BuiltAssetBundleInfoSet
 -    Namespace BuildReporting
 +PersistentTypeID 638013454
 +    Name SpriteAtlasDatabase
 +    Namespace 
-@@ -2902,0 +2914,44 @@
+@@ -2902,0 +2925,44 @@
 +    IsEditorOnly True
 +
 +PersistentTypeID 644342135
@@ -3187,12 +3169,7 @@
 +    IsAbstract False
 +    IsSealed False
 +    IsStripped False
-@@ -2909,0 +2965,22 @@
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly False
+@@ -2914,0 +2981,11 @@
 +
 +PersistentTypeID 1766753193
 +    Name AssemblyJsonImporter
@@ -3204,12 +3181,47 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
+--- 2017.1.0b1
++++ 2017.1.0b2
+@@ -72 +72 @@
+-    DescendantCount 26
++    DescendantCount 25
+@@ -94 +94 @@
+-    DescendantCount 32
++    DescendantCount 31
+@@ -149 +149 @@
+-    DescendantCount 213
++    DescendantCount 214
+@@ -985 +985 @@
+-    DescendantCount 99
++    DescendantCount 100
+@@ -2146,11 +2145,0 @@
+-PersistentTypeID 292
+-    Name UnityAdsManager
+-    Namespace 
+-    Module 
+-    Base GlobalGameManager
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -2327 +2316 @@
+-    DescendantCount 23
++    DescendantCount 24
+@@ -2991,0 +2981,11 @@
 +
 +PersistentTypeID 2089858483
 +    Name ScriptedImporter
 +    Namespace 
 +    Module 
 +    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
 --- 2017.1.0b3
 +++ 2017.1.0b4
 @@ -6 +6 @@
