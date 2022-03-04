@@ -4318,7 +4318,7 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
 --- 2017.4.40f1
-+++ 2018.1.0b11
++++ 2018.1.0b2
 @@ -6 +6 @@
 -    DescendantCount 267
 +    DescendantCount 280
