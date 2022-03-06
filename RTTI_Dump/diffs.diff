@@ -6738,6 +6738,40 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
+--- 2021.2.13f1
++++ 2021.2.14f1
+@@ -6 +6 @@
+-    DescendantCount 300
++    DescendantCount 301
+@@ -3189,0 +3190,11 @@
++
++PersistentTypeID 1521398425
++    Name VideoBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
+--- 2021.2.14f1
++++ 2022.1.0a7
+@@ -6 +6 @@
+-    DescendantCount 301
++    DescendantCount 300
+@@ -3190,11 +3189,0 @@
+-
+-PersistentTypeID 1521398425
+-    Name VideoBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
 --- 2022.1.0a13
 +++ 2022.1.0a15
 @@ -6 +6 @@
