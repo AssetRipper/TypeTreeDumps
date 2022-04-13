@@ -663,11 +663,17 @@
 -  "1981279845": "TestObjectWithSerializedMapStringBool",
 -  "1995898324": "SerializableManagedHost",
 --- 2020.3.32f1
++++ 2020.3.33f1
+@@ -290,0 +291 @@
++  "1521398425": "VideoBuildInfo",
+--- 2020.3.33f1
 +++ 2021.1.0a2
 @@ -59 +59 @@
 -  "94": "ScriptMapper",
 +  "94": "ShaderNameRegistry",
-@@ -292 +291,0 @@
+@@ -291 +290,0 @@
+-  "1521398425": "VideoBuildInfo",
+@@ -293 +291,0 @@
 -  "1736697216": "AndroidAssetPackImporter",
 --- 2021.1.0a5
 +++ 2021.1.0a6
@@ -706,7 +712,7 @@
 +++ 2021.2.14f1
 @@ -291,0 +292 @@
 +  "1521398425": "VideoBuildInfo",
---- 2021.2.18f1
+--- 2021.3.0f1
 +++ 2022.1.0a7
 @@ -292 +291,0 @@
 -  "1521398425": "VideoBuildInfo",

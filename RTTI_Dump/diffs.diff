@@ -6515,9 +6515,26 @@
 -    Module Core
 -    Base Object
 --- 2020.3.32f1
-+++ 2021.1.0a2
++++ 2020.3.33f1
 @@ -6 +6 @@
 -    DescendantCount 298
++    DescendantCount 299
+@@ -3178,0 +3179,11 @@
++
++PersistentTypeID 1521398425
++    Name VideoBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
+--- 2020.3.33f1
++++ 2021.1.0a2
+@@ -6 +6 @@
+-    DescendantCount 299
 +    DescendantCount 297
 @@ -127 +127 @@
 -    DescendantCount 249
@@ -6531,7 +6548,19 @@
 @@ -2118 +2118 @@
 -    DescendantCount 34
 +    DescendantCount 33
-@@ -3190,11 +3189,0 @@
+@@ -3180,11 +3179,0 @@
+-PersistentTypeID 1521398425
+-    Name VideoBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3201,11 +3189,0 @@
 -
 -PersistentTypeID 1736697216
 -    Name AndroidAssetPackImporter
@@ -6755,7 +6784,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2021.2.18f1
+--- 2021.3.0f1
 +++ 2022.1.0a7
 @@ -6 +6 @@
 -    DescendantCount 301
