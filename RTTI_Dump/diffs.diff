@@ -5867,9 +5867,26 @@
 +    IsStripped False
 +    IsEditorOnly True
 --- 2019.4.37f1
-+++ 2020.1.0a3
++++ 2019.4.38f1
 @@ -6 +6 @@
 -    DescendantCount 308
++    DescendantCount 309
+@@ -3244,0 +3245,11 @@
++
++PersistentTypeID 1521398425
++    Name VideoBuildInfo
++    Namespace BuildReporting
++    Module BuildReportingEditor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
+--- 2019.4.38f1
++++ 2020.1.0a3
+@@ -6 +6 @@
+-    DescendantCount 309
 +    DescendantCount 306
 @@ -714 +714 @@
 -    IsEditorOnly True
@@ -5928,7 +5945,19 @@
 @@ -3189 +3178 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
-@@ -3268,11 +3256,0 @@
+@@ -3246,11 +3234,0 @@
+-PersistentTypeID 1521398425
+-    Name VideoBuildInfo
+-    Namespace BuildReporting
+-    Module BuildReportingEditor
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3279,11 +3256,0 @@
 -PersistentTypeID 1736697216
 -    Name AndroidAssetPackImporter
 -    Namespace 
@@ -5940,13 +5969,13 @@
 -    IsStripped False
 -    IsEditorOnly True
 -
-@@ -3475 +3453 @@
+@@ -3486 +3453 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
-@@ -3484 +3462 @@
+@@ -3495 +3462 @@
 -    IsSealed True
 +    IsSealed False
-@@ -3519 +3497 @@
+@@ -3530 +3497 @@
 -    IsEditorOnly True
 +    IsEditorOnly False
 --- 2020.1.0a3
@@ -6784,7 +6813,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2021.3.0f1
+--- 2021.3.1f1
 +++ 2022.1.0a7
 @@ -6 +6 @@
 -    DescendantCount 301
