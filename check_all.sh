@@ -651,6 +651,7 @@ check_any_version 2020.3.30f1
 check_any_version 2020.3.31f1
 check_any_version 2020.3.32f1
 check_any_version 2020.3.33f1
+check_any_version 2020.3.34f1
 check_any_version 2021.1.0a2
 check_any_version 2021.1.0a4
 check_any_version 2021.1.0a5
@@ -750,6 +751,7 @@ check_any_version 2021.2.18f1
 check_any_version 2021.2.19f1
 check_any_version 2021.3.0f1
 check_any_version 2021.3.1f1
+check_any_version 2021.3.2f1
 check_any_version 2022.1.0a7
 check_any_version 2022.1.0a8
 check_any_version 2022.1.0a9
