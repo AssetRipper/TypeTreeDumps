@@ -777,3 +777,4 @@ check_any_version 2022.1.0b13
 check_any_version 2022.1.0b14
 check_any_version 2022.1.0b15
 check_any_version 2022.1.0b16
+check_any_version 2022.1.0f1
