@@ -528,6 +528,7 @@ extract 2019.4.35f1
 extract 2019.4.36f1
 extract 2019.4.37f1
 extract 2019.4.38f1
+extract 2019.4.39f1
 extract 2020.1.0a3
 extract 2020.1.0a5
 extract 2020.1.0a7

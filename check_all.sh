@@ -528,6 +528,7 @@ check_any_version 2019.4.35f1
 check_any_version 2019.4.36f1
 check_any_version 2019.4.37f1
 check_any_version 2019.4.38f1
+check_any_version 2019.4.39f1
 check_any_version 2020.1.0a3
 check_any_version 2020.1.0a5
 check_any_version 2020.1.0a7
