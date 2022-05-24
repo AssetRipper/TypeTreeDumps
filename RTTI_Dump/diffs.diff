@@ -6679,43 +6679,6 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
---- 2021.2.0a6
-+++ 2021.2.0a8
-@@ -6 +6 @@
--    DescendantCount 296
-+    DescendantCount 297
-@@ -127 +127 @@
--    DescendantCount 247
-+    DescendantCount 248
-@@ -303 +303 @@
--    DescendantCount 7
-+    DescendantCount 6
-@@ -706 +706 @@
--    Name CGProgram
-+    Name ShaderInclude
-@@ -708,2 +708,2 @@
--    Module Core
--    Base TextAsset
-+    Module Editor
-+    Base NamedObject
-@@ -897 +897 @@
--    DescendantCount 128
-+    DescendantCount 129
-@@ -2107 +2107 @@
--    DescendantCount 33
-+    DescendantCount 34
-@@ -3379,0 +3380,11 @@
-+    Namespace 
-+    Module Editor
-+    Base AssetImporter
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-+PersistentTypeID 2103361453
-+    Name ShaderIncludeImporter
 --- 2021.2.0a12
 +++ 2021.2.0a13
 @@ -303 +303 @@
@@ -6814,12 +6777,93 @@
 +    IsStripped False
 +    IsEditorOnly True
 --- 2021.3.2f1
-+++ 2022.1.0a7
++++ 2021.3.3f1
 @@ -6 +6 @@
 -    DescendantCount 301
++    DescendantCount 305
+@@ -127 +127 @@
+-    DescendantCount 250
++    DescendantCount 254
+@@ -897 +897 @@
+-    DescendantCount 130
++    DescendantCount 134
+@@ -2107 +2107 @@
+-    DescendantCount 35
++    DescendantCount 37
+@@ -3003,0 +3004,11 @@
++PersistentTypeID 947337230
++    Name RoslynAnalyzerConfigAsset
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3212,0 +3224,22 @@
++PersistentTypeID 1597193336
++    Name RoslynAdditionalFileAsset
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1642787288
++    Name RoslynAdditionalFileImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3330,0 +3364,11 @@
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1903396204
++    Name RoslynAnalyzerConfigImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
+--- 2021.3.3f1
++++ 2022.1.0a7
+@@ -6 +6 @@
+-    DescendantCount 305
 +    DescendantCount 300
-@@ -3190,11 +3189,0 @@
+@@ -127 +127 @@
+-    DescendantCount 254
++    DescendantCount 250
+@@ -897 +897 @@
+-    DescendantCount 134
++    DescendantCount 130
+@@ -2107 +2107 @@
+-    DescendantCount 37
++    DescendantCount 35
+@@ -3004,11 +3003,0 @@
+-PersistentTypeID 947337230
+-    Name RoslynAnalyzerConfigAsset
+-    Namespace 
+-    Module Core
+-    Base NamedObject
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
 -
+@@ -3202,11 +3190,0 @@
 -PersistentTypeID 1521398425
 -    Name VideoBuildInfo
 -    Namespace BuildReporting
@@ -6830,6 +6874,42 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
+-
+@@ -3224,22 +3201,0 @@
+-PersistentTypeID 1597193336
+-    Name RoslynAdditionalFileAsset
+-    Namespace 
+-    Module Core
+-    Base NamedObject
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+-PersistentTypeID 1642787288
+-    Name RoslynAdditionalFileImporter
+-    Namespace 
+-    Module Core
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3364,11 +3319,0 @@
+-    IsStripped False
+-    IsEditorOnly True
+-
+-PersistentTypeID 1903396204
+-    Name RoslynAnalyzerConfigImporter
+-    Namespace 
+-    Module Core
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
 --- 2022.1.0a13
 +++ 2022.1.0a15
 @@ -6 +6 @@

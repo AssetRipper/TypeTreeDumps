@@ -719,9 +719,25 @@
 @@ -291,0 +292 @@
 +  "1521398425": "VideoBuildInfo",
 --- 2021.3.2f1
++++ 2021.3.3f1
+@@ -274,0 +275 @@
++  "947337230": "RoslynAnalyzerConfigAsset",
+@@ -293,0 +295,2 @@
++  "1597193336": "RoslynAdditionalFileAsset",
++  "1642787288": "RoslynAdditionalFileImporter",
+@@ -304,0 +308 @@
++  "1903396204": "RoslynAnalyzerConfigImporter",
+--- 2021.3.3f1
 +++ 2022.1.0a7
-@@ -292 +291,0 @@
+@@ -275 +274,0 @@
+-  "947337230": "RoslynAnalyzerConfigAsset",
+@@ -293 +291,0 @@
 -  "1521398425": "VideoBuildInfo",
+@@ -295,2 +292,0 @@
+-  "1597193336": "RoslynAdditionalFileAsset",
+-  "1642787288": "RoslynAdditionalFileImporter",
+@@ -308 +303,0 @@
+-  "1903396204": "RoslynAnalyzerConfigImporter",
 --- 2022.1.0a13
 +++ 2022.1.0a15
 @@ -291,0 +292 @@
