@@ -1201,7 +1201,7 @@
 +    Module 
 +    Base NamedObject
 --- 5.0.4f1
-+++ 5.1.0f3
++++ 5.1.0f1
 @@ -2035,0 +2036,22 @@
 +PersistentTypeID 301
 +    Name CloudWebServicesManager
@@ -1250,7 +1250,7 @@
 +    Module 
 +    Base ModelImporter
 --- 5.1.5f1
-+++ 5.2.0f3
++++ 5.2.0f2
 @@ -687 +687 @@
 -    Base Behaviour
 +    Base DirectorPlayer
@@ -6679,6 +6679,43 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
+--- 2021.2.0a6
++++ 2021.2.0a8
+@@ -6 +6 @@
+-    DescendantCount 296
++    DescendantCount 297
+@@ -127 +127 @@
+-    DescendantCount 247
++    DescendantCount 248
+@@ -303 +303 @@
+-    DescendantCount 7
++    DescendantCount 6
+@@ -706 +706 @@
+-    Name CGProgram
++    Name ShaderInclude
+@@ -708,2 +708,2 @@
+-    Module Core
+-    Base TextAsset
++    Module Editor
++    Base NamedObject
+@@ -897 +897 @@
+-    DescendantCount 128
++    DescendantCount 129
+@@ -2107 +2107 @@
+-    DescendantCount 33
++    DescendantCount 34
+@@ -3379,0 +3380,11 @@
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 2103361453
++    Name ShaderIncludeImporter
 --- 2021.2.0a12
 +++ 2021.2.0a13
 @@ -303 +303 @@

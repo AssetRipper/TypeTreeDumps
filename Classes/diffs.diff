@@ -182,7 +182,7 @@
 +  "1113": "LightmapParameters",
 +  "1120": "LightmapSnapshot"
 --- 5.0.4f1
-+++ 5.1.0f3
++++ 5.1.0f1
 @@ -186,0 +187,2 @@
 +  "301": "CloudWebServicesManager",
 +  "302": "CloudServiceHandlerBehaviour",
@@ -193,7 +193,7 @@
 +  "1120": "LightmapSnapshot",
 +  "1124": "SketchUpImporter"
 --- 5.1.5f1
-+++ 5.2.0f3
++++ 5.2.0f2
 @@ -86 +85,0 @@
 -  "127": "HaloManager",
 @@ -185,0 +185 @@
