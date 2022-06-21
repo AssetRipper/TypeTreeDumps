@@ -1,12 +1,12 @@
 {
-	"Version": "2021.3.4f1",
+	"Version": "2021.3.2f1",
 	"Classes": [
 		{
 			"TypeID": 1,
 			"Name": "GameObject",
 			"Fields": {
 				"serializedVersion": "6",
-				"m_Layer": 0,
+				"m_Layer": 1,
 				"m_Name": "",
 				"m_TagString": "",
 				"m_Icon": {
@@ -33,7 +33,7 @@
 					"w": 0.0
 				},
 				"m_LocalPosition": {
-					"x": 0.0,
+					"x": 1.401298464324817E-45,
 					"y": 0.0,
 					"z": 2.2420775429197073E-44
 				},
@@ -423,23 +423,23 @@
 				"serializedVersion": "5",
 				"m_Gravity": {
 					"x": 0.0,
-					"y": 5.605193857299268E-45
+					"y": 7.006492321624085E-45
 				},
 				"m_DefaultMaterial": {
 					"instanceID": 0
 				},
-				"m_VelocityIterations": 703,
+				"m_VelocityIterations": 670,
 				"m_PositionIterations": 75,
-				"m_VelocityThreshold": -0.49973738193511963,
+				"m_VelocityThreshold": 0.0,
 				"m_MaxLinearCorrection": 2.5223372357846707E-44,
 				"m_MaxAngularCorrection": 0.0,
 				"m_MaxTranslationSpeed": 8.96831017167883E-44,
 				"m_MaxRotationSpeed": 0.0,
-				"m_BaumgarteScale": 9.823102234916968E-43,
+				"m_BaumgarteScale": "NaN",
 				"m_BaumgarteTimeOfImpactScale": 0.0,
 				"m_TimeToSleep": "NaN",
 				"m_LinearSleepTolerance": 1.2611686178923354E-44,
-				"m_AngularSleepTolerance": 0.0,
+				"m_AngularSleepTolerance": 2.802596928649634E-45,
 				"m_DefaultContactOffset": 0.0,
 				"m_JobOptions": {
 					"serializedVersion": "2",
@@ -471,9 +471,9 @@
 				"m_ShowColliderSleep": false,
 				"m_ShowColliderContacts": false,
 				"m_ShowColliderAABB": false,
-				"m_ContactArrowScale": 1.109288660927632E-09,
+				"m_ContactArrowScale": -20443889664.0,
 				"m_ColliderAwakeColor": {
-					"r": 9.220543895257296E-43,
+					"r": 9.206530910614048E-43,
 					"g": 9.388699710976274E-43,
 					"b": 0.0,
 					"a": 2.942726775082116E-44
@@ -492,8 +492,8 @@
 				},
 				"m_ColliderAABBColor": {
 					"r": 0.0,
-					"g": 5.605193857299268E-45,
-					"b": 9.851128204203464E-43,
+					"g": 7.006492321624085E-45,
+					"b": 9.388699710976274E-43,
 					"a": 1.0509738482436128E-43
 				},
 				"m_LayerCollisionMatrix": []
@@ -505,10 +505,10 @@
 			"Fields": {
 				"m_Enabled": true,
 				"serializedVersion": "2",
-				"m_ClearFlags": 703,
+				"m_ClearFlags": 0,
 				"m_BackGroundColor": {
-					"r": 1.0229478789571165E-43,
-					"g": 1.9592088477358513E-30,
+					"r": 0.0,
+					"g": 0.0,
 					"b": 0.0,
 					"a": 0.0
 				},
@@ -531,12 +531,12 @@
 					"width": 0.0,
 					"height": 0.0
 				},
-				"near clip plane": 9.206530910614048E-43,
-				"far clip plane": 3.363116314379561E-44,
+				"near clip plane": 0.0,
+				"far clip plane": 0.0,
 				"field of view": 0.0,
 				"orthographic": false,
-				"orthographic size": -1.7570779900499822E-12,
-				"m_Depth": 7.174648137343064E-43,
+				"orthographic size": 0.0,
+				"m_Depth": 0.0,
 				"m_CullingMask": {
 					"serializedVersion": "2",
 					"m_Bits": 4294967295
@@ -1119,7 +1119,7 @@
 			"Name": "Rigidbody2D",
 			"Fields": {
 				"serializedVersion": "4",
-				"m_BodyType": 0,
+				"m_BodyType": 19,
 				"m_Simulated": true,
 				"m_UseFullKinematicContacts": false,
 				"m_UseAutoMass": false,
@@ -1130,9 +1130,9 @@
 				"m_Material": {
 					"instanceID": 0
 				},
-				"m_Interpolate": 0,
+				"m_Interpolate": 24,
 				"m_SleepingMode": 0,
-				"m_CollisionDetection": 0,
+				"m_CollisionDetection": 1,
 				"m_Constraints": 0
 			}
 		},
@@ -1406,7 +1406,7 @@
 					"x": 0.0,
 					"y": 0.0
 				},
-				"m_EdgeRadius": 4.0637655465419695E-44
+				"m_EdgeRadius": 3.923635700109488E-44
 			}
 		},
 		{
@@ -1414,8 +1414,8 @@
 			"Name": "PhysicsMaterial2D",
 			"Fields": {
 				"m_Name": "",
-				"friction": 1.1093028717823472E-09,
-				"bounciness": 9.220543895257296E-43
+				"friction": -20444151808.0,
+				"bounciness": 9.206530910614048E-43
 			}
 		},
 		{
@@ -1428,7 +1428,7 @@
 				"m_IsTrigger": false,
 				"m_Enabled": true,
 				"serializedVersion": "4",
-				"m_Convex": false,
+				"m_Convex": true,
 				"m_CookingOptions": 30,
 				"m_Mesh": {
 					"instanceID": 0
@@ -1451,7 +1451,7 @@
 					"z": 0.0
 				},
 				"m_Center": {
-					"x": 0.0,
+					"x": 1.401298464324817E-45,
 					"y": 0.0,
 					"z": 0.0
 				}
@@ -1531,10 +1531,10 @@
 					"y": 0.0
 				},
 				"m_Size": {
-					"x": -5.449453760875021E+29,
+					"x": -8.951929418980894E-29,
 					"y": 9.220543895257296E-43
 				},
-				"m_Direction": 59
+				"m_Direction": 27
 			}
 		},
 		{
@@ -1654,9 +1654,9 @@
 					"z": 0.0
 				},
 				"m_RelativeTorque": {
-					"x": 0.0,
-					"y": 0.0,
-					"z": 0.0
+					"x": "NaN",
+					"y": 5.885453550164232E-44,
+					"z": 3.587324068671532E-43
 				}
 			}
 		},
@@ -2443,7 +2443,7 @@
 			"Fields": {
 				"serializedVersion": "3",
 				"m_Text": "",
-				"m_OffsetZ": 0.0,
+				"m_OffsetZ": 3.587324068671532E-43,
 				"m_CharacterSize": 0.0,
 				"m_LineSpacing": 0.0,
 				"m_Anchor": 0,
@@ -2470,12 +2470,12 @@
 				"serializedVersion": "9",
 				"m_Fog": false,
 				"m_FogColor": {
-					"r": 2.5924021590009116E-43,
+					"r": 9.851128204203464E-43,
 					"g": 7.847271400218976E-44,
 					"b": 0.0,
 					"a": 0.0
 				},
-				"m_FogMode": 51,
+				"m_FogMode": 50,
 				"m_FogDensity": 0.0,
 				"m_LinearFogStart": 0.0,
 				"m_LinearFogEnd": 1.401298464324817E-45,
@@ -2489,13 +2489,13 @@
 					"r": 0.0,
 					"g": 0.0,
 					"b": 0.0,
-					"a": 5168552738816.0
+					"a": 1.575024897262819E-32
 				},
 				"m_AmbientGroundColor": {
 					"r": 4.590373509435236E-41,
 					"g": 0.0,
 					"b": 0.0,
-					"a": 7.006492321624085E-44
+					"a": 6.866362475191604E-44
 				},
 				"m_AmbientIntensity": 0.0,
 				"m_AmbientMode": 0,
@@ -2517,10 +2517,10 @@
 				"m_SpotCookie": {
 					"instanceID": 0
 				},
-				"m_DefaultReflectionMode": 185,
+				"m_DefaultReflectionMode": 703,
 				"m_DefaultReflectionResolution": 56,
-				"m_ReflectionBounces": 185,
-				"m_ReflectionIntensity": 7.146622168056567E-44,
+				"m_ReflectionBounces": 703,
+				"m_ReflectionIntensity": 7.006492321624085E-44,
 				"m_CustomReflection": {
 					"instanceID": 0
 				},
@@ -3832,52 +3832,52 @@
 				],
 				"m_Scripts": [
 					{
-						"instanceID": 574
+						"instanceID": 192
 					},
 					{
-						"instanceID": 576
+						"instanceID": 194
 					},
 					{
-						"instanceID": 578
+						"instanceID": 196
 					},
 					{
-						"instanceID": 580
+						"instanceID": 198
 					},
 					{
-						"instanceID": 582
+						"instanceID": 200
 					},
 					{
-						"instanceID": 586
+						"instanceID": 204
 					},
 					{
-						"instanceID": 588
+						"instanceID": 206
 					},
 					{
-						"instanceID": 590
+						"instanceID": 208
 					},
 					{
-						"instanceID": 592
+						"instanceID": 210
 					},
 					{
-						"instanceID": 594
+						"instanceID": 212
 					},
 					{
-						"instanceID": 596
+						"instanceID": 214
 					},
 					{
-						"instanceID": 598
+						"instanceID": 216
 					},
 					{
-						"instanceID": 600
+						"instanceID": 218
 					},
 					{
-						"instanceID": 602
+						"instanceID": 220
 					},
 					{
-						"instanceID": 604
+						"instanceID": 222
 					},
 					{
-						"instanceID": 606
+						"instanceID": 224
 					}
 				]
 			}
@@ -3949,7 +3949,7 @@
 				},
 				"m_IgnoreLayers": {
 					"serializedVersion": "2",
-					"m_Bits": 0
+					"m_Bits": 1
 				}
 			}
 		},
@@ -4122,10 +4122,10 @@
 			"Fields": {
 				"m_Enabled": true,
 				"m_Color": {
-					"r": 144,
-					"g": 213,
-					"b": 178,
-					"a": 240
+					"r": 176,
+					"g": 125,
+					"b": 194,
+					"a": 144
 				},
 				"m_Size": 9.220543895257296E-43
 			}
@@ -4139,7 +4139,7 @@
 					"instanceID": 0
 				},
 				"m_Color": {
-					"r": 9.837115219560216E-43,
+					"r": 9.556855526695252E-43,
 					"g": 7.847271400218976E-44,
 					"b": 0.0,
 					"a": 0.0
@@ -4168,7 +4168,67 @@
 				"areas": [
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": 0.1820584535598755
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": 1.8303740711791703E+20
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": 5.9439940969241434E-08
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": 3.88057027477125E-16
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": -4.3646252982692835E+21
+					},
+					{
+						"name": "",
+						"cost": 5.184804318001823E-44
 					},
 					{
 						"name": "",
@@ -4176,7 +4236,23 @@
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": -7.751376648950368E+36
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": 1.401298464324817E-45
+					},
+					{
+						"name": "",
+						"cost": "NaN"
+					},
+					{
+						"name": "",
+						"cost": "NaN"
 					},
 					{
 						"name": "",
@@ -4184,118 +4260,42 @@
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": "NaN"
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": "NaN"
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": 7.847271400218976E-44
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": "NaN"
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": "NaN"
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": "NaN"
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": 0.2599825859069824
 					},
 					{
 						"name": "",
-						"cost": 0.0
+						"cost": 1.401298464324817E-45
 					},
 					{
 						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
-					},
-					{
-						"name": "",
-						"cost": 0.0
+						"cost": 5.184804318001823E-44
 					}
 				],
-				"m_LastAgentTypeID": 0,
+				"m_LastAgentTypeID": -1,
 				"m_Settings": [],
 				"m_SettingNames": []
 			}
@@ -4314,11 +4314,11 @@
 				"m_Texture": {
 					"instanceID": 0
 				},
-				"m_AsciiStartOffset": 73,
-				"m_Tracking": 1.401298464324817E-45,
+				"m_AsciiStartOffset": -1,
+				"m_Tracking": 7.847271400218976E-44,
 				"m_CharacterSpacing": 0,
 				"m_CharacterPadding": 1,
-				"m_ConvertCase": -1250,
+				"m_ConvertCase": 0,
 				"m_CharacterRects": [],
 				"m_KerningValues": [],
 				"m_PixelScale": 0.10000000149011612,
@@ -4339,13 +4339,13 @@
 			"Fields": {
 				"serializedVersion": "23",
 				"productGUID": "00000000000000000000000000000000",
-				"AndroidProfiler": true,
+				"AndroidProfiler": false,
 				"AndroidFilterTouchesWhenObscured": false,
 				"AndroidEnableSustainedPerformanceMode": false,
-				"defaultScreenOrientation": 658,
-				"targetDevice": 35,
+				"defaultScreenOrientation": 0,
+				"targetDevice": 0,
 				"useOnDemandResources": false,
-				"accelerometerFrequency": -253908984,
+				"accelerometerFrequency": 0,
 				"companyName": "",
 				"productName": "",
 				"defaultCursor": {
@@ -4356,21 +4356,21 @@
 					"y": 0.0
 				},
 				"m_SplashScreenBackgroundColor": {
-					"r": 3.363116314379561E-44,
+					"r": 0.0,
 					"g": 0.0,
-					"b": 1.401298464324817E-45,
-					"a": 1.6815581571897805E-44
+					"b": 0.0,
+					"a": 0.0
 				},
 				"m_ShowUnitySplashScreen": false,
 				"m_ShowUnitySplashLogo": false,
 				"m_SplashScreenOverlayOpacity": 0.0,
-				"m_SplashScreenAnimation": 24,
+				"m_SplashScreenAnimation": 0,
 				"m_SplashScreenLogoStyle": 0,
 				"m_SplashScreenDrawMode": 0,
-				"m_SplashScreenBackgroundAnimationZoom": 1.401298464324817E-45,
-				"m_SplashScreenLogoAnimationZoom": 1.6815581571897805E-44,
-				"m_SplashScreenBackgroundLandscapeAspect": 9.837115219560216E-43,
-				"m_SplashScreenBackgroundPortraitAspect": 1.0229478789571165E-43,
+				"m_SplashScreenBackgroundAnimationZoom": 0.0,
+				"m_SplashScreenLogoAnimationZoom": 0.0,
+				"m_SplashScreenBackgroundLandscapeAspect": 0.0,
+				"m_SplashScreenBackgroundPortraitAspect": 0.0,
 				"m_SplashScreenBackgroundLandscapeUvs": {
 					"serializedVersion": "2",
 					"x": 0.0,
@@ -4392,13 +4392,13 @@
 				"m_HolographicTrackingLossScreen": {
 					"instanceID": 0
 				},
-				"defaultScreenWidth": 658,
-				"defaultScreenHeight": -1409857176,
-				"defaultScreenWidthWeb": 657,
+				"defaultScreenWidth": 0,
+				"defaultScreenHeight": 0,
+				"defaultScreenWidthWeb": 0,
 				"defaultScreenHeightWeb": 0,
-				"m_StereoRenderingPath": 2435,
+				"m_StereoRenderingPath": 0,
 				"m_ActiveColorSpace": 0,
-				"m_MTRendering": true,
+				"m_MTRendering": false,
 				"mipStripping": false,
 				"numberOfMipsStripped": 0,
 				"m_StackTraceTypes": [],
@@ -4419,10 +4419,10 @@
 				"androidUseSwappy": false,
 				"androidBlitType": 0,
 				"androidResizableWindow": false,
-				"androidDefaultWindowWidth": 1,
-				"androidDefaultWindowHeight": 12,
-				"androidMinimumWindowWidth": 702,
-				"androidMinimumWindowHeight": 73,
+				"androidDefaultWindowWidth": 0,
+				"androidDefaultWindowHeight": 0,
+				"androidMinimumWindowWidth": 0,
+				"androidMinimumWindowHeight": 0,
 				"androidFullscreenMode": 0,
 				"defaultIsNativeResolution": false,
 				"macRetinaSupport": false,
@@ -4431,7 +4431,7 @@
 				"muteOtherAudioSources": false,
 				"Prepare IOS For Recording": false,
 				"Force IOS Speakers When Recording": false,
-				"deferSystemGesturesMode": 24,
+				"deferSystemGesturesMode": 0,
 				"hideHomeButton": false,
 				"submitAnalytics": false,
 				"usePlayerLog": false,
@@ -4448,19 +4448,19 @@
 				"xboxEnableKinectAutoTracking": false,
 				"xboxEnableFitness": false,
 				"visibleInBackground": false,
-				"allowFullscreenSwitch": true,
-				"fullscreenMode": 73,
+				"allowFullscreenSwitch": false,
+				"fullscreenMode": 0,
 				"xboxSpeechDB": 0,
 				"xboxEnableHeadOrientation": false,
 				"xboxEnableGuest": false,
 				"xboxEnablePIXSampling": false,
 				"metalFramebufferOnly": false,
-				"xboxOneResolution": 24,
+				"xboxOneResolution": 0,
 				"xboxOneSResolution": 0,
-				"xboxOneXResolution": 1,
-				"xboxOneMonoLoggingLevel": 12,
-				"xboxOneLoggingLevel": 702,
-				"xboxOneDisableEsram": true,
+				"xboxOneXResolution": 0,
+				"xboxOneMonoLoggingLevel": 0,
+				"xboxOneLoggingLevel": 0,
+				"xboxOneDisableEsram": false,
 				"xboxOneEnableTypeOptimization": false,
 				"xboxOnePresentImmediateThreshold": 0,
 				"switchQueueCommandMemory": 0,
@@ -4470,9 +4470,9 @@
 				"switchNVNDefaultPoolsGranularity": 0,
 				"switchNVNOtherPoolsGranularity": 0,
 				"switchNVNMaxPublicTextureIDCount": 0,
-				"switchNVNMaxPublicSamplerIDCount": 24,
+				"switchNVNMaxPublicSamplerIDCount": 0,
 				"stadiaPresentMode": 0,
-				"stadiaTargetFramerate": 1,
+				"stadiaTargetFramerate": 0,
 				"vulkanNumSwapchainBuffers": 0,
 				"vulkanEnableSetSRGBWrite": false,
 				"vulkanEnablePreTransform": false,
@@ -4503,9 +4503,8 @@
 				"m_ColorGamuts": [],
 				"targetPixelDensity": 0,
 				"resolutionScalingMode": 0,
-				"resetResolutionOnWindowResize": false,
 				"androidSupportedAspectRatio": 0,
-				"androidMaxAspectRatio": 3.363116314379561E-44,
+				"androidMaxAspectRatio": 0.0,
 				"applicationIdentifier": {},
 				"buildNumber": {},
 				"overrideDefaultApplicationIdentifier": false,
@@ -4993,14 +4992,14 @@
 				"apiCompatibilityLevelPerPlatform": {},
 				"m_RenderingPath": 1,
 				"m_MobileRenderingPath": 1,
-				"metroPackageName": "DummyProject-2021.3.4.13321721",
+				"metroPackageName": "DummyProject-2021.3.2.14038539",
 				"metroPackageVersion": "",
 				"metroCertificatePath": "",
 				"metroCertificatePassword": "",
 				"metroCertificateSubject": "",
 				"metroCertificateIssuer": "",
 				"metroCertificateNotAfter": "0000000000000000",
-				"metroApplicationDescription": "DummyProject-2021.3.4.13321721",
+				"metroApplicationDescription": "DummyProject-2021.3.2.14038539",
 				"wsaImages": [],
 				"metroTileShortName": "",
 				"metroTileShowName": 0,
@@ -5085,11 +5084,11 @@
 				"qualitySettingsNames": [],
 				"projectName": "",
 				"organizationId": "",
-				"cloudEnabled": true,
+				"cloudEnabled": false,
 				"legacyClampBlendShapeWeights": false,
 				"playerDataPath": "",
 				"forceSRGBBlit": false,
-				"virtualTexturingSupportEnabled": true
+				"virtualTexturingSupportEnabled": false
 			}
 		},
 		{
@@ -5098,7 +5097,7 @@
 			"Fields": {
 				"m_Name": "",
 				"dynamicFriction": 0.0,
-				"staticFriction": 9.837115219560216E-43,
+				"staticFriction": 9.556855526695252E-43,
 				"bounciness": 3.363116314379561E-44,
 				"frictionCombine": 1,
 				"bounceCombine": 0
@@ -5114,10 +5113,10 @@
 				"m_IsTrigger": false,
 				"m_Enabled": true,
 				"serializedVersion": "2",
-				"m_Radius": 3.699427945817517E-43,
+				"m_Radius": 4.90454462513686E-44,
 				"m_Center": {
 					"x": 0.0,
-					"y": -5.458339365649188E+29,
+					"y": -9.028176985479185E-29,
 					"z": 9.220543895257296E-43
 				}
 			}
@@ -5131,13 +5130,13 @@
 				},
 				"m_IsTrigger": false,
 				"m_Enabled": true,
-				"m_Radius": 0.0,
-				"m_Height": 0.0,
-				"m_Direction": 0,
+				"m_Radius": 0.1820584535598755,
+				"m_Height": 9.206530910614048E-43,
+				"m_Direction": -1508,
 				"m_Center": {
-					"x": 0.0,
-					"y": 0.0,
-					"z": 0.0
+					"x": "NaN",
+					"y": -8.905321914326723E-29,
+					"z": 9.220543895257296E-43
 				}
 			}
 		},
@@ -5188,8 +5187,8 @@
 				"m_SortingLayer": 0,
 				"m_SortingOrder": 0,
 				"serializedVersion": "2",
-				"m_Quality": 24,
-				"m_UpdateWhenOffscreen": false,
+				"m_Quality": -1864253928,
+				"m_UpdateWhenOffscreen": true,
 				"m_SkinnedMotionVectors": true,
 				"m_Mesh": {
 					"instanceID": 0
@@ -5228,8 +5227,8 @@
 				"m_BreakTorque": "Infinity",
 				"m_EnableCollision": false,
 				"m_EnablePreprocessing": true,
-				"m_MassScale": 0.0,
-				"m_ConnectedMassScale": -4.6643743113027315E+29
+				"m_MassScale": "NaN",
+				"m_ConnectedMassScale": -8.905321914326723E-29
 			}
 		},
 		{
@@ -5294,16 +5293,16 @@
 				"m_IsTrigger": false,
 				"m_Enabled": true,
 				"serializedVersion": "2",
-				"m_Height": 0.0,
-				"m_Radius": 1.401298464324817E-45,
+				"m_Height": 1.401298464324817E-45,
+				"m_Radius": 0.0,
 				"m_SlopeLimit": 0.0,
 				"m_StepOffset": 0.0,
-				"m_SkinWidth": 0.0,
-				"m_MinMoveDistance": 0.0,
+				"m_SkinWidth": 9.220543895257296E-43,
+				"m_MinMoveDistance": 1.0509738482436128E-43,
 				"m_Center": {
-					"x": "Infinity",
-					"y": "Infinity",
-					"z": 3.587324068671532E-43
+					"x": 0.0,
+					"y": 0.0,
+					"z": 2.942726775082116E-44
 				}
 			}
 		},
@@ -5374,8 +5373,8 @@
 				"m_BreakTorque": "Infinity",
 				"m_EnableCollision": false,
 				"m_EnablePreprocessing": true,
-				"m_MassScale": 0.0,
-				"m_ConnectedMassScale": 1.401298464324817E-45
+				"m_MassScale": 7.188661121986312E-43,
+				"m_ConnectedMassScale": 0.0
 			}
 		},
 		{
@@ -5403,13 +5402,13 @@
 				"m_Spring": 0.0,
 				"m_Damper": 0.0,
 				"m_MinDistance": 0.0,
-				"m_MaxDistance": 0.0,
+				"m_MaxDistance": 1.0,
 				"m_Tolerance": 0.0,
 				"m_BreakForce": "Infinity",
 				"m_BreakTorque": "Infinity",
 				"m_EnableCollision": false,
 				"m_EnablePreprocessing": true,
-				"m_MassScale": 1.401298464324817E-45,
+				"m_MassScale": 7.188661121986312E-43,
 				"m_ConnectedMassScale": 0.0
 			}
 		},
@@ -5508,16 +5507,16 @@
 				},
 				"serializedVersion": "2",
 				"m_SecondaryAxis": {
-					"x": 1.0229478789571165E-43,
-					"y": 1.1090328655427584E-09,
-					"z": 9.220543895257296E-43
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
 				},
-				"m_XMotion": 513,
-				"m_YMotion": 6,
-				"m_ZMotion": 704,
-				"m_AngularXMotion": 73,
-				"m_AngularYMotion": 0,
-				"m_AngularZMotion": 0,
+				"m_XMotion": 0,
+				"m_YMotion": 0,
+				"m_ZMotion": 24,
+				"m_AngularXMotion": 0,
+				"m_AngularYMotion": 1,
+				"m_AngularZMotion": 15,
 				"m_LinearLimitSpring": {
 					"spring": 0.0,
 					"damper": 0.0
@@ -5556,14 +5555,14 @@
 					"contactDistance": 0.0
 				},
 				"m_TargetPosition": {
-					"x": 0.0,
-					"y": 0.0,
-					"z": 1.1072636141307157E-09
+					"x": -20318322688.0,
+					"y": 9.206530910614048E-43,
+					"z": 4.203895392974451E-44
 				},
 				"m_TargetVelocity": {
 					"x": 0.0,
-					"y": 3.363116314379561E-44,
-					"z": 0.0
+					"y": 0.0,
+					"z": 2.1019476964872256E-44
 				},
 				"m_XDrive": {
 					"serializedVersion": "3",
@@ -5584,17 +5583,17 @@
 					"maximumForce": 3.4028234663852886E+38
 				},
 				"m_TargetRotation": {
-					"x": 9.220543895257296E-43,
+					"x": 0.0,
 					"y": 4.203895392974451E-44,
 					"z": 0.0,
-					"w": 4.203895392974451E-44
+					"w": 3.363116314379561E-44
 				},
 				"m_TargetAngularVelocity": {
-					"x": 0.0,
-					"y": 1.961817850054744E-44,
-					"z": 9.837115219560216E-43
+					"x": 9.556855526695252E-43,
+					"y": 1.0229478789571165E-43,
+					"z": 0.0
 				},
-				"m_RotationDriveMode": 702,
+				"m_RotationDriveMode": 0,
 				"m_AngularXDrive": {
 					"serializedVersion": "3",
 					"positionSpring": 0.0,
@@ -5615,15 +5614,15 @@
 				},
 				"m_ProjectionMode": 0,
 				"m_ProjectionDistance": 1.401298464324817E-45,
-				"m_ProjectionAngle": 1.961817850054744E-44,
-				"m_ConfiguredInWorldSpace": true,
+				"m_ProjectionAngle": 0.0,
+				"m_ConfiguredInWorldSpace": false,
 				"m_SwapBodies": false,
 				"m_BreakForce": "Infinity",
 				"m_BreakTorque": "Infinity",
 				"m_EnableCollision": false,
 				"m_EnablePreprocessing": true,
 				"m_MassScale": 0.0,
-				"m_ConnectedMassScale": 3.363116314379561E-44
+				"m_ConnectedMassScale": 0.0
 			}
 		},
 		{
@@ -5784,16 +5783,16 @@
 				"serializedVersion": "11",
 				"m_SerializationMode": 0,
 				"m_LineEndingsForNewScripts": 0,
-				"m_DefaultBehaviorMode": 9,
+				"m_DefaultBehaviorMode": 0,
 				"m_PrefabRegularEnvironment": {
 					"instanceID": 0
 				},
 				"m_PrefabUIEnvironment": {
 					"instanceID": 0
 				},
-				"m_SpritePackerMode": 704,
-				"m_SpritePackerPaddingPower": 68,
-				"m_Bc7TextureCompressor": 14,
+				"m_SpritePackerMode": 0,
+				"m_SpritePackerPaddingPower": 0,
+				"m_Bc7TextureCompressor": 0,
 				"m_EtcTextureCompressorBehavior": 0,
 				"m_EtcTextureFastCompressor": 0,
 				"m_EtcTextureNormalCompressor": 1,
@@ -5802,27 +5801,26 @@
 				"m_ProjectGenerationRootNamespace": "",
 				"m_EnableTextureStreamingInEditMode": false,
 				"m_EnableTextureStreamingInPlayMode": false,
-				"m_AsyncShaderCompilation": true,
-				"m_CachingShaderPreprocessor": true,
-				"m_PrefabModeAllowAutoSave": false,
-				"m_EnterPlayModeOptionsEnabled": false,
-				"m_EnterPlayModeOptions": 0,
-				"m_GameObjectNamingDigits": 0,
-				"m_GameObjectNamingScheme": 9,
+				"m_AsyncShaderCompilation": false,
+				"m_CachingShaderPreprocessor": false,
+				"m_PrefabModeAllowAutoSave": true,
+				"m_EnterPlayModeOptionsEnabled": true,
+				"m_EnterPlayModeOptions": 1,
+				"m_GameObjectNamingDigits": 12,
+				"m_GameObjectNamingScheme": 690,
 				"m_AssetNamingUsesSpace": true,
 				"m_UseLegacyProbeSampleCount": false,
-				"m_SerializeInlineMappingsOnOneLine": true,
+				"m_SerializeInlineMappingsOnOneLine": false,
 				"m_DisableCookiesInLightmapper": false,
-				"m_AssetPipelineMode": 658,
+				"m_AssetPipelineMode": 0,
 				"m_RefreshImportMode": 0,
 				"m_CacheServerMode": 0,
 				"m_CacheServerEndpoint": "",
 				"m_CacheServerNamespacePrefix": "",
-				"m_CacheServerEnableDownload": true,
-				"m_CacheServerEnableUpload": true,
-				"m_CacheServerEnableAuth": false,
-				"m_CacheServerEnableTls": true,
-				"m_CacheServerValidationMode": 658
+				"m_CacheServerEnableDownload": false,
+				"m_CacheServerEnableUpload": false,
+				"m_CacheServerEnableAuth": true,
+				"m_CacheServerEnableTls": false
 			}
 		},
 		{
@@ -5831,7 +5829,7 @@
 			"Fields": {
 				"serializedVersion": "4",
 				"m_ConfigSettings": {},
-				"m_VCAutomaticAdd": true,
+				"m_VCAutomaticAdd": false,
 				"m_VCDebugCom": false,
 				"m_VCDebugCmd": true,
 				"m_VCDebugOut": false,
@@ -5839,8 +5837,8 @@
 				"m_DesiredImportWorkerCount": 1,
 				"m_StandbyImportWorkerCount": 1,
 				"m_IdleImportWorkerShutdownDelay": 60000,
-				"m_VCShowFailedCheckout": true,
-				"m_VCOverwriteFailedCheckoutAssets": true,
+				"m_VCShowFailedCheckout": false,
+				"m_VCOverwriteFailedCheckoutAssets": false,
 				"m_VCProjectOverlayIcons": false,
 				"m_VCHierarchyOverlayIcons": false,
 				"m_VCOtherOverlayIcons": false,
@@ -6202,16 +6200,16 @@
 			"Fields": {
 				"serializedVersion": "2",
 				"m_Size": {
-					"x": 2.0,
-					"y": -1.0,
+					"x": 1.401298464324817E-45,
+					"y": 0.0,
 					"z": 0.0
 				},
 				"m_Center": {
 					"x": 0.0,
-					"y": 2.0,
-					"z": -1.0
+					"y": 0.0,
+					"z": 0.0
 				},
-				"m_IsViewVolume": true
+				"m_IsViewVolume": false
 			}
 		},
 		{
@@ -12829,8 +12827,8 @@
 			"Fields": {
 				"serializedVersion": "2",
 				"m_LocalReferencePoint": {
-					"x": 0.0,
-					"y": 0.0,
+					"x": -20568604672.0,
+					"y": 9.206530910614048E-43,
 					"z": 0.0
 				},
 				"m_Size": 0.0,
@@ -12948,8 +12946,8 @@
 				"m_FlipY": false,
 				"m_DrawMode": 0,
 				"m_Size": {
-					"x": 0.0,
-					"y": 0.0
+					"x": 1.4289274063765202E-32,
+					"y": 4.590373509435236E-41
 				},
 				"m_AdaptiveModeThreshold": 0.0,
 				"m_SpriteTileMode": 0,
@@ -13273,43 +13271,43 @@
 			"Fields": {
 				"m_Enabled": true,
 				"serializedVersion": "2",
-				"m_Type": 0,
-				"m_Mode": 0,
+				"m_Type": -1,
+				"m_Mode": 1,
 				"m_RefreshMode": 0,
 				"m_TimeSlicingMode": 0,
-				"m_Resolution": 1,
-				"m_UpdateFrequency": 2,
+				"m_Resolution": 0,
+				"m_UpdateFrequency": 1056964608,
 				"m_BoxSize": {
-					"x": 0.0,
-					"y": 0.0,
-					"z": "NaN"
+					"x": 0.5,
+					"y": -9.032611439176136E-29,
+					"z": 0.10000000149011612
 				},
 				"m_BoxOffset": {
-					"x": 1.2191296639625909E-43,
+					"x": 0.5,
 					"y": 0.0,
 					"z": 0.0
 				},
 				"m_NearClip": 0.0,
 				"m_FarClip": 0.0,
 				"m_ShadowDistance": 0.0,
-				"m_ClearFlags": 704,
+				"m_ClearFlags": 0,
 				"m_BackGroundColor": {
-					"r": 1.2191296639625909E-43,
+					"r": 0.0,
 					"g": 0.0,
-					"b": 0.0,
-					"a": 0.0
+					"b": 1.0,
+					"a": 1.0
 				},
 				"m_CullingMask": {
 					"serializedVersion": "2",
-					"m_Bits": 42
+					"m_Bits": 0
 				},
 				"m_IntensityMultiplier": 0.0,
-				"m_BlendDistance": 0.0,
+				"m_BlendDistance": 1.1210387714598537E-44,
 				"m_HDR": false,
 				"m_BoxProjection": false,
 				"m_RenderDynamicObjects": false,
 				"m_UseOcclusionCulling": false,
-				"m_Importance": 1,
+				"m_Importance": 0,
 				"m_CustomBakedTexture": {
 					"instanceID": 0
 				}
@@ -13347,7 +13345,7 @@
 				"m_DeringLightProbesForTrees": true,
 				"m_ScaleInLightmap": 1.0,
 				"m_LightmapParameters": {
-					"instanceID": 668
+					"instanceID": 620
 				},
 				"m_GroupingID": 0,
 				"m_RenderingLayerMask": 1,
@@ -13426,9 +13424,9 @@
 				"m_ConstrainProportionsScale": false,
 				"m_RootOrder": 0,
 				"m_LocalEulerAnglesHint": {
-					"x": 9.865141188846712E-43,
+					"x": 9.668959403841238E-43,
 					"y": 1.0509738482436128E-43,
-					"z": 9.865141188846712E-43
+					"z": 0.0
 				},
 				"m_AnchorMin": {
 					"x": 0.5,
@@ -13921,25 +13919,25 @@
 			"Fields": {
 				"m_Enabled": true,
 				"serializedVersion": "4",
-				"m_EnableCollision": true,
+				"m_EnableCollision": false,
 				"m_ConnectedRigidBody": {
 					"instanceID": 0
 				},
-				"m_BreakForce": 7.847271400218976E-44,
-				"m_BreakTorque": 0.0,
+				"m_BreakForce": -9.076392641636919E-29,
+				"m_BreakTorque": 9.220543895257296E-43,
 				"m_AutoConfigureConnectedAnchor": true,
 				"m_Anchor": {
-					"x": -1.7570779900499822E-12,
-					"y": 9.206530910614048E-43
+					"x": 7.42688186092153E-44,
+					"y": 9.668959403841238E-43
 				},
 				"m_ConnectedAnchor": {
-					"x": 0.0,
+					"x": 7.847271400218976E-44,
 					"y": 0.0
 				},
-				"m_AutoConfigureDistance": true,
-				"m_Distance": 1.0,
-				"m_DampingRatio": 1.0,
-				"m_Frequency": -5.508153154046409E+29
+				"m_AutoConfigureDistance": false,
+				"m_Distance": 2.7325320054333933E-43,
+				"m_DampingRatio": 0.0,
+				"m_Frequency": 0.0
 			}
 		},
 		{
@@ -13948,23 +13946,23 @@
 			"Fields": {
 				"m_Enabled": true,
 				"serializedVersion": "4",
-				"m_EnableCollision": true,
+				"m_EnableCollision": false,
 				"m_ConnectedRigidBody": {
 					"instanceID": 0
 				},
-				"m_BreakForce": 7.847271400218976E-44,
-				"m_BreakTorque": 0.0,
+				"m_BreakForce": -9.076392641636919E-29,
+				"m_BreakTorque": 9.220543895257296E-43,
 				"m_AutoConfigureConnectedAnchor": true,
 				"m_Anchor": {
-					"x": -1.7570779900499822E-12,
-					"y": 9.206530910614048E-43
+					"x": 7.42688186092153E-44,
+					"y": 9.668959403841238E-43
 				},
 				"m_ConnectedAnchor": {
-					"x": 0.0,
+					"x": 7.847271400218976E-44,
 					"y": 0.0
 				},
 				"m_AutoConfigureDistance": false,
-				"m_Distance": 1.0,
+				"m_Distance": 2.7325320054333933E-43,
 				"m_MaxDistanceOnly": false
 			}
 		},
@@ -13974,30 +13972,30 @@
 			"Fields": {
 				"m_Enabled": true,
 				"serializedVersion": "4",
-				"m_EnableCollision": true,
+				"m_EnableCollision": false,
 				"m_ConnectedRigidBody": {
 					"instanceID": 0
 				},
-				"m_BreakForce": 7.847271400218976E-44,
-				"m_BreakTorque": 0.0,
+				"m_BreakForce": -9.076392641636919E-29,
+				"m_BreakTorque": 9.220543895257296E-43,
 				"m_AutoConfigureConnectedAnchor": true,
 				"m_Anchor": {
-					"x": -1.7570779900499822E-12,
-					"y": 9.206530910614048E-43
+					"x": 7.42688186092153E-44,
+					"y": 9.668959403841238E-43
 				},
 				"m_ConnectedAnchor": {
-					"x": 0.0,
+					"x": 7.847271400218976E-44,
 					"y": 0.0
 				},
 				"m_UseMotor": true,
 				"m_Motor": {
-					"m_MotorSpeed": 1.0,
-					"m_MaximumMotorForce": 1.0
+					"m_MotorSpeed": 2.7325320054333933E-43,
+					"m_MaximumMotorForce": 0.0
 				},
 				"m_UseLimits": true,
 				"m_AngleLimits": {
-					"m_LowerAngle": -5.508153154046409E+29,
-					"m_UpperAngle": 9.220543895257296E-43
+					"m_LowerAngle": 0.0,
+					"m_UpperAngle": 0.0
 				}
 			}
 		},
@@ -14007,32 +14005,32 @@
 			"Fields": {
 				"m_Enabled": true,
 				"serializedVersion": "4",
-				"m_EnableCollision": true,
+				"m_EnableCollision": false,
 				"m_ConnectedRigidBody": {
 					"instanceID": 0
 				},
-				"m_BreakForce": 7.847271400218976E-44,
-				"m_BreakTorque": 0.0,
+				"m_BreakForce": -9.076392641636919E-29,
+				"m_BreakTorque": 9.220543895257296E-43,
 				"m_AutoConfigureConnectedAnchor": true,
 				"m_Anchor": {
-					"x": -1.7570779900499822E-12,
-					"y": 9.206530910614048E-43
+					"x": 7.42688186092153E-44,
+					"y": 9.668959403841238E-43
 				},
 				"m_ConnectedAnchor": {
-					"x": 0.0,
+					"x": 7.847271400218976E-44,
 					"y": 0.0
 				},
 				"m_AutoConfigureAngle": false,
-				"m_Angle": 1.0,
+				"m_Angle": 2.7325320054333933E-43,
 				"m_UseMotor": false,
 				"m_Motor": {
-					"m_MotorSpeed": 1.0,
-					"m_MaximumMotorForce": -5.508153154046409E+29
+					"m_MotorSpeed": 0.0,
+					"m_MaximumMotorForce": 0.0
 				},
 				"m_UseLimits": false,
 				"m_TranslationLimits": {
-					"m_LowerTranslation": 9.220543895257296E-43,
-					"m_UpperTranslation": -5.508153154046409E+29
+					"m_LowerTranslation": 0.0,
+					"m_UpperTranslation": -9.076267456190534E-29
 				}
 			}
 		},
@@ -14042,19 +14040,19 @@
 			"Fields": {
 				"m_Enabled": true,
 				"serializedVersion": "4",
-				"m_EnableCollision": true,
+				"m_EnableCollision": false,
 				"m_ConnectedRigidBody": {
 					"instanceID": 0
 				},
-				"m_BreakForce": 7.847271400218976E-44,
-				"m_BreakTorque": 0.0,
+				"m_BreakForce": -9.076392641636919E-29,
+				"m_BreakTorque": 9.220543895257296E-43,
 				"m_AutoConfigureConnectedAnchor": true,
 				"m_Anchor": {
-					"x": -1.7570779900499822E-12,
-					"y": 9.206530910614048E-43
+					"x": 7.42688186092153E-44,
+					"y": 9.668959403841238E-43
 				},
 				"m_ConnectedAnchor": {
-					"x": 0.0,
+					"x": 7.847271400218976E-44,
 					"y": 0.0
 				},
 				"m_Suspension": {
@@ -14234,14 +14232,14 @@
 			"Fields": {
 				"m_Enabled": true,
 				"m_Force": {
-					"x": 8.828180325246348E-44,
-					"y": 9.865141188846712E-43
+					"x": -9.076310789614283E-29,
+					"y": 9.220543895257296E-43
 				},
 				"m_RelativeForce": {
-					"x": 1.0509738482436128E-43,
+					"x": 0.0,
 					"y": 0.0
 				},
-				"m_Torque": 0.0
+				"m_Torque": 9.388699710976274E-44
 			}
 		},
 		{
@@ -14253,14 +14251,14 @@
 				"m_UseColliderMask": true,
 				"m_ColliderMask": {
 					"serializedVersion": "2",
-					"m_Bits": 704
+					"m_Bits": 690
 				},
-				"m_UseGlobalAngle": true,
-				"m_ForceAngle": 9.248569864543793E-44,
-				"m_ForceMagnitude": 9.865141188846712E-43,
-				"m_ForceVariation": 1.10316378254538E-09,
+				"m_UseGlobalAngle": false,
+				"m_ForceAngle": 9.388699710976274E-44,
+				"m_ForceMagnitude": 9.668959403841238E-43,
+				"m_ForceVariation": -20501528576.0,
 				"m_ForceTarget": 0,
-				"m_Drag": 9.220543895257296E-43,
+				"m_Drag": 9.206530910614048E-43,
 				"m_AngularDrag": 0.0
 			}
 		},
@@ -14272,15 +14270,15 @@
 				"m_UseColliderMask": true,
 				"m_ColliderMask": {
 					"serializedVersion": "2",
-					"m_Bits": 704
+					"m_Bits": 690
 				},
-				"m_ForceMagnitude": 9.248569864543793E-44,
-				"m_ForceVariation": 9.865141188846712E-43,
-				"m_DistanceScale": 1.10316378254538E-09,
+				"m_ForceMagnitude": 9.388699710976274E-44,
+				"m_ForceVariation": 9.668959403841238E-43,
+				"m_DistanceScale": -20501528576.0,
 				"m_ForceSource": 0,
-				"m_ForceTarget": 75,
-				"m_ForceMode": 658,
-				"m_Drag": 9.220543895257296E-43,
+				"m_ForceTarget": 0,
+				"m_ForceMode": 0,
+				"m_Drag": 9.206530910614048E-43,
 				"m_AngularDrag": 0.0
 			}
 		},
@@ -14292,7 +14290,7 @@
 				"m_UseColliderMask": true,
 				"m_ColliderMask": {
 					"serializedVersion": "2",
-					"m_Bits": 704
+					"m_Bits": 690
 				},
 				"m_RotationalOffset": 1.0041869029501103E+30,
 				"m_UseOneWay": false,
@@ -14311,11 +14309,11 @@
 				"m_UseColliderMask": true,
 				"m_ColliderMask": {
 					"serializedVersion": "2",
-					"m_Bits": 704
+					"m_Bits": 690
 				},
-				"m_Speed": 9.248569864543793E-44,
-				"m_SpeedVariation": 9.865141188846712E-43,
-				"m_ForceScale": -5.508153154046409E+29,
+				"m_Speed": 9.388699710976274E-44,
+				"m_SpeedVariation": 9.668959403841238E-43,
+				"m_ForceScale": -9.076267456190534E-29,
 				"m_UseContactForce": true,
 				"m_UseFriction": true,
 				"m_UseBounce": false
@@ -14329,15 +14327,15 @@
 				"m_UseColliderMask": true,
 				"m_ColliderMask": {
 					"serializedVersion": "2",
-					"m_Bits": 704
+					"m_Bits": 690
 				},
-				"m_SurfaceLevel": 9.248569864543793E-44,
-				"m_Density": 9.865141188846712E-43,
-				"m_LinearDrag": -5.508153154046409E+29,
+				"m_SurfaceLevel": 9.388699710976274E-44,
+				"m_Density": 9.668959403841238E-43,
+				"m_LinearDrag": -9.076267456190534E-29,
 				"m_AngularDrag": 9.220543895257296E-43,
-				"m_FlowAngle": 9.388699710976274E-44,
+				"m_FlowAngle": 2.284116496849452E-43,
 				"m_FlowMagnitude": 0.0,
-				"m_FlowVariation": -5.508153154046409E+29
+				"m_FlowVariation": -9.076267456190534E-29
 			}
 		},
 		{
@@ -14352,7 +14350,7 @@
 				},
 				"m_BreakForce": 0.0,
 				"m_BreakTorque": "NaN",
-				"m_MaxForce": -5.50818035487735E+29,
+				"m_MaxForce": -9.076310789614283E-29,
 				"m_MaxTorque": 9.220543895257296E-43,
 				"m_CorrectionScale": 0.0,
 				"m_AutoConfigureOffset": true,
@@ -14377,7 +14375,7 @@
 				"m_BreakTorque": "NaN",
 				"m_AutoConfigureConnectedAnchor": false,
 				"m_Anchor": {
-					"x": -5.50818035487735E+29,
+					"x": -9.076310789614283E-29,
 					"y": 9.220543895257296E-43
 				},
 				"m_ConnectedAnchor": {
@@ -14402,7 +14400,7 @@
 				"m_BreakTorque": "NaN",
 				"m_AutoConfigureConnectedAnchor": false,
 				"m_Anchor": {
-					"x": -5.50818035487735E+29,
+					"x": -9.076310789614283E-29,
 					"y": 9.220543895257296E-43
 				},
 				"m_ConnectedAnchor": {
@@ -14426,7 +14424,7 @@
 				"m_BreakForce": 0.0,
 				"m_BreakTorque": "NaN",
 				"m_Anchor": {
-					"x": -5.50818035487735E+29,
+					"x": -9.076310789614283E-29,
 					"y": 9.220543895257296E-43
 				},
 				"m_Target": {
@@ -14462,25 +14460,25 @@
 			"Name": "LightProbeProxyVolume",
 			"Fields": {
 				"m_Enabled": true,
-				"m_BoundingBoxMode": 77,
+				"m_BoundingBoxMode": 0,
 				"m_ResolutionX": 0,
-				"m_ResolutionY": 1,
+				"m_ResolutionY": 0,
 				"m_ResolutionZ": 0,
 				"m_ResolutionProbesPerUnit": 0.0,
 				"m_BoundingBoxSize": {
 					"x": 0.0,
-					"y": 1.0789998175301091E-43,
-					"z": 9.865141188846712E-43
-				},
-				"m_BoundingBoxOrigin": {
-					"x": 1.0509738482436128E-43,
 					"y": 0.0,
 					"z": 0.0
 				},
-				"m_ResolutionMode": 704,
+				"m_BoundingBoxOrigin": {
+					"x": -9.076310789614283E-29,
+					"y": 9.220543895257296E-43,
+					"z": 0.0
+				},
+				"m_ResolutionMode": 0,
 				"m_ProbePositionMode": 0,
-				"m_RefreshMode": 75,
-				"m_QualityMode": 0,
+				"m_RefreshMode": 0,
+				"m_QualityMode": -1,
 				"m_DataFormat": 0
 			}
 		},
@@ -15831,7 +15829,7 @@
 				"m_UsedFileIDs": [],
 				"serializedVersion": "2",
 				"m_DefaultReferences": [],
-				"executionOrder": -14920,
+				"executionOrder": -872,
 				"icon": {
 					"instanceID": 0
 				},
@@ -16784,7 +16782,7 @@
 				"m_UsedByEffector": false,
 				"m_UsedByComposite": false,
 				"m_Offset": {
-					"x": 9.865141188846712E-43,
+					"x": 9.668959403841238E-43,
 					"y": 1.0509738482436128E-43
 				},
 				"m_MaximumTileChangeCount": 1000,
@@ -16853,8 +16851,8 @@
 			"Fields": {
 				"m_Enabled": true,
 				"m_CellSize": {
-					"x": 1.821688003622262E-43,
-					"y": 9.865141188846712E-43,
+					"x": 1.8357009882655104E-43,
+					"y": 9.668959403841238E-43,
 					"z": 1.0509738482436128E-43
 				},
 				"m_CellGap": {
@@ -17343,7 +17341,7 @@
 				"m_LightmapsBakeMode": 1,
 				"m_FilterMode": 1,
 				"m_LightmapParameters": {
-					"instanceID": 670
+					"instanceID": 622
 				},
 				"m_ExportTrainingData": false,
 				"m_TrainingDataDestination": "TrainingData",
@@ -17488,13 +17486,6 @@
 			}
 		},
 		{
-			"TypeID": 947337230,
-			"Name": "RoslynAnalyzerConfigAsset",
-			"Fields": {
-				"m_Name": ""
-			}
-		},
-		{
 			"TypeID": 954905827,
 			"Name": "RuleSetFileAsset",
 			"Fields": {
@@ -17568,7 +17559,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1210
+								"handle": -1270
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -17594,7 +17585,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1210
+								"handle": -1270
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -17609,7 +17600,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1210
+								"handle": -1270
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -17738,25 +17729,6 @@
 			"Fields": {
 				"m_Enabled": true,
 				"m_StreamingMipmapBias": 0.0
-			}
-		},
-		{
-			"TypeID": 1597193336,
-			"Name": "RoslynAdditionalFileAsset",
-			"Fields": {
-				"m_Name": ""
-			}
-		},
-		{
-			"TypeID": 1642787288,
-			"Name": "RoslynAdditionalFileImporter",
-			"Fields": {
-				"m_Name": "",
-				"m_ExternalObjects": [],
-				"m_UsedFileIDs": [],
-				"m_UserData": "",
-				"m_AssetBundleName": "",
-				"m_AssetBundleVariant": ""
 			}
 		},
 		{
@@ -17962,18 +17934,6 @@
 		{
 			"TypeID": 1896753126,
 			"Name": "PackageManifestImporter",
-			"Fields": {
-				"m_Name": "",
-				"m_ExternalObjects": [],
-				"m_UsedFileIDs": [],
-				"m_UserData": "",
-				"m_AssetBundleName": "",
-				"m_AssetBundleVariant": ""
-			}
-		},
-		{
-			"TypeID": 1903396204,
-			"Name": "RoslynAnalyzerConfigImporter",
 			"Fields": {
 				"m_Name": "",
 				"m_ExternalObjects": [],
