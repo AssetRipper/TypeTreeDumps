@@ -16,8 +16,24 @@ function generate() {
 	done
 }
 
+# First argument is the file
+# Second argument is the reference script
+# Third argument is the command to be used on each version
+function generate_forced() {
+	echo "#!/bin/bash" > "$1"
+	echo ". \$(dirname \"\$0\")/$2" >> "$1"
+	for ((i=0; i<${#vers[@]}; i++)); 
+	do
+		echo "$3 ${vers[i]} --force" >> "$1"
+	done
+}
+
 generate check_all.sh check_functions.sh check_any_version
 
 generate dump_all.sh dump_functions.sh dump
 
 generate extract_all.sh extract_functions.sh extract
+
+generate_forced dump_all_forced.sh dump_functions.sh dump
+
+generate_forced extract_all_forced.sh extract_functions.sh extract
