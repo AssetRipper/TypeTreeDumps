@@ -758,6 +758,7 @@ check_any_version 2021.3.1f1
 check_any_version 2021.3.2f1
 check_any_version 2021.3.3f1
 check_any_version 2021.3.4f1
+check_any_version 2021.3.5f1
 check_any_version 2022.1.0a7
 check_any_version 2022.1.0a8
 check_any_version 2022.1.0a9
@@ -789,6 +790,7 @@ check_any_version 2022.1.2f1
 check_any_version 2022.1.3f1
 check_any_version 2022.1.4f1
 check_any_version 2022.1.5f1
+check_any_version 2022.1.6f1
 check_any_version 2022.2.0a9
 check_any_version 2022.2.0a10
 check_any_version 2022.2.0a11
