@@ -6560,7 +6560,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2020.3.37f1
+--- 2020.3.38f1
 +++ 2021.1.0a2
 @@ -6 +6 @@
 -    DescendantCount 299
@@ -6874,7 +6874,7 @@
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed False
---- 2021.3.7f1
+--- 2021.3.8f1
 +++ 2022.1.0a7
 @@ -6 +6 @@
 -    DescendantCount 305
