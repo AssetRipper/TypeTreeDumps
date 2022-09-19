@@ -1165,7 +1165,7 @@
 				"serializedVersion": "13",
 				"m_Gravity": {
 					"x": 0.0,
-					"y": 0.0,
+					"y": -9.8100004196167,
 					"z": 0.0
 				},
 				"m_DefaultMaterial": {
@@ -1223,7 +1223,7 @@
 				"m_ClothInterCollisionSettingsToggle": false,
 				"m_ClothGravity": {
 					"x": 0.0,
-					"y": 0.0,
+					"y": -9.8100004196167,
 					"z": 0.0
 				},
 				"m_ContactPairsMode": 0,
@@ -5895,7 +5895,7 @@
 				"m_RoomHF": 0.0,
 				"m_DecayTime": 1.0,
 				"m_DecayHFRatio": 0.5,
-				"m_ReflectionsLevel": 0.0,
+				"m_ReflectionsLevel": -10000.0,
 				"m_ReverbLevel": 0.0,
 				"m_ReverbDelay": 0.03999999910593033,
 				"m_Diffusion": 100.0,
@@ -6232,7 +6232,7 @@
 				"m_End": {
 					"instanceID": 0
 				},
-				"m_CostOverride": 0.0,
+				"m_CostOverride": -1.0,
 				"m_BiDirectional": true,
 				"m_Activated": true,
 				"m_AutoUpdatePositions": false
@@ -9125,7 +9125,7 @@
 									"time": 0.0,
 									"value": 1.0,
 									"inSlope": 0.0,
-									"outSlope": 0.0,
+									"outSlope": -0.800000011920929,
 									"tangentMode": 0,
 									"weightedMode": 0,
 									"inWeight": 0.3333333432674408,
@@ -9135,7 +9135,7 @@
 									"serializedVersion": "3",
 									"time": 1.0,
 									"value": 0.20000000298023224,
-									"inSlope": 0.0,
+									"inSlope": -0.800000011920929,
 									"outSlope": 0.0,
 									"tangentMode": 0,
 									"weightedMode": 0,
@@ -10084,7 +10084,7 @@
 								{
 									"serializedVersion": "3",
 									"time": 0.0,
-									"value": 0.0,
+									"value": -1.0,
 									"inSlope": 0.0,
 									"outSlope": 2.0,
 									"tangentMode": 0,
@@ -10150,7 +10150,7 @@
 								{
 									"serializedVersion": "3",
 									"time": 0.0,
-									"value": 0.0,
+									"value": -1.0,
 									"inSlope": 0.0,
 									"outSlope": 2.0,
 									"tangentMode": 0,
@@ -10216,7 +10216,7 @@
 								{
 									"serializedVersion": "3",
 									"time": 0.0,
-									"value": 0.0,
+									"value": -1.0,
 									"inSlope": 0.0,
 									"outSlope": 2.0,
 									"tangentMode": 0,
@@ -13161,8 +13161,8 @@
 						"y": 0.0
 					},
 					"atlasRectOffset": {
-						"x": 0.0,
-						"y": 0.0
+						"x": -1.0,
+						"y": -1.0
 					},
 					"settingsRaw": 0,
 					"uvTransform": {
@@ -13289,8 +13289,8 @@
 						"y": 0.0
 					},
 					"atlasRectOffset": {
-						"x": 0.0,
-						"y": 0.0
+						"x": -1.0,
+						"y": -1.0
 					},
 					"settingsRaw": 0,
 					"uvTransform": {
@@ -13918,7 +13918,7 @@
 						"m_fRollingNoiseSpeed": 0.05000000074505806,
 						"m_fRollingBranchFieldMin": 0.5,
 						"m_fRollingBranchLightingAdjust": 0.5,
-						"m_fRollingBranchVerticalOffset": 0.0,
+						"m_fRollingBranchVerticalOffset": -0.5,
 						"m_fRollingLeafRippleMin": 0.5,
 						"m_fRollingLeafTumbleMin": 0.5,
 						"m_fGustFrequency": 0.0,
@@ -14197,7 +14197,7 @@
 				"m_StartSnapshot": {
 					"instanceID": 0
 				},
-				"m_SuspendThreshold": 0.0,
+				"m_SuspendThreshold": -80.0,
 				"m_EnableSuspend": true,
 				"m_UpdateMode": 0
 			}
@@ -14217,7 +14217,7 @@
 				"m_StartSnapshot": {
 					"instanceID": 0
 				},
-				"m_SuspendThreshold": 0.0,
+				"m_SuspendThreshold": -80.0,
 				"m_EnableSuspend": true,
 				"m_UpdateMode": 0,
 				"m_ExposedParameters": [],
@@ -15643,7 +15643,7 @@
 				"m_SpriteGenerateFallbackPhysicsShape": 1,
 				"m_AlphaUsage": 1,
 				"m_AlphaIsTransparency": 0,
-				"m_SpriteTessellationDetail": 0.0,
+				"m_SpriteTessellationDetail": -1.0,
 				"m_TextureType": 0,
 				"m_TextureShape": 1,
 				"m_SingleChannelComponent": 0,
@@ -16736,8 +16736,8 @@
 						"aspectRatio": 1.3300000429153442,
 						"orthoSize": 0.0,
 						"isPerspective": 1,
-						"nearPlane": 0.0,
-						"farPlane": 0.0
+						"nearPlane": -1.0,
+						"farPlane": -1.0
 					},
 					"scenes": []
 				}
