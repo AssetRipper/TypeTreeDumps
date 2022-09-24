@@ -742,3 +742,19 @@
 +++ 2022.1.0a15
 @@ -291,0 +292 @@
 +  "1521398425": "VideoBuildInfo",
+--- 2022.1.16f1
++++ 2022.2.0a13
+@@ -274,0 +275 @@
++  "947337230": "RoslynAnalyzerConfigAsset",
+@@ -293,0 +295,4 @@
++  "1557264870": "ShaderContainer",
++  "1597193336": "RoslynAdditionalFileAsset",
++  "1642787288": "RoslynAdditionalFileImporter",
++  "1731078267": "BrokenPrefabAsset",
+@@ -304,0 +310 @@
++  "1903396204": "RoslynAnalyzerConfigImporter",
+--- 2022.2.0a13
++++ 2022.2.0a16
+@@ -245 +245 @@
+-  "41386430": "AssetImporterLog",
++  "41386430": "ImportLog",

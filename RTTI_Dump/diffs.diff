@@ -6964,3 +6964,103 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
+--- 2022.1.16f1
++++ 2022.2.0a13
+@@ -6 +6 @@
+-    DescendantCount 301
++    DescendantCount 307
+@@ -127 +127 @@
+-    DescendantCount 250
++    DescendantCount 255
+@@ -897 +897 @@
+-    DescendantCount 130
++    DescendantCount 135
+@@ -2107 +2107 @@
+-    DescendantCount 35
++    DescendantCount 37
+@@ -2195 +2195 @@
+-    DescendantCount 2
++    DescendantCount 3
+@@ -3003,0 +3004,11 @@
++PersistentTypeID 947337230
++    Name RoslynAnalyzerConfigAsset
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3212,0 +3224,44 @@
++PersistentTypeID 1557264870
++    Name ShaderContainer
++    Namespace ShaderFoundry
++    Module Editor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1597193336
++    Name RoslynAdditionalFileAsset
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1642787288
++    Name RoslynAdditionalFileImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1731078267
++    Name BrokenPrefabAsset
++    Namespace 
++    Module Editor
++    Base DefaultAsset
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3315 +3370 @@
+-    Module PackageManagerUI
++    Module Editor
+@@ -3326 +3381 @@
+-    Module PackageManagerUI
++    Module Editor
+@@ -3330,0 +3386,11 @@
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1903396204
++    Name RoslynAnalyzerConfigImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
+--- 2022.2.0a13
++++ 2022.2.0a16
+@@ -2675 +2675 @@
+-    Name AssetImporterLog
++    Name ImportLog
+@@ -2677 +2677 @@
+-    Module Core
++    Module Editor
