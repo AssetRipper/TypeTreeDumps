@@ -6964,7 +6964,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
---- 2022.1.16f1
+--- 2022.1.17f1
 +++ 2022.2.0a13
 @@ -6 +6 @@
 -    DescendantCount 301
