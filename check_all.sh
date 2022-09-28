@@ -659,6 +659,7 @@ check_any_version 2020.3.36f1
 check_any_version 2020.3.37f1
 check_any_version 2020.3.38f1
 check_any_version 2020.3.39f1
+check_any_version 2020.3.40f1
 check_any_version 2021.1.0a2
 check_any_version 2021.1.0a4
 check_any_version 2021.1.0a5
