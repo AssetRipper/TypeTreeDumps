@@ -1,5 +1,5 @@
 {
-	"Version": "2019.4.40f1",
+	"Version": "2019.4.24f1",
 	"Classes": [
 		{
 			"TypeID": 1,
@@ -3206,12 +3206,6 @@
 				"androidRenderOutsideSafeArea": false,
 				"androidUseSwappy": false,
 				"androidBlitType": 0,
-				"androidResizableWindow": false,
-				"androidDefaultWindowWidth": 0,
-				"androidDefaultWindowHeight": 0,
-				"androidMinimumWindowWidth": 0,
-				"androidMinimumWindowHeight": 0,
-				"androidFullscreenMode": 0,
 				"defaultIsNativeResolution": false,
 				"macRetinaSupport": false,
 				"runInBackground": false,
@@ -3415,7 +3409,6 @@
 				"templatePackageId": "",
 				"templateDefaultScene": "",
 				"AndroidTargetArchitectures": 1,
-				"AndroidTargetDevices": 0,
 				"AndroidSplashScreenScale": 0,
 				"androidSplashScreen": {
 					"instanceID": 0
@@ -3439,7 +3432,6 @@
 					}
 				],
 				"androidGamepadSupportLevel": 0,
-				"chromeosInputEmulation": true,
 				"AndroidValidateAppBundleSize": true,
 				"AndroidAppBundleSizeToValidate": 150,
 				"m_BuildTargetIcons": [],
@@ -3667,10 +3659,6 @@
 				"switchSocketInitializeEnabled": true,
 				"switchNetworkInterfaceManagerInitializeEnabled": true,
 				"switchPlayerConnectionEnabled": true,
-				"switchUseMicroSleepForYield": true,
-				"switchEnableRamDiskSupport": false,
-				"switchMicroSleepForYieldTime": 25,
-				"switchRamDiskSpaceSize": 12,
 				"ps4NPAgeRating": 12,
 				"ps4NPTitleSecret": "",
 				"ps4NPTrophyPackPath": "",
@@ -3741,7 +3729,6 @@
 				"ps4videoRecordingFeaturesUsed": false,
 				"ps4contentSearchFeaturesUsed": false,
 				"ps4CompatibilityPS5": false,
-				"ps4AllowPS5Detection": false,
 				"ps4GPU800MHz": true,
 				"ps4attribEyeToEyeDistanceSettingVR": 0,
 				"ps4IncludedModules": [],
@@ -3765,7 +3752,6 @@
 				"ps5UseAudio3dBackend": false,
 				"ps5ScriptOptimizationLevel": 2,
 				"ps5Audio3dVirtualSpeakerCount": 14,
-				"ps5VrrSupport": 0,
 				"ps5UpdateReferencePackage": "",
 				"ps5disableAutoHideSplash": false,
 				"ps5OperatingSystemCanDisableSplashScreen": false,
@@ -3801,7 +3787,6 @@
 				"il2cppCompilerConfiguration": {},
 				"managedStrippingLevel": {},
 				"incrementalIl2cppBuild": {},
-				"suppressCommonWarnings": true,
 				"allowUnsafeCode": false,
 				"additionalIl2CppArgs": "",
 				"scriptingRuntimeVersion": 1,
@@ -3811,14 +3796,14 @@
 				"apiCompatibilityLevelPerPlatform": {},
 				"m_RenderingPath": 1,
 				"m_MobileRenderingPath": 1,
-				"metroPackageName": "DummyProject-2019.4.40.16762411",
+				"metroPackageName": "DummyProject-2019.4.24.6137584",
 				"metroPackageVersion": "",
 				"metroCertificatePath": "",
 				"metroCertificatePassword": "",
 				"metroCertificateSubject": "",
 				"metroCertificateIssuer": "",
 				"metroCertificateNotAfter": "0000000000000000",
-				"metroApplicationDescription": "DummyProject-2019.4.40.16762411",
+				"metroApplicationDescription": "DummyProject-2019.4.24.6137584",
 				"wsaImages": [],
 				"metroTileShortName": "",
 				"metroTileShowName": 0,
@@ -4655,8 +4640,7 @@
 				"m_CacheServerEndpoint": "",
 				"m_CacheServerNamespacePrefix": "",
 				"m_CacheServerEnableDownload": false,
-				"m_CacheServerEnableUpload": false,
-				"m_CacheServerValidationMode": 0
+				"m_CacheServerEnableUpload": false
 			}
 		},
 		{
@@ -13335,7 +13319,7 @@
 			"TypeID": 300,
 			"Name": "RuntimeInitializeOnLoadManager",
 			"Fields": {
-				"serializedVersion": "2",
+				"serializedVersion": "1",
 				"m_AssemblyNames": [],
 				"m_NamespaceNames": [],
 				"m_ClassInfos": [],
@@ -14925,13 +14909,7 @@
 				"m_ExportAsGoogleAndroidProject": false,
 				"m_CreateSolutionFileForSwitch": false,
 				"m_CreateRomFileForSwitch": false,
-				"m_EnableRomCompressionForSwitch": false,
-				"m_SaveADFForSwitch": false,
-				"m_RomCompressionTypeForSwitch": 1,
-				"m_RomCompressionLevelForSwitch": 0,
-				"m_RomCompressionConfigForSwitch": "",
 				"m_NVNGraphicsDebuggerForSwitch": false,
-				"m_GenerateNintendoSwitchShaderInfo": false,
 				"m_NVNShaderDebugging": false,
 				"m_NVNDrawValidation": false,
 				"m_EnableHeapInspectorForSwitch": false,
@@ -15016,7 +14994,7 @@
 			"TypeID": 1102,
 			"Name": "AnimatorState",
 			"Fields": {
-				"serializedVersion": "6",
+				"serializedVersion": "5",
 				"m_Name": "",
 				"m_Speed": 1.0,
 				"m_CycleOffset": 0.0,
@@ -15056,7 +15034,7 @@
 			"TypeID": 1107,
 			"Name": "AnimatorStateMachine",
 			"Fields": {
-				"serializedVersion": "6",
+				"serializedVersion": "5",
 				"m_Name": "",
 				"m_ChildStates": [],
 				"m_ChildStateMachines": [],
@@ -16142,7 +16120,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1186
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16157,7 +16135,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1186
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16172,7 +16150,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1186
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16293,14 +16271,6 @@
 			}
 		},
 		{
-			"TypeID": 1521398425,
-			"Name": "VideoBuildInfo",
-			"Fields": {
-				"m_VideoClipCount": 0,
-				"m_IsVideoModuleDisabled": false
-			}
-		},
-		{
 			"TypeID": 1542919678,
 			"Name": "StreamingController",
 			"Fields": {
@@ -16314,18 +16284,6 @@
 			"Fields": {
 				"m_Map": [],
 				"m_String": ""
-			}
-		},
-		{
-			"TypeID": 1736697216,
-			"Name": "AndroidAssetPackImporter",
-			"Fields": {
-				"m_Name": "",
-				"m_ExternalObjects": [],
-				"m_UsedFileIDs": [],
-				"m_UserData": "",
-				"m_AssetBundleName": "",
-				"m_AssetBundleVariant": ""
 			}
 		},
 		{

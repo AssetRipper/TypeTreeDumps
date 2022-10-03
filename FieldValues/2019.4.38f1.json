@@ -1,5 +1,5 @@
 {
-	"Version": "2019.4.40f1",
+	"Version": "2019.4.38f1",
 	"Classes": [
 		{
 			"TypeID": 1,
@@ -3765,7 +3765,6 @@
 				"ps5UseAudio3dBackend": false,
 				"ps5ScriptOptimizationLevel": 2,
 				"ps5Audio3dVirtualSpeakerCount": 14,
-				"ps5VrrSupport": 0,
 				"ps5UpdateReferencePackage": "",
 				"ps5disableAutoHideSplash": false,
 				"ps5OperatingSystemCanDisableSplashScreen": false,
@@ -3811,14 +3810,14 @@
 				"apiCompatibilityLevelPerPlatform": {},
 				"m_RenderingPath": 1,
 				"m_MobileRenderingPath": 1,
-				"metroPackageName": "DummyProject-2019.4.40.16762411",
+				"metroPackageName": "DummyProject-2019.4.38.16628595",
 				"metroPackageVersion": "",
 				"metroCertificatePath": "",
 				"metroCertificatePassword": "",
 				"metroCertificateSubject": "",
 				"metroCertificateIssuer": "",
 				"metroCertificateNotAfter": "0000000000000000",
-				"metroApplicationDescription": "DummyProject-2019.4.40.16762411",
+				"metroApplicationDescription": "DummyProject-2019.4.38.16628595",
 				"wsaImages": [],
 				"metroTileShortName": "",
 				"metroTileShowName": 0,
@@ -4655,8 +4654,7 @@
 				"m_CacheServerEndpoint": "",
 				"m_CacheServerNamespacePrefix": "",
 				"m_CacheServerEnableDownload": false,
-				"m_CacheServerEnableUpload": false,
-				"m_CacheServerValidationMode": 0
+				"m_CacheServerEnableUpload": false
 			}
 		},
 		{
@@ -16142,7 +16140,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1162
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16157,7 +16155,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1162
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16172,7 +16170,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1162
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",

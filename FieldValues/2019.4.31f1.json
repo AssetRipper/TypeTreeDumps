@@ -1,5 +1,5 @@
 {
-	"Version": "2019.4.40f1",
+	"Version": "2019.4.31f1",
 	"Classes": [
 		{
 			"TypeID": 1,
@@ -3668,9 +3668,7 @@
 				"switchNetworkInterfaceManagerInitializeEnabled": true,
 				"switchPlayerConnectionEnabled": true,
 				"switchUseMicroSleepForYield": true,
-				"switchEnableRamDiskSupport": false,
 				"switchMicroSleepForYieldTime": 25,
-				"switchRamDiskSpaceSize": 12,
 				"ps4NPAgeRating": 12,
 				"ps4NPTitleSecret": "",
 				"ps4NPTrophyPackPath": "",
@@ -3765,7 +3763,6 @@
 				"ps5UseAudio3dBackend": false,
 				"ps5ScriptOptimizationLevel": 2,
 				"ps5Audio3dVirtualSpeakerCount": 14,
-				"ps5VrrSupport": 0,
 				"ps5UpdateReferencePackage": "",
 				"ps5disableAutoHideSplash": false,
 				"ps5OperatingSystemCanDisableSplashScreen": false,
@@ -3811,14 +3808,14 @@
 				"apiCompatibilityLevelPerPlatform": {},
 				"m_RenderingPath": 1,
 				"m_MobileRenderingPath": 1,
-				"metroPackageName": "DummyProject-2019.4.40.16762411",
+				"metroPackageName": "DummyProject-2019.4.31.12409535",
 				"metroPackageVersion": "",
 				"metroCertificatePath": "",
 				"metroCertificatePassword": "",
 				"metroCertificateSubject": "",
 				"metroCertificateIssuer": "",
 				"metroCertificateNotAfter": "0000000000000000",
-				"metroApplicationDescription": "DummyProject-2019.4.40.16762411",
+				"metroApplicationDescription": "DummyProject-2019.4.31.12409535",
 				"wsaImages": [],
 				"metroTileShortName": "",
 				"metroTileShowName": 0,
@@ -4655,8 +4652,7 @@
 				"m_CacheServerEndpoint": "",
 				"m_CacheServerNamespacePrefix": "",
 				"m_CacheServerEnableDownload": false,
-				"m_CacheServerEnableUpload": false,
-				"m_CacheServerValidationMode": 0
+				"m_CacheServerEnableUpload": false
 			}
 		},
 		{
@@ -14925,11 +14921,6 @@
 				"m_ExportAsGoogleAndroidProject": false,
 				"m_CreateSolutionFileForSwitch": false,
 				"m_CreateRomFileForSwitch": false,
-				"m_EnableRomCompressionForSwitch": false,
-				"m_SaveADFForSwitch": false,
-				"m_RomCompressionTypeForSwitch": 1,
-				"m_RomCompressionLevelForSwitch": 0,
-				"m_RomCompressionConfigForSwitch": "",
 				"m_NVNGraphicsDebuggerForSwitch": false,
 				"m_GenerateNintendoSwitchShaderInfo": false,
 				"m_NVNShaderDebugging": false,
@@ -16142,7 +16133,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1162
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16157,7 +16148,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1162
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16172,7 +16163,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1162
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16290,14 +16281,6 @@
 				},
 				"m_ForcedFallbackFormat": 4,
 				"m_DownscaleFallback": false
-			}
-		},
-		{
-			"TypeID": 1521398425,
-			"Name": "VideoBuildInfo",
-			"Fields": {
-				"m_VideoClipCount": 0,
-				"m_IsVideoModuleDisabled": false
 			}
 		},
 		{

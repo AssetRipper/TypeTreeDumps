@@ -1,5 +1,5 @@
 {
-	"Version": "2019.4.40f1",
+	"Version": "2019.4.11f1",
 	"Classes": [
 		{
 			"TypeID": 1,
@@ -73,7 +73,6 @@
 				"m_DSPBufferSize": 0,
 				"m_VirtualVoiceCount": 0,
 				"m_RealVoiceCount": 0,
-				"m_EnableOutputSuspension": false,
 				"m_SpatializerPlugin": "",
 				"m_AmbisonicDecoderPlugin": "",
 				"m_DisableAudio": false,
@@ -3206,12 +3205,6 @@
 				"androidRenderOutsideSafeArea": false,
 				"androidUseSwappy": false,
 				"androidBlitType": 0,
-				"androidResizableWindow": false,
-				"androidDefaultWindowWidth": 0,
-				"androidDefaultWindowHeight": 0,
-				"androidMinimumWindowWidth": 0,
-				"androidMinimumWindowHeight": 0,
-				"androidFullscreenMode": 0,
 				"defaultIsNativeResolution": false,
 				"macRetinaSupport": false,
 				"runInBackground": false,
@@ -3401,7 +3394,6 @@
 				"metalEditorSupport": true,
 				"metalAPIValidation": true,
 				"iOSRenderExtraFrameOnPause": false,
-				"iosCopyPluginsCodeInsteadOfSymlink": false,
 				"appleDeveloperTeamID": "",
 				"iOSManualSigningProvisioningProfileID": "",
 				"tvOSManualSigningProvisioningProfileID": "",
@@ -3415,7 +3407,6 @@
 				"templatePackageId": "",
 				"templateDefaultScene": "",
 				"AndroidTargetArchitectures": 1,
-				"AndroidTargetDevices": 0,
 				"AndroidSplashScreenScale": 0,
 				"androidSplashScreen": {
 					"instanceID": 0
@@ -3439,7 +3430,6 @@
 					}
 				],
 				"androidGamepadSupportLevel": 0,
-				"chromeosInputEmulation": true,
 				"AndroidValidateAppBundleSize": true,
 				"AndroidAppBundleSizeToValidate": 150,
 				"m_BuildTargetIcons": [],
@@ -3492,7 +3482,6 @@
 				"switchTitleNames_12": "",
 				"switchTitleNames_13": "",
 				"switchTitleNames_14": "",
-				"switchTitleNames_15": "",
 				"switchPublisherNames_0": "",
 				"switchPublisherNames_1": "",
 				"switchPublisherNames_2": "",
@@ -3508,7 +3497,6 @@
 				"switchPublisherNames_12": "",
 				"switchPublisherNames_13": "",
 				"switchPublisherNames_14": "",
-				"switchPublisherNames_15": "",
 				"switchIcons_0": {
 					"instanceID": 0
 				},
@@ -3554,9 +3542,6 @@
 				"switchIcons_14": {
 					"instanceID": 0
 				},
-				"switchIcons_15": {
-					"instanceID": 0
-				},
 				"switchSmallIcons_0": {
 					"instanceID": 0
 				},
@@ -3600,9 +3585,6 @@
 					"instanceID": 0
 				},
 				"switchSmallIcons_14": {
-					"instanceID": 0
-				},
-				"switchSmallIcons_15": {
 					"instanceID": 0
 				},
 				"switchManualHTML": "",
@@ -3667,10 +3649,6 @@
 				"switchSocketInitializeEnabled": true,
 				"switchNetworkInterfaceManagerInitializeEnabled": true,
 				"switchPlayerConnectionEnabled": true,
-				"switchUseMicroSleepForYield": true,
-				"switchEnableRamDiskSupport": false,
-				"switchMicroSleepForYieldTime": 25,
-				"switchRamDiskSpaceSize": 12,
 				"ps4NPAgeRating": 12,
 				"ps4NPTitleSecret": "",
 				"ps4NPTrophyPackPath": "",
@@ -3741,37 +3719,10 @@
 				"ps4videoRecordingFeaturesUsed": false,
 				"ps4contentSearchFeaturesUsed": false,
 				"ps4CompatibilityPS5": false,
-				"ps4AllowPS5Detection": false,
 				"ps4GPU800MHz": true,
 				"ps4attribEyeToEyeDistanceSettingVR": 0,
 				"ps4IncludedModules": [],
 				"ps4attribVROutputEnabled": false,
-				"ps5ParamFilePath": "",
-				"ps5VideoOutPixelFormat": 0,
-				"ps5VideoOutInitialWidth": 1920,
-				"ps5VideoOutOutputMode": 1,
-				"ps5BackgroundImagePath": "",
-				"ps5StartupImagePath": "",
-				"ps5Pic2Path": "",
-				"ps5StartupImagesFolder": "",
-				"ps5IconImagesFolder": "",
-				"ps5SaveDataImagePath": "",
-				"ps5SdkOverride": "",
-				"ps5BGMPath": "",
-				"ps5ShareOverlayImagePath": "",
-				"ps5NPConfigZipPath": "",
-				"ps5Passcode": "",
-				"ps5UseResolutionFallback": false,
-				"ps5UseAudio3dBackend": false,
-				"ps5ScriptOptimizationLevel": 2,
-				"ps5Audio3dVirtualSpeakerCount": 14,
-				"ps5VrrSupport": 0,
-				"ps5UpdateReferencePackage": "",
-				"ps5disableAutoHideSplash": false,
-				"ps5OperatingSystemCanDisableSplashScreen": false,
-				"ps5IncludedModules": [],
-				"ps5SharedBinaryContentLabels": [],
-				"ps5SharedBinarySystemFolders": [],
 				"monoEnv": "",
 				"splashScreenBackgroundSourceLandscape": {
 					"instanceID": 0
@@ -3801,24 +3752,22 @@
 				"il2cppCompilerConfiguration": {},
 				"managedStrippingLevel": {},
 				"incrementalIl2cppBuild": {},
-				"suppressCommonWarnings": true,
 				"allowUnsafeCode": false,
 				"additionalIl2CppArgs": "",
 				"scriptingRuntimeVersion": 1,
 				"gcIncremental": false,
-				"assemblyVersionValidation": true,
 				"gcWBarrierValidation": false,
 				"apiCompatibilityLevelPerPlatform": {},
 				"m_RenderingPath": 1,
 				"m_MobileRenderingPath": 1,
-				"metroPackageName": "DummyProject-2019.4.40.16762411",
+				"metroPackageName": "DummyProject-2019.4.11.2988036",
 				"metroPackageVersion": "",
 				"metroCertificatePath": "",
 				"metroCertificatePassword": "",
 				"metroCertificateSubject": "",
 				"metroCertificateIssuer": "",
 				"metroCertificateNotAfter": "0000000000000000",
-				"metroApplicationDescription": "DummyProject-2019.4.40.16762411",
+				"metroApplicationDescription": "DummyProject-2019.4.11.2988036",
 				"wsaImages": [],
 				"metroTileShortName": "",
 				"metroTileShowName": 0,
@@ -3866,7 +3815,6 @@
 				"XboxOneCapability": [],
 				"XboxOneGameRating": {},
 				"XboxOneIsContentPackage": false,
-				"XboxOneEnhancedXboxCompatibilityMode": false,
 				"XboxOneEnableGPUVariability": true,
 				"XboxOneSockets": {},
 				"XboxOneSplashScreen": {
@@ -4655,8 +4603,7 @@
 				"m_CacheServerEndpoint": "",
 				"m_CacheServerNamespacePrefix": "",
 				"m_CacheServerEnableDownload": false,
-				"m_CacheServerEnableUpload": false,
-				"m_CacheServerValidationMode": 0
+				"m_CacheServerEnableUpload": false
 			}
 		},
 		{
@@ -13335,7 +13282,7 @@
 			"TypeID": 300,
 			"Name": "RuntimeInitializeOnLoadManager",
 			"Fields": {
-				"serializedVersion": "2",
+				"serializedVersion": "1",
 				"m_AssemblyNames": [],
 				"m_NamespaceNames": [],
 				"m_ClassInfos": [],
@@ -14477,8 +14424,8 @@
 					},
 					"importInspectorWarnings": ""
 				},
-				"m_PSDRemoveMatte": false,
-				"m_PSDShowRemoveMatteOption": false,
+				"m_PSDRemoveMatte": true,
+				"m_PSDShowRemoveMatteOption": true,
 				"m_UserData": "",
 				"m_AssetBundleName": "",
 				"m_AssetBundleVariant": ""
@@ -14925,26 +14872,14 @@
 				"m_ExportAsGoogleAndroidProject": false,
 				"m_CreateSolutionFileForSwitch": false,
 				"m_CreateRomFileForSwitch": false,
-				"m_EnableRomCompressionForSwitch": false,
-				"m_SaveADFForSwitch": false,
-				"m_RomCompressionTypeForSwitch": 1,
-				"m_RomCompressionLevelForSwitch": 0,
-				"m_RomCompressionConfigForSwitch": "",
 				"m_NVNGraphicsDebuggerForSwitch": false,
-				"m_GenerateNintendoSwitchShaderInfo": false,
 				"m_NVNShaderDebugging": false,
 				"m_NVNDrawValidation": false,
 				"m_EnableHeapInspectorForSwitch": false,
 				"m_EnableDebugPadForSwitch": true,
 				"m_RedirectWritesToHostMountForSwitch": false,
-				"m_UseLegacyNvnPoolAllocatorForSwitch": false,
 				"m_BuildAppBundle": false,
 				"m_AndroidCreateSymbolsZip": false,
-				"m_PS5KeepPackageFiles": false,
-				"m_SelectedPS5Subtarget": 0,
-				"m_SelectedPS5CompressionType": 1,
-				"m_SelectedPS5CompressionLevel": 7,
-				"m_PS5WorkspaceName": "workspace0",
 				"m_SelectedAndroidSubtarget": 0,
 				"m_SelectedWSASubtarget": 0,
 				"m_SelectedWSAUWPBuildType": 1,
@@ -15016,7 +14951,7 @@
 			"TypeID": 1102,
 			"Name": "AnimatorState",
 			"Fields": {
-				"serializedVersion": "6",
+				"serializedVersion": "5",
 				"m_Name": "",
 				"m_Speed": 1.0,
 				"m_CycleOffset": 0.0,
@@ -15056,7 +14991,7 @@
 			"TypeID": 1107,
 			"Name": "AnimatorStateMachine",
 			"Fields": {
-				"serializedVersion": "6",
+				"serializedVersion": "5",
 				"m_Name": "",
 				"m_ChildStates": [],
 				"m_ChildStateMachines": [],
@@ -15869,8 +15804,7 @@
 				"m_AtlasAssets": [],
 				"m_DefaultAtlases": [],
 				"m_SpriteRenderDataKeyToTags": [],
-				"m_AtlasPackedHashes": [],
-				"m_AtlasPackablesArea": []
+				"m_AtlasPackedHashes": []
 			}
 		},
 		{
@@ -15951,6 +15885,7 @@
 					},
 					"variantMultiplier": 1.0,
 					"packables": [],
+					"totalSpriteSurfaceArea": 0,
 					"bindAsDefault": true
 				},
 				"m_MasterAtlas": {
@@ -16142,7 +16077,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1172
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16157,7 +16092,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1172
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16172,7 +16107,7 @@
 						{
 							"first": {
 								"guid": "00000000000000000000000000000000",
-								"handle": -1164
+								"handle": -1172
 							},
 							"second": {
 								"m_SceneGUID": "00000000000000000000000000000000",
@@ -16293,14 +16228,6 @@
 			}
 		},
 		{
-			"TypeID": 1521398425,
-			"Name": "VideoBuildInfo",
-			"Fields": {
-				"m_VideoClipCount": 0,
-				"m_IsVideoModuleDisabled": false
-			}
-		},
-		{
 			"TypeID": 1542919678,
 			"Name": "StreamingController",
 			"Fields": {
@@ -16314,18 +16241,6 @@
 			"Fields": {
 				"m_Map": [],
 				"m_String": ""
-			}
-		},
-		{
-			"TypeID": 1736697216,
-			"Name": "AndroidAssetPackImporter",
-			"Fields": {
-				"m_Name": "",
-				"m_ExternalObjects": [],
-				"m_UsedFileIDs": [],
-				"m_UserData": "",
-				"m_AssetBundleName": "",
-				"m_AssetBundleVariant": ""
 			}
 		},
 		{
