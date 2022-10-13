@@ -813,6 +813,8 @@ dump 2022.1.15f1 --force
 dump 2022.1.16f1 --force
 dump 2022.1.17f1 --force
 dump 2022.1.18f1 --force
+dump 2022.1.19f1 --force
+dump 2022.1.20f1 --force
 dump 2022.2.0a9 --force
 dump 2022.2.0a10 --force
 dump 2022.2.0a11 --force
@@ -830,6 +832,7 @@ dump 2022.2.0b6 --force
 dump 2022.2.0b7 --force
 dump 2022.2.0b8 --force
 dump 2022.2.0b9 --force
+dump 2022.2.0b10 --force
 dump 2023.1.0a1 --force
 dump 2023.1.0a2 --force
 dump 2023.1.0a3 --force
