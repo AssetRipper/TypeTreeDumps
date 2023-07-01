@@ -893,6 +893,7 @@ check_any_version 2022.3.0f1
 check_any_version 2022.3.1f1
 check_any_version 2022.3.2f1
 check_any_version 2022.3.3f1
+check_any_version 2022.3.4f1
 check_any_version 2023.1.0a1
 check_any_version 2023.1.0a2
 check_any_version 2023.1.0a3
@@ -940,6 +941,7 @@ check_any_version 2023.1.0b19
 check_any_version 2023.1.0b20
 check_any_version 2023.1.0f1
 check_any_version 2023.1.1f1
+check_any_version 2023.1.2f1
 check_any_version 2023.2.0a6
 check_any_version 2023.2.0a7
 check_any_version 2023.2.0a8
