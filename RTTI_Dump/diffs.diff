@@ -7064,3 +7064,20 @@
 @@ -2677 +2677 @@
 -    Module Core
 +    Module Editor
+--- 2022.3.4f1
++++ 2022.3.5f1
+@@ -6 +6 @@
+-    DescendantCount 307
++    DescendantCount 308
+@@ -3255,0 +3256,11 @@
++
++PersistentTypeID 1660057539
++    Name SceneRoots
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
