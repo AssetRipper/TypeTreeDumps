@@ -6589,8 +6589,7 @@
 -    IsStripped False
 -    IsEditorOnly True
 -
-@@ -3201,11 +3189,0 @@
--
+@@ -3202,11 +3190,0 @@
 -PersistentTypeID 1736697216
 -    Name AndroidAssetPackImporter
 -    Namespace 
@@ -6601,6 +6600,7 @@
 -    IsSealed False
 -    IsStripped False
 -    IsEditorOnly True
+-
 --- 2021.1.0a5
 +++ 2021.1.0a6
 @@ -6 +6 @@
@@ -6875,18 +6875,44 @@
 +    IsAbstract False
 +    IsSealed False
 --- 2021.3.29f1
-+++ 2022.1.0a7
++++ 2021.3.30f1
 @@ -6 +6 @@
 -    DescendantCount 305
-+    DescendantCount 300
++    DescendantCount 306
 @@ -127 +127 @@
 -    DescendantCount 254
-+    DescendantCount 250
++    DescendantCount 255
 @@ -897 +897 @@
 -    DescendantCount 134
-+    DescendantCount 130
++    DescendantCount 135
 @@ -2107 +2107 @@
 -    DescendantCount 37
++    DescendantCount 38
+@@ -3206,0 +3207,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1541671625
++    Name C4DImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
+--- 2021.3.31f1
++++ 2022.1.0a7
+@@ -6 +6 @@
+-    DescendantCount 306
++    DescendantCount 300
+@@ -127 +127 @@
+-    DescendantCount 255
++    DescendantCount 250
+@@ -897 +897 @@
+-    DescendantCount 135
++    DescendantCount 130
+@@ -2107 +2107 @@
+-    DescendantCount 38
 +    DescendantCount 35
 @@ -3004,11 +3003,0 @@
 -PersistentTypeID 947337230
@@ -6900,7 +6926,7 @@
 -    IsStripped False
 -    IsEditorOnly True
 -
-@@ -3202,11 +3190,0 @@
+@@ -3202,22 +3190,0 @@
 -PersistentTypeID 1521398425
 -    Name VideoBuildInfo
 -    Namespace BuildReporting
@@ -6912,7 +6938,18 @@
 -    IsStripped False
 -    IsEditorOnly True
 -
-@@ -3224,22 +3201,0 @@
+-PersistentTypeID 1541671625
+-    Name C4DImporter
+-    Namespace 
+-    Module Core
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3235,22 +3201,0 @@
 -PersistentTypeID 1597193336
 -    Name RoslynAdditionalFileAsset
 -    Namespace 
@@ -6935,10 +6972,7 @@
 -    IsStripped False
 -    IsEditorOnly True
 -
-@@ -3364,11 +3319,0 @@
--    IsStripped False
--    IsEditorOnly True
--
+@@ -3378,11 +3322,0 @@
 -PersistentTypeID 1903396204
 -    Name RoslynAnalyzerConfigImporter
 -    Namespace 
@@ -6947,6 +6981,9 @@
 -    DescendantCount 1
 -    IsAbstract False
 -    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
 --- 2022.1.0a13
 +++ 2022.1.0a15
 @@ -6 +6 @@
@@ -7081,3 +7118,29 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
+--- 2022.3.7f1
++++ 2022.3.8f1
+@@ -6 +6 @@
+-    DescendantCount 308
++    DescendantCount 309
+@@ -127 +127 @@
+-    DescendantCount 255
++    DescendantCount 256
+@@ -897 +897 @@
+-    DescendantCount 135
++    DescendantCount 136
+@@ -2107 +2107 @@
+-    DescendantCount 37
++    DescendantCount 38
+@@ -3206,0 +3207,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1541671625
++    Name C4DImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
