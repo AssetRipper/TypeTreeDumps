@@ -7144,3 +7144,414 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
+--- 2022.3.10f1
++++ 2023.1.0a2
+@@ -6 +6 @@
+-    DescendantCount 309
++    DescendantCount 307
+@@ -127 +127 @@
+-    DescendantCount 256
++    DescendantCount 255
+@@ -897 +897 @@
+-    DescendantCount 136
++    DescendantCount 135
+@@ -2107 +2107 @@
+-    DescendantCount 38
++    DescendantCount 37
+@@ -3213,11 +3212,0 @@
+-PersistentTypeID 1541671625
+-    Name C4DImporter
+-    Namespace 
+-    Module Core
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3267,11 +3255,0 @@
+-
+-PersistentTypeID 1660057539
+-    Name SceneRoots
+-    Namespace 
+-    Module Core
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+--- 2023.1.0a3
++++ 2023.1.0a4
+@@ -6 +6 @@
+-    DescendantCount 307
++    DescendantCount 308
+@@ -2073,0 +2074,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 900
++    Name MarshallingTestObject
++    Namespace 
++    Module Marshalling
++    Base Object
+--- 2023.1.0a15
++++ 2023.1.0a16
+@@ -6 +6 @@
+-    DescendantCount 308
++    DescendantCount 311
+@@ -127 +127 @@
+-    DescendantCount 255
++    DescendantCount 258
+@@ -897 +897 @@
+-    DescendantCount 135
++    DescendantCount 138
+@@ -2118 +2118 @@
+-    DescendantCount 37
++    DescendantCount 40
+@@ -2805,0 +2806,22 @@
++PersistentTypeID 403037116
++    Name BuildMetaDataImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 403037117
++    Name BuildInstructionImporter
++    Namespace 
++    Module Editor
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2919,0 +2942,11 @@
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 780535461
++    Name BuildArchiveImporter
++    Namespace 
++    Module Editor
+--- 2023.1.0b17
++++ 2023.1.0b18
+@@ -6 +6 @@
+-    DescendantCount 311
++    DescendantCount 312
+@@ -2931,0 +2932,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 702665669
++    Name DifferentMarshallingTestObject
++    Namespace 
++    Module Marshalling
++    Base Object
+--- 2023.1.3f1
++++ 2023.1.4f1
+@@ -6 +6 @@
+-    DescendantCount 312
++    DescendantCount 313
+@@ -3310,0 +3311,11 @@
++
++PersistentTypeID 1660057539
++    Name SceneRoots
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
+--- 2023.1.8f1
++++ 2023.1.9f1
+@@ -6 +6 @@
+-    DescendantCount 313
++    DescendantCount 314
+@@ -127 +127 @@
+-    DescendantCount 258
++    DescendantCount 259
+@@ -897 +897 @@
+-    DescendantCount 138
++    DescendantCount 139
+@@ -2118 +2118 @@
+-    DescendantCount 40
++    DescendantCount 41
+@@ -3261,0 +3262,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1541671625
++    Name C4DImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
+--- 2023.1.16f1
++++ 2023.2.0a6
+@@ -6 +6 @@
+-    DescendantCount 314
++    DescendantCount 311
+@@ -127 +127 @@
+-    DescendantCount 259
++    DescendantCount 258
+@@ -897 +897 @@
+-    DescendantCount 139
++    DescendantCount 138
+@@ -2118 +2118 @@
+-    DescendantCount 41
++    DescendantCount 40
+@@ -2938,11 +2937,0 @@
+-PersistentTypeID 702665669
+-    Name DifferentMarshallingTestObject
+-    Namespace 
+-    Module Marshalling
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -3268,11 +3256,0 @@
+-PersistentTypeID 1541671625
+-    Name C4DImporter
+-    Namespace 
+-    Module Core
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3322,11 +3299,0 @@
+-
+-PersistentTypeID 1660057539
+-    Name SceneRoots
+-    Namespace 
+-    Module Core
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+--- 2023.2.0a8
++++ 2023.2.0a9
+@@ -6 +6 @@
+-    DescendantCount 311
++    DescendantCount 314
+@@ -127 +127 @@
+-    DescendantCount 258
++    DescendantCount 261
+@@ -897 +897 @@
+-    DescendantCount 138
++    DescendantCount 141
+@@ -1941 +1941 @@
+-    Base NamedObject
++    Base AudioResource
+@@ -2772,0 +2773,11 @@
++PersistentTypeID 355983997
++    Name AudioResource
++    Namespace 
++    Module Audio
++    Base NamedObject
++    DescendantCount 4
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3190,0 +3202,11 @@
++PersistentTypeID 1233149941
++    Name AudioContainerElement
++    Namespace 
++    Module Audio
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3200,0 +3223,11 @@
++
++PersistentTypeID 1307931743
++    Name AudioRandomContainer
++    Namespace 
++    Module Audio
++    Base AudioResource
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
+--- 2023.2.0a11
++++ 2023.2.0a12
+@@ -2303 +2303 @@
+-    Module Editor
++    Module TextRenderingEditor
+@@ -2501 +2501 @@
+-    Module Editor
++    Module SketchUpEditor
+@@ -2731 +2731 @@
+-    Namespace Unity
++    Namespace Physics
+@@ -3084 +3084 @@
+-    Module Editor
++    Module VFXEditor
+@@ -3095 +3095 @@
+-    Module Editor
++    Module VFXEditor
+@@ -3106 +3106 @@
+-    Module Editor
++    Module VFXEditor
+@@ -3304 +3304 @@
+-    Module Editor
++    Module ShaderFoundry
+@@ -3524 +3524 @@
+-    Module Editor
++    Module VFXEditor
+--- 2023.2.0a13
++++ 2023.2.0a14
+@@ -3517 +3517 @@
+-    IsSealed False
++    IsSealed True
+--- 2023.2.0a14
++++ 2023.2.0a15
+@@ -6 +6 @@
+-    DescendantCount 314
++    DescendantCount 316
+@@ -28 +28 @@
+-    DescendantCount 118
++    DescendantCount 119
+@@ -127 +127 @@
+-    DescendantCount 261
++    DescendantCount 262
+@@ -182 +182 @@
+-    DescendantCount 12
++    DescendantCount 13
+@@ -2948,0 +2949,11 @@
++PersistentTypeID 702665669
++    Name DifferentMarshallingTestObject
++    Namespace 
++    Module Marshalling
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3475,0 +3487,11 @@
++
++PersistentTypeID 1931382933
++    Name UIRenderer
++    Namespace 
++    Module UIElements
++    Base Renderer
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
+--- 2023.2.0a18
++++ 2023.2.0a19
+@@ -6 +6 @@
+-    DescendantCount 316
++    DescendantCount 319
+@@ -28 +28 @@
+-    DescendantCount 119
++    DescendantCount 120
+@@ -72 +72 @@
+-    DescendantCount 21
++    DescendantCount 22
+@@ -94 +94 @@
+-    DescendantCount 27
++    DescendantCount 28
+@@ -127 +127 @@
+-    DescendantCount 262
++    DescendantCount 263
+@@ -2915,0 +2916,11 @@
++PersistentTypeID 655991488
++    Name MultiplayerManager
++    Namespace 
++    Module Multiplayer
++    Base GlobalGameManager
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3343,0 +3355,22 @@
++
++PersistentTypeID 1652712579
++    Name MultiplayerRolesData
++    Namespace 
++    Module Multiplayer
++    Base Component
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1660057539
++    Name SceneRoots
++    Namespace 
++    Module Core
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
+--- 2023.2.0b3
++++ 2023.2.0b4
+@@ -6 +6 @@
+-    DescendantCount 319
++    DescendantCount 320
+@@ -127 +127 @@
+-    DescendantCount 263
++    DescendantCount 264
+@@ -897 +897 @@
+-    DescendantCount 141
++    DescendantCount 142
+@@ -2118 +2118 @@
+-    DescendantCount 40
++    DescendantCount 41
+@@ -3305,0 +3306,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 1541671625
++    Name C4DImporter
++    Namespace 
++    Module Core
++    Base AssetImporter
