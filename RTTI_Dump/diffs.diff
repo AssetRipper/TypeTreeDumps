@@ -6900,7 +6900,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2021.3.31f1
+--- 2021.3.32f1
 +++ 2022.1.0a7
 @@ -6 +6 @@
 -    DescendantCount 306
@@ -7144,7 +7144,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2022.3.10f1
+--- 2022.3.12f1
 +++ 2023.1.0a2
 @@ -6 +6 @@
 -    DescendantCount 309
@@ -7308,7 +7308,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2023.1.16f1
+--- 2023.1.19f1
 +++ 2023.2.0a6
 @@ -6 +6 @@
 -    DescendantCount 314
