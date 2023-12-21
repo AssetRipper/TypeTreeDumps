@@ -7560,3 +7560,8 @@
 @@ -904 +904 @@
 -    Name PhysicMaterial
 +    Name PhysicsMaterial
+--- 2023.3.0a16
++++ 2023.3.0a17
+@@ -1614 +1614 @@
+-    IsSealed False
++    IsSealed True
