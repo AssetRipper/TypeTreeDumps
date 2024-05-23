@@ -6050,11 +6050,11 @@
 @@ -3530 +3530 @@
 -    IsEditorOnly False
 +    IsEditorOnly True
---- 2020.1.0a12
-+++ 2020.1.0a17
+--- 2020.1.0a14
++++ 2020.1.0a15
 @@ -6 +6 @@
 -    DescendantCount 309
-+    DescendantCount 313
++    DescendantCount 312
 @@ -28 +28 @@
 -    DescendantCount 120
 +    DescendantCount 121
@@ -6094,19 +6094,7 @@
 +    IsStripped False
 +    IsEditorOnly True
 +
-@@ -3047,0 +3070,11 @@
-+PersistentTypeID 890905787
-+    Name VersionControlSettings
-+    Namespace 
-+    Module Editor
-+    Base Object
-+    DescendantCount 1
-+    IsAbstract False
-+    IsSealed False
-+    IsStripped False
-+    IsEditorOnly True
-+
-@@ -3189,0 +3223,11 @@
+@@ -3189,0 +3212,11 @@
 +
 +PersistentTypeID 1210832254
 +    Name SpriteAtlasImporter
@@ -6118,6 +6106,23 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
+--- 2020.1.0a16
++++ 2020.1.0a17
+@@ -6 +6 @@
+-    DescendantCount 312
++    DescendantCount 313
+@@ -3069,0 +3070,11 @@
++PersistentTypeID 890905787
++    Name VersionControlSettings
++    Namespace 
++    Module Editor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
 --- 2020.1.0b16
 +++ 2020.1.0f1
 @@ -714 +714 @@
@@ -6900,7 +6905,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2021.3.35f1
+--- 2021.3.38f1
 +++ 2022.1.0a7
 @@ -6 +6 @@
 -    DescendantCount 306
@@ -7144,7 +7149,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2022.3.27f1
+--- 2022.3.29f1
 +++ 2023.1.0a1
 @@ -6 +6 @@
 -    DescendantCount 309
