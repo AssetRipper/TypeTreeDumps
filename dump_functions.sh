@@ -21,7 +21,6 @@ fi
 
 function make_directories() {
 	mkdir -p "$(dirname "$0")/Classes"
-	mkdir -p "$(dirname "$0")/FieldValues"
 	mkdir -p "$(dirname "$0")/InfoJson"
 	mkdir -p "$(dirname "$0")/RTTI_Dump"
 	mkdir -p "$(dirname "$0")/StringsData"
@@ -55,7 +54,6 @@ function dump() {
 			mkdir -p ${path_to_OutputFolder}
 			"${path_to_DumperExe}" "`wslpath -w ${path_to_UnityInstallations}`"/$1/Editor/Unity.exe --silent --output "`wslpath -w ${path_to_OutputFolder}`"
 			cp ${path_to_OutputFolder}/classes.json $(dirname "$0")/Classes/$1.json
-			cp ${path_to_OutputFolder}/fieldValues.json $(dirname "$0")/FieldValues/$1.json
 			cp ${path_to_OutputFolder}/info.json $(dirname "$0")/InfoJson/$1.json
 			cp ${path_to_OutputFolder}/RTTI.dump $(dirname "$0")/RTTI_Dump/$1.dump
 			cp ${path_to_OutputFolder}/strings.dat $(dirname "$0")/StringsData/$1.dat

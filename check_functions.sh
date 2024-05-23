@@ -17,12 +17,6 @@ check_version() {
 	elif ! [ -f "$(dirname "$0")/Classes/$1.json" ]; then
 		echo $1 needs dumped
 	else
-		field_values_path="$(dirname "$0")/FieldValues/$1.json"
-		if ! [ -f $field_values_path ]; then
-			echo $1 missing field values json
-		elif [ "$(is_empty_file $field_values_path)" = "true" ]; then
-			echo $1 has an empty field values json
-		fi
 		info_json_path="$(dirname "$0")/InfoJson/$1.json"
 		if ! [ -f $info_json_path ]; then
 			echo $1 missing information json
