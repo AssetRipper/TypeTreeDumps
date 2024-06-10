@@ -53,6 +53,8 @@ dump 4.6.9
 dump 4.7.0
 dump 4.7.1
 dump 4.7.2
+dump 5.0.0b1
+dump 5.0.0b5
 dump 5.0.0f4
 dump 5.0.1f1
 dump 5.0.2f1
@@ -947,6 +949,7 @@ dump 2022.3.28f1
 dump 2022.3.29f1
 dump 2022.3.30f1
 dump 2022.3.31f1
+dump 2022.3.32f1
 dump 2023.1.0a1
 dump 2023.1.0a2
 dump 2023.1.0a3
@@ -1102,3 +1105,4 @@ dump 6000.0.1f1
 dump 6000.0.2f1
 dump 6000.0.3f1
 dump 6000.0.4f1
+dump 6000.0.5f1

@@ -53,6 +53,8 @@ extract 4.6.9 --force
 extract 4.7.0 --force
 extract 4.7.1 --force
 extract 4.7.2 --force
+extract 5.0.0b1 --force
+extract 5.0.0b5 --force
 extract 5.0.0f4 --force
 extract 5.0.1f1 --force
 extract 5.0.2f1 --force
@@ -947,6 +949,7 @@ extract 2022.3.28f1 --force
 extract 2022.3.29f1 --force
 extract 2022.3.30f1 --force
 extract 2022.3.31f1 --force
+extract 2022.3.32f1 --force
 extract 2023.1.0a1 --force
 extract 2023.1.0a2 --force
 extract 2023.1.0a3 --force
@@ -1102,3 +1105,4 @@ extract 6000.0.1f1 --force
 extract 6000.0.2f1 --force
 extract 6000.0.3f1 --force
 extract 6000.0.4f1 --force
+extract 6000.0.5f1 --force
