@@ -975,6 +975,7 @@ dump 2022.3.48f1 --force
 dump 2022.3.49f1 --force
 dump 2022.3.50f1 --force
 dump 2022.3.51f1 --force
+dump 2022.3.52f1 --force
 dump 2023.1.0a1 --force
 dump 2023.1.0a2 --force
 dump 2023.1.0a3 --force
@@ -1150,4 +1151,6 @@ dump 6000.0.22f1 --force
 dump 6000.0.23f1 --force
 dump 6000.0.24f1 --force
 dump 6000.0.25f1 --force
+dump 6000.0.26f1 --force
 dump 6000.1.0a2 --force
+dump 6000.1.0a3 --force
