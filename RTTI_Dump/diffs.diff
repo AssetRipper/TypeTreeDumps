@@ -7149,7 +7149,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2022.3.52f1
+--- 2022.3.58f1
 +++ 2023.1.0a1
 @@ -6 +6 @@
 -    DescendantCount 309
@@ -7585,6 +7585,29 @@
 +
 +PersistentTypeID 55640938
 +    Name GraphicsStateCollection
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
+--- 6000.1.0a4
++++ 6000.1.0a5
+@@ -6 +6 @@
+-    DescendantCount 321
++    DescendantCount 322
+@@ -127 +127 @@
+-    DescendantCount 265
++    DescendantCount 266
+@@ -897 +897 @@
+-    DescendantCount 143
++    DescendantCount 144
+@@ -3420,0 +3421,11 @@
++
++PersistentTypeID 1740304944
++    Name VulkanDeviceFilterLists
 +    Namespace 
 +    Module Core
 +    Base NamedObject
