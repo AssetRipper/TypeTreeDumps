@@ -19992,7 +19992,7 @@ ScriptedImporter Base // ByteSize{ffffffff}, Index{0}, Version{1}, IsArray{0}, M
 		Array Array // ByteSize{ffffffff}, Index{32}, Version{1}, IsArray{1}, MetaFlag{4001}
 			int size // ByteSize{4}, Index{33}, Version{1}, IsArray{0}, MetaFlag{1}
 			char data // ByteSize{1}, Index{34}, Version{1}, IsArray{0}, MetaFlag{1}
-	PPtr<MonoScript> m_Script // ByteSize{c}, Index{35}, Version{1}, IsArray{0}, MetaFlag{1}
+	PPtr<MonoScript> m_Script // ByteSize{c}, Index{35}, Version{1}, IsArray{0}, MetaFlag{0}
 		int m_FileID // ByteSize{4}, Index{36}, Version{1}, IsArray{0}, MetaFlag{800001}
 		SInt64 m_PathID // ByteSize{8}, Index{37}, Version{1}, IsArray{0}, MetaFlag{800001}
 

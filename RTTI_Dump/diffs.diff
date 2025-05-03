@@ -4797,7 +4797,7 @@
 +    Module Localization
 +    Base NamedObject
 --- 2018.2.21f1
-+++ 2018.3.0b7
++++ 2018.3.0b1
 @@ -28 +28 @@
 -    DescendantCount 125
 +    DescendantCount 122
@@ -5009,10 +5009,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-@@ -3198,0 +3155,44 @@
-+    IsStripped False
-+    IsEditorOnly False
-+
+@@ -3201,0 +3158,44 @@
 +PersistentTypeID 2058629509
 +    Name VisualEffectAsset
 +    Namespace 
@@ -5054,6 +5051,9 @@
 +    DescendantCount 1
 +    IsAbstract False
 +    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
 --- 2018.3.7f1
 +++ 2018.3.8f1
 @@ -2771 +2771 @@
@@ -7149,7 +7149,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2022.3.59f1
+--- 2022.3.61f1
 +++ 2023.1.0a1
 @@ -6 +6 @@
 -    DescendantCount 309
