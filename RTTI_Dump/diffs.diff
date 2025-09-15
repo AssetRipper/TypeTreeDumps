@@ -7616,3 +7616,82 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
+--- 6000.2.4f1
++++ 6000.3.0a2
+@@ -6 +6 @@
+-    DescendantCount 322
++    DescendantCount 323
+@@ -127 +127 @@
+-    DescendantCount 266
++    DescendantCount 267
+@@ -897 +897 @@
+-    DescendantCount 144
++    DescendantCount 145
+@@ -2534 +2534 @@
+-    Module Editor
++    Module VideoEditor
+@@ -2963,0 +2964,11 @@
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 687930938
++    Name BlobObject
++    Namespace 
++    Module Animation
+--- 6000.3.0a3
++++ 6000.3.0a5
+@@ -6 +6 @@
+-    DescendantCount 323
++    DescendantCount 324
+@@ -28 +28 @@
+-    DescendantCount 120
++    DescendantCount 121
+@@ -127 +127 @@
+-    DescendantCount 267
++    DescendantCount 268
+@@ -182 +182 @@
+-    DescendantCount 13
++    DescendantCount 14
+@@ -2118 +2118 @@
+-    DescendantCount 41
++    DescendantCount 40
+@@ -3190,0 +3191,11 @@
++PersistentTypeID 1120581460
++    Name RenderAs2D
++    Namespace 
++    Module RenderAs2D
++    Base Renderer
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3334,11 +3344,0 @@
+-PersistentTypeID 1541671625
+-    Name C4DImporter
+-    Namespace 
+-    Module Core
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3486,0 +3487,11 @@
++
++PersistentTypeID 1798438448
++    Name D3D12DeviceFilterLists
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
