@@ -1046,6 +1046,7 @@ check_any_version 2021.3.54f1
 check_any_version 2021.3.55f1
 check_any_version 2021.3.56f1
 check_any_version 2021.3.56f2
+check_any_version 2021.3.57f2
 check_any_version 2022.1.0a7
 check_any_version 2022.1.0a8
 check_any_version 2022.1.0a9
@@ -1425,6 +1426,7 @@ check_any_version 6000.0.56f1
 check_any_version 6000.0.57f1
 check_any_version 6000.0.58f1
 check_any_version 6000.0.58f2
+check_any_version 6000.0.59f2
 check_any_version 6000.1.0a2
 check_any_version 6000.1.0a3
 check_any_version 6000.1.0a4
@@ -1493,6 +1495,7 @@ check_any_version 6000.2.4f1
 check_any_version 6000.2.5f1
 check_any_version 6000.2.6f1
 check_any_version 6000.2.6f2
+check_any_version 6000.2.7f2
 check_any_version 6000.3.0a2
 check_any_version 6000.3.0a3
 check_any_version 6000.3.0a5
@@ -1500,3 +1503,4 @@ check_any_version 6000.3.0b1
 check_any_version 6000.3.0b2
 check_any_version 6000.3.0b3
 check_any_version 6000.3.0b4
+check_any_version 6000.3.0b5

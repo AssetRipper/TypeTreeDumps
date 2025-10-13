@@ -7617,7 +7617,7 @@
 +    IsStripped False
 +    IsEditorOnly False
 --- 6000.2.6f2
-+++ 6000.3.0a2
++++ 6000.2.7f2
 @@ -6 +6 @@
 -    DescendantCount 322
 +    DescendantCount 323
@@ -7627,10 +7627,28 @@
 @@ -897 +897 @@
 -    DescendantCount 144
 +    DescendantCount 145
+@@ -3475,0 +3476,11 @@
++
++PersistentTypeID 1798438448
++    Name D3D12DeviceFilterLists
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
+--- 6000.2.7f2
++++ 6000.3.0a2
 @@ -2534 +2534 @@
 -    Module Editor
 +    Module VideoEditor
-@@ -2963,0 +2964,11 @@
+@@ -2970,0 +2971,11 @@
++PersistentTypeID 687930938
++    Name BlobObject
++    Namespace 
++    Module Animation
 +    Base NamedObject
 +    DescendantCount 1
 +    IsAbstract False
@@ -7638,10 +7656,18 @@
 +    IsStripped False
 +    IsEditorOnly False
 +
-+PersistentTypeID 687930938
-+    Name BlobObject
-+    Namespace 
-+    Module Animation
+@@ -3476,11 +3486,0 @@
+-
+-PersistentTypeID 1798438448
+-    Name D3D12DeviceFilterLists
+-    Namespace 
+-    Module Core
+-    Base NamedObject
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
 --- 6000.3.0a3
 +++ 6000.3.0a5
 @@ -6 +6 @@
