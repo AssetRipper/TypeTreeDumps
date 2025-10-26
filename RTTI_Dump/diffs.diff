@@ -7639,7 +7639,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
---- 6000.2.7f2
+--- 6000.2.9f1
 +++ 6000.3.0a2
 @@ -2534 +2534 @@
 -    Module Editor
@@ -7721,3 +7721,113 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
+--- 6000.3.0b7
++++ 6000.4.0a2
+@@ -6 +6 @@
+-    DescendantCount 324
++    DescendantCount 327
+@@ -127 +127 @@
+-    DescendantCount 268
++    DescendantCount 270
+@@ -897 +897 @@
+-    DescendantCount 145
++    DescendantCount 147
+@@ -2118 +2118 @@
+-    DescendantCount 40
++    DescendantCount 39
+@@ -2783,0 +2784,11 @@
++PersistentTypeID 330615474
++    Name ContentSummary
++    Namespace BuildReporting
++    Module Editor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -3004,11 +3014,0 @@
+-PersistentTypeID 780535461
+-    Name BuildArchiveImporter
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly True
+-
+@@ -3180,5 +3180,5 @@
+-PersistentTypeID 1114811875
+-    Name ReferencesArtifactGenerator
+-    Namespace 
+-    Module Editor
+-    Base AssetImporter
++PersistentTypeID 1096314112
++    Name BlockShaderSyntaxTree
++    Namespace ShaderFoundry
++    Module ShaderFoundry
++    Base NamedObject
+@@ -3189 +3189,23 @@
+-    IsEditorOnly True
++    IsEditorOnly False
++
++PersistentTypeID 1096314113
++    Name BlockShaderContainer
++    Namespace ShaderFoundry
++    Module ShaderFoundry
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1096314114
++    Name BlockShaderErrors
++    Namespace ShaderFoundry
++    Module ShaderFoundry
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
+@@ -3201,0 +3224,11 @@
++PersistentTypeID 1149764431
++    Name BlockShaderSourceArtifact
++    Namespace ShaderFoundry
++    Module ShaderFoundry
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
+@@ -3356,11 +3388,0 @@
+-PersistentTypeID 1557264870
+-    Name ShaderContainer
+-    Namespace ShaderFoundry
+-    Module ShaderFoundry
+-    Base Object
+-    DescendantCount 1
+-    IsAbstract False
+-    IsSealed True
+-    IsStripped False
+-    IsEditorOnly False
+-
+@@ -3678,0 +3701,11 @@
++    Base AssetImporter
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
++PersistentTypeID 2097406814
++    Name BlockShaderImporter
++    Namespace ShaderFoundry
++    Module ShaderFoundry

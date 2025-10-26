@@ -852,7 +852,7 @@
 +++ 6000.2.7f2
 @@ -317,0 +318 @@
 +  "1798438448": "D3D12DeviceFilterLists",
---- 6000.2.7f2
+--- 6000.2.9f1
 +++ 6000.3.0a2
 @@ -271,0 +272 @@
 +  "687930938": "BlobObject",
@@ -866,3 +866,20 @@
 -  "1541671625": "C4DImporter",
 @@ -318,0 +319 @@
 +  "1798438448": "D3D12DeviceFilterLists",
+--- 6000.3.0b7
++++ 6000.4.0a2
+@@ -254,0 +255 @@
++  "330615474": "ContentSummary",
+@@ -275 +275,0 @@
+-  "780535461": "BuildArchiveImporter",
+@@ -291 +291,3 @@
+-  "1114811875": "ReferencesArtifactGenerator",
++  "1096314112": "BlockShaderSyntaxTree",
++  "1096314113": "BlockShaderContainer",
++  "1096314114": "BlockShaderErrors",
+@@ -292,0 +295 @@
++  "1149764431": "BlockShaderSourceArtifact",
+@@ -307 +309,0 @@
+-  "1557264870": "ShaderContainer",
+@@ -336,0 +339 @@
++  "2097406814": "BlockShaderImporter",
