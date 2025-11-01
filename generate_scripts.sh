@@ -28,7 +28,7 @@ function generate_forced() {
 	done
 }
 
-generate check_all.sh check_functions.sh check_any_version
+generate check_all.sh check_functions.sh check_version
 
 generate dump_all.sh dump_functions.sh dump
 

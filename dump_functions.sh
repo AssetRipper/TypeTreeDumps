@@ -22,12 +22,6 @@ fi
 function make_directories() {
 	mkdir -p "$(dirname "$0")/Classes"
 	mkdir -p "$(dirname "$0")/InfoJson"
-	mkdir -p "$(dirname "$0")/RTTI_Dump"
-	mkdir -p "$(dirname "$0")/StringsData"
-	mkdir -p "$(dirname "$0")/StructsData/editor"
-	mkdir -p "$(dirname "$0")/StructsData/release"
-	mkdir -p "$(dirname "$0")/StructsDump/editor"
-	mkdir -p "$(dirname "$0")/StructsDump/release"
 }
 
 function dump() {
@@ -55,12 +49,6 @@ function dump() {
 			"${path_to_DumperExe}" "`wslpath -w ${path_to_UnityInstallations}`"/$1/Editor/Unity.exe --silent --output "`wslpath -w ${path_to_OutputFolder}`"
 			cp ${path_to_OutputFolder}/classes.json $(dirname "$0")/Classes/$1.json
 			cp ${path_to_OutputFolder}/info.json $(dirname "$0")/InfoJson/$1.json
-			cp ${path_to_OutputFolder}/RTTI.dump $(dirname "$0")/RTTI_Dump/$1.dump
-			cp ${path_to_OutputFolder}/strings.dat $(dirname "$0")/StringsData/$1.dat
-			cp ${path_to_OutputFolder}/editor_structs.dat $(dirname "$0")/StructsData/editor/$1.dat
-			cp ${path_to_OutputFolder}/structs.dat $(dirname "$0")/StructsData/release/$1.dat
-			cp ${path_to_OutputFolder}/editor_structs.dump $(dirname "$0")/StructsDump/editor/$1.dump
-			cp ${path_to_OutputFolder}/structs.dump $(dirname "$0")/StructsDump/release/$1.dump
 		fi
 	else
 		echo Unity $1 missing, skipped
