@@ -1212,6 +1212,7 @@ extract 2022.3.60f1 --force
 extract 2022.3.61f1 --force
 extract 2022.3.62f1 --force
 extract 2022.3.62f2 --force
+extract 2022.3.62f3 --force
 extract 2022.3.63f1 --force
 extract 2022.3.64f1 --force
 extract 2022.3.65f1 --force
@@ -1432,6 +1433,7 @@ extract 6000.0.58f1 --force
 extract 6000.0.58f2 --force
 extract 6000.0.59f2 --force
 extract 6000.0.60f1 --force
+extract 6000.0.61f1 --force
 extract 6000.1.0a2 --force
 extract 6000.1.0a3 --force
 extract 6000.1.0a4 --force
@@ -1503,6 +1505,7 @@ extract 6000.2.6f2 --force
 extract 6000.2.7f2 --force
 extract 6000.2.8f1 --force
 extract 6000.2.9f1 --force
+extract 6000.2.10f1 --force
 extract 6000.3.0a2 --force
 extract 6000.3.0a3 --force
 extract 6000.3.0a5 --force
@@ -1513,4 +1516,5 @@ extract 6000.3.0b4 --force
 extract 6000.3.0b5 --force
 extract 6000.3.0b6 --force
 extract 6000.3.0b7 --force
+extract 6000.3.0b8 --force
 extract 6000.4.0a2 --force

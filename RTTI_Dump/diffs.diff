@@ -7639,7 +7639,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
---- 6000.2.9f1
+--- 6000.2.10f1
 +++ 6000.3.0a2
 @@ -2534 +2534 @@
 -    Module Editor
@@ -7721,7 +7721,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
---- 6000.3.0b7
+--- 6000.3.0b8
 +++ 6000.4.0a2
 @@ -6 +6 @@
 -    DescendantCount 324
