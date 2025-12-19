@@ -48,10 +48,15 @@ extractOLD() {
 
 extractNSIS() {
 	if [ -f "${path_to_UnitySetup}/UnitySetup64-$1.exe" ]; then
+		# Note: This is considered to be a silent install, not just a file extract.
 		echo Extracting nsis $1...
-		# Note: This is considered to be a silent install, not just a file extract, but we don't really care
-		"${path_to_UnitySetup}/UnitySetup64-$1.exe" /S /D=`wslpath -w ${path_to_UnityInstallations}`\\$1 &
-		wait
+
+		local exe_win
+		local dst_win
+		exe_win=$(wslpath -w "${path_to_UnitySetup}/UnitySetup64-$1.exe")
+		dst_win=$(wslpath -w "${path_to_UnityInstallations}")\\$1
+
+		cmd.exe /C "$exe_win /S /D=$dst_win"
 	else
 		echo Unity $1 missing, skipped
 	fi
