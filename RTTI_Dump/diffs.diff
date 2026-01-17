@@ -7149,7 +7149,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2022.3.70f1
+--- 2022.3.71f1
 +++ 2023.1.0a1
 @@ -6 +6 @@
 -    DescendantCount 309
@@ -7721,7 +7721,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
---- 6000.3.2f1
+--- 6000.3.4f1
 +++ 6000.4.0a2
 @@ -6 +6 @@
 -    DescendantCount 324
@@ -7831,3 +7831,29 @@
 +    Name BlockShaderImporter
 +    Namespace ShaderFoundry
 +    Module ShaderFoundry
+--- 6000.5.0a3
++++ 6000.5.0a4
+@@ -6 +6 @@
+-    DescendantCount 327
++    DescendantCount 328
+@@ -28 +28 @@
+-    DescendantCount 121
++    DescendantCount 122
+@@ -127 +127 @@
+-    DescendantCount 270
++    DescendantCount 271
+@@ -182 +182 @@
+-    DescendantCount 14
++    DescendantCount 15
+@@ -3599,0 +3600,11 @@
++    Namespace 
++    Module UIElements
++    Base Renderer
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 1931382934
++    Name PanelRenderer
