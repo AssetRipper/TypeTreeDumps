@@ -7721,7 +7721,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
---- 6000.3.4f1
+--- 6000.3.5f2
 +++ 6000.4.0a2
 @@ -6 +6 @@
 -    DescendantCount 324
