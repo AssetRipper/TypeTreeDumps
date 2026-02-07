@@ -1443,6 +1443,7 @@ dump 6000.0.64f1
 dump 6000.0.65f1
 dump 6000.0.66f1
 dump 6000.0.66f2
+dump 6000.0.67f1
 dump 6000.1.0a2
 dump 6000.1.0a3
 dump 6000.1.0a4
@@ -1540,6 +1541,8 @@ dump 6000.3.3f1
 dump 6000.3.4f1
 dump 6000.3.5f1
 dump 6000.3.5f2
+dump 6000.3.6f1
+dump 6000.3.7f1
 dump 6000.4.0a2
 dump 6000.4.0a4
 dump 6000.4.0a5
@@ -1549,6 +1552,7 @@ dump 6000.4.0b3
 dump 6000.4.0b4
 dump 6000.4.0b5
 dump 6000.4.0b6
+dump 6000.4.0b7
 dump 6000.5.0a3
 dump 6000.5.0a4
 dump 6000.5.0a5
