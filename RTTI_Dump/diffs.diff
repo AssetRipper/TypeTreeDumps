@@ -7149,7 +7149,7 @@
 +    Namespace 
 +    Module Core
 +    Base AssetImporter
---- 2022.3.71f1
+--- 2022.3.72f1
 +++ 2023.1.0a1
 @@ -6 +6 @@
 -    DescendantCount 309
@@ -7721,7 +7721,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
---- 6000.3.7f1
+--- 6000.3.9f1
 +++ 6000.4.0a2
 @@ -6 +6 @@
 -    DescendantCount 324
@@ -7857,3 +7857,55 @@
 +
 +PersistentTypeID 1931382934
 +    Name PanelRenderer
+--- 6000.5.0a5
++++ 6000.5.0a6
+@@ -6 +6 @@
+-    DescendantCount 328
++    DescendantCount 330
+@@ -2761,0 +2762,11 @@
++PersistentTypeID 209234237
++    Name ShaderIncludeReflection
++    Namespace ShaderApiReflection
++    Module Editor
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
++
+@@ -2826,0 +2838,11 @@
++
++PersistentTypeID 382093023
++    Name UIAnimationBinder
++    Namespace 
++    Module UIElements
++    Base Object
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
+--- 6000.5.0a6
++++ 6000.5.0a7
+@@ -6 +6 @@
+-    DescendantCount 330
++    DescendantCount 331
+@@ -72 +72 @@
+-    DescendantCount 22
++    DescendantCount 23
+@@ -94 +94 @@
+-    DescendantCount 28
++    DescendantCount 29
+@@ -2744,0 +2745,11 @@
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
++
++PersistentTypeID 176606843
++    Name PhysicsCoreProjectSettings2D
++    Namespace 
++    Module PhysicsCore2D
++    Base GlobalGameManager

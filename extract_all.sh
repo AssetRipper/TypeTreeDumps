@@ -1223,6 +1223,7 @@ extract 2022.3.68f1
 extract 2022.3.69f1
 extract 2022.3.70f1
 extract 2022.3.71f1
+extract 2022.3.72f1
 extract 2023.1.0a1
 extract 2023.1.0a2
 extract 2023.1.0a3
@@ -1444,6 +1445,7 @@ extract 6000.0.65f1
 extract 6000.0.66f1
 extract 6000.0.66f2
 extract 6000.0.67f1
+extract 6000.0.68f1
 extract 6000.1.0a2
 extract 6000.1.0a3
 extract 6000.1.0a4
@@ -1543,6 +1545,8 @@ extract 6000.3.5f1
 extract 6000.3.5f2
 extract 6000.3.6f1
 extract 6000.3.7f1
+extract 6000.3.8f1
+extract 6000.3.9f1
 extract 6000.4.0a2
 extract 6000.4.0a4
 extract 6000.4.0a5
@@ -1553,6 +1557,10 @@ extract 6000.4.0b4
 extract 6000.4.0b5
 extract 6000.4.0b6
 extract 6000.4.0b7
+extract 6000.4.0b8
+extract 6000.4.0b9
 extract 6000.5.0a3
 extract 6000.5.0a4
 extract 6000.5.0a5
+extract 6000.5.0a6
+extract 6000.5.0a7

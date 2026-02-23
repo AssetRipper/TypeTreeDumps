@@ -1223,6 +1223,7 @@ dump 2022.3.68f1 --force
 dump 2022.3.69f1 --force
 dump 2022.3.70f1 --force
 dump 2022.3.71f1 --force
+dump 2022.3.72f1 --force
 dump 2023.1.0a1 --force
 dump 2023.1.0a2 --force
 dump 2023.1.0a3 --force
@@ -1444,6 +1445,7 @@ dump 6000.0.65f1 --force
 dump 6000.0.66f1 --force
 dump 6000.0.66f2 --force
 dump 6000.0.67f1 --force
+dump 6000.0.68f1 --force
 dump 6000.1.0a2 --force
 dump 6000.1.0a3 --force
 dump 6000.1.0a4 --force
@@ -1543,6 +1545,8 @@ dump 6000.3.5f1 --force
 dump 6000.3.5f2 --force
 dump 6000.3.6f1 --force
 dump 6000.3.7f1 --force
+dump 6000.3.8f1 --force
+dump 6000.3.9f1 --force
 dump 6000.4.0a2 --force
 dump 6000.4.0a4 --force
 dump 6000.4.0a5 --force
@@ -1553,6 +1557,10 @@ dump 6000.4.0b4 --force
 dump 6000.4.0b5 --force
 dump 6000.4.0b6 --force
 dump 6000.4.0b7 --force
+dump 6000.4.0b8 --force
+dump 6000.4.0b9 --force
 dump 6000.5.0a3 --force
 dump 6000.5.0a4 --force
 dump 6000.5.0a5 --force
+dump 6000.5.0a6 --force
+dump 6000.5.0a7 --force
