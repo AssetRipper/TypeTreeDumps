@@ -1564,6 +1564,7 @@ extract 6000.3.12f1
 extract 6000.3.13f1
 extract 6000.3.14f1
 extract 6000.3.15f1
+extract 6000.3.16f1
 extract 6000.4.0a2
 extract 6000.4.0a4
 extract 6000.4.0a5
@@ -1586,6 +1587,7 @@ extract 6000.4.4f1
 extract 6000.4.5f1
 extract 6000.4.6f1
 extract 6000.4.7f1
+extract 6000.4.8f1
 extract 6000.5.0a3
 extract 6000.5.0a4
 extract 6000.5.0a5
@@ -1601,6 +1603,7 @@ extract 6000.5.0b5
 extract 6000.5.0b6
 extract 6000.5.0b7
 extract 6000.5.0b8
+extract 6000.5.0b9
 extract 6000.6.0a2
 extract 6000.6.0a3
 extract 6000.6.0a5
