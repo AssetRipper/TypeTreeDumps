@@ -7721,7 +7721,7 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
---- 6000.3.16f1
+--- 6000.3.17f1
 +++ 6000.4.0a2
 @@ -6 +6 @@
 -    DescendantCount 324
@@ -7909,7 +7909,7 @@
 +    Namespace 
 +    Module PhysicsCore2D
 +    Base GlobalGameManager
---- 6000.5.0b9
+--- 6000.5.0b11
 +++ 6000.6.0a2
 @@ -1052 +1052 @@
 -    IsAbstract False
