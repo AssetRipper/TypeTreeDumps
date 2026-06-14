@@ -1458,6 +1458,7 @@ check_any_version 6000.0.73f1
 check_any_version 6000.0.74f1
 check_any_version 6000.0.75f1
 check_any_version 6000.0.76f1
+check_any_version 6000.0.77f1
 check_any_version 6000.1.0a2
 check_any_version 6000.1.0a3
 check_any_version 6000.1.0a4
@@ -1592,6 +1593,7 @@ check_any_version 6000.4.7f1
 check_any_version 6000.4.8f1
 check_any_version 6000.4.9f1
 check_any_version 6000.4.10f1
+check_any_version 6000.4.11f1
 check_any_version 6000.5.0a3
 check_any_version 6000.5.0a4
 check_any_version 6000.5.0a5
@@ -1614,3 +1616,4 @@ check_any_version 6000.6.0a2
 check_any_version 6000.6.0a3
 check_any_version 6000.6.0a5
 check_any_version 6000.6.0a6
+check_any_version 6000.6.0a7

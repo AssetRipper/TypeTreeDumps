@@ -1458,6 +1458,7 @@ dump 6000.0.73f1 --force
 dump 6000.0.74f1 --force
 dump 6000.0.75f1 --force
 dump 6000.0.76f1 --force
+dump 6000.0.77f1 --force
 dump 6000.1.0a2 --force
 dump 6000.1.0a3 --force
 dump 6000.1.0a4 --force
@@ -1592,6 +1593,7 @@ dump 6000.4.7f1 --force
 dump 6000.4.8f1 --force
 dump 6000.4.9f1 --force
 dump 6000.4.10f1 --force
+dump 6000.4.11f1 --force
 dump 6000.5.0a3 --force
 dump 6000.5.0a4 --force
 dump 6000.5.0a5 --force
@@ -1614,3 +1616,4 @@ dump 6000.6.0a2 --force
 dump 6000.6.0a3 --force
 dump 6000.6.0a5 --force
 dump 6000.6.0a6 --force
+dump 6000.6.0a7 --force
