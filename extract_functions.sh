@@ -90,7 +90,7 @@ function extract() {
 		fi
 	fi
 
-	if [ ${1:0:2} != "20" ] && [ ${1:0:4} != "6000" ] #Unity 5 or earlier
+	if [ "${1:1:1}" = "." ] #Unity 5 or earlier
 	then
 		if [ ${1:0:1} = "5" ] #Unity 5
 		then
