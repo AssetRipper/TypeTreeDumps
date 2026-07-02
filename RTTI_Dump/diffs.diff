@@ -7909,8 +7909,54 @@
 +    Namespace 
 +    Module PhysicsCore2D
 +    Base GlobalGameManager
---- 6000.5.0f1
+--- 6000.5.1f1
 +++ 6000.6.0a2
 @@ -1052 +1052 @@
 -    IsAbstract False
 +    IsAbstract True
+--- 6000.6.0a3
++++ 6000.6.0a5
+@@ -6 +6 @@
+-    DescendantCount 331
++    DescendantCount 332
+@@ -127 +127 @@
+-    DescendantCount 271
++    DescendantCount 272
+@@ -897 +897 @@
+-    DescendantCount 147
++    DescendantCount 148
+@@ -2870,0 +2871,11 @@
++
++PersistentTypeID 392092235
++    Name UIAnimationClip
++    Namespace 
++    Module UIElements
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed True
++    IsStripped False
++    IsEditorOnly False
+--- 6000.6.0a6
++++ 6000.6.0a7
+@@ -6 +6 @@
+-    DescendantCount 332
++    DescendantCount 333
+@@ -127 +127 @@
+-    DescendantCount 272
++    DescendantCount 273
+@@ -897 +897 @@
+-    DescendantCount 148
++    DescendantCount 149
+@@ -2925,0 +2926,11 @@
++
++PersistentTypeID 475525288
++    Name WebGPUDeviceFilterLists
++    Namespace 
++    Module Core
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly False
