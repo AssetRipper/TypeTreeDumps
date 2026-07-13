@@ -7909,7 +7909,7 @@
 +    Namespace 
 +    Module PhysicsCore2D
 +    Base GlobalGameManager
---- 6000.5.2f1
+--- 6000.5.3f1
 +++ 6000.6.0a2
 @@ -1052 +1052 @@
 -    IsAbstract False
@@ -7960,3 +7960,26 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly False
+--- 6000.7.0a1
++++ 6000.7.0a2
+@@ -6 +6 @@
+-    DescendantCount 333
++    DescendantCount 334
+@@ -127 +127 @@
+-    DescendantCount 273
++    DescendantCount 274
+@@ -897 +897 @@
+-    DescendantCount 149
++    DescendantCount 150
+@@ -3277,0 +3278,11 @@
++
++PersistentTypeID 1138963649
++    Name BuildProfilePlayerSettings
++    Namespace 
++    Module Editor
++    Base NamedObject
++    DescendantCount 1
++    IsAbstract False
++    IsSealed False
++    IsStripped False
++    IsEditorOnly True
