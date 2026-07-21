@@ -1572,6 +1572,7 @@ extract 6000.3.16f1 --force
 extract 6000.3.17f1 --force
 extract 6000.3.18f1 --force
 extract 6000.3.19f1 --force
+extract 6000.3.20f1 --force
 extract 6000.4.0a2 --force
 extract 6000.4.0a4 --force
 extract 6000.4.0a5 --force
@@ -1621,6 +1622,7 @@ extract 6000.5.0f1 --force
 extract 6000.5.1f1 --force
 extract 6000.5.2f1 --force
 extract 6000.5.3f1 --force
+extract 6000.5.4f1 --force
 extract 6000.6.0a2 --force
 extract 6000.6.0a3 --force
 extract 6000.6.0a5 --force
@@ -1629,5 +1631,6 @@ extract 6000.6.0a7 --force
 extract 6000.6.0b1 --force
 extract 6000.6.0b2 --force
 extract 6000.6.0b3 --force
+extract 6000.6.0b4 --force
 extract 6000.7.0a1 --force
 extract 6000.7.0a2 --force
