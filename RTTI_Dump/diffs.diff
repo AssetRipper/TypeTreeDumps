@@ -7909,7 +7909,7 @@
 +    Namespace 
 +    Module PhysicsCore2D
 +    Base GlobalGameManager
---- 6000.5.4f1
+--- 6000.5.5f1
 +++ 6000.6.0a2
 @@ -1052 +1052 @@
 -    IsAbstract False
@@ -7983,3 +7983,29 @@
 +    IsSealed False
 +    IsStripped False
 +    IsEditorOnly True
+--- 6000.7.0a2
++++ 6000.7.0a3
+@@ -6 +6 @@
+-    DescendantCount 334
++    DescendantCount 333
+@@ -127 +127 @@
+-    DescendantCount 274
++    DescendantCount 273
+@@ -193 +193 @@
+-    DescendantCount 14
++    DescendantCount 13
+@@ -897 +897 @@
+-    DescendantCount 150
++    DescendantCount 149
+@@ -1042,11 +1041,0 @@
+-    IsSealed False
+-    IsStripped False
+-    IsEditorOnly False
+-
+-PersistentTypeID 152
+-    Name MovieTexture
+-    Namespace 
+-    Module Audio
+-    Base Texture
+-    DescendantCount 1
+-    IsAbstract True
